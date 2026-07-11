@@ -1,0 +1,80 @@
+0 HEAD
+1 SOUR HutsonFamilyTreeResearch
+2 NAME Hutson Family Tree Research
+2 VERS 1.0
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+1 DATE 11 JUL 2026
+1 LANG English
+1 SUBM @SUBM1@
+1 NOTE This GEDCOM is the canonical, version-controlled source of truth for the
+2 CONT Hutson family tree. Every genealogical fact carries a SOUR citation that
+2 CONT points to a SOUR record at the bottom of the file. Custom tags used:
+2 CONT   _URL  = web address of the source
+2 CONT   _CONF = confidence level (Primary / Secondary / Tentative / Provided)
+2 CONT   _ACC  = date the source was accessed
+2 CONT Run scripts/build.py after editing this file to regenerate the UI data.
+0 @SUBM1@ SUBM
+1 NAME Miles Hutson
+1 NOTE Family tree compiled by a research assistant at the request of Miles Hutson.
+0 @I1@ INDI
+1 NAME Miles /Hutson/
+1 SEX M
+1 BIRT
+2 DATE 12 AUG 1993
+2 SOUR @S1@
+3 PAGE Personal communication, 2026-07-11
+3 _CONF Provided
+1 RESI
+2 DATE 2026
+2 PLAC San Francisco, California, USA
+2 SOUR @S1@
+3 _CONF Provided
+1 RESI
+2 DATE FROM 2016 TO 2022
+2 PLAC Austin / Mountain View, California, USA
+2 SOUR @S2@
+3 _CONF Secondary
+1 EDUC B.S. Computer Science, University of Texas at Austin (2012-2016); Phi Beta Kappa
+2 SOUR @S2@
+3 _CONF Secondary
+1 EDUC M.S. Computer Science, Stanford University (2021-2024)
+2 SOUR @S2@
+3 _CONF Secondary
+1 OCCU Senior Software Engineer (Machine Learning) - Waymo; previously Google Health
+2 SOUR @S2@
+3 _CONF Secondary
+1 NOTE Subject of this research and the person who commissioned the tree. Rode the
+2 CONT Texas 4000 charity bicycle ride (Austin, TX to Anchorage, AK) for cancer
+2 CONT research. Former Digital Projects Lead at The Daily Texan and data-visualization
+2 CONT contributor to The Texas Tribune.
+0 @S1@ SOUR
+1 TITL Personal communication from Miles Hutson
+1 AUTH Miles Hutson
+1 PUBL Direct statement to the research assistant
+1 _CONF Provided
+1 _ACC 2026-07-11
+1 NOTE First-hand information supplied by the subject himself: full name, date of
+2 CONT birth (12 August 1993), and current city of residence (San Francisco).
+0 @S2@ SOUR
+1 TITL Miles Hutson - Personal Website & Professional Profiles
+1 AUTH Miles Hutson
+1 PUBL mileshutson.com; LinkedIn; The Texas Tribune staff page
+1 _URL https://www.mileshutson.com/
+1 _CONF Secondary
+1 _ACC 2026-07-11
+1 NOTE Publicly published biographical and career information. Corroborated across
+2 CONT mileshutson.com, linkedin.com/in/mileshutson, and texastribune.org.
+0 @S3@ SOUR
+1 TITL Hutson surname - etymology and history
+1 PUBL WikiTree surname study; House of Names; archives.com
+1 _URL https://www.wikitree.com/genealogy/HUTSON
+1 _CONF Secondary
+1 _ACC 2026-07-11
+1 NOTE English patronymic surname derived from the medieval given name "Hudde"
+2 CONT (a pet form of Hugh, "heart/mind," or a variant of Hudson). First recorded
+2 CONT as William Hudde in the 1273 Hundred Rolls of Cambridgeshire, England.
+2 CONT This is general surname background, NOT proof of Miles Hutson's specific line.
+0 TRLR

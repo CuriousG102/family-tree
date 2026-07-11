@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hutson Family Tree</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <div class="brand">
+        <span class="crest">🌳</span>
+        <h1>The Hutson Family Tree</h1>
+      </div>
+      <p class="subtitle">
+        A sourced, version-controlled genealogy. Every fact below is backed by a
+        citation you can inspect — click any <b>source pill</b> to see exactly
+        where the information came from and how confident we are in it.
+      </p>
+      <div class="counts" id="counts"></div>
+    </div>
+  </header>
+
+  <nav class="tabs" id="tabs">
+    <button data-view="pedigree" class="active">Pedigree</button>
+    <button data-view="people">All People</button>
+    <button data-view="sources">Sources</button>
+    <button data-view="about">About &amp; Method</button>
+  </nav>
+
+  <main>
+    <section class="view active" id="view-pedigree">
+      <p class="hint">Ancestor pedigree, rooted at the person the tree was built for. Click a card for full detail and sources. Dashed cards are ancestors not yet documented.</p>
+      <div class="pedigree-wrap"><div class="pedigree" id="pedigree"></div></div>
+    </section>
+
+    <section class="view" id="view-people">
+      <p class="hint">Everyone currently documented in the tree.</p>
+      <div class="people-grid" id="people-grid"></div>
+    </section>
+
+    <section class="view" id="view-sources">
+      <p class="hint">The full bibliography. Confidence reflects how directly the source establishes the fact.</p>
+      <div class="legend">
+        <div class="item"><span class="dot" style="background:var(--conf-primary)"></span> Primary — original record / first-hand</div>
+        <div class="item"><span class="dot" style="background:var(--conf-secondary)"></span> Secondary — derived / published</div>
+        <div class="item"><span class="dot" style="background:var(--conf-tentative)"></span> Tentative — plausible, unconfirmed</div>
+        <div class="item"><span class="dot" style="background:var(--conf-provided)"></span> Provided — supplied by the family</div>
+      </div>
+      <div id="sources-list"></div>
+    </section>
+
+    <section class="view" id="view-about">
+      <div id="about-content"></div>
+    </section>
+  </main>
+
+  <div class="drawer-backdrop" id="backdrop"></div>
+  <aside class="drawer" id="drawer" aria-hidden="true">
+    <div class="drawer-head">
+      <div>
+        <h2 id="d-name"></h2>
+        <div class="sub" id="d-sub"></div>
+      </div>
+      <button class="drawer-close" id="d-close" aria-label="Close">×</button>
+    </div>
+    <div class="drawer-body" id="d-body"></div>
+  </aside>
+
+  <footer>
+    Generated from <code class="inline">data/family-tree.ged</code> (GEDCOM 5.5.1) ·
+    Rebuild with <code class="inline">python3 scripts/build.py</code> ·
+    This is a private research document; treat living individuals' details with care.
+  </footer>
+
+  <script src="tree-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
