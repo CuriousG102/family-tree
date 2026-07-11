@@ -15,13 +15,15 @@
 2 CONT   _URL  = web address of the source
 2 CONT   _CONF = confidence level (Primary / Secondary / Tentative / Provided)
 2 CONT   _ACC  = date the source was accessed
-2 CONT Run scripts/build.py after editing this file to regenerate the UI data.
+2 CONT Living individuals are recorded with minimal detail (names and
+2 CONT relationships only). Run scripts/build.py after editing this file.
 0 @SUBM1@ SUBM
 1 NAME Miles Hutson
 1 NOTE Family tree compiled by a research assistant at the request of Miles Hutson.
 0 @I1@ INDI
 1 NAME Miles /Hutson/
 1 SEX M
+1 FAMC @F1@
 1 BIRT
 2 DATE 12 AUG 1993
 2 SOUR @S1@
@@ -32,11 +34,6 @@
 2 PLAC San Francisco, California, USA
 2 SOUR @S1@
 3 _CONF Provided
-1 RESI
-2 DATE FROM 2016 TO 2022
-2 PLAC Austin / Mountain View, California, USA
-2 SOUR @S2@
-3 _CONF Secondary
 1 EDUC B.S. Computer Science, University of Texas at Austin (2012-2016); Phi Beta Kappa
 2 SOUR @S2@
 3 _CONF Secondary
@@ -46,18 +43,453 @@
 1 OCCU Senior Software Engineer (Machine Learning) - Waymo; previously Google Health
 2 SOUR @S2@
 3 _CONF Secondary
-1 NOTE Subject of this research and the person who commissioned the tree. Rode the
-2 CONT Texas 4000 charity bicycle ride (Austin, TX to Anchorage, AK) for cancer
-2 CONT research. Former Digital Projects Lead at The Daily Texan and data-visualization
-2 CONT contributor to The Texas Tribune.
+1 NOTE Subject of this research. Named as grandchild "Miles (24)" in his grandfather
+2 CONT Richard Neil Hutson's 2017 obituary and as "nephew, Miles Hutson" in his uncle
+2 CONT Richard W. Thompson III's 2013 obituary - the two documents that anchor him to
+2 CONT both the Hutson (New Orleans) and Thompson (Texas) lines. Appears to carry the
+2 CONT given name of his paternal great-grandfather, Miles Hutson of New Orleans.
+2 SOUR @S4@
+3 _CONF Secondary
+0 @I2@ INDI
+1 NAME John Charles /Hutson/
+1 SEX M
+1 FAMC @F2@
+1 FAMS @F1@
+1 NOTE LIVING - minimal detail by policy. Father of Miles. Named as son "John
+2 CONT Charles Hutson (spouse Hilary)" in Richard Neil Hutson's 2017 obituary and as
+2 CONT "sister, Hilary T. Hutson and husband, John" in Richard W. Thompson III's 2013
+2 CONT obituary.
+2 SOUR @S4@
+3 _CONF Secondary
+2 SOUR @S7@
+3 _CONF Secondary
+0 @I3@ INDI
+1 NAME Hilary /Thompson/
+2 _MARNM Hutson
+1 SEX F
+1 FAMC @F3@
+1 FAMS @F1@
+1 NOTE LIVING - minimal detail by policy. Mother of Miles. Maiden name Thompson,
+2 CONT established by the caption "Brigetta D'Olivio v. Hilary Thompson Hutson"
+2 CONT (U.S. Supreme Court docket 23-350; Tex. App. - Dallas No. 05-20-00969-CV),
+2 CONT which identifies her as a child of Richard W. Thompson Jr. and Euvonne R.
+2 CONT Thompson of Collin County, Texas. Also named as spouse "Hilary" in Richard
+2 CONT Neil Hutson's 2017 obituary and as "sister, Hilary T. Hutson" in Richard W.
+2 CONT Thompson III's 2013 obituary.
+2 SOUR @S8@
+3 _CONF Primary
+2 SOUR @S4@
+3 _CONF Secondary
+2 SOUR @S7@
+3 _CONF Secondary
+0 @I4@ INDI
+1 NAME Jennifer /Hutson/
+2 NICK Jenni
+1 SEX F
+1 FAMC @F1@
+1 NOTE LIVING - minimal detail by policy. Sister of Miles. Named as grandchild
+2 CONT "Jennifer (18)" in Richard Neil Hutson's 2017 obituary and as "niece,
+2 CONT Jennifer Hutson" in Richard W. Thompson III's 2013 obituary.
+2 SOUR @S4@
+3 _CONF Secondary
+2 SOUR @S7@
+3 _CONF Secondary
+0 @I5@ INDI
+1 NAME Richard Neil /Hutson/
+1 SEX M
+1 FAMC @F4@
+1 FAMS @F2@
+1 BIRT
+2 DATE ABT 1928
+2 PLAC New Orleans, Orleans Parish, Louisiana, USA
+2 SOUR @S4@
+3 PAGE "passed away September 20, 2017 at the age of 89"; "born to Miles and Adela Hutson in New Orleans, Louisiana"
+3 _CONF Secondary
+1 DEAT
+2 DATE 20 SEP 2017
+2 PLAC Dallas, Dallas County, Texas, USA
+2 SOUR @S4@
+3 _CONF Secondary
+1 EDUC Jesuit High School, New Orleans; Tulane University - M.S. Electrical Engineering at age 20
+2 SOUR @S4@
+3 _CONF Secondary
+1 OCCU WWII non-commissioned officer (shipboard radar); Chief Engineer, Chance Vought Electronics; founder, Hutson Corporation (1964); inventor of the world's smallest pistol scope
+2 SOUR @S4@
+3 _CONF Secondary
+1 BURI
+2 PLAC Calvary Hill Cemetery, Dallas, Texas, USA (memorial service, Calvary Hill North Chapel)
+2 SOUR @S4@
+3 _CONF Secondary
+1 NOTE Paternal grandfather of Miles ("Neil"). Youngest of four children and only
+2 CONT son, raised with three older sisters: Louise (Finke), Charlene (Wilke), and
+2 CONT Mary Jane (Trapolin). At the end of WWII he engineered, installed, and
+2 CONT instructed early radar systems on aircraft carriers. Married Joan Liebes for
+2 CONT 56 years (implying a marriage circa 1961). Grandchildren listed in his 2017
+2 CONT obituary: Zachary (26), Miles (24), Sydnie (22), Jennifer (18), Casey (17),
+2 CONT Shelley (16), Carter (9), Cole (9).
+2 SOUR @S4@
+3 _CONF Secondary
+0 @I6@ INDI
+1 NAME Joan /Liebes/
+2 _MARNM Hutson
+1 SEX F
+1 FAMS @F2@
+1 BIRT
+2 DATE 28 AUG 1931
+2 SOUR @S5@
+3 PAGE "Joan L. Hutson of Dallas, Texas passed away on 1/13/2026 at the age of 94" (b. Aug 28, 1931 per funeral-home record)
+3 _CONF Secondary
+1 DEAT
+2 DATE 13 JAN 2026
+2 PLAC Dallas, Dallas County, Texas, USA
+2 SOUR @S5@
+3 _CONF Secondary
+1 RESI
+2 DATE BEF 1950
+2 PLAC San Francisco, California, USA
+2 SOUR @S1@
+3 PAGE "My paternal grandmother is ashkenazi by heritage and lived in SF early in her life."
+3 _CONF Provided
+1 NOTE Paternal grandmother of Miles. Maiden name Liebes, from "Joan Liebes Hutson"
+2 CONT in her husband's 2017 obituary. Of Ashkenazi Jewish heritage and lived in San
+2 CONT Francisco early in her life (per Miles). RESEARCH LEAD (unproven): "Liebes" is
+2 CONT a prominent San Francisco German-Jewish family name - H. Liebes & Co., the
+2 CONT major SF furrier founded by Herman Liebes in the 1860s-70s, whose family was
+2 CONT active in Congregation Emanu-El. No document yet connects Joan's parents to
+2 CONT that family; treat as Tentative until a birth/census record is found.
+2 SOUR @S4@
+3 _CONF Secondary
+2 SOUR @S10@
+3 _CONF Tentative
+0 @I7@ INDI
+1 NAME Richard W. /Thompson/ Jr.
+1 SEX M
+1 FAMC @F6@
+1 FAMS @F3@
+1 DEAT
+2 DATE 2019
+2 PLAC Collin County, Texas, USA
+2 SOUR @S8@
+3 PAGE Estate probated: In re Estate of Richard W. Thompson Jr., cause PB 1-1381-2019, Collin County
+3 _CONF Primary
+1 RESI
+2 DATE 1955
+2 PLAC Abilene, Taylor County, Texas, USA
+2 SOUR @S7@
+3 PAGE Son Richard W. Thompson III "born in Abilene, Texas Nov. 14, 1955"
+3 _CONF Secondary
+1 RESI
+2 DATE FROM 1973 TO 2019
+2 PLAC Plano, Collin County, Texas, USA
+2 SOUR @S8@
+3 PAGE "Thompson and his wife, Euvonne R. Thompson, purchased a home in Collin County, Texas in 1973 and declared it as their homestead"
+3 _CONF Primary
+1 OCCU Oil & gas producer - Richard W. Thompson, Jr. Inc., Plano, Texas
+2 SOUR @S11@
+3 _CONF Secondary
+1 NOTE Maternal grandfather of Miles. The "Jr." suffix and his son's "III" establish
+2 CONT the family naming line back to a Richard W. Thompson Sr. On 5 May 2018 he
+2 CONT deeded his Collin County homestead to himself and his daughter Hilary Thompson
+2 CONT Hutson as joint tenants with right of survivorship, reserving a life estate -
+2 CONT the transaction later litigated in D'Olivio v. Hutson. Predeceased by his wife
+2 CONT Euvonne (2007), his son Richard III (2013), and his daughter Elizabeth Jane.
+2 SOUR @S8@
+3 _CONF Primary
+0 @I8@ INDI
+1 NAME Euvonne R. /Thompson/
+1 SEX F
+1 FAMS @F3@
+1 DEAT
+2 DATE 24 DEC 2007
+2 PLAC Collin County, Texas, USA
+2 SOUR @S8@
+3 PAGE "Euvonne passed away on December 24, 2007"
+3 _CONF Primary
+1 RESI
+2 DATE 1955
+2 PLAC Abilene, Taylor County, Texas, USA
+2 SOUR @S7@
+3 _CONF Secondary
+1 RESI
+2 DATE FROM 1973 TO 2007
+2 PLAC Plano, Collin County, Texas, USA
+2 SOUR @S8@
+3 _CONF Primary
+1 NOTE Maternal grandmother of Miles. Maiden name not yet documented - her rare
+2 CONT given name "Euvonne" should make her easy to identify in Texas marriage and
+2 CONT census indexes once those are searched. Mother of Richard W. Thompson III,
+2 CONT Elizabeth Jane, and Hilary Thompson Hutson.
+2 SOUR @S7@
+3 _CONF Secondary
+0 @I9@ INDI
+1 NAME Miles /Hutson/
+1 SEX M
+1 FAMS @F4@
+1 RESI
+2 DATE FROM ABT 1920 TO ABT 1928
+2 PLAC New Orleans, Orleans Parish, Louisiana, USA
+2 SOUR @S4@
+3 PAGE "Neil was born to Miles and Adela Hutson in New Orleans, Louisiana"
+3 _CONF Secondary
+1 NOTE Great-grandfather of Miles (the subject), and apparently his namesake. Father
+2 CONT of four children born in New Orleans circa 1920-1928: Louise, Mary Jane
+2 CONT (b. 1922), Charlene, and Richard Neil (b. ~1928). Birth, death, and origins not
+2 CONT yet documented - next step is the 1930/1940 census for Orleans Parish and the
+2 CONT Louisiana vital-records indexes. The given name recurs across generations
+2 CONT (grandson Miles Trapolin; great-great-grandson Miles Hutson, the subject).
+2 SOUR @S4@
+3 _CONF Secondary
+2 SOUR @S6@
+3 _CONF Secondary
+0 @I10@ INDI
+1 NAME Adela /Nelson/
+2 _MARNM Hutson
+1 SEX F
+1 FAMS @F4@
+1 RESI
+2 DATE FROM ABT 1920 TO ABT 1928
+2 PLAC New Orleans, Orleans Parish, Louisiana, USA
+2 SOUR @S6@
+3 _CONF Secondary
+1 NOTE Great-grandmother of Miles. Maiden name Nelson, from her daughter Mary Jane's
+2 CONT 2019 obituary: "born to Miles and Adela (Nelson) Hutson." Birth, death, and
+2 CONT origins not yet documented.
+2 SOUR @S6@
+3 _CONF Secondary
+0 @I11@ INDI
+1 NAME Mary Jane /Hutson/
+2 _MARNM Trapolin
+1 SEX F
+1 FAMC @F4@
+1 FAMS @F5@
+1 BIRT
+2 DATE 27 MAR 1922
+2 PLAC New Orleans, Orleans Parish, Louisiana, USA
+2 SOUR @S6@
+3 PAGE "born in New Orleans on March 27, 1922 ... second of four children"
+3 _CONF Secondary
+1 DEAT
+2 DATE 27 MAY 2019
+2 SOUR @S6@
+3 _CONF Secondary
+1 EDUC Newcomb College (Tulane), B.S. Biology - Phi Beta Kappa
+2 SOUR @S6@
+3 _CONF Secondary
+1 OCCU Biochemistry Lab, Touro Infirmary, New Orleans (1942-1949)
+2 SOUR @S6@
+3 _CONF Secondary
+1 NOTE Grand-aunt of Miles (sister of his grandfather Neil); second of the four
+2 CONT children of Miles and Adela (Nelson) Hutson. Married Ivor Ambrose Trapolin on
+2 CONT 27 Aug 1949 at Mater Dolorosa Church, New Orleans. Nine children: Louise
+2 CONT Kuzmich, Therese, Jeanne Kuehn, Peter, Miles, Kathleen Barbee, Charles,
+2 CONT Edward, and Neil Trapolin. Funeral at Holy Name of Jesus Church, St. Charles
+2 CONT Ave. Phi Beta Kappa - an honor shared three generations later by her
+2 CONT grand-nephew Miles.
+2 SOUR @S6@
+3 _CONF Secondary
+0 @I12@ INDI
+1 NAME Louise /Hutson/
+2 _MARNM Finke
+1 SEX F
+1 FAMC @F4@
+1 NOTE Grand-aunt of Miles; eldest of the four children of Miles and Adela Hutson
+2 CONT (named first among Neil's "three older sisters" in his 2017 obituary; Mary
+2 CONT Jane, b. 1922, was the second child). Married name Finke. Dates not yet
+2 CONT documented.
+2 SOUR @S4@
+3 _CONF Secondary
+0 @I13@ INDI
+1 NAME Charlene /Hutson/
+2 _MARNM Wilke
+1 SEX F
+1 FAMC @F4@
+1 NOTE Grand-aunt of Miles; one of the three older sisters of Richard Neil Hutson.
+2 CONT Married name Wilke. Dates not yet documented.
+2 SOUR @S4@
+3 _CONF Secondary
+0 @I14@ INDI
+1 NAME Paul Neil /Hutson/
+1 SEX M
+1 FAMC @F2@
+1 NOTE LIVING - minimal detail by policy. Uncle of Miles; son of Neil and Joan
+2 CONT Hutson; named with spouse Nicole in his father's 2017 obituary.
+2 SOUR @S4@
+3 _CONF Secondary
+0 @I15@ INDI
+1 NAME Mary Louise /Hutson/
+2 _MARNM Suttles
+1 SEX F
+1 FAMC @F2@
+1 NOTE LIVING - minimal detail by policy. Aunt of Miles; daughter of Neil and Joan
+2 CONT Hutson; named as "Mary Louise Suttles (spouse Sonny)" in her father's 2017
+2 CONT obituary.
+2 SOUR @S4@
+3 _CONF Secondary
+0 @I16@ INDI
+1 NAME Richard W. /Thompson/ III
+1 SEX M
+1 FAMC @F3@
+1 BIRT
+2 DATE 14 NOV 1955
+2 PLAC Abilene, Taylor County, Texas, USA
+2 SOUR @S7@
+3 PAGE "Rick was born in Abilene, Texas Nov. 14, 1955"
+3 _CONF Secondary
+1 DEAT
+2 DATE 2 MAR 2013
+2 PLAC Plano, Collin County, Texas, USA
+2 SOUR @S7@
+3 PAGE "passed away March 2, 2013 in Plano, Texas after a 3 year battle with cancer"
+3 _CONF Secondary
+1 EDUC Washington State University - B.S. Range Management
+2 SOUR @S7@
+3 _CONF Secondary
+1 OCCU Cattle rancher
+2 SOUR @S7@
+3 _CONF Secondary
+1 NOTE Uncle of Miles ("Rick"). Survived by sons Timothy and Allan (living - not
+2 CONT detailed here). His obituary names "nephew, Miles Hutson and niece, Jennifer
+2 CONT Hutson," directly linking the subject to the Thompson line. Services at West
+2 CONT Plano Presbyterian Church.
+2 SOUR @S7@
+3 _CONF Secondary
+0 @I17@ INDI
+1 NAME Elizabeth Jane /Thompson/
+1 SEX F
+1 FAMC @F3@
+1 DEAT
+2 DATE BEF 2013
+2 SOUR @S7@
+3 PAGE "He was predeceased by his mother, Euvonne R. Thompson, and sister, Elizabeth Jane."
+3 _CONF Secondary
+1 NOTE Aunt of Miles; sister of Richard W. Thompson III and Hilary Thompson Hutson.
+2 CONT Predeceased her brother (d. before March 2013). The appellate record likewise
+2 CONT notes the Thompsons had "two living children" as of Euvonne's death in 2007,
+2 CONT implying Elizabeth Jane died before 24 Dec 2007. Dates not yet documented.
+2 SOUR @S8@
+3 _CONF Primary
+0 @I18@ INDI
+1 NAME Richard W. /Thompson/ Sr.
+1 SEX M
+1 FAMS @F6@
+1 NOTE Great-grandfather of Miles - INFERRED. His existence and name follow from the
+2 CONT generational suffixes: grandson "Richard W. Thompson III" and son "Richard W.
+2 CONT Thompson, Jr." require a same-named father. No direct record located yet;
+2 CONT treat as Tentative until a census, vital, or obituary record is found.
+2 SOUR @S7@
+3 _CONF Tentative
+2 SOUR @S8@
+3 _CONF Tentative
+0 @I19@ INDI
+1 NAME Ivor Ambrose /Trapolin/
+1 SEX M
+1 FAMS @F5@
+1 NOTE Husband of Mary Jane Hutson; married 27 Aug 1949 at Mater Dolorosa Church,
+2 CONT New Orleans. The Trapolin family remains prominent in New Orleans
+2 CONT (Trapolin-Peer Architects was founded by their son Peter). Included to anchor
+2 CONT the Trapolin branch; his own dates not yet documented.
+2 SOUR @S6@
+3 _CONF Secondary
+0 @F1@ FAM
+1 HUSB @I2@
+1 WIFE @I3@
+1 CHIL @I1@
+1 CHIL @I4@
+1 NOTE Parents and children per Richard Neil Hutson's 2017 obituary (son John
+2 CONT Charles Hutson, spouse Hilary; grandchildren Miles and Jennifer) and Richard
+2 CONT W. Thompson III's 2013 obituary (sister Hilary T. Hutson and husband John;
+2 CONT nephew Miles Hutson and niece Jennifer Hutson), corroborated directly by
+2 CONT Miles.
+2 SOUR @S4@
+3 _CONF Secondary
+2 SOUR @S7@
+3 _CONF Secondary
+2 SOUR @S1@
+3 _CONF Provided
+0 @F2@ FAM
+1 HUSB @I5@
+1 WIFE @I6@
+1 CHIL @I2@
+1 CHIL @I14@
+1 CHIL @I15@
+1 MARR
+2 DATE ABT 1961
+2 SOUR @S4@
+3 PAGE "his wife of 56 years, Joan Liebes Hutson" (as of Sept 2017)
+3 _CONF Secondary
+1 NOTE Richard Neil Hutson and Joan Liebes, married ~56 years at his death in 2017.
+2 CONT Children: John Charles, Paul Neil, and Mary Louise.
+2 SOUR @S4@
+3 _CONF Secondary
+0 @F3@ FAM
+1 HUSB @I7@
+1 WIFE @I8@
+1 CHIL @I16@
+1 CHIL @I17@
+1 CHIL @I3@
+1 MARR
+2 DATE BEF 1955
+2 SOUR @S7@
+3 PAGE Eldest documented child born 14 Nov 1955 in Abilene
+3 _CONF Secondary
+1 NOTE Richard W. Thompson Jr. and Euvonne R. Thompson, of Abilene (1950s) and later
+2 CONT Plano/Collin County (from 1973). Children: Richard III (1955-2013), Elizabeth
+2 CONT Jane (d. before 2007), and Hilary (living).
+2 SOUR @S8@
+3 _CONF Primary
+0 @F4@ FAM
+1 HUSB @I9@
+1 WIFE @I10@
+1 CHIL @I12@
+1 CHIL @I11@
+1 CHIL @I13@
+1 CHIL @I5@
+1 MARR
+2 DATE BEF 1922
+2 PLAC probably New Orleans, Louisiana, USA
+2 SOUR @S6@
+3 PAGE Second child Mary Jane born 27 Mar 1922 in New Orleans
+3 _CONF Tentative
+1 NOTE Miles and Adela (Nelson) Hutson of New Orleans. Four children, in order:
+2 CONT Louise (Finke), Mary Jane (Trapolin, b. 1922 - "second of four"), Charlene
+2 CONT (Wilke), and Richard Neil (b. ~1928, the only boy and youngest, "raised with
+2 CONT his three older sisters").
+2 SOUR @S4@
+3 _CONF Secondary
+2 SOUR @S6@
+3 _CONF Secondary
+0 @F5@ FAM
+1 HUSB @I19@
+1 WIFE @I11@
+1 MARR
+2 DATE 27 AUG 1949
+2 PLAC Mater Dolorosa Church, New Orleans, Louisiana, USA
+2 SOUR @S6@
+3 _CONF Secondary
+1 NOTE Nine children (Trapolin branch, not individually recorded here): Louise
+2 CONT Kuzmich, Therese, Jeanne Kuehn, Peter, Miles, Kathleen Barbee, Charles,
+2 CONT Edward, and Neil Trapolin; eleven grandchildren and nine great-grandchildren
+2 CONT as of 2019.
+2 SOUR @S6@
+3 _CONF Secondary
+0 @F6@ FAM
+1 HUSB @I18@
+1 CHIL @I7@
+1 NOTE Inferred link: Richard W. Thompson Sr. as father of Richard W. Thompson Jr.,
+2 CONT required by the Jr./III generational suffixes. Tentative until documented.
+2 SOUR @S8@
+3 _CONF Tentative
 0 @S1@ SOUR
 1 TITL Personal communication from Miles Hutson
 1 AUTH Miles Hutson
-1 PUBL Direct statement to the research assistant
+1 PUBL Direct statements to the research assistant, 11 July 2026
 1 _CONF Provided
 1 _ACC 2026-07-11
-1 NOTE First-hand information supplied by the subject himself: full name, date of
-2 CONT birth (12 August 1993), and current city of residence (San Francisco).
+1 NOTE First-hand information supplied by the subject: full name and date of birth
+2 CONT (12 Aug 1993); residence (San Francisco); parents John and Hilary Hutson;
+2 CONT sister Jenni; paternal grandparents Neil and Joan Hutson (Joan of Ashkenazi
+2 CONT heritage, lived in San Francisco early in life; Neil associated with
+2 CONT Louisiana); maternal grandparents Richard and Euvonne Thompson.
 0 @S2@ SOUR
 1 TITL Miles Hutson - Personal Website & Professional Profiles
 1 AUTH Miles Hutson
@@ -76,5 +508,95 @@
 1 NOTE English patronymic surname derived from the medieval given name "Hudde"
 2 CONT (a pet form of Hugh, "heart/mind," or a variant of Hudson). First recorded
 2 CONT as William Hudde in the 1273 Hundred Rolls of Cambridgeshire, England.
-2 CONT This is general surname background, NOT proof of Miles Hutson's specific line.
+2 CONT General surname background only - NOT evidence of this family's specific line.
+0 @S4@ SOUR
+1 TITL Obituary of Richard Neil Hutson (1928-2017)
+1 AUTH North Dallas Funeral Home & Cremations, Dallas, Texas
+1 PUBL northdallasfuneralhome.com, September 2017
+1 _URL https://www.northdallasfuneralhome.com/obituaries/Hutson-Richard-Neil?obId=31321155
+1 _CONF Secondary
+1 _ACC 2026-07-11
+1 NOTE The anchor document for the paternal line. Establishes: death 20 Sep 2017 at
+2 CONT age 89; birth in New Orleans to Miles and Adela Hutson; three older sisters
+2 CONT Louise Finke, Charlene Wilke, Mary Jane Trapolin; Jesuit HS and Tulane (M.S.
+2 CONT E.E. at age 20); WWII shipboard radar service; Chief Engineer at Chance
+2 CONT Vought Electronics; founder of Hutson Corporation (1964); inventor of the
+2 CONT world's smallest pistol scope; wife of 56 years Joan Liebes Hutson; children
+2 CONT John Charles (Hilary), Paul Neil (Nicole), Mary Louise Suttles (Sonny);
+2 CONT grandchildren Zachary, Miles, Sydnie, Jennifer, Casey, Shelley, Carter, Cole.
+2 CONT Memorial service at Calvary Hill Cemetery, Dallas.
+0 @S5@ SOUR
+1 TITL Death notice of Joan L. Hutson (1931-2026)
+1 AUTH North Dallas Funeral Home & Cremations, Dallas, Texas
+1 PUBL northdallasfuneralhome.com, January 2026
+1 _URL https://www.northdallasfuneralhome.com/obituaries/Joan-Hutson?obId=46952624
+1 _CONF Secondary
+1 _ACC 2026-07-11
+1 NOTE Brief notice: "Joan L. Hutson of Dallas, Texas passed away on 1/13/2026 at
+2 CONT the age of 94"; funeral-home record gives birth date 28 Aug 1931. Same
+2 CONT funeral home as her husband Richard Neil Hutson (2017).
+0 @S6@ SOUR
+1 TITL Obituary of Mary Jane Hutson Trapolin (1922-2019)
+1 AUTH Schoen Funeral Home / The Times-Picayune (New Orleans)
+1 PUBL schoenfh.com; obits.nola.com (Legacy.com), May-June 2019
+1 _URL https://www.schoenfh.com/obituaries/Mary-Jane-Hutson-Trapolin?obId=34049203
+1 _CONF Secondary
+1 _ACC 2026-07-11
+1 NOTE Establishes: born New Orleans 27 Mar 1922 to Miles and Adela (Nelson) Hutson
+2 CONT - the only document so far giving Adela's maiden name - "second of four
+2 CONT children"; Newcomb College, Phi Beta Kappa, B.S. Biology; Touro Infirmary
+2 CONT biochemistry lab 1942-1949; married Ivor Ambrose Trapolin 27 Aug 1949 at
+2 CONT Mater Dolorosa Church; nine children including a son named Miles; died 27 May
+2 CONT 2019 aged 97; funeral at Holy Name of Jesus Church, New Orleans.
+0 @S7@ SOUR
+1 TITL Obituary of Richard W. Thompson III (1955-2013)
+1 AUTH North Dallas Funeral Home & Cremation Services
+1 PUBL northdallasfuneralhome.com, March 2013
+1 _URL https://www.northdallasfuneralhome.com/obituaries/thompson-w-iii
+1 _CONF Secondary
+1 _ACC 2026-07-11
+1 NOTE The anchor document for the maternal line. Establishes: born Abilene, Texas
+2 CONT 14 Nov 1955; died 2 Mar 2013 in Plano after a 3-year battle with cancer;
+2 CONT Washington State University degree in Range Management; cattle rancher;
+2 CONT predeceased by mother Euvonne R. Thompson and sister Elizabeth Jane; survived
+2 CONT by sons Timothy and Allan, father Richard W. Thompson Jr., sister Hilary T.
+2 CONT Hutson and husband John, nephew Miles Hutson and niece Jennifer Hutson.
+2 CONT Services at West Plano Presbyterian Church.
+0 @S8@ SOUR
+1 TITL D'Olivio v. Hutson - Tex. App. (Dallas) No. 05-20-00969-CV; U.S. Supreme Court docket 23-350
+1 AUTH Court of Appeals of Texas, Fifth District; Supreme Court of the United States
+1 PUBL Opinion 18 Jul 2022; Texas Supreme Court review denied 24 Mar 2023; certiorari denied 30 Oct 2023
+1 _URL https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/23-350.html
+1 _CONF Primary
+1 _ACC 2026-07-11
+1 NOTE Court records (primary source) in Brigetta D'Olivio v. Hilary Thompson
+2 CONT Hutson. Establish: Richard W. Thompson Jr. and wife Euvonne R. Thompson
+2 CONT purchased their Collin County homestead in 1973; Euvonne died 24 Dec 2007;
+2 CONT their two living children at that time were Richard W. Thompson III and
+2 CONT Hilary Thompson Hutson; on 5 May 2018 Thompson deeded the homestead to
+2 CONT himself and Hutson as joint tenants with right of survivorship; his estate
+2 CONT was probated as cause PB 1-1381-2019 (Collin County), placing his death
+2 CONT about 2019.
+0 @S10@ SOUR
+1 TITL The Liebes Family: Jewish San Francisco Importers and Manufacturers of Fur Products
+1 AUTH Jewish Museum of the American West (JMAW)
+1 PUBL jmaw.org
+1 _URL https://www.jmaw.org/liebes-jewish-fur-san-francisco/
+1 _CONF Tentative
+1 _ACC 2026-07-11
+1 NOTE Background on the prominent Liebes family of San Francisco: Herman Liebes
+2 CONT (b. ~1842, German-Jewish immigrant) founded H. Liebes & Co., a leading Pacific
+2 CONT fur house ("indisputably the largest dealers in sealskins in the world,"
+2 CONT 1898-99 catalogue); active in B'nai B'rith and Congregation Emanu-El. Recorded
+2 CONT as a RESEARCH LEAD for Joan Liebes's ancestry (Ashkenazi, early life in SF) -
+2 CONT no proven connection yet.
+0 @S11@ SOUR
+1 TITL Richard W. Thompson, Jr. Inc. - Texas corporate and oil & gas producer records
+1 AUTH Texas Secretary of State (via OpenCorporates); Railroad Commission producer listings (via MineralAnswers)
+1 PUBL opencorporates.com; mineralanswers.com
+1 _URL https://opencorporates.com/companies/us_tx/0043764400
+1 _CONF Secondary
+1 _ACC 2026-07-11
+1 NOTE Business records for "Richard W. Thompson, Inc." / "Richard W Thompson Jr
+2 CONT Inc," Plano, Texas - an oil & gas producer - supporting his occupation.
 0 TRLR
