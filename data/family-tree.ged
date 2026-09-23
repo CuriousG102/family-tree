@@ -287,6 +287,12 @@
 3 PAGE Father Charles Woodward Hutson taught "fifteen years in Texas" (Texas A&M)
 3 _CONF Tentative
 1 RESI
+2 DATE 1908
+2 PLAC New Orleans, Louisiana, USA
+2 SOUR @S42@
+3 PAGE His sister Mary: "When we moved to New Orleans in 1908, my sister, Ethel Hutson, who was already here studying art under Dr. Ellsworth Woodward at Newcomb College..."
+3 _CONF Secondary
+1 RESI
 2 DATE 13 APR 1950
 2 PLAC 321 Hillary Street, New Orleans, Orleans Parish, Louisiana, USA
 2 SOUR @S13@
@@ -1116,8 +1122,12 @@
 1 NOTE Great-grand-aunt of Miles; eldest child of Charles Woodward Hutson. Miss
 2 CONT Ethel Hutson of New Orleans sent her father's family records to Jewel Davis
 2 CONT Scarborough, who used them to compile the Lockett genealogy (1951) - so much
-2 CONT of this tree's Lockett line rests on her care.
+2 CONT of this tree's Lockett line rests on her care. By 1908 she was studying art
+2 CONT at Newcomb College under Ellsworth Woodward, and the rest of the family
+2 CONT followed her from Texas to New Orleans that year.
 2 SOUR @S28@
+3 _CONF Secondary
+2 SOUR @S42@
 3 _CONF Secondary
 0 @I35@ INDI
 1 NAME William Ferguson /Hutson/
@@ -1188,10 +1198,16 @@
 2 SOUR @S29@
 3 _CONF Secondary
 0 @I38@ INDI
-1 NAME Martha O'Reilly /Ferguson/
+1 NAME Martha O'Reily /Ferguson/
 2 _MARNM Hutson
 1 SEX F
+1 FAMC @F45@
 1 FAMS @F9@
+1 BIRT
+2 DATE 13 DEC 1794
+2 SOUR @S38@
+3 PAGE "Martha O'Reily Ferguson, b. Dec. 13, 1794; m., June 2, 1814, Richard Woodward Hutson, son of Thomas and Esther (Maine) Hutson; d. Sept. 1, 1816"
+3 _CONF Secondary
 1 DEAT
 2 DATE 1 SEP 1816
 2 SOUR @S29@
@@ -1372,6 +1388,7 @@
 1 NAME Sarah /Stanyarne/
 2 _MARNM Woodward
 1 SEX F
+1 FAMC @F44@
 1 FAMS @F13@
 1 NOTE 7x-great-grandmother of Miles; daughter of Col. James Stanyarne. Her will,
 2 CONT made 22 Oct 1748 and proved 28 Apr 1750, describes her as "widow of Richard
@@ -1727,6 +1744,7 @@
 1 NAME Selina /Watkins/
 2 _MARNM Lockett
 1 SEX F
+1 FAMC @F40@
 1 FAMS @F25@
 1 NOTE 4x-great-grandmother of Miles; daughter of Francis Watkins and Agnes Woodson
 2 CONT of Prince Edward County, Virginia. Through Agnes Woodson she descended from
@@ -1753,8 +1771,9 @@
 1 NAME Benjamin /Watkins/
 1 SEX M
 1 FAMS @F27@
-1 NOTE 5x-great-grandfather of Miles; of Chesterfield County, Virginia; father of
-2 CONT Susannah Watkins Lockett.
+1 NOTE 5x-great-grandfather of Miles; of Chesterfield County, Virginia, where he
+2 CONT was one of the early county clerks; father of Susannah Watkins Lockett and
+2 CONT uncle of Francis Watkins, clerk of Prince Edward County.
 2 SOUR @S28@
 3 _CONF Secondary
 0 @I71@ INDI
@@ -1864,6 +1883,7 @@
 1 CHIL @I42@
 0 @F14@ FAM
 1 HUSB @I48@
+1 WIFE @I93@
 1 CHIL @I46@
 1 NOTE Dr. Henry Woodward and Mrs. Mary (Godfrey) Browne, daughter of Col. John
 2 CONT Godfrey. Children: John (1681), Richard (1683), Elizabeth (m. William
@@ -2340,11 +2360,12 @@
 1 NAME Hester /Marion/
 2 _MARNM Gignilliat
 1 SEX F
+1 FAMC @F50@
 1 FAMS @F33@
-1 NOTE 7x-great-grandmother of Miles; of the Marion family, Huguenot settlers of
-2 CONT South Carolina (the family of Revolutionary general Francis Marion, under
-2 CONT whom her grandson-in-law Thomas Hutson later served). Her own parents are not
-2 CONT stated in the sources used here.
+1 NOTE 7x-great-grandmother of Miles and an AUNT OF GEN. FRANCIS MARION, the
+2 CONT Revolutionary "Swamp Fox" (under whom her granddaughter's husband Thomas
+2 CONT Hutson served). Daughter of the Huguenot refugees Benjamin Marion and Judith
+2 CONT Baluet, who settled on the Santee River after 1685.
 2 SOUR @S38@
 3 _CONF Secondary
 0 @I75@ INDI
@@ -2593,7 +2614,7 @@
 3 _CONF Secondary
 0 @S38@ SOUR
 1 TITL "Capt. John Colcock and Some of His Descendants"
-1 AUTH South Carolina Historical and Genealogical Magazine
+1 AUTH Salley, A. S., Jr.
 1 PUBL South Carolina Historical and Genealogical Magazine, vol. 3, no. 4 (October 1902), pp. 216-241
 1 _URL https://archive.org/details/jstor-27575005
 1 _CONF Secondary
@@ -2644,4 +2665,356 @@
 2 CONT and her daughter Jeffreys the direct legatees of old Samuel Simon." Oakland
 2 CONT Tribune (10 Nov 1910) names "Miss Jeffreys Martin, daughter of Mrs. Moses J.
 2 CONT Lyon, of 1900 Vallejo."
+0 @I87@ INDI
+1 NAME Francis /Watkins/
+1 SEX M
+1 FAMS @F40@
+1 OCCU Deputy clerk (1767-83) and clerk (1783-1825) of Prince Edward County, Virginia
+2 SOUR @S28@
+3 PAGE "Benjamin Watkins, whose nephew, Francis, worked in his office, then later removed to Prince Edward County, where he was Deputy Clerk, 1767-83, and Clerk from 1783-1825"
+3 _CONF Secondary
+1 NOTE 5x-great-grandfather of Miles; father of Selina Watkins Lockett. Trained in
+2 CONT the Chesterfield County clerk's office of his uncle Benjamin Watkins (also
+2 CONT an ancestor of Miles, through a different line), then served Prince Edward
+2 CONT County as clerk for over forty years; his signature appears on the county's
+2 CONT marriage bonds of the period.
+2 SOUR @S28@
+3 _CONF Secondary
+0 @I88@ INDI
+1 NAME Agnes /Woodson/
+2 _MARNM Watkins
+1 SEX F
+1 FAMC @F41@
+1 FAMS @F40@
+1 NOTE 5x-great-grandmother of Miles; wife of Francis Watkins of Prince Edward
+2 CONT County; daughter of Richard Woodson and Madelin Michaux.
+2 SOUR @S28@
+3 _CONF Secondary
+0 @I89@ INDI
+1 NAME Richard /Woodson/
+1 SEX M
+1 FAMS @F41@
+1 NOTE 6x-great-grandfather of Miles; of the Woodson family of colonial Virginia;
+2 CONT husband of Madelin Michaux.
+2 SOUR @S28@
+3 _CONF Secondary
+0 @I90@ INDI
+1 NAME Madelin /Michaux/
+2 _MARNM Woodson
+1 SEX F
+1 FAMC @F42@
+1 FAMS @F41@
+1 NOTE 6x-great-grandmother of Miles; daughter of the Huguenot refugees Abraham
+2 CONT Michaux and Susanne Richet.
+2 SOUR @S28@
+3 _CONF Secondary
+0 @I91@ INDI
+1 NAME Abraham /Michaux/
+1 SEX M
+1 FAMS @F42@
+1 NOTE 7x-great-grandfather of Miles; a French Huguenot (Protestant) refugee to
+2 CONT colonial Virginia. Only his and his wife's names and refugee status are
+2 CONT stated in the source used here.
+2 SOUR @S28@
+3 _CONF Secondary
+0 @I92@ INDI
+1 NAME Susanne /Richet/
+2 _MARNM Michaux
+1 SEX F
+1 FAMS @F42@
+1 NOTE 7x-great-grandmother of Miles; French Huguenot refugee, wife of Abraham
+2 CONT Michaux.
+2 SOUR @S28@
+3 _CONF Secondary
+0 @I93@ INDI
+1 NAME Mary /Godfrey/
+2 _MARNM Woodward
+1 SEX F
+1 FAMC @F43@
+1 FAMS @F14@
+1 NOTE 8x-great-grandmother of Miles; widow of Robert Browne when she married Dr.
+2 CONT Henry Woodward; after his death she married a third time (her father's
+2 CONT 1689/90 will calls her "my Daughter Mary Davis" and mentions "her Two former
+2 CONT Husbands ... Robert Browne and Doct' Henry Woodward").
+2 SOUR @S35@
+3 PAGE "He married Mrs. Mary Browne, widow of Robert Browne and daughter of Col. John Godfrey and his wife Mary"
+3 _CONF Secondary
+0 @I94@ INDI
+1 NAME John /Godfrey/
+2 NPFX Col.
+1 SEX M
+1 FAMS @F43@
+1 NOTE 9x-great-grandfather of Miles; "one of the most notable men of the Province"
+2 CONT of early Carolina. His will, made 12 Mar 1689/90, is recorded in the Court of
+2 CONT Ordinary records of South Carolina for 1672-1692.
+2 SOUR @S35@
+3 _CONF Secondary
+0 @I95@ INDI
+1 NAME James /Stanyarne/
+2 NPFX Col.
+1 SEX M
+1 FAMS @F44@
+1 NOTE 8x-great-grandfather of Miles; father of Sarah Stanyarne Woodward and of
+2 CONT Elizabeth Stanyarne, who married John Woodward (so two Woodward brothers
+2 CONT married two Stanyarne sisters).
+2 SOUR @S35@
+3 _CONF Secondary
+0 @F40@ FAM
+1 HUSB @I87@
+1 WIFE @I88@
+1 CHIL @I67@
+0 @F41@ FAM
+1 HUSB @I89@
+1 WIFE @I90@
+1 CHIL @I88@
+0 @F42@ FAM
+1 HUSB @I91@
+1 WIFE @I92@
+1 CHIL @I90@
+0 @F43@ FAM
+1 HUSB @I94@
+1 CHIL @I93@
+1 NOTE Col. John Godfrey and his wife Mary.
+2 SOUR @S35@
+3 _CONF Secondary
+0 @F44@ FAM
+1 HUSB @I95@
+1 CHIL @I47@
+0 @S42@ SOUR
+1 TITL Reminiscence of Mrs. Mary (Hutson) Nelson on Louisiana irises
+1 AUTH Nelson, Mary Lockett Hutson (Mrs. Bernard Stanley Nelson)
+1 PUBL Bulletin of the American Iris Society; Internet Archive
+1 _URL https://archive.org/details/bulletinofameri1841unse_0
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE First-person account by Miles Brewton Hutson's sister: "As a child in
+2 CONT Texas I had a bed of old blue flags ... When we moved to New Orleans in 1908,
+2 CONT my sister, Ethel Hutson, who was already here studying art under Dr.
+2 CONT Ellsworth Woodward at Newcomb College, told us about the wonderful field of
+2 CONT irises out on Frenchman Street ... my sister-in-law, Adela Nelson, told me
+2 CONT that as a child she used to go there on her uncle's back looking for
+2 CONT irises." She was secretary of the New Orleans Garden Society about 1920.
+0 @I96@ INDI
+1 NAME William Cattell /Ferguson/
+1 SEX M
+1 FAMC @F46@
+1 FAMS @F45@
+1 BIRT
+2 DATE JAN 1774
+2 SOUR @S38@
+3 _CONF Secondary
+1 DEAT
+2 DATE 16 FEB 1801
+2 SOUR @S38@
+3 _CONF Secondary
+1 NOTE 5x-great-grandfather of Miles; son of Col. Thomas Ferguson and Martha
+2 CONT O'Reily; married Elizabeth Milner Colcock on 6 Nov 1792 and died at 27,
+2 CONT leaving daughters Martha O'Reily (b. 1794) and Eliza McK. Ferguson.
+2 SOUR @S38@
+3 _CONF Secondary
+0 @I97@ INDI
+1 NAME Elizabeth Milner /Colcock/
+2 _MARNM Ferguson
+1 SEX F
+1 FAMC @F47@
+1 FAMS @F45@
+1 BIRT
+2 DATE 19 SEP 1775
+2 PLAC Charles Town, South Carolina
+2 SOUR @S38@
+3 PAGE "Elizabeth Milner Colcock, b. 3.30 A.M., Sept. 19, 1775; bap. in St. Michael's, by Rev. Robert Cooper, Sept. 29, 1775"
+3 _CONF Secondary
+1 DEAT
+2 DATE 18 NOV 1842
+2 SOUR @S38@
+3 _CONF Secondary
+1 NOTE 5x-great-grandmother of Miles; named for her great-aunt Elizabeth (Brewton)
+2 CONT Milner. Widowed at 25; mother of Martha O'Reily Ferguson Hutson.
+2 SOUR @S38@
+3 _CONF Secondary
+0 @I98@ INDI
+1 NAME Thomas /Ferguson/
+2 NPFX Col.
+1 SEX M
+1 FAMS @F46@
+1 NOTE 6x-great-grandfather of Miles; father of William Cattell Ferguson.
+2 SOUR @S38@
+3 _CONF Secondary
+0 @I99@ INDI
+1 NAME Martha /O'Reily/
+2 _MARNM Ferguson
+1 SEX F
+1 FAMS @F46@
+1 NOTE 6x-great-grandmother of Miles; wife of Col. Thomas Ferguson. Her name passed
+2 CONT to her granddaughter Martha O'Reily Ferguson Hutson.
+2 SOUR @S38@
+3 _CONF Secondary
+0 @I100@ INDI
+1 NAME John /Colcock/
+1 SEX M
+1 FAMC @F48@
+1 FAMS @F47@
+1 BIRT
+2 DATE 6 JUN 1744
+2 SOUR @S38@
+3 _CONF Secondary
+1 OCCU Lawyer, admitted to the Court of Common Pleas, Charles Town, 1767; Secretary of the Charlestown Library Society
+2 SOUR @S38@
+3 _CONF Secondary
+1 NOTE 6x-great-grandfather of Miles; "Eldest Son and Heir at Law of Captain John
+2 CONT Colcock." Married Milicent Jones at St. Michael's Church, Charles Town, 30
+2 CONT Oct 1768.
+2 SOUR @S38@
+3 _CONF Secondary
+0 @I101@ INDI
+1 NAME Milicent /Jones/
+2 _MARNM Colcock
+1 SEX F
+1 FAMC @F49@
+1 FAMS @F47@
+1 NOTE 6x-great-grandmother of Miles; daughter of Joseph Jones. At her daughter
+2 CONT Milicent's baptism (1769) the sponsors were "her grand-uncle Miles Brewton and
+2 CONT her grand aunts Mrs Frances (Brewton) Pinckney and Mrs. Elizabeth (Brewton)
+2 CONT Milner." INFERENCE (not stated in the source): the Brewton siblings were
+2 CONT therefore aunts and uncles of Milicent Jones or of her husband, most likely
+2 CONT through her mother - which would explain how the name "Miles Brewton" entered
+2 CONT the family and came down to Miles Brewton Hutson (1889) and Miles Hutson
+2 CONT (1993). Her will was made in 1835 and proved in 1839.
+2 SOUR @S38@
+3 _CONF Secondary
+0 @I102@ INDI
+1 NAME John /Colcock/
+2 NPFX Capt.
+1 SEX M
+1 FAMS @F48@
+1 DEAT
+2 DATE ABT 1757
+2 PLAC Charles Town, South Carolina
+2 SOUR @S38@
+3 PAGE "He died at the close of 1756 or early in 1757"
+3 _CONF Secondary
+1 OCCU Sea captain (Charles Town trade, 1730s); merchant; Justice of the Peace (1756)
+2 SOUR @S38@
+3 _CONF Secondary
+1 NOTE 7x-great-grandfather of Miles; "the founder of a family conspicuous in the
+2 CONT history of South Carolina." A sea captain trading between Charles Town,
+2 CONT London and Providence; in 1733 he rescued survivors of the wrecked Spanish
+2 CONT treasure fleet and was himself detained at Havana, returning with the first
+2 CONT warning of a planned Spanish attack on Port Royal. Married Deborah Milner in
+2 CONT Charles Town on 13 July 1732; later a merchant and, from 1756, a justice of
+2 CONT the peace.
+2 SOUR @S38@
+3 _CONF Secondary
+0 @I103@ INDI
+1 NAME Deborah /Milner/
+2 _MARNM Colcock
+1 SEX F
+1 FAMS @F48@
+1 NOTE 7x-great-grandmother of Miles; of Charles Town; married Capt. John Colcock
+2 CONT 13 July 1732.
+2 SOUR @S38@
+3 _CONF Secondary
+0 @I104@ INDI
+1 NAME Joseph /Jones/
+1 SEX M
+1 FAMS @F49@
+1 NOTE 7x-great-grandfather of Miles; father of Milicent Jones Colcock.
+2 SOUR @S38@
+3 _CONF Secondary
+0 @I105@ INDI
+1 NAME Benjamin /Marion/
+1 SEX M
+1 FAMC @F51@
+1 FAMS @F50@
+1 BIRT
+2 PLAC La Chaume, Poitou, France
+2 SOUR @S38@
+3 PAGE "Benjamin Marion, ne a la Chaume en Poitou, fils de Jean Marion et de Perinne Boutignon"
+3 _CONF Secondary
+1 IMMI
+2 DATE AFT 1685
+2 PLAC Santee River, South Carolina
+2 SOUR @S38@
+3 _CONF Secondary
+1 NOTE 8x-great-grandfather of Miles and grandfather of Gen. Francis Marion. A
+2 CONT Huguenot from Poitou who, with his wife Judith Baluet, fled France after the
+2 CONT Revocation of the Edict of Nantes and settled on the Santee River.
+2 SOUR @S38@
+3 _CONF Secondary
+0 @I106@ INDI
+1 NAME Judith /Baluet/
+2 _MARNM Marion
+1 SEX F
+1 FAMS @F50@
+1 NOTE 8x-great-grandmother of Miles and grandmother of Gen. Francis Marion; a
+2 CONT Huguenot refugee to South Carolina.
+2 SOUR @S38@
+3 _CONF Secondary
+0 @I107@ INDI
+1 NAME Jean /Marion/
+1 SEX M
+1 FAMS @F51@
+1 RESI
+2 PLAC Poitou, France
+2 SOUR @S38@
+3 _CONF Secondary
+1 NOTE 9x-great-grandfather of Miles and great-grandfather of Gen. Francis Marion;
+2 CONT of Poitou, France, named in a French family record as the father of
+2 CONT Benjamin Marion. Among the earliest named ancestors in the tree.
+2 SOUR @S38@
+3 _CONF Secondary
+0 @I108@ INDI
+1 NAME Perinne /Boutignon/
+2 _MARNM Marion
+1 SEX F
+1 FAMS @F51@
+1 NOTE 9x-great-grandmother of Miles; of Poitou, France; mother of Benjamin Marion.
+2 SOUR @S38@
+3 _CONF Secondary
+0 @F45@ FAM
+1 HUSB @I96@
+1 WIFE @I97@
+1 CHIL @I38@
+1 MARR
+2 DATE 6 NOV 1792
+2 SOUR @S38@
+3 _CONF Secondary
+0 @F46@ FAM
+1 HUSB @I98@
+1 WIFE @I99@
+1 CHIL @I96@
+0 @F47@ FAM
+1 HUSB @I100@
+1 WIFE @I101@
+1 CHIL @I97@
+1 MARR
+2 DATE 30 OCT 1768
+2 PLAC St. Michael's Church, Charles Town, South Carolina
+2 SOUR @S38@
+3 _CONF Secondary
+1 NOTE Children: Milicent (1769), Charles Jones (1771; m. Mary Woodward Hutson -
+2 CONT another Hutson link), Mary (1773-1777), Elizabeth Milner (1775) and John
+2 CONT (1776-1777).
+2 SOUR @S38@
+3 _CONF Secondary
+0 @F48@ FAM
+1 HUSB @I102@
+1 WIFE @I103@
+1 CHIL @I100@
+1 MARR
+2 DATE 13 JUL 1732
+2 PLAC Charles Town, South Carolina
+2 SOUR @S38@
+3 _CONF Secondary
+0 @F49@ FAM
+1 HUSB @I104@
+1 CHIL @I101@
+0 @F50@ FAM
+1 HUSB @I105@
+1 WIFE @I106@
+1 CHIL @I74@
+0 @F51@ FAM
+1 HUSB @I107@
+1 WIFE @I108@
+1 CHIL @I105@
 0 TRLR

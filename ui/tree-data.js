@@ -8,9 +8,9 @@ window.TREE = {
       "note": "This GEDCOM is the canonical, version-controlled source of truth for the\nHutson family tree. Every genealogical fact carries a SOUR citation that\npoints to a SOUR record at the bottom of the file. Custom tags used:\n  _URL  = web address of the source\n  _CONF = confidence level (Primary / Secondary / Tentative / Provided)\n  _ACC  = date the source was accessed\nLiving individuals are recorded with minimal detail (names and\nrelationships only). Run scripts/build.py after editing this file."
     },
     "counts": {
-      "individuals": 86,
-      "families": 39,
-      "sources": 40
+      "individuals": 108,
+      "families": 51,
+      "sources": 41
     }
   },
   "individuals": {
@@ -760,6 +760,21 @@ window.TREE = {
               "source": "S30",
               "page": "Father Charles Woodward Hutson taught \"fifteen years in Texas\" (Texas A&M)",
               "conf": "Tentative",
+              "note": null
+            }
+          ],
+          "type": "RESI",
+          "label": "Residence"
+        },
+        {
+          "date": "1908",
+          "place": "New Orleans, Louisiana, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S42",
+              "page": "His sister Mary: \"When we moved to New Orleans in 1908, my sister, Ethel Hutson, who was already here studying art under Dr. Ellsworth Woodward at Newcomb College...\"",
+              "conf": "Secondary",
               "note": null
             }
           ],
@@ -2435,12 +2450,18 @@ window.TREE = {
         }
       ],
       "notes": [
-        "Great-grand-aunt of Miles; eldest child of Charles Woodward Hutson. Miss\nEthel Hutson of New Orleans sent her father's family records to Jewel Davis\nScarborough, who used them to compile the Lockett genealogy (1951) - so much\nof this tree's Lockett line rests on her care."
+        "Great-grand-aunt of Miles; eldest child of Charles Woodward Hutson. Miss\nEthel Hutson of New Orleans sent her father's family records to Jewel Davis\nScarborough, who used them to compile the Lockett genealogy (1951) - so much\nof this tree's Lockett line rests on her care. By 1908 she was studying art\nat Newcomb College under Ellsworth Woodward, and the rest of the family\nfollowed her from Texas to New Orleans that year."
       ],
       "note_citations": [
         [
           {
             "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S42",
             "page": null,
             "conf": "Secondary",
             "note": null
@@ -2676,14 +2697,29 @@ window.TREE = {
       "id": "I38",
       "names": [
         {
-          "full": "Martha O'Reilly Ferguson",
-          "given": "Martha O'Reilly",
+          "full": "Martha O'Reily Ferguson",
+          "given": "Martha O'Reily",
           "surname": "Ferguson",
           "married": "Hutson"
         }
       ],
       "sex": "F",
       "events": [
+        {
+          "date": "13 DEC 1794",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S38",
+              "page": "\"Martha O'Reily Ferguson, b. Dec. 13, 1794; m., June 2, 1814, Richard Woodward Hutson, son of Thomas and Esther (Maine) Hutson; d. Sept. 1, 1816\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
         {
           "date": "1 SEP 1816",
           "place": null,
@@ -2713,11 +2749,13 @@ window.TREE = {
           }
         ]
       ],
-      "famc": [],
+      "famc": [
+        "F45"
+      ],
       "fams": [
         "F9"
       ],
-      "name": "Martha O'Reilly Ferguson"
+      "name": "Martha O'Reily Ferguson"
     },
     "I39": {
       "id": "I39",
@@ -3265,7 +3303,9 @@ window.TREE = {
           }
         ]
       ],
-      "famc": [],
+      "famc": [
+        "F44"
+      ],
       "fams": [
         "F13"
       ],
@@ -4305,7 +4345,9 @@ window.TREE = {
           }
         ]
       ],
-      "famc": [],
+      "famc": [
+        "F40"
+      ],
       "fams": [
         "F25"
       ],
@@ -4384,7 +4426,7 @@ window.TREE = {
       "sex": "M",
       "events": [],
       "notes": [
-        "5x-great-grandfather of Miles; of Chesterfield County, Virginia; father of\nSusannah Watkins Lockett."
+        "5x-great-grandfather of Miles; of Chesterfield County, Virginia, where he\nwas one of the early county clerks; father of Susannah Watkins Lockett and\nuncle of Francis Watkins, clerk of Prince Edward County."
       ],
       "note_citations": [
         [
@@ -4539,7 +4581,7 @@ window.TREE = {
       "sex": "F",
       "events": [],
       "notes": [
-        "7x-great-grandmother of Miles; of the Marion family, Huguenot settlers of\nSouth Carolina (the family of Revolutionary general Francis Marion, under\nwhom her grandson-in-law Thomas Hutson later served). Her own parents are not\nstated in the sources used here."
+        "7x-great-grandmother of Miles and an AUNT OF GEN. FRANCIS MARION, the\nRevolutionary \"Swamp Fox\" (under whom her granddaughter's husband Thomas\nHutson served). Daughter of the Huguenot refugees Benjamin Marion and Judith\nBaluet, who settled on the Santee River after 1685."
       ],
       "note_citations": [
         [
@@ -4551,7 +4593,9 @@ window.TREE = {
           }
         ]
       ],
-      "famc": [],
+      "famc": [
+        "F50"
+      ],
       "fams": [
         "F33"
       ],
@@ -5193,6 +5237,883 @@ window.TREE = {
         "F39"
       ],
       "name": "Lydia Pettiplace"
+    },
+    "I87": {
+      "id": "I87",
+      "names": [
+        {
+          "full": "Francis Watkins",
+          "given": "Francis",
+          "surname": "Watkins"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": null,
+          "place": null,
+          "value": "Deputy clerk (1767-83) and clerk (1783-1825) of Prince Edward County, Virginia",
+          "citations": [
+            {
+              "source": "S28",
+              "page": "\"Benjamin Watkins, whose nephew, Francis, worked in his office, then later removed to Prince Edward County, where he was Deputy Clerk, 1767-83, and Clerk from 1783-1825\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "OCCU",
+          "label": "Occupation"
+        }
+      ],
+      "notes": [
+        "5x-great-grandfather of Miles; father of Selina Watkins Lockett. Trained in\nthe Chesterfield County clerk's office of his uncle Benjamin Watkins (also\nan ancestor of Miles, through a different line), then served Prince Edward\nCounty as clerk for over forty years; his signature appears on the county's\nmarriage bonds of the period."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F40"
+      ],
+      "name": "Francis Watkins"
+    },
+    "I88": {
+      "id": "I88",
+      "names": [
+        {
+          "full": "Agnes Woodson",
+          "given": "Agnes",
+          "surname": "Woodson",
+          "married": "Watkins"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "5x-great-grandmother of Miles; wife of Francis Watkins of Prince Edward\nCounty; daughter of Richard Woodson and Madelin Michaux."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F41"
+      ],
+      "fams": [
+        "F40"
+      ],
+      "name": "Agnes Woodson"
+    },
+    "I89": {
+      "id": "I89",
+      "names": [
+        {
+          "full": "Richard Woodson",
+          "given": "Richard",
+          "surname": "Woodson"
+        }
+      ],
+      "sex": "M",
+      "events": [],
+      "notes": [
+        "6x-great-grandfather of Miles; of the Woodson family of colonial Virginia;\nhusband of Madelin Michaux."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F41"
+      ],
+      "name": "Richard Woodson"
+    },
+    "I90": {
+      "id": "I90",
+      "names": [
+        {
+          "full": "Madelin Michaux",
+          "given": "Madelin",
+          "surname": "Michaux",
+          "married": "Woodson"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "6x-great-grandmother of Miles; daughter of the Huguenot refugees Abraham\nMichaux and Susanne Richet."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F42"
+      ],
+      "fams": [
+        "F41"
+      ],
+      "name": "Madelin Michaux"
+    },
+    "I91": {
+      "id": "I91",
+      "names": [
+        {
+          "full": "Abraham Michaux",
+          "given": "Abraham",
+          "surname": "Michaux"
+        }
+      ],
+      "sex": "M",
+      "events": [],
+      "notes": [
+        "7x-great-grandfather of Miles; a French Huguenot (Protestant) refugee to\ncolonial Virginia. Only his and his wife's names and refugee status are\nstated in the source used here."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F42"
+      ],
+      "name": "Abraham Michaux"
+    },
+    "I92": {
+      "id": "I92",
+      "names": [
+        {
+          "full": "Susanne Richet",
+          "given": "Susanne",
+          "surname": "Richet",
+          "married": "Michaux"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "7x-great-grandmother of Miles; French Huguenot refugee, wife of Abraham\nMichaux."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F42"
+      ],
+      "name": "Susanne Richet"
+    },
+    "I93": {
+      "id": "I93",
+      "names": [
+        {
+          "full": "Mary Godfrey",
+          "given": "Mary",
+          "surname": "Godfrey",
+          "married": "Woodward"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "8x-great-grandmother of Miles; widow of Robert Browne when she married Dr.\nHenry Woodward; after his death she married a third time (her father's\n1689/90 will calls her \"my Daughter Mary Davis\" and mentions \"her Two former\nHusbands ... Robert Browne and Doct' Henry Woodward\")."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S35",
+            "page": "\"He married Mrs. Mary Browne, widow of Robert Browne and daughter of Col. John Godfrey and his wife Mary\"",
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F43"
+      ],
+      "fams": [
+        "F14"
+      ],
+      "name": "Mary Godfrey"
+    },
+    "I94": {
+      "id": "I94",
+      "names": [
+        {
+          "full": "Col. John Godfrey",
+          "given": "John",
+          "surname": "Godfrey",
+          "prefix": "Col."
+        }
+      ],
+      "sex": "M",
+      "events": [],
+      "notes": [
+        "9x-great-grandfather of Miles; \"one of the most notable men of the Province\"\nof early Carolina. His will, made 12 Mar 1689/90, is recorded in the Court of\nOrdinary records of South Carolina for 1672-1692."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S35",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F43"
+      ],
+      "name": "Col. John Godfrey"
+    },
+    "I95": {
+      "id": "I95",
+      "names": [
+        {
+          "full": "Col. James Stanyarne",
+          "given": "James",
+          "surname": "Stanyarne",
+          "prefix": "Col."
+        }
+      ],
+      "sex": "M",
+      "events": [],
+      "notes": [
+        "8x-great-grandfather of Miles; father of Sarah Stanyarne Woodward and of\nElizabeth Stanyarne, who married John Woodward (so two Woodward brothers\nmarried two Stanyarne sisters)."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S35",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F44"
+      ],
+      "name": "Col. James Stanyarne"
+    },
+    "I96": {
+      "id": "I96",
+      "names": [
+        {
+          "full": "William Cattell Ferguson",
+          "given": "William Cattell",
+          "surname": "Ferguson"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "JAN 1774",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S38",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "16 FEB 1801",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S38",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
+      "notes": [
+        "5x-great-grandfather of Miles; son of Col. Thomas Ferguson and Martha\nO'Reily; married Elizabeth Milner Colcock on 6 Nov 1792 and died at 27,\nleaving daughters Martha O'Reily (b. 1794) and Eliza McK. Ferguson."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S38",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F46"
+      ],
+      "fams": [
+        "F45"
+      ],
+      "name": "William Cattell Ferguson"
+    },
+    "I97": {
+      "id": "I97",
+      "names": [
+        {
+          "full": "Elizabeth Milner Colcock",
+          "given": "Elizabeth Milner",
+          "surname": "Colcock",
+          "married": "Ferguson"
+        }
+      ],
+      "sex": "F",
+      "events": [
+        {
+          "date": "19 SEP 1775",
+          "place": "Charles Town, South Carolina",
+          "value": null,
+          "citations": [
+            {
+              "source": "S38",
+              "page": "\"Elizabeth Milner Colcock, b. 3.30 A.M., Sept. 19, 1775; bap. in St. Michael's, by Rev. Robert Cooper, Sept. 29, 1775\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "18 NOV 1842",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S38",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
+      "notes": [
+        "5x-great-grandmother of Miles; named for her great-aunt Elizabeth (Brewton)\nMilner. Widowed at 25; mother of Martha O'Reily Ferguson Hutson."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S38",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F47"
+      ],
+      "fams": [
+        "F45"
+      ],
+      "name": "Elizabeth Milner Colcock"
+    },
+    "I98": {
+      "id": "I98",
+      "names": [
+        {
+          "full": "Col. Thomas Ferguson",
+          "given": "Thomas",
+          "surname": "Ferguson",
+          "prefix": "Col."
+        }
+      ],
+      "sex": "M",
+      "events": [],
+      "notes": [
+        "6x-great-grandfather of Miles; father of William Cattell Ferguson."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S38",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F46"
+      ],
+      "name": "Col. Thomas Ferguson"
+    },
+    "I99": {
+      "id": "I99",
+      "names": [
+        {
+          "full": "Martha O'Reily",
+          "given": "Martha",
+          "surname": "O'Reily",
+          "married": "Ferguson"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "6x-great-grandmother of Miles; wife of Col. Thomas Ferguson. Her name passed\nto her granddaughter Martha O'Reily Ferguson Hutson."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S38",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F46"
+      ],
+      "name": "Martha O'Reily"
+    },
+    "I100": {
+      "id": "I100",
+      "names": [
+        {
+          "full": "John Colcock",
+          "given": "John",
+          "surname": "Colcock"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "6 JUN 1744",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S38",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "Lawyer, admitted to the Court of Common Pleas, Charles Town, 1767; Secretary of the Charlestown Library Society",
+          "citations": [
+            {
+              "source": "S38",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "OCCU",
+          "label": "Occupation"
+        }
+      ],
+      "notes": [
+        "6x-great-grandfather of Miles; \"Eldest Son and Heir at Law of Captain John\nColcock.\" Married Milicent Jones at St. Michael's Church, Charles Town, 30\nOct 1768."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S38",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F48"
+      ],
+      "fams": [
+        "F47"
+      ],
+      "name": "John Colcock"
+    },
+    "I101": {
+      "id": "I101",
+      "names": [
+        {
+          "full": "Milicent Jones",
+          "given": "Milicent",
+          "surname": "Jones",
+          "married": "Colcock"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "6x-great-grandmother of Miles; daughter of Joseph Jones. At her daughter\nMilicent's baptism (1769) the sponsors were \"her grand-uncle Miles Brewton and\nher grand aunts Mrs Frances (Brewton) Pinckney and Mrs. Elizabeth (Brewton)\nMilner.\" INFERENCE (not stated in the source): the Brewton siblings were\ntherefore aunts and uncles of Milicent Jones or of her husband, most likely\nthrough her mother - which would explain how the name \"Miles Brewton\" entered\nthe family and came down to Miles Brewton Hutson (1889) and Miles Hutson\n(1993). Her will was made in 1835 and proved in 1839."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S38",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F49"
+      ],
+      "fams": [
+        "F47"
+      ],
+      "name": "Milicent Jones"
+    },
+    "I102": {
+      "id": "I102",
+      "names": [
+        {
+          "full": "Capt. John Colcock",
+          "given": "John",
+          "surname": "Colcock",
+          "prefix": "Capt."
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "ABT 1757",
+          "place": "Charles Town, South Carolina",
+          "value": null,
+          "citations": [
+            {
+              "source": "S38",
+              "page": "\"He died at the close of 1756 or early in 1757\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "Sea captain (Charles Town trade, 1730s); merchant; Justice of the Peace (1756)",
+          "citations": [
+            {
+              "source": "S38",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "OCCU",
+          "label": "Occupation"
+        }
+      ],
+      "notes": [
+        "7x-great-grandfather of Miles; \"the founder of a family conspicuous in the\nhistory of South Carolina.\" A sea captain trading between Charles Town,\nLondon and Providence; in 1733 he rescued survivors of the wrecked Spanish\ntreasure fleet and was himself detained at Havana, returning with the first\nwarning of a planned Spanish attack on Port Royal. Married Deborah Milner in\nCharles Town on 13 July 1732; later a merchant and, from 1756, a justice of\nthe peace."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S38",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F48"
+      ],
+      "name": "Capt. John Colcock"
+    },
+    "I103": {
+      "id": "I103",
+      "names": [
+        {
+          "full": "Deborah Milner",
+          "given": "Deborah",
+          "surname": "Milner",
+          "married": "Colcock"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "7x-great-grandmother of Miles; of Charles Town; married Capt. John Colcock\n13 July 1732."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S38",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F48"
+      ],
+      "name": "Deborah Milner"
+    },
+    "I104": {
+      "id": "I104",
+      "names": [
+        {
+          "full": "Joseph Jones",
+          "given": "Joseph",
+          "surname": "Jones"
+        }
+      ],
+      "sex": "M",
+      "events": [],
+      "notes": [
+        "7x-great-grandfather of Miles; father of Milicent Jones Colcock."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S38",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F49"
+      ],
+      "name": "Joseph Jones"
+    },
+    "I105": {
+      "id": "I105",
+      "names": [
+        {
+          "full": "Benjamin Marion",
+          "given": "Benjamin",
+          "surname": "Marion"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": null,
+          "place": "La Chaume, Poitou, France",
+          "value": null,
+          "citations": [
+            {
+              "source": "S38",
+              "page": "\"Benjamin Marion, ne a la Chaume en Poitou, fils de Jean Marion et de Perinne Boutignon\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "AFT 1685",
+          "place": "Santee River, South Carolina",
+          "value": null,
+          "citations": [
+            {
+              "source": "S38",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "IMMI",
+          "label": "Immigration"
+        }
+      ],
+      "notes": [
+        "8x-great-grandfather of Miles and grandfather of Gen. Francis Marion. A\nHuguenot from Poitou who, with his wife Judith Baluet, fled France after the\nRevocation of the Edict of Nantes and settled on the Santee River."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S38",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F51"
+      ],
+      "fams": [
+        "F50"
+      ],
+      "name": "Benjamin Marion"
+    },
+    "I106": {
+      "id": "I106",
+      "names": [
+        {
+          "full": "Judith Baluet",
+          "given": "Judith",
+          "surname": "Baluet",
+          "married": "Marion"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "8x-great-grandmother of Miles and grandmother of Gen. Francis Marion; a\nHuguenot refugee to South Carolina."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S38",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F50"
+      ],
+      "name": "Judith Baluet"
+    },
+    "I107": {
+      "id": "I107",
+      "names": [
+        {
+          "full": "Jean Marion",
+          "given": "Jean",
+          "surname": "Marion"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": null,
+          "place": "Poitou, France",
+          "value": null,
+          "citations": [
+            {
+              "source": "S38",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "RESI",
+          "label": "Residence"
+        }
+      ],
+      "notes": [
+        "9x-great-grandfather of Miles and great-grandfather of Gen. Francis Marion;\nof Poitou, France, named in a French family record as the father of\nBenjamin Marion. Among the earliest named ancestors in the tree."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S38",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F51"
+      ],
+      "name": "Jean Marion"
+    },
+    "I108": {
+      "id": "I108",
+      "names": [
+        {
+          "full": "Perinne Boutignon",
+          "given": "Perinne",
+          "surname": "Boutignon",
+          "married": "Marion"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "9x-great-grandmother of Miles; of Poitou, France; mother of Benjamin Marion."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S38",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F51"
+      ],
+      "name": "Perinne Boutignon"
     }
   },
   "families": {
@@ -5628,7 +6549,7 @@ window.TREE = {
     "F14": {
       "id": "F14",
       "husband": "I48",
-      "wife": null,
+      "wife": "I93",
       "children": [
         "I46"
       ],
@@ -6175,6 +7096,208 @@ window.TREE = {
       ],
       "notes": [],
       "note_citations": []
+    },
+    "F40": {
+      "id": "F40",
+      "husband": "I87",
+      "wife": "I88",
+      "children": [
+        "I67"
+      ],
+      "events": [],
+      "notes": [],
+      "note_citations": []
+    },
+    "F41": {
+      "id": "F41",
+      "husband": "I89",
+      "wife": "I90",
+      "children": [
+        "I88"
+      ],
+      "events": [],
+      "notes": [],
+      "note_citations": []
+    },
+    "F42": {
+      "id": "F42",
+      "husband": "I91",
+      "wife": "I92",
+      "children": [
+        "I90"
+      ],
+      "events": [],
+      "notes": [],
+      "note_citations": []
+    },
+    "F43": {
+      "id": "F43",
+      "husband": "I94",
+      "wife": null,
+      "children": [
+        "I93"
+      ],
+      "events": [],
+      "notes": [
+        "Col. John Godfrey and his wife Mary."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S35",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ]
+    },
+    "F44": {
+      "id": "F44",
+      "husband": "I95",
+      "wife": null,
+      "children": [
+        "I47"
+      ],
+      "events": [],
+      "notes": [],
+      "note_citations": []
+    },
+    "F45": {
+      "id": "F45",
+      "husband": "I96",
+      "wife": "I97",
+      "children": [
+        "I38"
+      ],
+      "events": [
+        {
+          "date": "6 NOV 1792",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S38",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "MARR",
+          "label": "Marriage"
+        }
+      ],
+      "notes": [],
+      "note_citations": []
+    },
+    "F46": {
+      "id": "F46",
+      "husband": "I98",
+      "wife": "I99",
+      "children": [
+        "I96"
+      ],
+      "events": [],
+      "notes": [],
+      "note_citations": []
+    },
+    "F47": {
+      "id": "F47",
+      "husband": "I100",
+      "wife": "I101",
+      "children": [
+        "I97"
+      ],
+      "events": [
+        {
+          "date": "30 OCT 1768",
+          "place": "St. Michael's Church, Charles Town, South Carolina",
+          "value": null,
+          "citations": [
+            {
+              "source": "S38",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "MARR",
+          "label": "Marriage"
+        }
+      ],
+      "notes": [
+        "Children: Milicent (1769), Charles Jones (1771; m. Mary Woodward Hutson -\nanother Hutson link), Mary (1773-1777), Elizabeth Milner (1775) and John\n(1776-1777)."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S38",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ]
+    },
+    "F48": {
+      "id": "F48",
+      "husband": "I102",
+      "wife": "I103",
+      "children": [
+        "I100"
+      ],
+      "events": [
+        {
+          "date": "13 JUL 1732",
+          "place": "Charles Town, South Carolina",
+          "value": null,
+          "citations": [
+            {
+              "source": "S38",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "MARR",
+          "label": "Marriage"
+        }
+      ],
+      "notes": [],
+      "note_citations": []
+    },
+    "F49": {
+      "id": "F49",
+      "husband": "I104",
+      "wife": null,
+      "children": [
+        "I101"
+      ],
+      "events": [],
+      "notes": [],
+      "note_citations": []
+    },
+    "F50": {
+      "id": "F50",
+      "husband": "I105",
+      "wife": "I106",
+      "children": [
+        "I74"
+      ],
+      "events": [],
+      "notes": [],
+      "note_citations": []
+    },
+    "F51": {
+      "id": "F51",
+      "husband": "I107",
+      "wife": "I108",
+      "children": [
+        "I105"
+      ],
+      "events": [],
+      "notes": [],
+      "note_citations": []
     }
   },
   "sources": {
@@ -6541,7 +7664,7 @@ window.TREE = {
     "S38": {
       "id": "S38",
       "title": "\"Capt. John Colcock and Some of His Descendants\"",
-      "author": "South Carolina Historical and Genealogical Magazine",
+      "author": "Salley, A. S., Jr.",
       "publication": "South Carolina Historical and Genealogical Magazine, vol. 3, no. 4 (October 1902), pp. 216-241",
       "url": "https://archive.org/details/jstor-27575005",
       "confidence": "Secondary",
@@ -6577,6 +7700,16 @@ window.TREE = {
       "confidence": "Secondary",
       "accessed": "2026-09-23",
       "note": "\"Some time after the death of Samuel Simon his stepson, Jefferson Martin,\nmarried. Jefferson died a few months after the union and to his widow a\nposthumous child, Jeffreys Martin, was born ... This made Mrs. Julia Martin\nand her daughter Jeffreys the direct legatees of old Samuel Simon.\" Oakland\nTribune (10 Nov 1910) names \"Miss Jeffreys Martin, daughter of Mrs. Moses J.\nLyon, of 1900 Vallejo.\""
+    },
+    "S42": {
+      "id": "S42",
+      "title": "Reminiscence of Mrs. Mary (Hutson) Nelson on Louisiana irises",
+      "author": "Nelson, Mary Lockett Hutson (Mrs. Bernard Stanley Nelson)",
+      "publication": "Bulletin of the American Iris Society; Internet Archive",
+      "url": "https://archive.org/details/bulletinofameri1841unse_0",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "First-person account by Miles Brewton Hutson's sister: \"As a child in\nTexas I had a bed of old blue flags ... When we moved to New Orleans in 1908,\nmy sister, Ethel Hutson, who was already here studying art under Dr.\nEllsworth Woodward at Newcomb College, told us about the wonderful field of\nirises out on Frenchman Street ... my sister-in-law, Adela Nelson, told me\nthat as a child she used to go there on her uncle's back looking for\nirises.\" She was secretary of the New Orleans Garden Society about 1920."
     }
   }
 };
