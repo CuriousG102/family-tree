@@ -4,13 +4,13 @@ window.TREE = {
   "meta": {
     "generated_from": "data/family-tree.ged",
     "header": {
-      "date": "11 JUL 2026",
+      "date": "23 SEP 2026",
       "note": "This GEDCOM is the canonical, version-controlled source of truth for the\nHutson family tree. Every genealogical fact carries a SOUR citation that\npoints to a SOUR record at the bottom of the file. Custom tags used:\n  _URL  = web address of the source\n  _CONF = confidence level (Primary / Secondary / Tentative / Provided)\n  _ACC  = date the source was accessed\nLiving individuals are recorded with minimal detail (names and\nrelationships only). Run scripts/build.py after editing this file."
     },
     "counts": {
-      "individuals": 19,
-      "families": 6,
-      "sources": 10
+      "individuals": 72,
+      "families": 32,
+      "sources": 35
     }
   },
   "individuals": {
@@ -104,6 +104,16 @@ window.TREE = {
       "notes": [
         "Subject of this research. Named as grandchild \"Miles (24)\" in his grandfather\nRichard Neil Hutson's 2017 obituary and as \"nephew, Miles Hutson\" in his uncle\nRichard W. Thompson III's 2013 obituary - the two documents that anchor him to\nboth the Hutson (New Orleans) and Thompson (Texas) lines. Appears to carry the\ngiven name of his paternal great-grandfather, Miles Hutson of New Orleans."
       ],
+      "note_citations": [
+        [
+          {
+            "source": "S4",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
       "famc": [
         "F1"
       ],
@@ -124,6 +134,22 @@ window.TREE = {
       "notes": [
         "LIVING - minimal detail by policy. Father of Miles. Named as son \"John\nCharles Hutson (spouse Hilary)\" in Richard Neil Hutson's 2017 obituary and as\n\"sister, Hilary T. Hutson and husband, John\" in Richard W. Thompson III's 2013\nobituary."
       ],
+      "note_citations": [
+        [
+          {
+            "source": "S4",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S7",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
       "famc": [
         "F2"
       ],
@@ -138,13 +164,36 @@ window.TREE = {
         {
           "full": "Hilary Thompson",
           "given": "Hilary",
-          "surname": "Thompson"
+          "surname": "Thompson",
+          "married": "Hutson"
         }
       ],
       "sex": "F",
       "events": [],
       "notes": [
         "LIVING - minimal detail by policy. Mother of Miles. Maiden name Thompson,\nestablished by the caption \"Brigetta D'Olivio v. Hilary Thompson Hutson\"\n(U.S. Supreme Court docket 23-350; Tex. App. - Dallas No. 05-20-00969-CV),\nwhich identifies her as a child of Richard W. Thompson Jr. and Euvonne R.\nThompson of Collin County, Texas. Also named as spouse \"Hilary\" in Richard\nNeil Hutson's 2017 obituary and as \"sister, Hilary T. Hutson\" in Richard W.\nThompson III's 2013 obituary."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S8",
+            "page": null,
+            "conf": "Primary",
+            "note": null
+          },
+          {
+            "source": "S4",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S7",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
       ],
       "famc": [
         "F3"
@@ -160,13 +209,30 @@ window.TREE = {
         {
           "full": "Jennifer Hutson",
           "given": "Jennifer",
-          "surname": "Hutson"
+          "surname": "Hutson",
+          "nickname": "Jenni"
         }
       ],
       "sex": "F",
       "events": [],
       "notes": [
         "LIVING - minimal detail by policy. Sister of Miles. Named as grandchild\n\"Jennifer (18)\" in Richard Neil Hutson's 2017 obituary and as \"niece,\nJennifer Hutson\" in Richard W. Thompson III's 2013 obituary."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S4",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S7",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
       ],
       "famc": [
         "F1"
@@ -259,10 +325,35 @@ window.TREE = {
           ],
           "type": "BURI",
           "label": "Burial"
+        },
+        {
+          "date": "13 APR 1950",
+          "place": "321 Hillary Street, New Orleans, Orleans Parish, Louisiana, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S13",
+              "page": "ED 36-795, sheet 73, line 21: Richard N., son, M, 21, never married, born La.; electrical engineering instructor, private university",
+              "conf": "Primary",
+              "note": null
+            }
+          ],
+          "type": "RESI",
+          "label": "Residence"
         }
       ],
       "notes": [
         "Paternal grandfather of Miles (\"Neil\"). Youngest of four children and only\nson, raised with three older sisters: Louise (Finke), Charlene (Wilke), and\nMary Jane (Trapolin). At the end of WWII he engineered, installed, and\ninstructed early radar systems on aircraft carriers. Married Joan Liebes for\n56 years (implying a marriage circa 1961). Grandchildren listed in his 2017\nobituary: Zachary (26), Miles (24), Sydnie (22), Jennifer (18), Casey (17),\nShelley (16), Carter (9), Cole (9)."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S4",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
       ],
       "famc": [
         "F4"
@@ -278,19 +369,32 @@ window.TREE = {
         {
           "full": "Joan Liebes",
           "given": "Joan",
-          "surname": "Liebes"
+          "surname": "Liebes",
+          "married": "Hutson"
         }
       ],
       "sex": "F",
       "events": [
         {
           "date": "28 AUG 1931",
-          "place": null,
+          "place": "Portland, Multnomah County, Oregon, USA",
           "value": null,
           "citations": [
             {
               "source": "S5",
               "page": "\"Joan L. Hutson of Dallas, Texas passed away on 1/13/2026 at the age of 94\" (b. Aug 28, 1931 per funeral-home record)",
+              "conf": "Secondary",
+              "note": null
+            },
+            {
+              "source": "S12",
+              "page": "Line 30: Joan, daughter, F, age 18, born Oregon",
+              "conf": "Primary",
+              "note": null
+            },
+            {
+              "source": "S14",
+              "page": "\"Born in Portland, Oregon\"",
               "conf": "Secondary",
               "note": null
             }
@@ -308,16 +412,28 @@ window.TREE = {
               "page": null,
               "conf": "Secondary",
               "note": null
+            },
+            {
+              "source": "S14",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
             }
           ],
           "type": "DEAT",
           "label": "Death"
         },
         {
-          "date": "BEF 1950",
+          "date": "ABT 1935",
           "place": "San Francisco, California, USA",
           "value": null,
           "citations": [
+            {
+              "source": "S14",
+              "page": "\"spent her early childhood in San Francisco before moving to Dallas at age eleven\"",
+              "conf": "Secondary",
+              "note": null
+            },
             {
               "source": "S1",
               "page": "\"My paternal grandmother is ashkenazi by heritage and lived in SF early in her life.\"",
@@ -327,12 +443,87 @@ window.TREE = {
           ],
           "type": "RESI",
           "label": "Residence"
+        },
+        {
+          "date": "27 APR 1950",
+          "place": "4805 [street illegible], Highland Park, Dallas County, Texas, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S12",
+              "page": "ED 57-7, sheet 10, lines 28-30, household of George J. Liebes",
+              "conf": "Primary",
+              "note": null
+            }
+          ],
+          "type": "RESI",
+          "label": "Residence"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "Southern Methodist University; Stanford University (Class of 1951, Education)",
+          "citations": [
+            {
+              "source": "S14",
+              "page": "\"She earned degrees from Southern Methodist University and Stanford University\"",
+              "conf": "Secondary",
+              "note": null
+            },
+            {
+              "source": "S24",
+              "page": "\"Hutson, Mrs. Richard Neil (Joan Liebes) Class '51, Educ.; 3605 Gillon, Dallas, TX 75205\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "EDUC",
+          "label": "Education"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "Schoolteacher; later Personnel and Training, Neiman Marcus",
+          "citations": [
+            {
+              "source": "S14",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "OCCU",
+          "label": "Occupation"
         }
       ],
       "notes": [
-        "Paternal grandmother of Miles. Maiden name Liebes, from \"Joan Liebes Hutson\"\nin her husband's 2017 obituary. Of Ashkenazi Jewish heritage and lived in San\nFrancisco early in her life (per Miles). RESEARCH LEAD (unproven): \"Liebes\" is\na prominent San Francisco German-Jewish family name - H. Liebes & Co., the\nmajor SF furrier founded by Herman Liebes in the 1860s-70s, whose family was\nactive in Congregation Emanu-El. No document yet connects Joan's parents to\nthat family; treat as Tentative until a birth/census record is found."
+        "Paternal grandmother of Miles. Born Joan Liebes in Portland, Oregon, the\ndaughter of George Julien Liebes and Edith (Wormser) Liebes and sister of\nGeorge \"Sonny\" Liebes. Her father was a fur executive from the San Francisco\nfur house H. Liebes & Co. (founded 1864 by her great-grandfather Herman\nLiebes), which also had a Portland store - which explains an Oregon birth.\nThe family was in San Francisco by 1939-40 and moved to Dallas when Joan was\nabout eleven (c. 1942), where her father became a Neiman-Marcus fur buyer and\nvice president. Of Ashkenazi (German/Prussian Jewish) heritage."
       ],
-      "famc": [],
+      "note_citations": [
+        [
+          {
+            "source": "S14",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S12",
+            "page": null,
+            "conf": "Primary",
+            "note": null
+          },
+          {
+            "source": "S4",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F28"
+      ],
       "fams": [
         "F2"
       ],
@@ -413,6 +604,16 @@ window.TREE = {
       "notes": [
         "Maternal grandfather of Miles. The \"Jr.\" suffix and his son's \"III\" establish\nthe family naming line back to a Richard W. Thompson Sr. On 5 May 2018 he\ndeeded his Collin County homestead to himself and his daughter Hilary Thompson\nHutson as joint tenants with right of survivorship, reserving a life estate -\nthe transaction later litigated in D'Olivio v. Hutson. Predeceased by his wife\nEuvonne (2007), his son Richard III (2013), and his daughter Elizabeth Jane."
       ],
+      "note_citations": [
+        [
+          {
+            "source": "S8",
+            "page": null,
+            "conf": "Primary",
+            "note": null
+          }
+        ]
+      ],
       "famc": [
         "F6"
       ],
@@ -464,13 +665,19 @@ window.TREE = {
         },
         {
           "date": "FROM 1973 TO 2007",
-          "place": "Plano, Collin County, Texas, USA",
+          "place": "2916 Creekbend Drive, Plano, Collin County, Texas, USA",
           "value": null,
           "citations": [
             {
               "source": "S8",
               "page": null,
               "conf": "Primary",
+              "note": null
+            },
+            {
+              "source": "S33",
+              "page": "Letter signed \"Euvonne Thompson, 2916 Creekbend\" (4 Dec 1977); \"Richard and Euvonne Thompson\" (16 Apr 1976)",
+              "conf": "Secondary",
               "note": null
             }
           ],
@@ -480,6 +687,16 @@ window.TREE = {
       ],
       "notes": [
         "Maternal grandmother of Miles. Maiden name not yet documented - her rare\ngiven name \"Euvonne\" should make her easy to identify in Texas marriage and\ncensus indexes once those are searched. Mother of Richard W. Thompson III,\nElizabeth Jane, and Hilary Thompson Hutson."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S7",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
       ],
       "famc": [],
       "fams": [
@@ -491,73 +708,227 @@ window.TREE = {
       "id": "I9",
       "names": [
         {
-          "full": "Miles Hutson",
-          "given": "Miles",
+          "full": "Miles Brewton Hutson",
+          "given": "Miles Brewton",
           "surname": "Hutson"
         }
       ],
       "sex": "M",
       "events": [
         {
-          "date": "FROM ABT 1920 TO ABT 1928",
-          "place": "New Orleans, Orleans Parish, Louisiana, USA",
+          "date": "13 DEC 1889",
+          "place": "South Carolina, USA",
           "value": null,
           "citations": [
             {
-              "source": "S4",
-              "page": "\"Neil was born to Miles and Adela Hutson in New Orleans, Louisiana\"",
+              "source": "S28",
+              "page": "Vol. 1, p. 57, entry 2-1-2-5-3-7-9: \"Miles Brewton Hutson, b. Dec. 13th, 1889\"",
               "conf": "Secondary",
+              "note": null
+            },
+            {
+              "source": "S13",
+              "page": "Line 19: age 60, born South Carolina",
+              "conf": "Primary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "ABT 1900",
+          "place": "Bryan / College Station, Brazos County, Texas, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S30",
+              "page": "Father Charles Woodward Hutson taught \"fifteen years in Texas\" (Texas A&M)",
+              "conf": "Tentative",
               "note": null
             }
           ],
           "type": "RESI",
           "label": "Residence"
+        },
+        {
+          "date": "13 APR 1950",
+          "place": "321 Hillary Street, New Orleans, Orleans Parish, Louisiana, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S13",
+              "page": "ED 36-795, sheet 73, line 19: Hutson, Miles B., head, W, M, 60, married, born South Carolina",
+              "conf": "Primary",
+              "note": null
+            }
+          ],
+          "type": "RESI",
+          "label": "Residence"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "Electrical engineer, electric motor repair shop (1950)",
+          "citations": [
+            {
+              "source": "S13",
+              "page": "Line 19: occupation \"Electrical Engineer\", industry \"Electric Motor Repair Shop\"; 5 years college; 1949 wages $5,300",
+              "conf": "Primary",
+              "note": null
+            }
+          ],
+          "type": "OCCU",
+          "label": "Occupation"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "Five years of college (census highest grade \"C5\")",
+          "citations": [
+            {
+              "source": "S13",
+              "page": null,
+              "conf": "Primary",
+              "note": null
+            }
+          ],
+          "type": "EDUC",
+          "label": "Education"
         }
       ],
       "notes": [
-        "Great-grandfather of Miles (the subject), and apparently his namesake. Father\nof four children born in New Orleans circa 1920-1928: Louise, Mary Jane\n(b. 1922), Charlene, and Richard Neil (b. ~1928). Birth, death, and origins not\nyet documented - next step is the 1930/1940 census for Orleans Parish and the\nLouisiana vital-records indexes. The given name recurs across generations\n(grandson Miles Trapolin; great-great-grandson Miles Hutson, the subject)."
+        "Great-grandfather of Miles and his namesake. Full name Miles Brewton Hutson -\n\"Miles Brewton\" is a celebrated Charleston name (the Miles Brewton House,\n1769), reflecting the family's South Carolina low-country roots. Born in\nSouth Carolina, son of Confederate veteran, professor and artist Charles\nWoodward Hutson; raised partly in Texas while his father taught there. Married\nLouise Adela Nelson on 19 July 1919. In 1950 an electrical engineer living at\n321 Hillary Street, New Orleans, with Adela and son Richard Neil. His sister\nMary Lockett Hutson married Bernard Stanley Nelson (1913) - a second\nHutson-Nelson marriage in the same generation.\nUNCONFIRMED MENTIONS (same name, plausible but not proven to be him): \"Miles\nB. Hutson, a Junior\" at Texas A&M in 1908 (The History of the A.&M. College\nTrouble, 1908) and \"2d Lieut. M. B. Hutson\" in 1918 War Department orders."
       ],
-      "famc": [],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S13",
+            "page": null,
+            "conf": "Primary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F7"
+      ],
       "fams": [
         "F4"
       ],
-      "name": "Miles Hutson"
+      "name": "Miles Brewton Hutson"
     },
     "I10": {
       "id": "I10",
       "names": [
         {
-          "full": "Adela Nelson",
-          "given": "Adela",
-          "surname": "Nelson"
+          "full": "Louise Adela Nelson",
+          "given": "Louise Adela",
+          "surname": "Nelson",
+          "married": "Hutson"
         }
       ],
       "sex": "F",
       "events": [
         {
-          "date": "FROM ABT 1920 TO ABT 1928",
-          "place": "New Orleans, Orleans Parish, Louisiana, USA",
+          "date": "ABT 1892",
+          "place": "Louisiana, USA",
           "value": null,
           "citations": [
             {
-              "source": "S6",
-              "page": null,
+              "source": "S13",
+              "page": "Line 20: Adela L., wife, F, 57, married, born La. (census taken April 1950)",
+              "conf": "Primary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "B.A., H. Sophie Newcomb Memorial College (Tulane), 1912; Teaching Fellow in Chemistry, 1913",
+          "citations": [
+            {
+              "source": "S31",
+              "page": "Newcomb Bulletin 1913: \"Adela Nelson, A.B., Teaching Fellow in Chemistry\"; Battle Abbey Scholarship holder; Class of '12",
               "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "EDUC",
+          "label": "Education"
+        },
+        {
+          "date": "13 APR 1950",
+          "place": "321 Hillary Street, New Orleans, Orleans Parish, Louisiana, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S13",
+              "page": null,
+              "conf": "Primary",
               "note": null
             }
           ],
           "type": "RESI",
           "label": "Residence"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "Social worker, child welfare agency (1950)",
+          "citations": [
+            {
+              "source": "S13",
+              "page": "Line 20: \"Social Worker\", \"Child Welfare Agency\"",
+              "conf": "Primary",
+              "note": null
+            }
+          ],
+          "type": "OCCU",
+          "label": "Occupation"
         }
       ],
       "notes": [
-        "Great-grandmother of Miles. Maiden name Nelson, from her daughter Mary Jane's\n2019 obituary: \"born to Miles and Adela (Nelson) Hutson.\" Birth, death, and\norigins not yet documented."
+        "Great-grandmother of Miles. Full name Louise Adela Nelson; married Miles\nBrewton Hutson 19 July 1919. A Newcomb College graduate (1912) who became a\nchemistry teaching fellow - notable for a woman of her era - and later a\nchild-welfare social worker. Her daughter Mary Jane also earned a Newcomb\nscience degree with Phi Beta Kappa. Brother: engineer Laurence K. Nelson of\nNew Orleans (d. 1957), whose obituary names \"a sister, Mrs. Miles B. Hutson.\"\nHer parents are not yet identified."
       ],
-      "famc": [],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S6",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S32",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F32"
+      ],
       "fams": [
         "F4"
       ],
-      "name": "Adela Nelson"
+      "name": "Louise Adela Nelson"
     },
     "I11": {
       "id": "I11",
@@ -565,7 +936,8 @@ window.TREE = {
         {
           "full": "Mary Jane Hutson",
           "given": "Mary Jane",
-          "surname": "Hutson"
+          "surname": "Hutson",
+          "married": "Trapolin"
         }
       ],
       "sex": "F",
@@ -634,6 +1006,16 @@ window.TREE = {
       "notes": [
         "Grand-aunt of Miles (sister of his grandfather Neil); second of the four\nchildren of Miles and Adela (Nelson) Hutson. Married Ivor Ambrose Trapolin on\n27 Aug 1949 at Mater Dolorosa Church, New Orleans. Nine children: Louise\nKuzmich, Therese, Jeanne Kuehn, Peter, Miles, Kathleen Barbee, Charles,\nEdward, and Neil Trapolin. Funeral at Holy Name of Jesus Church, St. Charles\nAve. Phi Beta Kappa - an honor shared three generations later by her\ngrand-nephew Miles."
       ],
+      "note_citations": [
+        [
+          {
+            "source": "S6",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
       "famc": [
         "F4"
       ],
@@ -646,41 +1028,107 @@ window.TREE = {
       "id": "I12",
       "names": [
         {
-          "full": "Louise Hutson",
-          "given": "Louise",
-          "surname": "Hutson"
+          "full": "Louise Adela Hutson",
+          "given": "Louise Adela",
+          "surname": "Hutson",
+          "married": "Finke"
         }
       ],
       "sex": "F",
-      "events": [],
+      "events": [
+        {
+          "date": "29 SEP 1920",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S28",
+              "page": "Entry 2-1-2-5-3-7-9-1: \"Louise Adela Hutson, b. Sept. 29th, 1920\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        }
+      ],
       "notes": [
-        "Grand-aunt of Miles; eldest of the four children of Miles and Adela Hutson\n(named first among Neil's \"three older sisters\" in his 2017 obituary; Mary\nJane, b. 1922, was the second child). Married name Finke. Dates not yet\ndocumented."
+        "Grand-aunt of Miles; eldest of the four children of Miles and Adela Hutson,\nnamed for her mother. Married name Finke (per her brother Neil's 2017\nobituary). Death not yet documented."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S4",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
       ],
       "famc": [
         "F4"
       ],
       "fams": [],
-      "name": "Louise Hutson"
+      "name": "Louise Adela Hutson"
     },
     "I13": {
       "id": "I13",
       "names": [
         {
-          "full": "Charlene Hutson",
-          "given": "Charlene",
-          "surname": "Hutson"
+          "full": "Charleen Ethel Hutson",
+          "given": "Charleen Ethel",
+          "surname": "Hutson",
+          "married": "Wilke"
         }
       ],
       "sex": "F",
-      "events": [],
+      "events": [
+        {
+          "date": "1924",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S28",
+              "page": "Entry 2-1-2-5-3-7-9-3: \"Charleen Ethel Hutson, b. 1924\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        }
+      ],
       "notes": [
-        "Grand-aunt of Miles; one of the three older sisters of Richard Neil Hutson.\nMarried name Wilke. Dates not yet documented."
+        "Grand-aunt of Miles; third child of Miles and Adela Hutson. Spelled\n\"Charleen Ethel\" in the 1951 Lockett genealogy and \"Charlene Wilke\" in her\nbrother Neil's 2017 obituary; her middle name honors her aunt Ethel Hutson.\nDeath not yet documented."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S4",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
       ],
       "famc": [
         "F4"
       ],
       "fams": [],
-      "name": "Charlene Hutson"
+      "name": "Charleen Ethel Hutson"
     },
     "I14": {
       "id": "I14",
@@ -696,6 +1144,16 @@ window.TREE = {
       "notes": [
         "LIVING - minimal detail by policy. Uncle of Miles; son of Neil and Joan\nHutson; named with spouse Nicole in his father's 2017 obituary."
       ],
+      "note_citations": [
+        [
+          {
+            "source": "S4",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
       "famc": [
         "F2"
       ],
@@ -708,13 +1166,24 @@ window.TREE = {
         {
           "full": "Mary Louise Hutson",
           "given": "Mary Louise",
-          "surname": "Hutson"
+          "surname": "Hutson",
+          "married": "Suttles"
         }
       ],
       "sex": "F",
       "events": [],
       "notes": [
         "LIVING - minimal detail by policy. Aunt of Miles; daughter of Neil and Joan\nHutson; named as \"Mary Louise Suttles (spouse Sonny)\" in her father's 2017\nobituary."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S4",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
       ],
       "famc": [
         "F2"
@@ -797,6 +1266,16 @@ window.TREE = {
       "notes": [
         "Uncle of Miles (\"Rick\"). Survived by sons Timothy and Allan (living - not\ndetailed here). His obituary names \"nephew, Miles Hutson and niece, Jennifer\nHutson,\" directly linking the subject to the Thompson line. Services at West\nPlano Presbyterian Church."
       ],
+      "note_citations": [
+        [
+          {
+            "source": "S7",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
       "famc": [
         "F3"
       ],
@@ -833,6 +1312,16 @@ window.TREE = {
       "notes": [
         "Aunt of Miles; sister of Richard W. Thompson III and Hilary Thompson Hutson.\nPredeceased her brother (d. before March 2013). The appellate record likewise\nnotes the Thompsons had \"two living children\" as of Euvonne's death in 2007,\nimplying Elizabeth Jane died before 24 Dec 2007. Dates not yet documented."
       ],
+      "note_citations": [
+        [
+          {
+            "source": "S8",
+            "page": null,
+            "conf": "Primary",
+            "note": null
+          }
+        ]
+      ],
       "famc": [
         "F3"
       ],
@@ -852,6 +1341,22 @@ window.TREE = {
       "events": [],
       "notes": [
         "Great-grandfather of Miles - INFERRED. His existence and name follow from the\ngenerational suffixes: grandson \"Richard W. Thompson III\" and son \"Richard W.\nThompson, Jr.\" require a same-named father. No direct record located yet;\ntreat as Tentative until a census, vital, or obituary record is found."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S7",
+            "page": null,
+            "conf": "Tentative",
+            "note": null
+          },
+          {
+            "source": "S8",
+            "page": null,
+            "conf": "Tentative",
+            "note": null
+          }
+        ]
       ],
       "famc": [],
       "fams": [
@@ -873,11 +1378,2996 @@ window.TREE = {
       "notes": [
         "Husband of Mary Jane Hutson; married 27 Aug 1949 at Mater Dolorosa Church,\nNew Orleans. The Trapolin family remains prominent in New Orleans\n(Trapolin-Peer Architects was founded by their son Peter). Included to anchor\nthe Trapolin branch; his own dates not yet documented."
       ],
+      "note_citations": [
+        [
+          {
+            "source": "S6",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
       "famc": [],
       "fams": [
         "F5"
       ],
       "name": "Ivor Ambrose Trapolin"
+    },
+    "I20": {
+      "id": "I20",
+      "names": [
+        {
+          "full": "George Julien Liebes",
+          "given": "George Julien",
+          "surname": "Liebes"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "ABT 1901",
+          "place": "California, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S12",
+              "page": "Line 28: Liebes, George J., head, W, M, 49, married, born California (census 27 Apr 1950)",
+              "conf": "Primary",
+              "note": null
+            },
+            {
+              "source": "S16",
+              "page": "Described as Julien Liebes's \"thirteen-year-old son, George\" in July 1916, implying b. ~1903",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "1931",
+          "place": "Portland, Multnomah County, Oregon, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S12",
+              "page": "Daughter Joan (b. Aug 1931) born in Oregon",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "RESI",
+          "label": "Residence"
+        },
+        {
+          "date": "1939",
+          "place": "San Francisco, California, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S25",
+              "page": "\"George J Liebes\" listed in the 1939-40 San Francisco numerical (telephone) directory",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "RESI",
+          "label": "Residence"
+        },
+        {
+          "date": "27 APR 1950",
+          "place": "Highland Park, Dallas County, Texas, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S12",
+              "page": "ED 57-7, sheet 10, lines 28-30",
+              "conf": "Primary",
+              "note": null
+            }
+          ],
+          "type": "RESI",
+          "label": "Residence"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "Fur director, specialty store (1950); Vice President and group merchandise director, Neiman-Marcus (elected 1955); Neiman-Marcus fur buyer",
+          "citations": [
+            {
+              "source": "S12",
+              "page": "Line 28: \"Fur Director\", \"Specialty Shop\"",
+              "conf": "Primary",
+              "note": null
+            },
+            {
+              "source": "S22",
+              "page": "\"New officers ... Benjamin Eisner, Jack Goren, George J. Liebes and Dudley Ramsden, group merchandise directors ... all elected vice presidents\"",
+              "conf": "Secondary",
+              "note": null
+            },
+            {
+              "source": "S23",
+              "page": "Stanley Marcus \"whistled when he heard the price, wished Mr. (George J.) Liebes (the buyer) luck\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "OCCU",
+          "label": "Occupation"
+        }
+      ],
+      "notes": [
+        "Great-grandfather of Miles (father of Joan Liebes Hutson). Son of Julien and\nSophie Liebes and grandson of Herman Liebes, founder of H. Liebes & Co. At 13\nhe nearly drowned at Long Beach, California (July 1916) riding on his\nfather's back in the surf; a lifeguard pulled him out, but his father died.\nMarried Edith Wormser in San Francisco, January 1923. Followed the family\nfur trade: Portland (where Joan was born, 1931), San Francisco (1939-40), then\nDallas (c. 1942), where he became Neiman-Marcus's fur buyer and a vice\npresident. In May 1966 he paid a record $1,100 per skin for 40 \"Black\nWillow\" mink at the Hudson's Bay Company auction for an $80,000 coat, and in\n1968 AP reported he paid the highest price for sea-otter pelts since 1911. He\nheaded the Fur Information and Fashion Council's program in 1959.\nIDENTIFICATION: the San Francisco News Letter wedding notice names him \"Mr.\nGeorge Julien Liebes, son of Mrs. Julien Liebes,\" marrying Edith Wormser -\nmatching \"George J. Liebes\" and wife \"Edith M.\" in the 1950 census and\n\"George and Edith Liebes\" in Joan's obituary. The census age (49) implies\nb. ~1901, while the 1916 news report implies ~1903. Death not yet documented."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S15",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S12",
+            "page": null,
+            "conf": "Primary",
+            "note": null
+          },
+          {
+            "source": "S14",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S16",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F29"
+      ],
+      "fams": [
+        "F28"
+      ],
+      "name": "George Julien Liebes"
+    },
+    "I21": {
+      "id": "I21",
+      "names": [
+        {
+          "full": "Edith M. Wormser",
+          "given": "Edith M.",
+          "surname": "Wormser",
+          "married": "Liebes"
+        }
+      ],
+      "sex": "F",
+      "events": [
+        {
+          "date": "ABT 1901",
+          "place": "California, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S12",
+              "page": "Line 29: Edith M., wife, W, F, 49 (possibly 47), married, born California",
+              "conf": "Primary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "27 APR 1950",
+          "place": "Highland Park, Dallas County, Texas, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S12",
+              "page": null,
+              "conf": "Primary",
+              "note": null
+            }
+          ],
+          "type": "RESI",
+          "label": "Residence"
+        }
+      ],
+      "notes": [
+        "Great-grandmother of Miles (mother of Joan Liebes Hutson). \"Miss Edith\nWormser, daughter of Mrs. May Wormser,\" married George Julien Liebes at the\nhome of her cousin Mrs. Sidney Herzog, 1919 Octavia Street, San Francisco,\nin January 1923; the couple honeymooned in southern California and settled\nat the Hotel Fielding. Death not yet documented."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S15",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F31"
+      ],
+      "fams": [
+        "F28"
+      ],
+      "name": "Edith M. Wormser"
+    },
+    "I22": {
+      "id": "I22",
+      "names": [
+        {
+          "full": "George Julien Liebes Jr.",
+          "given": "George Julien",
+          "surname": "Liebes",
+          "nickname": "Sonny"
+        }
+      ],
+      "sex": "M",
+      "events": [],
+      "notes": [
+        "Great-uncle of Miles: Joan's brother, George \"Sonny\" Liebes, named in her\n2026 obituary. Living status unknown, so only\npublished professional facts are recorded: listed as \"Liebes, George J.,\nII, Dallas\" at SMU (1944 Rotunda yearbook) and as a Dallas pediatrician,\n\"Liebes, George J., Jr., 8215 Westchester, Dallas\" (Texas State Journal of\nMedicine, 1957-60) and \"George J. Liebes, 3605 Stanford, Dallas\" (Journal\nof Pediatrics, 1959)."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S14",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S26",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F28"
+      ],
+      "fams": [],
+      "name": "George Julien Liebes Jr."
+    },
+    "I23": {
+      "id": "I23",
+      "names": [
+        {
+          "full": "Julien Liebes",
+          "given": "Julien",
+          "surname": "Liebes"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "ABT 1871",
+          "place": "San Francisco, California, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S17",
+              "page": "\"Julien Liebes, aged 45\" (July 1916)",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "2 JUL 1916",
+          "place": "Long Beach, Los Angeles County, California, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S18",
+              "page": "\"her late husband, Julian Liebes, furrier, who was drowned at Long Beach on July 2d\"",
+              "conf": "Secondary",
+              "note": null
+            },
+            {
+              "source": "S16",
+              "page": "\"HUSBAND IS DROWNED IN SIGHT OF WIFE - Julien Liebes of San Francisco Loses Life at Long Beach\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        },
+        {
+          "date": "1911",
+          "place": "1701 Broadway, San Francisco, California, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S19",
+              "page": "\"Mrs. Sophie Liebes, wife of Julien Liebes, the furrier, in her home at 1701 Broadway\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "RESI",
+          "label": "Residence"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "Vice-president, H. Liebes & Co. (furs and Alaskan fur importers); director, Northern Commercial Company; president, Retail Dry Goods Association of San Francisco",
+          "citations": [
+            {
+              "source": "S16",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "OCCU",
+          "label": "Occupation"
+        }
+      ],
+      "notes": [
+        "Great-great-grandfather of Miles. Son of Herman Liebes, founder of H. Liebes\n& Co. Treasurer (1905) and later vice-president of the family firm; a member\nof the Concordia and Argonaut clubs and a civic leader. On Sunday 2 July\n1916, on vacation at Long Beach, he carried his 13-year-old son George into\nthe surf; a rip tide pulled both under. A lifeguard rescued George, but\nJulien was found clinging to a pier piling and died despite first aid, as his\nwife and younger son Martin watched. His widow Sophie was appointed\nadministratrix of his estate (about $40,000)."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S16",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S17",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S18",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F30"
+      ],
+      "fams": [
+        "F29"
+      ],
+      "name": "Julien Liebes"
+    },
+    "I24": {
+      "id": "I24",
+      "names": [
+        {
+          "full": "Sophie",
+          "given": "Sophie",
+          "surname": "",
+          "married": "Liebes"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "Great-great-grandmother of Miles; wife and widow of Julien Liebes, mother of\nGeorge Julien and Martin Liebes. Maiden name not yet found. A 1910 society\ncolumn identifies her sister as Mrs. M. J. Lyon, wife of the San Francisco\narchitect M. J. Lyon (who designed Julien's 1902 house) and previously the\nwidow of Jeffreys Martin - a likely reason her son was named Martin."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S19",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S18",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S34",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F29"
+      ],
+      "name": "Sophie"
+    },
+    "I25": {
+      "id": "I25",
+      "names": [
+        {
+          "full": "Martin Liebes",
+          "given": "Martin",
+          "surname": "Liebes"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "ABT 1906",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S16",
+              "page": "\"Liebes' other son, Martin, 10 years old\" (July 1916)",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        }
+      ],
+      "notes": [
+        "Great-great-granduncle of Miles; younger son of Julien and Sophie Liebes,\npresent on the beach when his father drowned (1916). A junior tennis\nchampion in San Francisco in the early 1920s (Spalding's Lawn Tennis Annual).\nA \"Mrs. Martin H. Liebes\" appears in the 1939-40 San Francisco directory."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S16",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F29"
+      ],
+      "fams": [],
+      "name": "Martin Liebes"
+    },
+    "I26": {
+      "id": "I26",
+      "names": [
+        {
+          "full": "Herman Liebes",
+          "given": "Herman",
+          "surname": "Liebes"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "1842",
+          "place": "Rawicz, Province of Posen, Prussia (now Poland)",
+          "value": null,
+          "citations": [
+            {
+              "source": "S20",
+              "page": "\"Herman Liebes, born in Rawicz, Prussia, in 1842, came to New York when twenty years of age\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "ABT 1862",
+          "place": "New York, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S20",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "IMMI",
+          "label": "Immigration"
+        },
+        {
+          "date": "OCT 1864",
+          "place": "San Francisco, California, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S20",
+              "page": "\"in October, 1864, they began fur manufacturing in a small way\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "RESI",
+          "label": "Residence"
+        },
+        {
+          "date": "28 FEB 1898",
+          "place": "London, England",
+          "value": null,
+          "citations": [
+            {
+              "source": "S20",
+              "page": "\"Herman Liebes died in London, February 28, 1898\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "Furrier; founder of H. Liebes & Co., San Francisco (1864); organizer of the North American Commercial Company (Alaska fur-seal lease)",
+          "citations": [
+            {
+              "source": "S20",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "OCCU",
+          "label": "Occupation"
+        }
+      ],
+      "notes": [
+        "Great-great-great-grandfather of Miles - the Ashkenazi immigrant ancestor of\nthe Liebes line. Born in Rawicz, Prussia (a Jewish community in the Posen\nprovince, now Poland), he worked briefly for a New York furrier, then with\npartner Charles J. Behlow opened a small fur manufactory in San Francisco in\nOctober 1864. H. Liebes & Co. became the leading fur house on the Pacific\nCoast, with stores in San Francisco and Portland (\"indisputably the largest\ndealers in sealskins in the world\"). He helped organize the North American\nCommercial Company, which held the U.S. Alaska fur-seal lease, owned vessels\ntrading to Alaska, and was active in B'nai B'rith and Congregation Emanu-El.\nThe business was incorporated in 1890 with a capital of $1,000,000."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S20",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S10",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F30"
+      ],
+      "name": "Herman Liebes"
+    },
+    "I27": {
+      "id": "I27",
+      "names": [
+        {
+          "full": "Hannah",
+          "given": "Hannah",
+          "surname": "",
+          "married": "Liebes"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "Great-great-great-grandmother of Miles; wife of Herman Liebes. A 1900 death\nnotice (transcribed on Geni) describes their son George as \"son of the late\nHerman Liebes and Mrs. Hannah Liebes, and brother of Sidney, Julian and\nEdgar A. Liebes.\" Maiden name not yet found."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S36",
+            "page": null,
+            "conf": "Tentative",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F30"
+      ],
+      "name": "Hannah"
+    },
+    "I28": {
+      "id": "I28",
+      "names": [
+        {
+          "full": "George Liebes",
+          "given": "George",
+          "surname": "Liebes"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "6 APR 1900",
+          "place": "German Hospital, San Francisco, California, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S21",
+              "page": "\"GEORGE LIEBES DEAD ... vice president of the firm of H. Liebes & Co. ... died today at the German Hospital of peritonitis ... only 32 years old and was a bachelor\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
+      "notes": [
+        "Great-great-great-granduncle of Miles; son of Herman Liebes, vice-president\nof H. Liebes & Co. and a director of the Alaska Exploration Company. He died\na bachelor at 32 - about a year before his nephew George Julien Liebes was\nborn, who was likely named in his memory (Ashkenazi custom names children\nafter deceased relatives)."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S21",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S36",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F30"
+      ],
+      "fams": [],
+      "name": "George Liebes"
+    },
+    "I29": {
+      "id": "I29",
+      "names": [
+        {
+          "full": "Sidney Liebes",
+          "given": "Sidney",
+          "surname": "Liebes"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "24 OCT 1869",
+          "place": "San Francisco, California, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S36",
+              "page": null,
+              "conf": "Tentative",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "10 MAY 1907",
+          "place": "San Francisco, California, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S36",
+              "page": null,
+              "conf": "Tentative",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
+      "notes": [
+        "Great-great-great-granduncle of Miles; son of Herman Liebes; vice-president\nand secretary of H. Liebes & Co. (1905 directory). Named with his brothers\nGeorge and Julian as \"sons of the late Herman Liebes\" in 1898 estate news.\nDates from a compiled Geni profile (Tentative)."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S36",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F30"
+      ],
+      "fams": [],
+      "name": "Sidney Liebes"
+    },
+    "I30": {
+      "id": "I30",
+      "names": [
+        {
+          "full": "May",
+          "given": "May",
+          "surname": "",
+          "married": "Wormser"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "Great-great-grandmother of Miles; mother of Edith (Wormser) Liebes - \"Miss\nEdith Wormser, daughter of Mrs. May Wormser\" (1923). In 1921 a May Wormser\npetitioned for letters of administration on the San Francisco estate of\nJulius Wormser (see I31). Maiden name not yet found."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S15",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S27",
+            "page": null,
+            "conf": "Tentative",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F31"
+      ],
+      "name": "May"
+    },
+    "I31": {
+      "id": "I31",
+      "names": [
+        {
+          "full": "Julius Wormser",
+          "given": "Julius",
+          "surname": "Wormser"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "BEF FEB 1921",
+          "place": "San Francisco, California, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S27",
+              "page": "\"31119 - Dept 10 - Julius Wormser, let of adm, petn of May Wormser, pers prop about $9190, hearing Feb 23\" (filed Feb. 1921)",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
+      "notes": [
+        "Probable (TENTATIVE) great-great-grandfather of Miles. A May Wormser - the\nname of Edith Wormser's mother - petitioned for administration of Julius\nWormser's San Francisco estate in February 1921, which suggests he was May's\nhusband and Edith's father (her 1923 wedding notice names only her mother,\nconsistent with a recently deceased father). Not yet confirmed by a record\nnaming Julius as Edith's father."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S27",
+            "page": null,
+            "conf": "Tentative",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F31"
+      ],
+      "name": "Julius Wormser"
+    },
+    "I32": {
+      "id": "I32",
+      "names": [
+        {
+          "full": "Charles Woodward Hutson",
+          "given": "Charles Woodward",
+          "surname": "Hutson"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "23 SEP 1840",
+          "place": "Beaufort District, South Carolina, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S29",
+              "page": "Entry 50: \"Charles Woodward Hutson, b. Sept. 23, 1840\"",
+              "conf": "Secondary",
+              "note": null
+            },
+            {
+              "source": "S30",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "27 MAY 1936",
+          "place": "New Orleans, Louisiana, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S30",
+              "page": "\"Charles Woodward Hutson (1840-1936) ... settled finally in New Orleans, La., as an artist and writer\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "South Carolina College (late 1850s)",
+          "citations": [
+            {
+              "source": "S30",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "EDUC",
+          "label": "Education"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "Confederate States Army, 1861-1865 (Hampton's Legion), in Virginia, North Carolina and South Carolina",
+          "citations": [
+            {
+              "source": "S30",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "EVEN",
+          "label": "Military service"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "Teacher and professor in several Southern states, including fifteen years in Texas (Texas A&M); later artist and writer in New Orleans",
+          "citations": [
+            {
+              "source": "S30",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "OCCU",
+          "label": "Occupation"
+        }
+      ],
+      "notes": [
+        "Great-great-grandfather of Miles. Grew up on plantations near McPhersonville\nin Beaufort District, S.C.; attended South Carolina College; served in the\nConfederate army throughout the Civil War (his wartime letters home are\nwidely cited by historians). Married Mary Jane Lockett on 5 July 1871.\nTaught in several Southern states including fifteen years in Texas, then\nsettled in New Orleans, where he became known late in life as a painter and\nwriter; he edited several posthumous collections of Lafcadio Hearn's New\nOrleans writings (Creole Sketches, Fantastics, Editorials). His papers\n(1765-1949) are held by the Southern Historical Collection, UNC Chapel Hill\n(#00362), and his notes on the Lockett family underpin the 1951 genealogy."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S30",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F8"
+      ],
+      "fams": [
+        "F7"
+      ],
+      "name": "Charles Woodward Hutson"
+    },
+    "I33": {
+      "id": "I33",
+      "names": [
+        {
+          "full": "Mary Jane Lockett",
+          "given": "Mary Jane",
+          "surname": "Lockett",
+          "married": "Hutson"
+        }
+      ],
+      "sex": "F",
+      "events": [
+        {
+          "date": "19 OCT 1847",
+          "place": "Alabama, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S28",
+              "page": "Entry 2-1-2-5-3-7: \"Mary Jane Lockett, b. Oct. 19th, 1847, died June 4th, 1916, married July 5th, 1871 Charles Woodward Hutson\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "4 JUN 1916",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S28",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
+      "notes": [
+        "Great-great-grandmother of Miles; daughter of Napoleon Lockett and his cousin\nMary Lockett of Marion, Alabama (the family moved from Virginia to Alabama in\n1838). Sister of Col. Samuel H. Lockett, the Confederate engineer who built\nthe defenses of Vicksburg and Mobile and later helped erect the Statue of\nLiberty. Birthplace inferred from the family's residence in Alabama."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F17"
+      ],
+      "fams": [
+        "F7"
+      ],
+      "name": "Mary Jane Lockett"
+    },
+    "I34": {
+      "id": "I34",
+      "names": [
+        {
+          "full": "Ethel Hutson",
+          "given": "Ethel",
+          "surname": "Hutson"
+        }
+      ],
+      "sex": "F",
+      "events": [
+        {
+          "date": "19 APR 1872",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S28",
+              "page": "Entry 2-1-2-5-3-7-1",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        }
+      ],
+      "notes": [
+        "Great-grand-aunt of Miles; eldest child of Charles Woodward Hutson. Miss\nEthel Hutson of New Orleans sent her father's family records to Jewel Davis\nScarborough, who used them to compile the Lockett genealogy (1951) - so much\nof this tree's Lockett line rests on her care."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F7"
+      ],
+      "fams": [],
+      "name": "Ethel Hutson"
+    },
+    "I35": {
+      "id": "I35",
+      "names": [
+        {
+          "full": "William Ferguson Hutson",
+          "given": "William Ferguson",
+          "surname": "Hutson"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "28 MAR 1815",
+          "place": "South Carolina, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S29",
+              "page": "Entry 20: \"William Ferguson Hutson ... born March 28, 1815\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "16 JUN 1881",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S29",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        },
+        {
+          "date": null,
+          "place": "Stony Creek Church, Beaufort District (now Hampton County), South Carolina, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S29",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BURI",
+          "label": "Burial"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "Lawyer, Beaufort District; later Orangeburg; lieutenant-colonel of Reserves (Confederate)",
+          "citations": [
+            {
+              "source": "S29",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "OCCU",
+          "label": "Occupation"
+        }
+      ],
+      "notes": [
+        "Great-great-great-grandfather of Miles. A prominent lawyer of Beaufort\nDistrict; a delegate to South Carolina's 1860 Secession Convention, a member of\nthe committee that reported the Ordinance of Secession, and a signer of it.\nLieutenant-colonel of Reserves during the Civil War; practiced law in\nOrangeburg afterward. Married Sophronia Lucia Palmer on 11 Feb 1836."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S29",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F9"
+      ],
+      "fams": [
+        "F8"
+      ],
+      "name": "William Ferguson Hutson"
+    },
+    "I36": {
+      "id": "I36",
+      "names": [
+        {
+          "full": "Sophronia Lucia Palmer",
+          "given": "Sophronia Lucia",
+          "surname": "Palmer",
+          "married": "Hutson"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "Great-great-great-grandmother of Miles; daughter of Rev. Edward Palmer and\nSarah Bunce. Recipient (with her husband) of Charles Woodward Hutson's Civil\nWar letters, addressed to \"W.F. and S.L. Hutson.\""
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S29",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F15"
+      ],
+      "fams": [
+        "F8"
+      ],
+      "name": "Sophronia Lucia Palmer"
+    },
+    "I37": {
+      "id": "I37",
+      "names": [
+        {
+          "full": "Richard Woodward Hutson",
+          "given": "Richard Woodward",
+          "surname": "Hutson"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "17 OCT 1788",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S29",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "28 MAY 1866",
+          "place": "Orangeburg, South Carolina, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S29",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "South Carolina College, 1809",
+          "citations": [
+            {
+              "source": "S29",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "EDUC",
+          "label": "Education"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "Planter (Jericho plantation; summer home at McPhersonville)",
+          "citations": [
+            {
+              "source": "S29",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "OCCU",
+          "label": "Occupation"
+        }
+      ],
+      "notes": [
+        "Great-great-great-great-grandfather of Miles. Married (1) 2 June 1814 Martha\nO'Reilly Ferguson, who died 1 Sept 1816 (mother of William Ferguson Hutson);\n(2) Sarah Mikell McLeod. A low-country planter; he fled to Orangeburg ahead\nof Sherman's army in 1865, and his plantation house was burned. Buried in\nthe Presbyterian churchyard at Orangeburg. The family's wealth, like that of\nthe planter families they married into, rested on enslaved labor."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S29",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F10"
+      ],
+      "fams": [
+        "F9"
+      ],
+      "name": "Richard Woodward Hutson"
+    },
+    "I38": {
+      "id": "I38",
+      "names": [
+        {
+          "full": "Martha O'Reilly Ferguson",
+          "given": "Martha O'Reilly",
+          "surname": "Ferguson",
+          "married": "Hutson"
+        }
+      ],
+      "sex": "F",
+      "events": [
+        {
+          "date": "1 SEP 1816",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S29",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
+      "notes": [
+        "Great-great-great-great-grandmother of Miles; first wife of Richard Woodward\nHutson (m. 2 June 1814) and mother of William Ferguson Hutson; died when her\nson was about 18 months old."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S29",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F9"
+      ],
+      "name": "Martha O'Reilly Ferguson"
+    },
+    "I39": {
+      "id": "I39",
+      "names": [
+        {
+          "full": "Thomas Hutson",
+          "given": "Thomas",
+          "surname": "Hutson"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "9 JAN 1750",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S29",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "4 MAY 1789",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S29",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "Captain, then major, of South Carolina militia in the Revolutionary War (Bull's brigade, later under Francis Marion and John Barnwell); colonel afterward",
+          "citations": [
+            {
+              "source": "S29",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "EVEN",
+          "label": "Military service"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "Delegate to the South Carolina convention that ratified the U.S. Constitution (1788)",
+          "citations": [
+            {
+              "source": "S29",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "EVEN",
+          "label": "Political office"
+        }
+      ],
+      "notes": [
+        "5x-great-grandfather of Miles. Inherited Cedar Grove plantation, Beaufort\nDistrict. Married Esther Maine on 21 Oct 1773. Served in the Revolution as a\nmilitia captain and major (his regiment serving under Francis Marion) and was\na member of the 1788 state convention that ratified the Constitution. His\nbrother Richard signed the Articles of Confederation."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S29",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F11"
+      ],
+      "fams": [
+        "F10"
+      ],
+      "name": "Thomas Hutson"
+    },
+    "I40": {
+      "id": "I40",
+      "names": [
+        {
+          "full": "Esther Maine",
+          "given": "Esther",
+          "surname": "Maine",
+          "married": "Hutson"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "5x-great-grandmother of Miles; daughter of William Maine and Judith\nGignilliat (a French Huguenot family of South Carolina). Married Thomas\nHutson on 21 Oct 1773."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S29",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F16"
+      ],
+      "fams": [
+        "F10"
+      ],
+      "name": "Esther Maine"
+    },
+    "I41": {
+      "id": "I41",
+      "names": [
+        {
+          "full": "Rev. William Hutson",
+          "given": "William",
+          "surname": "Hutson",
+          "prefix": "Rev."
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "14 AUG 1720",
+          "place": "England",
+          "value": null,
+          "citations": [
+            {
+              "source": "S29",
+              "page": "\"the son of Thomas and Esther Hutson and was born in England August 14, 1720\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "1740",
+          "place": "America (arrived as an actor)",
+          "value": null,
+          "citations": [
+            {
+              "source": "S29",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "IMMI",
+          "label": "Immigration"
+        },
+        {
+          "date": "11 APR 1761",
+          "place": "Charleston, South Carolina, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S29",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        },
+        {
+          "date": null,
+          "place": "Circular Congregational Church churchyard, Charleston, South Carolina, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S29",
+              "page": "\"his tomb-stone is in the 'Circular' Church-yard, Charleston, just in rear of the church building\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BURI",
+          "label": "Burial"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "Actor; tutor; minister at Stony Creek (1743) and the Circular (Independent Congregational) Church, Charleston (1757)",
+          "citations": [
+            {
+              "source": "S29",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "OCCU",
+          "label": "Occupation"
+        }
+      ],
+      "notes": [
+        "6x-great-grandfather of Miles and founder of the Hutson family of South\nCarolina. Began studying law at the Inns of Court but gave it up and came to\nAmerica as an actor in 1740. Converted by George Whitefield's preaching in\nNew York, he tutored for Hugh Bryan in Charles Town and worked at\nWhitefield's Bethesda Orphan House in Savannah. A church was built for him at\nStony Creek in the Indian Land (Beaufort County) in 1743, and he was called to\nCharleston's Circular Church in 1757. Married (1) 1743 Mrs. Mary (Woodward)\nChardon, who died 1757; (2) 10 Oct 1758 Mrs. Mary (Prioleau) Bryan. The\nfamily arms: \"Per chevron embattled or and vert, three martlets\ncountercharged.\" The surname Hutson is an English patronymic from the\nmedieval given name Hudde (a pet form of Hugh)."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S29",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S3",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F12"
+      ],
+      "fams": [
+        "F11"
+      ],
+      "name": "Rev. William Hutson"
+    },
+    "I42": {
+      "id": "I42",
+      "names": [
+        {
+          "full": "Mary Woodward",
+          "given": "Mary",
+          "surname": "Woodward",
+          "married": "Hutson"
+        }
+      ],
+      "sex": "F",
+      "events": [
+        {
+          "date": "6 DEC 1717",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S35",
+              "page": "\"15 II. Mary Woodward, b. Dec. 6, 1717\" (daughter of Richard Woodward and Sarah Stanyarne)",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "1757",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S29",
+              "page": "\"His first wife dying in 1757\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
+      "notes": [
+        "6x-great-grandmother of Miles. Widow of Isaac Chardon when she married Rev.\nWilliam Hutson in 1743; granddaughter of Dr. Henry Woodward, the first\nEnglish settler in South Carolina."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S29",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F13"
+      ],
+      "fams": [
+        "F11"
+      ],
+      "name": "Mary Woodward"
+    },
+    "I43": {
+      "id": "I43",
+      "names": [
+        {
+          "full": "Thomas Hutson",
+          "given": "Thomas",
+          "surname": "Hutson"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": null,
+          "place": "England",
+          "value": null,
+          "citations": [
+            {
+              "source": "S29",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "RESI",
+          "label": "Residence"
+        }
+      ],
+      "notes": [
+        "7x-great-grandfather of Miles; father of Rev. William Hutson. He entered his\nson at the Inns of Court to study law. Nothing further is recorded."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S29",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F12"
+      ],
+      "name": "Thomas Hutson"
+    },
+    "I44": {
+      "id": "I44",
+      "names": [
+        {
+          "full": "Esther",
+          "given": "Esther",
+          "surname": "",
+          "married": "Hutson"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "7x-great-grandmother of Miles; mother of Rev. William Hutson, of England."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S29",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F12"
+      ],
+      "name": "Esther"
+    },
+    "I45": {
+      "id": "I45",
+      "names": [
+        {
+          "full": "Richard Hutson",
+          "given": "Richard",
+          "surname": "Hutson"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "9 JUL 1748",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S29",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "12 APR 1795",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S29",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "College of New Jersey (Princeton), 1765",
+          "citations": [
+            {
+              "source": "S29",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "EDUC",
+          "label": "Education"
+        }
+      ],
+      "notes": [
+        "5x-great-granduncle of Miles (brother of his ancestor Thomas Hutson). A\ndelegate to the Continental Congress (1778-79) and a SIGNER OF THE ARTICLES\nOF CONFEDERATION; captured at the fall of Charleston (1780) and imprisoned at\nSt. Augustine; lieutenant governor of South Carolina (1782-83); first\nintendant (mayor) of Charleston (1783-84); one of the first three chancellors\nof the Court of Equity. Died unmarried."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S29",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F11"
+      ],
+      "fams": [],
+      "name": "Richard Hutson"
+    },
+    "I46": {
+      "id": "I46",
+      "names": [
+        {
+          "full": "Richard Woodward",
+          "given": "Richard",
+          "surname": "Woodward"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "9 JUN 1683",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S35",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "1725",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S35",
+              "page": "Will dated April 10, 1725, Charleston County Probate Court",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
+      "notes": [
+        "7x-great-grandfather of Miles; son of Dr. Henry Woodward. Married Sarah\nStanyarne, sister of his brother John's wife and daughter of Col. James\nStanyarne. Daughters Elizabeth (b. 1715) and Mary (b. 1717)."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S35",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F14"
+      ],
+      "fams": [
+        "F13"
+      ],
+      "name": "Richard Woodward"
+    },
+    "I47": {
+      "id": "I47",
+      "names": [
+        {
+          "full": "Sarah Stanyarne",
+          "given": "Sarah",
+          "surname": "Stanyarne",
+          "married": "Woodward"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "7x-great-grandmother of Miles; daughter of Col. James Stanyarne. Her will,\nmade 22 Oct 1748 and proved 28 Apr 1750, describes her as \"widow of Richard\nWoodward.\""
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S35",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F13"
+      ],
+      "name": "Sarah Stanyarne"
+    },
+    "I48": {
+      "id": "I48",
+      "names": [
+        {
+          "full": "Dr. Henry Woodward",
+          "given": "Henry",
+          "surname": "Woodward",
+          "prefix": "Dr."
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "ABT 1646",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S35",
+              "page": "\"He was born about 1646\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "BET 1686 AND 1690",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S35",
+              "page": "\"The date of his death is not known, but it was sometime between 1686 and 1690\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
+      "notes": [
+        "8x-great-grandfather of Miles - \"the first English settler in South\nCarolina.\" A surgeon who volunteered to stay among the Native people at Port\nRoyal when Robert Sanford's 1666 expedition departed, learning their languages;\nlater joined the first colonists at Nevis and came with them to Port Royal in\nMarch 1670, serving the new colony at Ashley River as interpreter and Indian\nagent. Married Mrs. Mary Browne, widow of Robert Browne and daughter of Col.\nJohn Godfrey. Sons John (b. 1681) and Richard (b. 1683), daughter Elizabeth."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S35",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F14"
+      ],
+      "name": "Dr. Henry Woodward"
+    },
+    "I49": {
+      "id": "I49",
+      "names": [
+        {
+          "full": "Rev. Edward Palmer",
+          "given": "Edward",
+          "surname": "Palmer",
+          "prefix": "Rev."
+        }
+      ],
+      "sex": "M",
+      "events": [],
+      "notes": [
+        "4x-great-grandfather of Miles; father of Sophronia Lucia Palmer Hutson."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S29",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F15"
+      ],
+      "name": "Rev. Edward Palmer"
+    },
+    "I50": {
+      "id": "I50",
+      "names": [
+        {
+          "full": "Sarah Bunce",
+          "given": "Sarah",
+          "surname": "Bunce",
+          "married": "Palmer"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "4x-great-grandmother of Miles; wife of Rev. Edward Palmer."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S29",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F15"
+      ],
+      "name": "Sarah Bunce"
+    },
+    "I51": {
+      "id": "I51",
+      "names": [
+        {
+          "full": "William Maine",
+          "given": "William",
+          "surname": "Maine"
+        }
+      ],
+      "sex": "M",
+      "events": [],
+      "notes": [
+        "6x-great-grandfather of Miles; father of Esther Maine Hutson."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S29",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F16"
+      ],
+      "name": "William Maine"
+    },
+    "I52": {
+      "id": "I52",
+      "names": [
+        {
+          "full": "Judith Gignilliat",
+          "given": "Judith",
+          "surname": "Gignilliat",
+          "married": "Maine"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "6x-great-grandmother of Miles; of the Gignilliat family, French Huguenot\nsettlers of colonial South Carolina."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S29",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F16"
+      ],
+      "name": "Judith Gignilliat"
+    },
+    "I53": {
+      "id": "I53",
+      "names": [
+        {
+          "full": "Napoleon Lockett",
+          "given": "Napoleon",
+          "surname": "Lockett"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "24 FEB 1813",
+          "place": "Virginia, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S28",
+              "page": "Entry 2-1-2-5-3: \"Napoleon Lockett, b. Feb. 24th, 1813, d. May 20th, 1867\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "20 MAY 1867",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S28",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        },
+        {
+          "date": "1838",
+          "place": "Marion, Perry County, Alabama, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S28",
+              "page": "\"moved to Alabama in 1838\"; wife described as \"Mrs. Napoleon Lockett of Marion, Alabama\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "RESI",
+          "label": "Residence"
+        }
+      ],
+      "notes": [
+        "3x-great-grandfather of Miles. Married his first cousin Mary Lockett\n(daughter of Samuel L. Lockett and Selina Watkins); both were grandchildren\nof Stephen Lockett and Mary Clay. Father of Col. Samuel H. Lockett (engineer\nof the Vicksburg defenses and the Statue of Liberty pedestal work) and Mary\nJane Lockett Hutson."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F18"
+      ],
+      "fams": [
+        "F17"
+      ],
+      "name": "Napoleon Lockett"
+    },
+    "I54": {
+      "id": "I54",
+      "names": [
+        {
+          "full": "Mary Lockett",
+          "given": "Mary",
+          "surname": "Lockett"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "3x-great-grandmother of Miles; wife and first cousin of Napoleon Lockett,\ndaughter of Samuel L. Lockett and Selina Watkins. \"Mrs. Napoleon Lockett of\nMarion, Alabama\" kept family records later used by Charles Woodward Hutson."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F25"
+      ],
+      "fams": [
+        "F17"
+      ],
+      "name": "Mary Lockett"
+    },
+    "I55": {
+      "id": "I55",
+      "names": [
+        {
+          "full": "Dr. Henry Wilson Lockett",
+          "given": "Henry Wilson",
+          "surname": "Lockett",
+          "prefix": "Dr."
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "19 FEB 1775",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S28",
+              "page": "Entry 2-1-2-5: \"Dr. Henry Wilson Lockett, fifth child of Stephen Lockett and Mary Clay, b. Feb. 19th, 1775, d. Sept. 13th, 1846\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "13 SEP 1846",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S28",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        },
+        {
+          "date": "1834",
+          "place": "Powhatan County, Virginia, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S28",
+              "page": "Named administrator of his late wife's estate, Powhatan County, W.B. 9:304, 4 Mar 1834",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "RESI",
+          "label": "Residence"
+        }
+      ],
+      "notes": [
+        "4x-great-grandfather of Miles; a physician of Powhatan County, Virginia.\nMarried (1) 10 Nov 1803 Susannah Watkins; (2) 19 Apr 1838 Jane Byrd Page."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F19"
+      ],
+      "fams": [
+        "F18"
+      ],
+      "name": "Dr. Henry Wilson Lockett"
+    },
+    "I56": {
+      "id": "I56",
+      "names": [
+        {
+          "full": "Susannah Watkins",
+          "given": "Susannah",
+          "surname": "Watkins",
+          "married": "Lockett"
+        }
+      ],
+      "sex": "F",
+      "events": [
+        {
+          "date": "23 MAR 1774",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S28",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "11 MAR 1832",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S28",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
+      "notes": [
+        "4x-great-grandmother of Miles; daughter of Benjamin Watkins of Chesterfield\nCounty, Virginia, and Elizabeth Cary of Warwick County."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F27"
+      ],
+      "fams": [
+        "F18"
+      ],
+      "name": "Susannah Watkins"
+    },
+    "I57": {
+      "id": "I57",
+      "names": [
+        {
+          "full": "Stephen Lockett",
+          "given": "Stephen",
+          "surname": "Lockett"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "14 NOV 1733",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S28",
+              "page": "\"Stephen Lockett was born Nov. 14th, 1733, died Sept. 14th, 1794, married Nov. 2nd, 1760 to Mary Clay\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "14 SEP 1794",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S28",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
+      "notes": [
+        "5x-great-grandfather of Miles - twice over, through both his son Dr. Henry\nWilson Lockett and his son Samuel L. Lockett, whose children (Napoleon and\nMary) married each other. Son of Thomas Lockett III and Judith Townes of\nCumberland County, Virginia."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F20"
+      ],
+      "fams": [
+        "F19"
+      ],
+      "name": "Stephen Lockett"
+    },
+    "I58": {
+      "id": "I58",
+      "names": [
+        {
+          "full": "Mary Clay",
+          "given": "Mary",
+          "surname": "Clay",
+          "married": "Lockett"
+        }
+      ],
+      "sex": "F",
+      "events": [
+        {
+          "date": "22 SEP 1742",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S28",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "5 SEP 1823",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S28",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
+      "notes": [
+        "5x-great-grandmother of Miles (twice over, via two of her sons); daughter of\nCharles Clay and Mary Green of Virginia."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F26"
+      ],
+      "fams": [
+        "F19"
+      ],
+      "name": "Mary Clay"
+    },
+    "I59": {
+      "id": "I59",
+      "names": [
+        {
+          "full": "Thomas Lockett III",
+          "given": "Thomas",
+          "surname": "Lockett"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "ABT 1775",
+          "place": "Cumberland County, Virginia, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S28",
+              "page": "\"Thomas Lockett, Third, died c. 1775\"; will in Cumberland W.B. 2, p. 165 names wife Judith and nine children",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
+      "notes": [
+        "6x-great-grandfather of Miles. In 1773 he and his wife Judith sold 400 acres\non Nut Tree Branch of Swift Creek, Chesterfield County. His will names\nchildren Stephen, Abner, Jacob, Martha Bass, Lucy Stone, Elizabeth, Mary\nGibson, James and David."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F21"
+      ],
+      "fams": [
+        "F20"
+      ],
+      "name": "Thomas Lockett III"
+    },
+    "I60": {
+      "id": "I60",
+      "names": [
+        {
+          "full": "Judith Townes",
+          "given": "Judith",
+          "surname": "Townes",
+          "married": "Lockett"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "6x-great-grandmother of Miles. Some family accounts call her \"Elizabeth\nJudith\"; official records (her husband's will, a 1773 deed) name her Judith."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F20"
+      ],
+      "name": "Judith Townes"
+    },
+    "I61": {
+      "id": "I61",
+      "names": [
+        {
+          "full": "Thomas Lockett II",
+          "given": "Thomas",
+          "surname": "Lockett"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "1746",
+          "place": "Goochland County, Virginia, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S28",
+              "page": "Will dated Nov. 13, 1745, proved March 18, 1745/6 (Goochland D.B. 5:90)",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
+      "notes": [
+        "7x-great-grandfather of Miles. Patented 900 acres on the Appomattox in\nGoochland County (1730) and 200 acres in Amelia (now Prince Edward) County\n(1743). His estate inventory notably included books. Married (1) Martha\nOsborne, his first cousin (b. c. 1662), and (2) Elizabeth; the genealogy does\nnot say which wife was the mother of Thomas III, so no mother is recorded."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F22"
+      ],
+      "fams": [
+        "F21"
+      ],
+      "name": "Thomas Lockett II"
+    },
+    "I62": {
+      "id": "I62",
+      "names": [
+        {
+          "full": "Thomas Lockett I",
+          "given": "Thomas",
+          "surname": "Lockett"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "1686",
+          "place": "Bristol Parish, Henrico County, Colony of Virginia",
+          "value": null,
+          "citations": [
+            {
+              "source": "S28",
+              "page": "Will dated March 27, 1686, proved June 1, 1686 (Henrico Records I, 1677-92, p. 367)",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
+      "notes": [
+        "8x-great-grandfather of Miles and the immigrant ancestor of the Lockett\nline (\"Blood of an Englishman\"). His arrival date is unknown, but he was in\nHenrico County by 1667 and on 1 Apr 1678 \"Thomas and Margaret Lockett were\nwitnesses to a bond.\" In 1679 he was ordered to equip a man for defense of\nthe colony; in 1683 he bought land on the Appomattox River. Family tradition\nholds the early Locketts may have been Quakers."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F22"
+      ],
+      "name": "Thomas Lockett I"
+    },
+    "I63": {
+      "id": "I63",
+      "names": [
+        {
+          "full": "Margaret Osborne",
+          "given": "Margaret",
+          "surname": "Osborne",
+          "married": "Lockett"
+        }
+      ],
+      "sex": "F",
+      "events": [
+        {
+          "date": "1708",
+          "place": "Henrico County, Colony of Virginia",
+          "value": null,
+          "citations": [
+            {
+              "source": "S28",
+              "page": "Will dated May 22, 1708 (Henrico Records 1702-09, p. 99), names all six children",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
+      "notes": [
+        "8x-great-grandmother of Miles; married Thomas Lockett I c. 1667-68. Her\nmaiden name Osborne rests on family tradition: no marriage record exists, and\nthe only official hint is a 1667 assignment of a headright from Thomas Osborne\nto Thomas Lockett, probably a wedding gift."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Tentative",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F23"
+      ],
+      "fams": [
+        "F22"
+      ],
+      "name": "Margaret Osborne"
+    },
+    "I64": {
+      "id": "I64",
+      "names": [
+        {
+          "full": "Thomas Osborne",
+          "given": "Thomas",
+          "surname": "Osborne"
+        }
+      ],
+      "sex": "M",
+      "events": [],
+      "notes": [
+        "TENTATIVE 9x-great-grandfather of Miles. The 1951 genealogy concludes that\nMargaret Osborne Lockett was the daughter of Thomas Osborne \"2nd\" (called\nJr., later Sr.), who in 1667 assigned Thomas Lockett the headright for\ntransporting Alexander Wood - probably at the time of the marriage. The\nauthor states the number of Osborne generations \"can not [be said] with any\ncertainty.\""
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Tentative",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F24"
+      ],
+      "fams": [
+        "F23"
+      ],
+      "name": "Thomas Osborne"
+    },
+    "I65": {
+      "id": "I65",
+      "names": [
+        {
+          "full": "Capt. Thomas Osborne",
+          "given": "Thomas",
+          "surname": "Osborne",
+          "prefix": "Capt."
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "ABT 1590",
+          "place": "England",
+          "value": null,
+          "citations": [
+            {
+              "source": "S28",
+              "page": "\"born in England about the year 1590, but migrated to Virginia in 1619, sailing on the Bona Nova\"",
+              "conf": "Tentative",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "NOV 1619",
+          "place": "Virginia (ship Bona Nova)",
+          "value": null,
+          "citations": [
+            {
+              "source": "S28",
+              "page": null,
+              "conf": "Tentative",
+              "note": null
+            }
+          ],
+          "type": "IMMI",
+          "label": "Immigration"
+        }
+      ],
+      "notes": [
+        "TENTATIVE 10x-great-grandfather of Miles. Came to Virginia in November\n1619 aboard the Bona Nova as one of the settlers for the College Land at\nHenrico; listed as Lieutenant Thomas Osborne in the 1624-25 muster;\nrepresented the College in the House of Burgesses (1625); commissioned\nCaptain by Gov. George Yeardley in 1627 to lead settlers against the\nPowhatan; settled \"Coxendale\" on the James River. The link to Margaret\nOsborne Lockett (as her grandfather) is the compiler's best reconstruction,\nnot a documented fact."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Tentative",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F24"
+      ],
+      "name": "Capt. Thomas Osborne"
+    },
+    "I66": {
+      "id": "I66",
+      "names": [
+        {
+          "full": "Samuel L. Lockett",
+          "given": "Samuel L.",
+          "surname": "Lockett"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "3 JUL 1782",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S28",
+              "page": "Entry 2-1-2-7: \"Samuel L. Lockett, son of Stephen Lockett and Mary Clay, b. July 3rd, 1782, married Jan. 10th, 1811, Selina Watkins\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        }
+      ],
+      "notes": [
+        "4x-great-grandfather of Miles (through his daughter Mary, wife of Napoleon\nLockett). Once a student at Hampden-Sydney College; served as a cornet in the\nPrince Edward militia during the War of 1812."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F19"
+      ],
+      "fams": [
+        "F25"
+      ],
+      "name": "Samuel L. Lockett"
+    },
+    "I67": {
+      "id": "I67",
+      "names": [
+        {
+          "full": "Selina Watkins",
+          "given": "Selina",
+          "surname": "Watkins",
+          "married": "Lockett"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "4x-great-grandmother of Miles; daughter of Francis Watkins and Agnes Woodson\nof Prince Edward County, Virginia. Through Agnes Woodson she descended from\nthe Huguenot refugees Abraham Michaux and Susanne Richet. A cousin (not\nsister) of Susannah Watkins Lockett."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F25"
+      ],
+      "name": "Selina Watkins"
+    },
+    "I68": {
+      "id": "I68",
+      "names": [
+        {
+          "full": "Charles Clay",
+          "given": "Charles",
+          "surname": "Clay"
+        }
+      ],
+      "sex": "M",
+      "events": [],
+      "notes": [
+        "6x-great-grandfather of Miles; father of Mary Clay Lockett."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F26"
+      ],
+      "name": "Charles Clay"
+    },
+    "I69": {
+      "id": "I69",
+      "names": [
+        {
+          "full": "Mary Green",
+          "given": "Mary",
+          "surname": "Green",
+          "married": "Clay"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "6x-great-grandmother of Miles; mother of Mary Clay Lockett."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F26"
+      ],
+      "name": "Mary Green"
+    },
+    "I70": {
+      "id": "I70",
+      "names": [
+        {
+          "full": "Benjamin Watkins",
+          "given": "Benjamin",
+          "surname": "Watkins"
+        }
+      ],
+      "sex": "M",
+      "events": [],
+      "notes": [
+        "5x-great-grandfather of Miles; of Chesterfield County, Virginia; father of\nSusannah Watkins Lockett."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F27"
+      ],
+      "name": "Benjamin Watkins"
+    },
+    "I71": {
+      "id": "I71",
+      "names": [
+        {
+          "full": "Elizabeth Cary",
+          "given": "Elizabeth",
+          "surname": "Cary",
+          "married": "Watkins"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "5x-great-grandmother of Miles; of Warwick County, Virginia."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F27"
+      ],
+      "name": "Elizabeth Cary"
+    },
+    "I72": {
+      "id": "I72",
+      "names": [
+        {
+          "full": "Laurence K. Nelson",
+          "given": "Laurence K.",
+          "surname": "Nelson"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "8 DEC 1957",
+          "place": "Baptist Hospital, New Orleans, Louisiana, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S32",
+              "page": "\"Laurence K. Nelson, 51, an engineer in New Orleans for the past thirty years, died on December 8th in Baptist Hospital\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "Tulane University, B.E. (mechanical and electrical engineering), 1927",
+          "citations": [
+            {
+              "source": "S32",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "EDUC",
+          "label": "Education"
+        }
+      ],
+      "notes": [
+        "Great-granduncle of Miles; brother of Adela Nelson Hutson (\"a sister, Mrs.\nMiles B. Hutson, all of New Orleans\"). Worked for A. M. Lockett & Co. - a firm\nof his sister's Lockett in-laws. Obituary published in the March 1958 issue."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S32",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F32"
+      ],
+      "fams": [],
+      "name": "Laurence K. Nelson"
     }
   },
   "families": {
@@ -892,6 +4382,28 @@ window.TREE = {
       "events": [],
       "notes": [
         "Parents and children per Richard Neil Hutson's 2017 obituary (son John\nCharles Hutson, spouse Hilary; grandchildren Miles and Jennifer) and Richard\nW. Thompson III's 2013 obituary (sister Hilary T. Hutson and husband John;\nnephew Miles Hutson and niece Jennifer Hutson), corroborated directly by\nMiles."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S4",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S7",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S1",
+            "page": null,
+            "conf": "Provided",
+            "note": null
+          }
+        ]
       ]
     },
     "F2": {
@@ -922,6 +4434,16 @@ window.TREE = {
       ],
       "notes": [
         "Richard Neil Hutson and Joan Liebes, married ~56 years at his death in 2017.\nChildren: John Charles, Paul Neil, and Mary Louise."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S4",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
       ]
     },
     "F3": {
@@ -952,6 +4474,16 @@ window.TREE = {
       ],
       "notes": [
         "Richard W. Thompson Jr. and Euvonne R. Thompson, of Abilene (1950s) and later\nPlano/Collin County (from 1973). Children: Richard III (1955-2013), Elizabeth\nJane (d. before 2007), and Hilary (living)."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S8",
+            "page": null,
+            "conf": "Primary",
+            "note": null
+          }
+        ]
       ]
     },
     "F4": {
@@ -966,14 +4498,14 @@ window.TREE = {
       ],
       "events": [
         {
-          "date": "BEF 1922",
-          "place": "probably New Orleans, Louisiana, USA",
+          "date": "19 JUL 1919",
+          "place": null,
           "value": null,
           "citations": [
             {
-              "source": "S6",
-              "page": "Second child Mary Jane born 27 Mar 1922 in New Orleans",
-              "conf": "Tentative",
+              "source": "S28",
+              "page": "Entry 2-1-2-5-3-7-9: \"Miles Brewton Hutson ... married July 19th, 1919, Louise Adela Nelson\"",
+              "conf": "Secondary",
               "note": null
             }
           ],
@@ -983,6 +4515,22 @@ window.TREE = {
       ],
       "notes": [
         "Miles and Adela (Nelson) Hutson of New Orleans. Four children, in order:\nLouise (Finke), Mary Jane (Trapolin, b. 1922 - \"second of four\"), Charlene\n(Wilke), and Richard Neil (b. ~1928, the only boy and youngest, \"raised with\nhis three older sisters\")."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S4",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S6",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
       ]
     },
     "F5": {
@@ -1009,6 +4557,16 @@ window.TREE = {
       ],
       "notes": [
         "Nine children (Trapolin branch, not individually recorded here): Louise\nKuzmich, Therese, Jeanne Kuehn, Peter, Miles, Kathleen Barbee, Charles,\nEdward, and Neil Trapolin; eleven grandchildren and nine great-grandchildren\nas of 2019."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S6",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
       ]
     },
     "F6": {
@@ -1021,6 +4579,613 @@ window.TREE = {
       "events": [],
       "notes": [
         "Inferred link: Richard W. Thompson Sr. as father of Richard W. Thompson Jr.,\nrequired by the Jr./III generational suffixes. Tentative until documented."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S8",
+            "page": null,
+            "conf": "Tentative",
+            "note": null
+          }
+        ]
+      ]
+    },
+    "F7": {
+      "id": "F7",
+      "husband": "I32",
+      "wife": "I33",
+      "children": [
+        "I34",
+        "I9"
+      ],
+      "events": [
+        {
+          "date": "5 JUL 1871",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S28",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "MARR",
+          "label": "Marriage"
+        }
+      ],
+      "notes": [
+        "Charles Woodward Hutson and Mary Jane Lockett. Ten children per the 1951\nLockett genealogy: Ethel (1872), William Ferguson (1874), Henry Lockett\n(1876-1919), Francis Marion (1878-1888), Arthur Cary (1882), twins Sophie\nPalmer and Mary Lockett (1884; Mary m. Bernard Stanley Nelson 1913), Charles\nStanyarne (1887-1891), Miles Brewton (1889) and Albert Lockett (1893). Only\nEthel and Miles Brewton are recorded as individuals here."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ]
+    },
+    "F8": {
+      "id": "F8",
+      "husband": "I35",
+      "wife": "I36",
+      "children": [
+        "I32"
+      ],
+      "events": [
+        {
+          "date": "11 FEB 1836",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S29",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "MARR",
+          "label": "Marriage"
+        }
+      ],
+      "notes": [
+        "Children: Charles Woodward (1840), Emily McLeod (1842; m. Sanders Glover),\nFrances Sophia (1850-1878; m. Rev. John T. McBryde)."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S29",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ]
+    },
+    "F9": {
+      "id": "F9",
+      "husband": "I37",
+      "wife": "I38",
+      "children": [
+        "I35"
+      ],
+      "events": [
+        {
+          "date": "2 JUN 1814",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S29",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "MARR",
+          "label": "Marriage"
+        }
+      ],
+      "notes": [],
+      "note_citations": []
+    },
+    "F10": {
+      "id": "F10",
+      "husband": "I39",
+      "wife": "I40",
+      "children": [
+        "I37"
+      ],
+      "events": [
+        {
+          "date": "21 OCT 1773",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S29",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "MARR",
+          "label": "Marriage"
+        }
+      ],
+      "notes": [
+        "Children: Mary Woodward (1774; m. Charles Jones Colcock), William Maine\n(1777), Esther (1779; m. Alexander Fraser Gregorie), Thomas (1784-1807) and\nRichard Woodward (1788)."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S29",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ]
+    },
+    "F11": {
+      "id": "F11",
+      "husband": "I41",
+      "wife": "I42",
+      "children": [
+        "I45",
+        "I39"
+      ],
+      "events": [
+        {
+          "date": "1743",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S29",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "MARR",
+          "label": "Marriage"
+        }
+      ],
+      "notes": [
+        "Children: Mary (1744; m. Arthur Peronneau), Elizabeth (1746; m. Col. Isaac\nHayne, executed by the British in 1781), Richard (1748), Thomas (1750),\nEsther (1753; m. William Hazzard Wigg) and Anne (1755; m. John Barnwell)."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S29",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ]
+    },
+    "F12": {
+      "id": "F12",
+      "husband": "I43",
+      "wife": "I44",
+      "children": [
+        "I41"
+      ],
+      "events": [],
+      "notes": [],
+      "note_citations": []
+    },
+    "F13": {
+      "id": "F13",
+      "husband": "I46",
+      "wife": "I47",
+      "children": [
+        "I42"
+      ],
+      "events": [],
+      "notes": [],
+      "note_citations": []
+    },
+    "F14": {
+      "id": "F14",
+      "husband": "I48",
+      "wife": null,
+      "children": [
+        "I46"
+      ],
+      "events": [],
+      "notes": [
+        "Dr. Henry Woodward and Mrs. Mary (Godfrey) Browne, daughter of Col. John\nGodfrey. Children: John (1681), Richard (1683), Elizabeth (m. William\nWilkins)."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S35",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ]
+    },
+    "F15": {
+      "id": "F15",
+      "husband": "I49",
+      "wife": "I50",
+      "children": [
+        "I36"
+      ],
+      "events": [],
+      "notes": [],
+      "note_citations": []
+    },
+    "F16": {
+      "id": "F16",
+      "husband": "I51",
+      "wife": "I52",
+      "children": [
+        "I40"
+      ],
+      "events": [],
+      "notes": [],
+      "note_citations": []
+    },
+    "F17": {
+      "id": "F17",
+      "husband": "I53",
+      "wife": "I54",
+      "children": [
+        "I33"
+      ],
+      "events": [],
+      "notes": [
+        "First cousins Napoleon and Mary Lockett. Children included Powhatan, Col.\nSamuel Henry, Dr. William Albert, Susan, Napoleon, Mary Jane (1847), Henry,\nFrances, Charles Clay, Elizabeth Cary (drowned with her husband in the 1900\nGalveston hurricane) and Hetty Minor."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ]
+    },
+    "F18": {
+      "id": "F18",
+      "husband": "I55",
+      "wife": "I56",
+      "children": [
+        "I53"
+      ],
+      "events": [
+        {
+          "date": "10 NOV 1803",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S28",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "MARR",
+          "label": "Marriage"
+        }
+      ],
+      "notes": [],
+      "note_citations": []
+    },
+    "F19": {
+      "id": "F19",
+      "husband": "I57",
+      "wife": "I58",
+      "children": [
+        "I55",
+        "I66"
+      ],
+      "events": [
+        {
+          "date": "2 NOV 1760",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S28",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "MARR",
+          "label": "Marriage"
+        }
+      ],
+      "notes": [],
+      "note_citations": []
+    },
+    "F20": {
+      "id": "F20",
+      "husband": "I59",
+      "wife": "I60",
+      "children": [
+        "I57"
+      ],
+      "events": [],
+      "notes": [],
+      "note_citations": []
+    },
+    "F21": {
+      "id": "F21",
+      "husband": "I61",
+      "wife": null,
+      "children": [
+        "I59"
+      ],
+      "events": [],
+      "notes": [
+        "Mother of Thomas Lockett III not determined: Thomas II married (1) Martha\nOsborne and (2) Elizabeth."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ]
+    },
+    "F22": {
+      "id": "F22",
+      "husband": "I62",
+      "wife": "I63",
+      "children": [
+        "I61"
+      ],
+      "events": [
+        {
+          "date": "ABT 1667",
+          "place": "Henrico County, Colony of Virginia",
+          "value": null,
+          "citations": [
+            {
+              "source": "S28",
+              "page": null,
+              "conf": "Tentative",
+              "note": null
+            }
+          ],
+          "type": "MARR",
+          "label": "Marriage"
+        }
+      ],
+      "notes": [
+        "Children: Benjamin (b. c. 1669; m. Winnifred Pride), Thomas (d. c. 1745),\nJames (c. 1675-1709), Susan (m. William Grigg), Elizabeth (m. Standley) and\nMary (m. Mitchell)."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ]
+    },
+    "F23": {
+      "id": "F23",
+      "husband": "I64",
+      "wife": null,
+      "children": [
+        "I63"
+      ],
+      "events": [],
+      "notes": [
+        "TENTATIVE link - see notes on Margaret Osborne and Thomas Osborne."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Tentative",
+            "note": null
+          }
+        ]
+      ]
+    },
+    "F24": {
+      "id": "F24",
+      "husband": "I65",
+      "wife": null,
+      "children": [
+        "I64"
+      ],
+      "events": [],
+      "notes": [
+        "TENTATIVE link - the compiler's preferred reconstruction of the Henrico\nOsborne generations."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Tentative",
+            "note": null
+          }
+        ]
+      ]
+    },
+    "F25": {
+      "id": "F25",
+      "husband": "I66",
+      "wife": "I67",
+      "children": [
+        "I54"
+      ],
+      "events": [
+        {
+          "date": "10 JAN 1811",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S28",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "MARR",
+          "label": "Marriage"
+        }
+      ],
+      "notes": [],
+      "note_citations": []
+    },
+    "F26": {
+      "id": "F26",
+      "husband": "I68",
+      "wife": "I69",
+      "children": [
+        "I58"
+      ],
+      "events": [],
+      "notes": [],
+      "note_citations": []
+    },
+    "F27": {
+      "id": "F27",
+      "husband": "I70",
+      "wife": "I71",
+      "children": [
+        "I56"
+      ],
+      "events": [],
+      "notes": [],
+      "note_citations": []
+    },
+    "F28": {
+      "id": "F28",
+      "husband": "I20",
+      "wife": "I21",
+      "children": [
+        "I22",
+        "I6"
+      ],
+      "events": [
+        {
+          "date": "14 JAN 1923",
+          "place": "1919 Octavia Street (home of Mrs. Sidney Herzog), San Francisco, California, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S15",
+              "page": "Issue of 20 Jan 1923: \"An interesting little home wedding solemnized Sunday was that of Miss Edith Wormser, daughter of Mrs. May Wormser, and Mr. George Julien Liebes, son of Mrs. Julien Liebes\" (Sunday = 14 Jan 1923, inferred from issue date)",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "MARR",
+          "label": "Marriage"
+        }
+      ],
+      "notes": [],
+      "note_citations": []
+    },
+    "F29": {
+      "id": "F29",
+      "husband": "I23",
+      "wife": "I24",
+      "children": [
+        "I20",
+        "I25"
+      ],
+      "events": [],
+      "notes": [],
+      "note_citations": []
+    },
+    "F30": {
+      "id": "F30",
+      "husband": "I26",
+      "wife": "I27",
+      "children": [
+        "I28",
+        "I29",
+        "I23"
+      ],
+      "events": [],
+      "notes": [
+        "Children of Herman and Hannah Liebes included George (d. 1900), Sidney\n(1869-1907), Julien (c. 1871-1916), Edgar Albert, Leonie (Mrs. Armer) and\nElsie (Mrs. Lee). \"George Liebes, Sidney Liebes and Julian Liebes, sons of\nthe late Herman Liebes\" appear in 1898 estate news."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S36",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ]
+    },
+    "F31": {
+      "id": "F31",
+      "husband": "I31",
+      "wife": "I30",
+      "children": [
+        "I21"
+      ],
+      "events": [],
+      "notes": [
+        "Husband Julius Wormser is TENTATIVE (see I31)."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S27",
+            "page": null,
+            "conf": "Tentative",
+            "note": null
+          }
+        ]
+      ]
+    },
+    "F32": {
+      "id": "F32",
+      "husband": null,
+      "wife": null,
+      "children": [
+        "I10",
+        "I72"
+      ],
+      "events": [],
+      "notes": [
+        "Siblings Adela and Laurence K. Nelson of New Orleans; parents not yet\nidentified."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S32",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
       ]
     }
   },
@@ -1111,9 +5276,9 @@ window.TREE = {
       "author": "Jewish Museum of the American West (JMAW)",
       "publication": "jmaw.org",
       "url": "https://www.jmaw.org/liebes-jewish-fur-san-francisco/",
-      "confidence": "Tentative",
+      "confidence": "Secondary",
       "accessed": "2026-07-11",
-      "note": "Background on the prominent Liebes family of San Francisco: Herman Liebes\n(b. ~1842, German-Jewish immigrant) founded H. Liebes & Co., a leading Pacific\nfur house (\"indisputably the largest dealers in sealskins in the world,\"\n1898-99 catalogue); active in B'nai B'rith and Congregation Emanu-El. Recorded\nas a RESEARCH LEAD for Joan Liebes's ancestry (Ashkenazi, early life in SF) -\nno proven connection yet."
+      "note": "Background on the prominent Liebes family of San Francisco: Herman Liebes\n(b. ~1842, German-Jewish immigrant) founded H. Liebes & Co., a leading Pacific\nfur house (\"indisputably the largest dealers in sealskins in the world,\"\n1898-99 catalogue); active in B'nai B'rith and Congregation Emanu-El.\nFirst recorded (11 Jul 2026) as an unproven lead for Joan Liebes's\nancestry; the link was proven on 23 Sep 2026 via the 1923 Wormser-Liebes\nwedding notice, the 1916 drowning reports and the 1950 census."
     },
     "S11": {
       "id": "S11",
@@ -1124,6 +5289,256 @@ window.TREE = {
       "confidence": "Secondary",
       "accessed": "2026-07-11",
       "note": "Business records for \"Richard W. Thompson, Inc.\" / \"Richard W Thompson Jr\nInc,\" Plano, Texas - an oil & gas producer - supporting his occupation."
+    },
+    "S12": {
+      "id": "S12",
+      "title": "1950 U.S. Census - Liebes household, Highland Park, Dallas County, Texas (ED 57-7, sheet 10)",
+      "author": "U.S. Bureau of the Census (enumerator Victor A. Bergman)",
+      "publication": "National Archives, 1950 Census website (released 2022)",
+      "url": "https://1950census.archives.gov/search/?county=Dallas&ed=57-7&name=Liebes&page=1&state=TX",
+      "confidence": "Primary",
+      "accessed": "2026-09-23",
+      "note": "Original census schedule image, enumerated 27 April 1950. Lines 28-30:\nhouse 4805, dwelling 146 - Liebes, George J., head, W, M, 49, married, born\nCalifornia, worked 48 hrs, \"Fur Director\", \"Specialty Shop\", private\nemployer; Edith M., wife, W, F, 49 (or 47), married, born California;\nJoan, daughter, W, F, 18, never married, born Oregon (sample line: parents\nU.S.-born). Image: 1950census/43290879-Texas/43290879-Texas-081116/\n43290879-Texas-081116-0011.jpg."
+    },
+    "S13": {
+      "id": "S13",
+      "title": "1950 U.S. Census - Hutson household, New Orleans, Orleans Parish, Louisiana (ED 36-795, sheet 73)",
+      "author": "U.S. Bureau of the Census (enumerator James O'Quin Shier)",
+      "publication": "National Archives, 1950 Census website (released 2022)",
+      "url": "https://1950census.archives.gov/search/?county=New%20Orleans%2C%20Orleans%20Parish&ed=36-795&name=Hutson&page=1&state=LA",
+      "confidence": "Primary",
+      "accessed": "2026-09-23",
+      "note": "Original census schedule image, enumerated 13 April 1950. Lines 19-21:\n321 Hillary Street, dwelling 65 - Hutson, Miles B., head, W, M, 60,\nmarried, born South Carolina, 48 hrs, \"Electrical Engineer\", \"Electric Motor\nRepair Shop\" (sample line: parents U.S.-born, 5 years college, 1949 wages\n$5,300); Adela L., wife, W, F, 57, married, born La., 42 hrs, \"Social\nWorker\", \"Child Welfare Agency\"; Richard N., son, W, M, 21, never married,\nborn La., \"Electrical Eng. Instructor\", \"Private University\". Image:\n1950census/43290879-Louisiana/43290879-Louisiana-216299/\n43290879-Louisiana-216299-0017.jpg."
+    },
+    "S14": {
+      "id": "S14",
+      "title": "Obituary of Joan Liebes Hutson (1931-2026)",
+      "author": "The Dallas Morning News (via Legacy.com)",
+      "publication": "obits.dallasnews.com, January 2026",
+      "url": "https://obits.dallasnews.com/us/obituaries/dallasmorningnews/name/joan-hutson-obituary?id=60625475",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "Full obituary. The page itself is behind a bot check, so its content was read\nvia search-engine extracts: \"Joan Liebes Hutson, 94, of Dallas, Texas, passed\naway peacefully on January 13, 2026. Born in Portland, Oregon, Joan spent her\nearly childhood in San Francisco before moving to Dallas at age eleven. She\nwas the daughter of George and Edith Liebes and the beloved sister of George\n'Sonny' Liebes. She earned degrees from Southern Methodist University and\nStanford University, began her career as a schoolteacher, and later worked in\nPersonnel and Training at Neiman Marcus.\" Survivors: children John Charles\nHutson, Paul Neil Hutson, Mary Louise Hutson Suttles; grandchildren Miles,\nJenni, Zachary, Sydnie, Casey, Shelley, Carter and Cole."
+    },
+    "S15": {
+      "id": "S15",
+      "title": "San Francisco News Letter, 20 January 1923 - \"Wormser-Liebes\" wedding notice",
+      "author": "San Francisco News Letter (society column)",
+      "publication": "San Francisco News Letter, Jan.-June 1923; digitized by Internet Archive",
+      "url": "https://archive.org/details/sfnewsletter102unse",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "\"WORMSER-LIEBES - An interesting little home wedding solemnized Sunday was\nthat of Miss Edith Wormser, daughter of Mrs. May Wormser, and Mr. George\nJulien Liebes, son of Mrs. Julien Liebes. The wedding took place at the home\nof the bride's cousin, Mrs. Sidney Herzog, 1919 Octavia street, at 3\no'clock. The young couple have gone south for their honeymoon and will be\naway for two weeks. On their return they will live at the Hotel Fielding.\""
+    },
+    "S16": {
+      "id": "S16",
+      "title": "\"Husband Is Drowned in Sight of Wife: Julien Liebes of San Francisco Loses Life at Long Beach\"",
+      "author": "Richmond Terminal (Richmond, Calif.), 7 July 1916",
+      "publication": "California Revealed / Internet Archive",
+      "url": "https://archive.org/details/cric_007370",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "Contemporary news report: a rip tide at Long Beach \"drew with it Julien\nLiebes, member of the firm of H. Liebes & Co. of this city, and his\nthirteen-year-old son, George. Liebes lost his life, even as his wife and\nanother son looked on. George Liebes was rescued ... Liebes' other son,\nMartin, 10 years old, also was in bathing.\" Julien was vice-president of H.\nLiebes & Co., \"importers and dealers in Alaskan furs,\" a director in the\nNorthern Commercial Company, and a member of the Concordia and Argonaut clubs."
+    },
+    "S17": {
+      "id": "S17",
+      "title": "Los Angeles Times, 3 July 1916 - Long Beach drowning report",
+      "author": "Los Angeles Times",
+      "publication": "Internet Archive",
+      "url": "https://archive.org/details/sim_los-angeles-times_the-los-angeles-times_1916-07-03",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "Reports \"Julien Liebes, aged 45 ... of the Liebes & Co., Post street near\nKearney, San Francisco\" drowned at Long Beach; notes the family had been\ntouring southern California hotels. (OCR text is fragmentary.)"
+    },
+    "S18": {
+      "id": "S18",
+      "title": "The Argonaut (San Francisco), July 1916 - estate of Julian Liebes",
+      "author": "The Argonaut",
+      "publication": "Internet Archive",
+      "url": "https://archive.org/details/argonaut791916sanf",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "\"Mrs. Sophie Liebes has been appointed by Judge Flood as administratrix of\nthe estate of her late husband, Julian Liebes, furrier, who was drowned at\nLong Beach on July 2d. The estate is valued at approximately $40,000.\""
+    },
+    "S19": {
+      "id": "S19",
+      "title": "Oakland Tribune, 25 October 1911 - Liebes household",
+      "author": "Oakland Tribune",
+      "publication": "Internet Archive",
+      "url": "https://archive.org/details/oakland-tribune-1911-10-25",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "Identifies \"Mrs. Sophie Liebes, wife of Julien Liebes, the furrier, in her\nhome at 1701 Broadway\" (San Francisco)."
+    },
+    "S20": {
+      "id": "S20",
+      "title": "The Fur Trade of America and Some of the Men Who Made and Maintain It (pp. 88-89, San Francisco)",
+      "author": "Belden, A. L.",
+      "publication": "New York: Peltries Publishing Co., 1917; digitized by Internet Archive",
+      "url": "https://archive.org/details/furtradeofameric00belduoft",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "\"Herman Liebes, born in Rawicz, Prussia, in 1842, came to New York when\ntwenty years of age ... in company with Charles J. Biehlow went to San\nFrancisco, where, in October, 1864, they began fur manufacturing in a small\nway ... with very handsome stores at San Francisco and Portland; the business\nwas incorporated in 1890 by Herman, Isaac and George Liebes ... Herman Liebes\ndied in London, February 28, 1898.\""
+    },
+    "S21": {
+      "id": "S21",
+      "title": "Oakland Tribune, 7 April 1900 - \"George Liebes Dead\"",
+      "author": "Oakland Tribune (Associated Press)",
+      "publication": "Internet Archive",
+      "url": "https://archive.org/details/oakland-tribune-1900-04-07",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "\"SAN FRANCISCO, April 6. - George Liebes, vice president of the firm of H.\nLiebes & Co., and a director of the Alaska Exploration Company, died today at\nthe German Hospital of peritonitis, following an operation for appendicitis.\nHe was only 32 years old and was a bachelor.\""
+    },
+    "S22": {
+      "id": "S22",
+      "title": "Dallas (magazine), October 1955 - \"Neiman-Marcus Elects Officers\"",
+      "author": "Dallas Chamber of Commerce",
+      "publication": "Dallas, vol. 34 no. 10; digitized by Internet Archive",
+      "url": "https://archive.org/details/sim_dallas_1955-10_34_10",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "\"New officers in the Texas specialty stores corporation are: Benjamin Eisner,\nJack Goren, George J. Liebes and Dudley Ramsden, group merchandise directors\n... all elected vice presidents.\""
+    },
+    "S23": {
+      "id": "S23",
+      "title": "Sikeston Daily Standard, 1 June 1966 - \"Texas - All Mink and a Yard Wide\"",
+      "author": "Sikeston Daily Standard (citing N.Y. Herald Tribune, 7 May 1966)",
+      "publication": "Internet Archive",
+      "url": "https://archive.org/details/sikeston-daily-standard-1966-06-01",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "Neiman-Marcus bought 40 Black Willow mink skins at $1,100 each from the\nHudson's Bay Fur Company auction for an $80,000 coat; Stanley Marcus\n\"whistled when he heard the price, wished Mr. (George J.) Liebes (the buyer)\nluck.\" Related: AP, Feb. 1968 (Appleton Post-Crescent, 1 Feb 1968): the highest\nprice for sea otter pelts since 1911 \"was paid by George Liebes, vice president\nof Neiman-Marcus of Dallas\"; Stores magazine (Jul-Aug 1959): the FIFC program\n\"headed by George Liebes of Neiman Marcus, Dallas.\""
+    },
+    "S24": {
+      "id": "S24",
+      "title": "The Stanford Alumni Directory (1984 and Centennial editions)",
+      "author": "Stanford Alumni Association",
+      "publication": "Internet Archive",
+      "url": "https://archive.org/details/bwb_Y0-BWG-862",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "\"Hutson, Mrs. Richard Neil (Joan Liebes) Class '51, Educ.; 3605 Gillon,\nDallas, TX 75205.\" Links Joan Liebes to Richard Neil Hutson by name."
+    },
+    "S25": {
+      "id": "S25",
+      "title": "San Francisco numerical directory, 1939-40",
+      "author": "Pacific Telephone and Telegraph Co.",
+      "publication": "Internet Archive",
+      "url": "https://archive.org/details/sanfrancisconume193940nume",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "Lists \"George J Liebes\" among San Francisco telephone subscribers, 1939-40;\nalso listed in the 1940 San Francisco house and street directory\n(archive.org/details/sanfranciscohous1940hous)."
+    },
+    "S26": {
+      "id": "S26",
+      "title": "Texas State Journal of Medicine membership rosters (1957-60); SMU Rotunda yearbook (1944)",
+      "author": "Texas Medical Association; Southern Methodist University",
+      "publication": "Internet Archive",
+      "url": "https://archive.org/details/sim_texas-medicine_1958-07_54_7",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "\"Liebes, George J., Jr., 8215 Westchester, Dallas\" (TMA rosters 1957, 1958,\n1960); \"Liebes, George J., II, A, Dallas\" (SMU Rotunda, 1944); \"George J.\nLiebes, 3605 Stanford, Dallas 25, Texas\" (Journal of Pediatrics / Am. J.\nDis. Child., June 1959 - pediatric board list)."
+    },
+    "S27": {
+      "id": "S27",
+      "title": "McCord's Edwards Abstract from Records, February 1921 - probate filings",
+      "author": "McCord's Edwards Abstract (San Francisco legal digest)",
+      "publication": "Internet Archive",
+      "url": "https://archive.org/details/mccords-edwards-abstract-from-records_1922-01-03_no-8933-no-9233",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "Probate entry 31119, Dept 10: \"Julius Wormser, let of adm, petn of May\nWormser, pers prop about $9190, hearing Feb 23.\" Establishes that a May\nWormser administered Julius Wormser's estate; the family relationship to\nEdith is inferred, not stated."
+    },
+    "S28": {
+      "id": "S28",
+      "title": "Southern Kith and Kin: A Record of My Children's Ancestors, Vol. 1: The Locketts",
+      "author": "Scarborough, Jewel Davis (1887-1968)",
+      "publication": "Abilene, Texas: Abilene Printing Co., 1951; digitized by Internet Archive",
+      "url": "https://archive.org/details/southernkithkinr01scar",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "A compiled genealogy of the Lockett family of Virginia, citing Henrico,\nChesterfield, Goochland, Cumberland, Powhatan and Amelia county wills,\ndeeds and parish registers. Its Stephen Lockett chapter was checked against\nrecords supplied by Miss Ethel Hutson of New Orleans, including notes by her\nfather Charles Woodward Hutson. Gives the Hutson entry: \"Miles Brewton\nHutson, b. Dec. 13th, 1889, married July 19th, 1919, Louise Adela Nelson.\"\nCompiled secondary source; the author flags the Osborne generations as\nuncertain."
+    },
+    "S29": {
+      "id": "S29",
+      "title": "\"The Hutson Family of South Carolina\"",
+      "author": "Hutson, William Maine",
+      "publication": "South Carolina Historical and Genealogical Magazine, vol. 9, no. 3 (July 1908), pp. 127-140",
+      "url": "https://archive.org/details/sim_south-carolina-historical-magazine_1908-07_9_3",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "Numbered genealogy of the descendants of Rev. William Hutson (1720-1761),\ncompiled by a family member from family records and tombstones. Covers\nWilliam -> Thomas -> Richard Woodward -> William Ferguson -> Charles\nWoodward Hutson (entry 50, b. 1840). Also on JSTOR Early Journal Content\n(stable id 27575199)."
+    },
+    "S30": {
+      "id": "S30",
+      "title": "Charles Woodward Hutson Papers, 1765-1949 (#00362), Southern Historical Collection",
+      "author": "Wilson Library, University of North Carolina at Chapel Hill",
+      "publication": "UNC finding aid",
+      "url": "https://finding-aids.lib.unc.edu/catalog/00362",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "Archival finding aid: \"Charles Woodward Hutson (1840-1936) grew up on\nplantations in Beaufort District, S.C.; attended South Carolina College;\nserved in the Confederate Army throughout the Civil War in Virginia, North\nCarolina, and South Carolina; was a teacher and professor in several\nsouthern states, including fifteen years in Texas; and settled finally in\nNew Orleans, La., as an artist and writer.\" Notes his father William F.\nHutson signed the South Carolina Ordinance of Secession. See also 64\nParishes (64parishes.org/entry/charles-woodward-hutson)."
+    },
+    "S31": {
+      "id": "S31",
+      "title": "H. Sophie Newcomb Memorial College Bulletin (1908-1913) and Jambalaya yearbooks (1911-1916)",
+      "author": "Newcomb College / Tulane University",
+      "publication": "Internet Archive",
+      "url": "https://archive.org/details/bulletinhsophien1913newc",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "\"Louise Adela Nelson\" holder of the Battle Abbey Scholarship (1908, 1910);\nNewcomb senior, Class of 1912; \"Adela Nelson, A.B., Teaching Fellow in\nChemistry\" (1913); Smith College Catalogue (1934) lists \"Hutson, Adela Nelson,\nB.A. 1912, H. Sophie Newcomb College.\""
+    },
+    "S32": {
+      "id": "S32",
+      "title": "Obituary of Laurence K. Nelson - Heating, Piping and Air Conditioning, March 1958",
+      "author": "American Society of Heating and Air-Conditioning Engineers",
+      "publication": "Heating, Piping and Air Conditioning, vol. 30, no. 3 (March 1958); Internet Archive",
+      "url": "https://archive.org/details/sim_heating-piping-air-conditioning-engineering-hp_heating-piping-and-air-conditi_1958-03_30_3",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "\"Laurence K. Nelson, 51, an engineer in New Orleans for the past thirty\nyears, died on December 8th in Baptist Hospital ... Survivors include his\nwife, Gladys; a daughter, Jean; two sons, Eric and Kent, and a sister, Mrs.\nMiles B. Hutson, all of New Orleans.\""
+    },
+    "S33": {
+      "id": "S33",
+      "title": "Plano Daily Star-Courier, 1976-1977 - Richard and Euvonne Thompson",
+      "author": "Plano Daily Star-Courier",
+      "publication": "Internet Archive",
+      "url": "https://archive.org/details/plano-daily-star-courier-1977-12-04",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "Local news items naming \"Richard and Euvonne Thompson\" (16 Apr 1976) and a\nletter signed \"Euvonne Thompson, 2916 Creekbend\" (4 Dec 1977) - the same\nPlano address as Richard W. Thompson, Inc."
+    },
+    "S34": {
+      "id": "S34",
+      "title": "The Wasp (San Francisco), July-December 1910 - society column",
+      "author": "The Wasp",
+      "publication": "Internet Archive",
+      "url": "https://archive.org/details/waspjulydec1910unse",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "Of an eloping 18-year-old bride: \"Her mother is Mrs. Lyon, wife of a\nwell-known architect, and sister of Mrs. Julien Liebes of the noted firm of\nfurriers. Mrs. Lyon's first husband was named Jeffreys Martin.\""
+    },
+    "S35": {
+      "id": "S35",
+      "title": "\"Dr. Henry Woodward, the First English Settler in South Carolina, and Some of His Descendants\"",
+      "author": "Barnwell, Joseph W.",
+      "publication": "South Carolina Historical and Genealogical Magazine, vol. 8 (1907), pp. 29-41",
+      "url": "https://archive.org/details/jstor-27575150",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "Biography and numbered genealogy citing Charleston probate records. Gives\nDr. Woodward's birth (c. 1646), his arrival with the first colonists (1670),\ndeath between 1686 and 1690, marriage to Mrs. Mary (Godfrey) Browne; son\nRichard (b. 9 June 1683, d. 1725) m. Sarah Stanyarne; their daughter Mary\nb. 6 Dec 1717."
+    },
+    "S36": {
+      "id": "S36",
+      "title": "Liebes family references: 1898 estate news and Geni compiled profiles",
+      "author": "Los Angeles Times / St. Louis Post-Dispatch (18 Mar 1898); Geni.com",
+      "publication": "Internet Archive; geni.com",
+      "url": "https://www.geni.com/people/Sidney-Samuel-Liebes/6000000003403207368",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "1898 wire story on the estate of the North American Commercial Company\nfounder: \"George Liebes, Sidney Liebes and Julian Liebes, sons of the late\nHerman Liebes\" (Primary-era newspaper, Secondary). Geni profile (read via\nsearch extract; site blocks automated access) gives Sidney Liebes b. 24 Oct\n1869, d. 10 May 1907, parents Herman and Hannah Liebes, and quotes a 1900\nnotice of George as \"son of the late Herman Liebes and Mrs. Hannah Liebes.\"\nGeni is a compiled tree: treated as Tentative for dates."
     }
   }
 };

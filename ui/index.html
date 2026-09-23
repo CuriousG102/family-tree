@@ -10,12 +10,12 @@
   <header class="masthead">
     <div class="masthead-inner">
       <div class="brand">
-        <span class="crest">🌳</span>
+        <span class="crest" aria-hidden="true">🌳</span>
         <h1>The Hutson Family Tree</h1>
       </div>
       <p class="subtitle">
-        A sourced, version-controlled genealogy. Every fact below is backed by a
-        citation you can inspect — click any <b>source pill</b> to see exactly
+        A sourced, version-controlled genealogy. Every fact is backed by a
+        citation you can inspect: click any <b>source pill</b> to see exactly
         where the information came from and how confident we are in it.
       </p>
       <div class="counts" id="counts"></div>
@@ -24,6 +24,7 @@
 
   <nav class="tabs" id="tabs">
     <button data-view="pedigree" class="active">Pedigree</button>
+    <button data-view="lines">Family Lines</button>
     <button data-view="people">All People</button>
     <button data-view="sources">Sources</button>
     <button data-view="about">About &amp; Method</button>
@@ -31,22 +32,51 @@
 
   <main>
     <section class="view active" id="view-pedigree">
-      <p class="hint">Ancestor pedigree, rooted at the person the tree was built for. Click a card for full detail and sources. Dashed cards are ancestors not yet documented.</p>
+      <div class="toolbar">
+        <div class="toolbar-left">
+          <span class="toolbar-label">Ancestors of</span>
+          <b id="ped-root-name"></b>
+          <button class="linklike" id="ped-reset" hidden>back to Miles</button>
+        </div>
+        <div class="toolbar-right">
+          <label class="toolbar-label" for="ped-depth">Generations</label>
+          <select id="ped-depth">
+            <option value="4">4</option>
+            <option value="6" selected>6</option>
+            <option value="9">9</option>
+            <option value="99">All</option>
+          </select>
+        </div>
+      </div>
+      <p class="hint">Only documented ancestors are drawn. Click a card for details and sources; use ▸ to expand a branch. Dashed cards are tentative links.</p>
       <div class="pedigree-wrap"><div class="pedigree" id="pedigree"></div></div>
     </section>
 
+    <section class="view" id="view-lines">
+      <p class="hint">Each family surname traced as far back as the records go, oldest generation first. The note under each heading shows how the line connects to Miles.</p>
+      <div id="lines"></div>
+    </section>
+
     <section class="view" id="view-people">
-      <p class="hint">Everyone currently documented in the tree.</p>
+      <div class="toolbar">
+        <input type="search" id="people-search" placeholder="Search names, places, notes…" aria-label="Search people" />
+        <div class="seg" id="people-filter" role="group" aria-label="Filter">
+          <button data-f="all" class="on">Everyone</button>
+          <button data-f="anc">Direct ancestors</button>
+          <button data-f="rel">Other relatives</button>
+        </div>
+      </div>
       <div class="people-grid" id="people-grid"></div>
     </section>
 
     <section class="view" id="view-sources">
-      <p class="hint">The full bibliography. Confidence reflects how directly the source establishes the fact.</p>
-      <div class="legend">
-        <div class="item"><span class="dot" style="background:var(--conf-primary)"></span> Primary — original record / first-hand</div>
-        <div class="item"><span class="dot" style="background:var(--conf-secondary)"></span> Secondary — derived / published</div>
-        <div class="item"><span class="dot" style="background:var(--conf-tentative)"></span> Tentative — plausible, unconfirmed</div>
-        <div class="item"><span class="dot" style="background:var(--conf-provided)"></span> Provided — supplied by the family</div>
+      <p class="hint">The full bibliography. Confidence reflects how directly the source establishes the facts it is cited for.</p>
+      <div class="seg legend-seg" id="source-filter" role="group" aria-label="Filter by confidence">
+        <button data-c="all" class="on">All</button>
+        <button data-c="Primary"><span class="dot" style="background:var(--conf-primary)"></span>Primary</button>
+        <button data-c="Secondary"><span class="dot" style="background:var(--conf-secondary)"></span>Secondary</button>
+        <button data-c="Tentative"><span class="dot" style="background:var(--conf-tentative)"></span>Tentative</button>
+        <button data-c="Provided"><span class="dot" style="background:var(--conf-provided)"></span>Provided</button>
       </div>
       <div id="sources-list"></div>
     </section>
@@ -60,6 +90,7 @@
   <aside class="drawer" id="drawer" aria-hidden="true">
     <div class="drawer-head">
       <div>
+        <div class="d-rel" id="d-rel"></div>
         <h2 id="d-name"></h2>
         <div class="sub" id="d-sub"></div>
       </div>
@@ -71,7 +102,7 @@
   <footer>
     Generated from <code class="inline">data/family-tree.ged</code> (GEDCOM 5.5.1) ·
     Rebuild with <code class="inline">python3 scripts/build.py</code> ·
-    This is a private research document; treat living individuals' details with care.
+    A private research document: details of living people are kept minimal.
   </footer>
 
   <script src="tree-data.js"></script>

@@ -6,7 +6,7 @@
 2 VERS 5.5.1
 2 FORM LINEAGE-LINKED
 1 CHAR UTF-8
-1 DATE 11 JUL 2026
+1 DATE 23 SEP 2026
 1 LANG English
 1 SUBM @SUBM1@
 1 NOTE This GEDCOM is the canonical, version-controlled source of truth for the
@@ -120,6 +120,12 @@
 2 PLAC Calvary Hill Cemetery, Dallas, Texas, USA (memorial service, Calvary Hill North Chapel)
 2 SOUR @S4@
 3 _CONF Secondary
+1 RESI
+2 DATE 13 APR 1950
+2 PLAC 321 Hillary Street, New Orleans, Orleans Parish, Louisiana, USA
+2 SOUR @S13@
+3 PAGE ED 36-795, sheet 73, line 21: Richard N., son, M, 21, never married, born La.; electrical engineering instructor, private university
+3 _CONF Primary
 1 NOTE Paternal grandfather of Miles ("Neil"). Youngest of four children and only
 2 CONT son, raised with three older sisters: Louise (Finke), Charlene (Wilke), and
 2 CONT Mary Jane (Trapolin). At the end of WWII he engineered, installed, and
@@ -133,34 +139,66 @@
 1 NAME Joan /Liebes/
 2 _MARNM Hutson
 1 SEX F
+1 FAMC @F28@
 1 FAMS @F2@
 1 BIRT
 2 DATE 28 AUG 1931
+2 PLAC Portland, Multnomah County, Oregon, USA
 2 SOUR @S5@
 3 PAGE "Joan L. Hutson of Dallas, Texas passed away on 1/13/2026 at the age of 94" (b. Aug 28, 1931 per funeral-home record)
+3 _CONF Secondary
+2 SOUR @S12@
+3 PAGE Line 30: Joan, daughter, F, age 18, born Oregon
+3 _CONF Primary
+2 SOUR @S14@
+3 PAGE "Born in Portland, Oregon"
 3 _CONF Secondary
 1 DEAT
 2 DATE 13 JAN 2026
 2 PLAC Dallas, Dallas County, Texas, USA
 2 SOUR @S5@
 3 _CONF Secondary
+2 SOUR @S14@
+3 _CONF Secondary
 1 RESI
-2 DATE BEF 1950
+2 DATE ABT 1935
 2 PLAC San Francisco, California, USA
+2 SOUR @S14@
+3 PAGE "spent her early childhood in San Francisco before moving to Dallas at age eleven"
+3 _CONF Secondary
 2 SOUR @S1@
 3 PAGE "My paternal grandmother is ashkenazi by heritage and lived in SF early in her life."
 3 _CONF Provided
-1 NOTE Paternal grandmother of Miles. Maiden name Liebes, from "Joan Liebes Hutson"
-2 CONT in her husband's 2017 obituary. Of Ashkenazi Jewish heritage and lived in San
-2 CONT Francisco early in her life (per Miles). RESEARCH LEAD (unproven): "Liebes" is
-2 CONT a prominent San Francisco German-Jewish family name - H. Liebes & Co., the
-2 CONT major SF furrier founded by Herman Liebes in the 1860s-70s, whose family was
-2 CONT active in Congregation Emanu-El. No document yet connects Joan's parents to
-2 CONT that family; treat as Tentative until a birth/census record is found.
+1 RESI
+2 DATE 27 APR 1950
+2 PLAC 4805 [street illegible], Highland Park, Dallas County, Texas, USA
+2 SOUR @S12@
+3 PAGE ED 57-7, sheet 10, lines 28-30, household of George J. Liebes
+3 _CONF Primary
+1 EDUC Southern Methodist University; Stanford University (Class of 1951, Education)
+2 SOUR @S14@
+3 PAGE "She earned degrees from Southern Methodist University and Stanford University"
+3 _CONF Secondary
+2 SOUR @S24@
+3 PAGE "Hutson, Mrs. Richard Neil (Joan Liebes) Class '51, Educ.; 3605 Gillon, Dallas, TX 75205"
+3 _CONF Secondary
+1 OCCU Schoolteacher; later Personnel and Training, Neiman Marcus
+2 SOUR @S14@
+3 _CONF Secondary
+1 NOTE Paternal grandmother of Miles. Born Joan Liebes in Portland, Oregon, the
+2 CONT daughter of George Julien Liebes and Edith (Wormser) Liebes and sister of
+2 CONT George "Sonny" Liebes. Her father was a fur executive from the San Francisco
+2 CONT fur house H. Liebes & Co. (founded 1864 by her great-grandfather Herman
+2 CONT Liebes), which also had a Portland store - which explains an Oregon birth.
+2 CONT The family was in San Francisco by 1939-40 and moved to Dallas when Joan was
+2 CONT about eleven (c. 1942), where her father became a Neiman-Marcus fur buyer and
+2 CONT vice president. Of Ashkenazi (German/Prussian Jewish) heritage.
+2 SOUR @S14@
+3 _CONF Secondary
+2 SOUR @S12@
+3 _CONF Primary
 2 SOUR @S4@
 3 _CONF Secondary
-2 SOUR @S10@
-3 _CONF Tentative
 0 @I7@ INDI
 1 NAME Richard W. /Thompson/ Jr.
 1 SEX M
@@ -212,9 +250,12 @@
 3 _CONF Secondary
 1 RESI
 2 DATE FROM 1973 TO 2007
-2 PLAC Plano, Collin County, Texas, USA
+2 PLAC 2916 Creekbend Drive, Plano, Collin County, Texas, USA
 2 SOUR @S8@
 3 _CONF Primary
+2 SOUR @S33@
+3 PAGE Letter signed "Euvonne Thompson, 2916 Creekbend" (4 Dec 1977); "Richard and Euvonne Thompson" (16 Apr 1976)
+3 _CONF Secondary
 1 NOTE Maternal grandmother of Miles. Maiden name not yet documented - her rare
 2 CONT given name "Euvonne" should make her easy to identify in Texas marriage and
 2 CONT census indexes once those are searched. Mother of Richard W. Thompson III,
@@ -222,39 +263,91 @@
 2 SOUR @S7@
 3 _CONF Secondary
 0 @I9@ INDI
-1 NAME Miles /Hutson/
+1 NAME Miles Brewton /Hutson/
 1 SEX M
+1 FAMC @F7@
 1 FAMS @F4@
+1 BIRT
+2 DATE 13 DEC 1889
+2 PLAC South Carolina, USA
+2 SOUR @S28@
+3 PAGE Vol. 1, p. 57, entry 2-1-2-5-3-7-9: "Miles Brewton Hutson, b. Dec. 13th, 1889"
+3 _CONF Secondary
+2 SOUR @S13@
+3 PAGE Line 19: age 60, born South Carolina
+3 _CONF Primary
 1 RESI
-2 DATE FROM ABT 1920 TO ABT 1928
-2 PLAC New Orleans, Orleans Parish, Louisiana, USA
-2 SOUR @S4@
-3 PAGE "Neil was born to Miles and Adela Hutson in New Orleans, Louisiana"
+2 DATE ABT 1900
+2 PLAC Bryan / College Station, Brazos County, Texas, USA
+2 SOUR @S30@
+3 PAGE Father Charles Woodward Hutson taught "fifteen years in Texas" (Texas A&M)
+3 _CONF Tentative
+1 RESI
+2 DATE 13 APR 1950
+2 PLAC 321 Hillary Street, New Orleans, Orleans Parish, Louisiana, USA
+2 SOUR @S13@
+3 PAGE ED 36-795, sheet 73, line 19: Hutson, Miles B., head, W, M, 60, married, born South Carolina
+3 _CONF Primary
+1 OCCU Electrical engineer, electric motor repair shop (1950)
+2 SOUR @S13@
+3 PAGE Line 19: occupation "Electrical Engineer", industry "Electric Motor Repair Shop"; 5 years college; 1949 wages $5,300
+3 _CONF Primary
+1 EDUC Five years of college (census highest grade "C5")
+2 SOUR @S13@
+3 _CONF Primary
+1 NOTE Great-grandfather of Miles and his namesake. Full name Miles Brewton Hutson -
+2 CONT "Miles Brewton" is a celebrated Charleston name (the Miles Brewton House,
+2 CONT 1769), reflecting the family's South Carolina low-country roots. Born in
+2 CONT South Carolina, son of Confederate veteran, professor and artist Charles
+2 CONT Woodward Hutson; raised partly in Texas while his father taught there. Married
+2 CONT Louise Adela Nelson on 19 July 1919. In 1950 an electrical engineer living at
+2 CONT 321 Hillary Street, New Orleans, with Adela and son Richard Neil. His sister
+2 CONT Mary Lockett Hutson married Bernard Stanley Nelson (1913) - a second
+2 CONT Hutson-Nelson marriage in the same generation.
+2 CONT UNCONFIRMED MENTIONS (same name, plausible but not proven to be him): "Miles
+2 CONT B. Hutson, a Junior" at Texas A&M in 1908 (The History of the A.&M. College
+2 CONT Trouble, 1908) and "2d Lieut. M. B. Hutson" in 1918 War Department orders.
+2 SOUR @S28@
 3 _CONF Secondary
-1 NOTE Great-grandfather of Miles (the subject), and apparently his namesake. Father
-2 CONT of four children born in New Orleans circa 1920-1928: Louise, Mary Jane
-2 CONT (b. 1922), Charlene, and Richard Neil (b. ~1928). Birth, death, and origins not
-2 CONT yet documented - next step is the 1930/1940 census for Orleans Parish and the
-2 CONT Louisiana vital-records indexes. The given name recurs across generations
-2 CONT (grandson Miles Trapolin; great-great-grandson Miles Hutson, the subject).
-2 SOUR @S4@
-3 _CONF Secondary
-2 SOUR @S6@
-3 _CONF Secondary
+2 SOUR @S13@
+3 _CONF Primary
 0 @I10@ INDI
-1 NAME Adela /Nelson/
+1 NAME Louise Adela /Nelson/
 2 _MARNM Hutson
 1 SEX F
+1 FAMC @F32@
 1 FAMS @F4@
+1 BIRT
+2 DATE ABT 1892
+2 PLAC Louisiana, USA
+2 SOUR @S13@
+3 PAGE Line 20: Adela L., wife, F, 57, married, born La. (census taken April 1950)
+3 _CONF Primary
+1 EDUC B.A., H. Sophie Newcomb Memorial College (Tulane), 1912; Teaching Fellow in Chemistry, 1913
+2 SOUR @S31@
+3 PAGE Newcomb Bulletin 1913: "Adela Nelson, A.B., Teaching Fellow in Chemistry"; Battle Abbey Scholarship holder; Class of '12
+3 _CONF Secondary
 1 RESI
-2 DATE FROM ABT 1920 TO ABT 1928
-2 PLAC New Orleans, Orleans Parish, Louisiana, USA
+2 DATE 13 APR 1950
+2 PLAC 321 Hillary Street, New Orleans, Orleans Parish, Louisiana, USA
+2 SOUR @S13@
+3 _CONF Primary
+1 OCCU Social worker, child welfare agency (1950)
+2 SOUR @S13@
+3 PAGE Line 20: "Social Worker", "Child Welfare Agency"
+3 _CONF Primary
+1 NOTE Great-grandmother of Miles. Full name Louise Adela Nelson; married Miles
+2 CONT Brewton Hutson 19 July 1919. A Newcomb College graduate (1912) who became a
+2 CONT chemistry teaching fellow - notable for a woman of her era - and later a
+2 CONT child-welfare social worker. Her daughter Mary Jane also earned a Newcomb
+2 CONT science degree with Phi Beta Kappa. Brother: engineer Laurence K. Nelson of
+2 CONT New Orleans (d. 1957), whose obituary names "a sister, Mrs. Miles B. Hutson."
+2 CONT Her parents are not yet identified.
+2 SOUR @S28@
+3 _CONF Secondary
 2 SOUR @S6@
 3 _CONF Secondary
-1 NOTE Great-grandmother of Miles. Maiden name Nelson, from her daughter Mary Jane's
-2 CONT 2019 obituary: "born to Miles and Adela (Nelson) Hutson." Birth, death, and
-2 CONT origins not yet documented.
-2 SOUR @S6@
+2 SOUR @S32@
 3 _CONF Secondary
 0 @I11@ INDI
 1 NAME Mary Jane /Hutson/
@@ -288,24 +381,39 @@
 2 SOUR @S6@
 3 _CONF Secondary
 0 @I12@ INDI
-1 NAME Louise /Hutson/
+1 NAME Louise Adela /Hutson/
 2 _MARNM Finke
 1 SEX F
 1 FAMC @F4@
-1 NOTE Grand-aunt of Miles; eldest of the four children of Miles and Adela Hutson
-2 CONT (named first among Neil's "three older sisters" in his 2017 obituary; Mary
-2 CONT Jane, b. 1922, was the second child). Married name Finke. Dates not yet
-2 CONT documented.
+1 BIRT
+2 DATE 29 SEP 1920
+2 SOUR @S28@
+3 PAGE Entry 2-1-2-5-3-7-9-1: "Louise Adela Hutson, b. Sept. 29th, 1920"
+3 _CONF Secondary
+1 NOTE Grand-aunt of Miles; eldest of the four children of Miles and Adela Hutson,
+2 CONT named for her mother. Married name Finke (per her brother Neil's 2017
+2 CONT obituary). Death not yet documented.
 2 SOUR @S4@
 3 _CONF Secondary
+2 SOUR @S28@
+3 _CONF Secondary
 0 @I13@ INDI
-1 NAME Charlene /Hutson/
+1 NAME Charleen Ethel /Hutson/
 2 _MARNM Wilke
 1 SEX F
 1 FAMC @F4@
-1 NOTE Grand-aunt of Miles; one of the three older sisters of Richard Neil Hutson.
-2 CONT Married name Wilke. Dates not yet documented.
+1 BIRT
+2 DATE 1924
+2 SOUR @S28@
+3 PAGE Entry 2-1-2-5-3-7-9-3: "Charleen Ethel Hutson, b. 1924"
+3 _CONF Secondary
+1 NOTE Grand-aunt of Miles; third child of Miles and Adela Hutson. Spelled
+2 CONT "Charleen Ethel" in the 1951 Lockett genealogy and "Charlene Wilke" in her
+2 CONT brother Neil's 2017 obituary; her middle name honors her aunt Ethel Hutson.
+2 CONT Death not yet documented.
 2 SOUR @S4@
+3 _CONF Secondary
+2 SOUR @S28@
 3 _CONF Secondary
 0 @I14@ INDI
 1 NAME Paul Neil /Hutson/
@@ -445,11 +553,10 @@
 1 CHIL @I13@
 1 CHIL @I5@
 1 MARR
-2 DATE BEF 1922
-2 PLAC probably New Orleans, Louisiana, USA
-2 SOUR @S6@
-3 PAGE Second child Mary Jane born 27 Mar 1922 in New Orleans
-3 _CONF Tentative
+2 DATE 19 JUL 1919
+2 SOUR @S28@
+3 PAGE Entry 2-1-2-5-3-7-9: "Miles Brewton Hutson ... married July 19th, 1919, Louise Adela Nelson"
+3 _CONF Secondary
 1 NOTE Miles and Adela (Nelson) Hutson of New Orleans. Four children, in order:
 2 CONT Louise (Finke), Mary Jane (Trapolin, b. 1922 - "second of four"), Charlene
 2 CONT (Wilke), and Richard Neil (b. ~1928, the only boy and youngest, "raised with
@@ -582,14 +689,15 @@
 1 AUTH Jewish Museum of the American West (JMAW)
 1 PUBL jmaw.org
 1 _URL https://www.jmaw.org/liebes-jewish-fur-san-francisco/
-1 _CONF Tentative
+1 _CONF Secondary
 1 _ACC 2026-07-11
 1 NOTE Background on the prominent Liebes family of San Francisco: Herman Liebes
 2 CONT (b. ~1842, German-Jewish immigrant) founded H. Liebes & Co., a leading Pacific
 2 CONT fur house ("indisputably the largest dealers in sealskins in the world,"
-2 CONT 1898-99 catalogue); active in B'nai B'rith and Congregation Emanu-El. Recorded
-2 CONT as a RESEARCH LEAD for Joan Liebes's ancestry (Ashkenazi, early life in SF) -
-2 CONT no proven connection yet.
+2 CONT 1898-99 catalogue); active in B'nai B'rith and Congregation Emanu-El.
+2 CONT First recorded (11 Jul 2026) as an unproven lead for Joan Liebes's
+2 CONT ancestry; the link was proven on 23 Sep 2026 via the 1923 Wormser-Liebes
+2 CONT wedding notice, the 1916 drowning reports and the 1950 census.
 0 @S11@ SOUR
 1 TITL Richard W. Thompson, Jr. Inc. - Texas corporate and oil & gas producer records
 1 AUTH Texas Secretary of State (via OpenCorporates); Railroad Commission producer listings (via MineralAnswers)
@@ -599,4 +707,1531 @@
 1 _ACC 2026-07-11
 1 NOTE Business records for "Richard W. Thompson, Inc." / "Richard W Thompson Jr
 2 CONT Inc," Plano, Texas - an oil & gas producer - supporting his occupation.
+0 @I20@ INDI
+1 NAME George Julien /Liebes/
+1 SEX M
+1 FAMC @F29@
+1 FAMS @F28@
+1 BIRT
+2 DATE ABT 1901
+2 PLAC California, USA
+2 SOUR @S12@
+3 PAGE Line 28: Liebes, George J., head, W, M, 49, married, born California (census 27 Apr 1950)
+3 _CONF Primary
+2 SOUR @S16@
+3 PAGE Described as Julien Liebes's "thirteen-year-old son, George" in July 1916, implying b. ~1903
+3 _CONF Secondary
+1 RESI
+2 DATE 1931
+2 PLAC Portland, Multnomah County, Oregon, USA
+2 SOUR @S12@
+3 PAGE Daughter Joan (b. Aug 1931) born in Oregon
+3 _CONF Secondary
+1 RESI
+2 DATE 1939
+2 PLAC San Francisco, California, USA
+2 SOUR @S25@
+3 PAGE "George J Liebes" listed in the 1939-40 San Francisco numerical (telephone) directory
+3 _CONF Secondary
+1 RESI
+2 DATE 27 APR 1950
+2 PLAC Highland Park, Dallas County, Texas, USA
+2 SOUR @S12@
+3 PAGE ED 57-7, sheet 10, lines 28-30
+3 _CONF Primary
+1 OCCU Fur director, specialty store (1950); Vice President and group merchandise director, Neiman-Marcus (elected 1955); Neiman-Marcus fur buyer
+2 SOUR @S12@
+3 PAGE Line 28: "Fur Director", "Specialty Shop"
+3 _CONF Primary
+2 SOUR @S22@
+3 PAGE "New officers ... Benjamin Eisner, Jack Goren, George J. Liebes and Dudley Ramsden, group merchandise directors ... all elected vice presidents"
+3 _CONF Secondary
+2 SOUR @S23@
+3 PAGE Stanley Marcus "whistled when he heard the price, wished Mr. (George J.) Liebes (the buyer) luck"
+3 _CONF Secondary
+1 NOTE Great-grandfather of Miles (father of Joan Liebes Hutson). Son of Julien and
+2 CONT Sophie Liebes and grandson of Herman Liebes, founder of H. Liebes & Co. At 13
+2 CONT he nearly drowned at Long Beach, California (July 1916) riding on his
+2 CONT father's back in the surf; a lifeguard pulled him out, but his father died.
+2 CONT Married Edith Wormser in San Francisco, January 1923. Followed the family
+2 CONT fur trade: Portland (where Joan was born, 1931), San Francisco (1939-40), then
+2 CONT Dallas (c. 1942), where he became Neiman-Marcus's fur buyer and a vice
+2 CONT president. In May 1966 he paid a record $1,100 per skin for 40 "Black
+2 CONT Willow" mink at the Hudson's Bay Company auction for an $80,000 coat, and in
+2 CONT 1968 AP reported he paid the highest price for sea-otter pelts since 1911. He
+2 CONT headed the Fur Information and Fashion Council's program in 1959.
+2 CONT IDENTIFICATION: the San Francisco News Letter wedding notice names him "Mr.
+2 CONT George Julien Liebes, son of Mrs. Julien Liebes," marrying Edith Wormser -
+2 CONT matching "George J. Liebes" and wife "Edith M." in the 1950 census and
+2 CONT "George and Edith Liebes" in Joan's obituary. The census age (49) implies
+2 CONT b. ~1901, while the 1916 news report implies ~1903. Death not yet documented.
+2 SOUR @S15@
+3 _CONF Secondary
+2 SOUR @S12@
+3 _CONF Primary
+2 SOUR @S14@
+3 _CONF Secondary
+2 SOUR @S16@
+3 _CONF Secondary
+0 @I21@ INDI
+1 NAME Edith M. /Wormser/
+2 _MARNM Liebes
+1 SEX F
+1 FAMC @F31@
+1 FAMS @F28@
+1 BIRT
+2 DATE ABT 1901
+2 PLAC California, USA
+2 SOUR @S12@
+3 PAGE Line 29: Edith M., wife, W, F, 49 (possibly 47), married, born California
+3 _CONF Primary
+1 RESI
+2 DATE 27 APR 1950
+2 PLAC Highland Park, Dallas County, Texas, USA
+2 SOUR @S12@
+3 _CONF Primary
+1 NOTE Great-grandmother of Miles (mother of Joan Liebes Hutson). "Miss Edith
+2 CONT Wormser, daughter of Mrs. May Wormser," married George Julien Liebes at the
+2 CONT home of her cousin Mrs. Sidney Herzog, 1919 Octavia Street, San Francisco,
+2 CONT in January 1923; the couple honeymooned in southern California and settled
+2 CONT at the Hotel Fielding. Death not yet documented.
+2 SOUR @S15@
+3 _CONF Secondary
+0 @I22@ INDI
+1 NAME George Julien /Liebes/ Jr.
+2 NICK Sonny
+1 SEX M
+1 FAMC @F28@
+1 NOTE Great-uncle of Miles: Joan's brother, George "Sonny" Liebes, named in her
+2 CONT 2026 obituary. Living status unknown, so only
+2 CONT published professional facts are recorded: listed as "Liebes, George J.,
+2 CONT II, Dallas" at SMU (1944 Rotunda yearbook) and as a Dallas pediatrician,
+2 CONT "Liebes, George J., Jr., 8215 Westchester, Dallas" (Texas State Journal of
+2 CONT Medicine, 1957-60) and "George J. Liebes, 3605 Stanford, Dallas" (Journal
+2 CONT of Pediatrics, 1959).
+2 SOUR @S14@
+3 _CONF Secondary
+2 SOUR @S26@
+3 _CONF Secondary
+0 @I23@ INDI
+1 NAME Julien /Liebes/
+1 SEX M
+1 FAMC @F30@
+1 FAMS @F29@
+1 BIRT
+2 DATE ABT 1871
+2 PLAC San Francisco, California, USA
+2 SOUR @S17@
+3 PAGE "Julien Liebes, aged 45" (July 1916)
+3 _CONF Secondary
+1 DEAT
+2 DATE 2 JUL 1916
+2 PLAC Long Beach, Los Angeles County, California, USA
+2 SOUR @S18@
+3 PAGE "her late husband, Julian Liebes, furrier, who was drowned at Long Beach on July 2d"
+3 _CONF Secondary
+2 SOUR @S16@
+3 PAGE "HUSBAND IS DROWNED IN SIGHT OF WIFE - Julien Liebes of San Francisco Loses Life at Long Beach"
+3 _CONF Secondary
+1 RESI
+2 DATE 1911
+2 PLAC 1701 Broadway, San Francisco, California, USA
+2 SOUR @S19@
+3 PAGE "Mrs. Sophie Liebes, wife of Julien Liebes, the furrier, in her home at 1701 Broadway"
+3 _CONF Secondary
+1 OCCU Vice-president, H. Liebes & Co. (furs and Alaskan fur importers); director, Northern Commercial Company; president, Retail Dry Goods Association of San Francisco
+2 SOUR @S16@
+3 _CONF Secondary
+1 NOTE Great-great-grandfather of Miles. Son of Herman Liebes, founder of H. Liebes
+2 CONT & Co. Treasurer (1905) and later vice-president of the family firm; a member
+2 CONT of the Concordia and Argonaut clubs and a civic leader. On Sunday 2 July
+2 CONT 1916, on vacation at Long Beach, he carried his 13-year-old son George into
+2 CONT the surf; a rip tide pulled both under. A lifeguard rescued George, but
+2 CONT Julien was found clinging to a pier piling and died despite first aid, as his
+2 CONT wife and younger son Martin watched. His widow Sophie was appointed
+2 CONT administratrix of his estate (about $40,000).
+2 SOUR @S16@
+3 _CONF Secondary
+2 SOUR @S17@
+3 _CONF Secondary
+2 SOUR @S18@
+3 _CONF Secondary
+0 @I24@ INDI
+1 NAME Sophie //
+2 _MARNM Liebes
+1 SEX F
+1 FAMS @F29@
+1 NOTE Great-great-grandmother of Miles; wife and widow of Julien Liebes, mother of
+2 CONT George Julien and Martin Liebes. Maiden name not yet found. A 1910 society
+2 CONT column identifies her sister as Mrs. M. J. Lyon, wife of the San Francisco
+2 CONT architect M. J. Lyon (who designed Julien's 1902 house) and previously the
+2 CONT widow of Jeffreys Martin - a likely reason her son was named Martin.
+2 SOUR @S19@
+3 _CONF Secondary
+2 SOUR @S18@
+3 _CONF Secondary
+2 SOUR @S34@
+3 _CONF Secondary
+0 @I25@ INDI
+1 NAME Martin /Liebes/
+1 SEX M
+1 FAMC @F29@
+1 BIRT
+2 DATE ABT 1906
+2 SOUR @S16@
+3 PAGE "Liebes' other son, Martin, 10 years old" (July 1916)
+3 _CONF Secondary
+1 NOTE Great-great-granduncle of Miles; younger son of Julien and Sophie Liebes,
+2 CONT present on the beach when his father drowned (1916). A junior tennis
+2 CONT champion in San Francisco in the early 1920s (Spalding's Lawn Tennis Annual).
+2 CONT A "Mrs. Martin H. Liebes" appears in the 1939-40 San Francisco directory.
+2 SOUR @S16@
+3 _CONF Secondary
+0 @I26@ INDI
+1 NAME Herman /Liebes/
+1 SEX M
+1 FAMS @F30@
+1 BIRT
+2 DATE 1842
+2 PLAC Rawicz, Province of Posen, Prussia (now Poland)
+2 SOUR @S20@
+3 PAGE "Herman Liebes, born in Rawicz, Prussia, in 1842, came to New York when twenty years of age"
+3 _CONF Secondary
+1 IMMI
+2 DATE ABT 1862
+2 PLAC New York, USA
+2 SOUR @S20@
+3 _CONF Secondary
+1 RESI
+2 DATE OCT 1864
+2 PLAC San Francisco, California, USA
+2 SOUR @S20@
+3 PAGE "in October, 1864, they began fur manufacturing in a small way"
+3 _CONF Secondary
+1 DEAT
+2 DATE 28 FEB 1898
+2 PLAC London, England
+2 SOUR @S20@
+3 PAGE "Herman Liebes died in London, February 28, 1898"
+3 _CONF Secondary
+1 OCCU Furrier; founder of H. Liebes & Co., San Francisco (1864); organizer of the North American Commercial Company (Alaska fur-seal lease)
+2 SOUR @S20@
+3 _CONF Secondary
+1 NOTE Great-great-great-grandfather of Miles - the Ashkenazi immigrant ancestor of
+2 CONT the Liebes line. Born in Rawicz, Prussia (a Jewish community in the Posen
+2 CONT province, now Poland), he worked briefly for a New York furrier, then with
+2 CONT partner Charles J. Behlow opened a small fur manufactory in San Francisco in
+2 CONT October 1864. H. Liebes & Co. became the leading fur house on the Pacific
+2 CONT Coast, with stores in San Francisco and Portland ("indisputably the largest
+2 CONT dealers in sealskins in the world"). He helped organize the North American
+2 CONT Commercial Company, which held the U.S. Alaska fur-seal lease, owned vessels
+2 CONT trading to Alaska, and was active in B'nai B'rith and Congregation Emanu-El.
+2 CONT The business was incorporated in 1890 with a capital of $1,000,000.
+2 SOUR @S20@
+3 _CONF Secondary
+2 SOUR @S10@
+3 _CONF Secondary
+0 @I27@ INDI
+1 NAME Hannah //
+2 _MARNM Liebes
+1 SEX F
+1 FAMS @F30@
+1 NOTE Great-great-great-grandmother of Miles; wife of Herman Liebes. A 1900 death
+2 CONT notice (transcribed on Geni) describes their son George as "son of the late
+2 CONT Herman Liebes and Mrs. Hannah Liebes, and brother of Sidney, Julian and
+2 CONT Edgar A. Liebes." Maiden name not yet found.
+2 SOUR @S36@
+3 _CONF Tentative
+0 @I28@ INDI
+1 NAME George /Liebes/
+1 SEX M
+1 FAMC @F30@
+1 DEAT
+2 DATE 6 APR 1900
+2 PLAC German Hospital, San Francisco, California, USA
+2 SOUR @S21@
+3 PAGE "GEORGE LIEBES DEAD ... vice president of the firm of H. Liebes & Co. ... died today at the German Hospital of peritonitis ... only 32 years old and was a bachelor"
+3 _CONF Secondary
+1 NOTE Great-great-great-granduncle of Miles; son of Herman Liebes, vice-president
+2 CONT of H. Liebes & Co. and a director of the Alaska Exploration Company. He died
+2 CONT a bachelor at 32 - about a year before his nephew George Julien Liebes was
+2 CONT born, who was likely named in his memory (Ashkenazi custom names children
+2 CONT after deceased relatives).
+2 SOUR @S21@
+3 _CONF Secondary
+2 SOUR @S36@
+3 _CONF Secondary
+0 @I29@ INDI
+1 NAME Sidney /Liebes/
+1 SEX M
+1 FAMC @F30@
+1 BIRT
+2 DATE 24 OCT 1869
+2 PLAC San Francisco, California, USA
+2 SOUR @S36@
+3 _CONF Tentative
+1 DEAT
+2 DATE 10 MAY 1907
+2 PLAC San Francisco, California, USA
+2 SOUR @S36@
+3 _CONF Tentative
+1 NOTE Great-great-great-granduncle of Miles; son of Herman Liebes; vice-president
+2 CONT and secretary of H. Liebes & Co. (1905 directory). Named with his brothers
+2 CONT George and Julian as "sons of the late Herman Liebes" in 1898 estate news.
+2 CONT Dates from a compiled Geni profile (Tentative).
+2 SOUR @S36@
+3 _CONF Secondary
+0 @I30@ INDI
+1 NAME May //
+2 _MARNM Wormser
+1 SEX F
+1 FAMS @F31@
+1 NOTE Great-great-grandmother of Miles; mother of Edith (Wormser) Liebes - "Miss
+2 CONT Edith Wormser, daughter of Mrs. May Wormser" (1923). In 1921 a May Wormser
+2 CONT petitioned for letters of administration on the San Francisco estate of
+2 CONT Julius Wormser (see I31). Maiden name not yet found.
+2 SOUR @S15@
+3 _CONF Secondary
+2 SOUR @S27@
+3 _CONF Tentative
+0 @I31@ INDI
+1 NAME Julius /Wormser/
+1 SEX M
+1 FAMS @F31@
+1 DEAT
+2 DATE BEF FEB 1921
+2 PLAC San Francisco, California, USA
+2 SOUR @S27@
+3 PAGE "31119 - Dept 10 - Julius Wormser, let of adm, petn of May Wormser, pers prop about $9190, hearing Feb 23" (filed Feb. 1921)
+3 _CONF Secondary
+1 NOTE Probable (TENTATIVE) great-great-grandfather of Miles. A May Wormser - the
+2 CONT name of Edith Wormser's mother - petitioned for administration of Julius
+2 CONT Wormser's San Francisco estate in February 1921, which suggests he was May's
+2 CONT husband and Edith's father (her 1923 wedding notice names only her mother,
+2 CONT consistent with a recently deceased father). Not yet confirmed by a record
+2 CONT naming Julius as Edith's father.
+2 SOUR @S27@
+3 _CONF Tentative
+0 @I32@ INDI
+1 NAME Charles Woodward /Hutson/
+1 SEX M
+1 FAMC @F8@
+1 FAMS @F7@
+1 BIRT
+2 DATE 23 SEP 1840
+2 PLAC Beaufort District, South Carolina, USA
+2 SOUR @S29@
+3 PAGE Entry 50: "Charles Woodward Hutson, b. Sept. 23, 1840"
+3 _CONF Secondary
+2 SOUR @S30@
+3 _CONF Secondary
+1 DEAT
+2 DATE 27 MAY 1936
+2 PLAC New Orleans, Louisiana, USA
+2 SOUR @S30@
+3 PAGE "Charles Woodward Hutson (1840-1936) ... settled finally in New Orleans, La., as an artist and writer"
+3 _CONF Secondary
+1 EDUC South Carolina College (late 1850s)
+2 SOUR @S30@
+3 _CONF Secondary
+1 EVEN Confederate States Army, 1861-1865 (Hampton's Legion), in Virginia, North Carolina and South Carolina
+2 TYPE Military service
+2 SOUR @S30@
+3 _CONF Secondary
+1 OCCU Teacher and professor in several Southern states, including fifteen years in Texas (Texas A&M); later artist and writer in New Orleans
+2 SOUR @S30@
+3 _CONF Secondary
+1 NOTE Great-great-grandfather of Miles. Grew up on plantations near McPhersonville
+2 CONT in Beaufort District, S.C.; attended South Carolina College; served in the
+2 CONT Confederate army throughout the Civil War (his wartime letters home are
+2 CONT widely cited by historians). Married Mary Jane Lockett on 5 July 1871.
+2 CONT Taught in several Southern states including fifteen years in Texas, then
+2 CONT settled in New Orleans, where he became known late in life as a painter and
+2 CONT writer; he edited several posthumous collections of Lafcadio Hearn's New
+2 CONT Orleans writings (Creole Sketches, Fantastics, Editorials). His papers
+2 CONT (1765-1949) are held by the Southern Historical Collection, UNC Chapel Hill
+2 CONT (#00362), and his notes on the Lockett family underpin the 1951 genealogy.
+2 SOUR @S30@
+3 _CONF Secondary
+2 SOUR @S28@
+3 _CONF Secondary
+0 @I33@ INDI
+1 NAME Mary Jane /Lockett/
+2 _MARNM Hutson
+1 SEX F
+1 FAMC @F17@
+1 FAMS @F7@
+1 BIRT
+2 DATE 19 OCT 1847
+2 PLAC Alabama, USA
+2 SOUR @S28@
+3 PAGE Entry 2-1-2-5-3-7: "Mary Jane Lockett, b. Oct. 19th, 1847, died June 4th, 1916, married July 5th, 1871 Charles Woodward Hutson"
+3 _CONF Secondary
+1 DEAT
+2 DATE 4 JUN 1916
+2 SOUR @S28@
+3 _CONF Secondary
+1 NOTE Great-great-grandmother of Miles; daughter of Napoleon Lockett and his cousin
+2 CONT Mary Lockett of Marion, Alabama (the family moved from Virginia to Alabama in
+2 CONT 1838). Sister of Col. Samuel H. Lockett, the Confederate engineer who built
+2 CONT the defenses of Vicksburg and Mobile and later helped erect the Statue of
+2 CONT Liberty. Birthplace inferred from the family's residence in Alabama.
+2 SOUR @S28@
+3 _CONF Secondary
+0 @I34@ INDI
+1 NAME Ethel /Hutson/
+1 SEX F
+1 FAMC @F7@
+1 BIRT
+2 DATE 19 APR 1872
+2 SOUR @S28@
+3 PAGE Entry 2-1-2-5-3-7-1
+3 _CONF Secondary
+1 NOTE Great-grand-aunt of Miles; eldest child of Charles Woodward Hutson. Miss
+2 CONT Ethel Hutson of New Orleans sent her father's family records to Jewel Davis
+2 CONT Scarborough, who used them to compile the Lockett genealogy (1951) - so much
+2 CONT of this tree's Lockett line rests on her care.
+2 SOUR @S28@
+3 _CONF Secondary
+0 @I35@ INDI
+1 NAME William Ferguson /Hutson/
+1 SEX M
+1 FAMC @F9@
+1 FAMS @F8@
+1 BIRT
+2 DATE 28 MAR 1815
+2 PLAC South Carolina, USA
+2 SOUR @S29@
+3 PAGE Entry 20: "William Ferguson Hutson ... born March 28, 1815"
+3 _CONF Secondary
+1 DEAT
+2 DATE 16 JUN 1881
+2 SOUR @S29@
+3 _CONF Secondary
+1 BURI
+2 PLAC Stony Creek Church, Beaufort District (now Hampton County), South Carolina, USA
+2 SOUR @S29@
+3 _CONF Secondary
+1 OCCU Lawyer, Beaufort District; later Orangeburg; lieutenant-colonel of Reserves (Confederate)
+2 SOUR @S29@
+3 _CONF Secondary
+1 NOTE Great-great-great-grandfather of Miles. A prominent lawyer of Beaufort
+2 CONT District; a delegate to South Carolina's 1860 Secession Convention, a member of
+2 CONT the committee that reported the Ordinance of Secession, and a signer of it.
+2 CONT Lieutenant-colonel of Reserves during the Civil War; practiced law in
+2 CONT Orangeburg afterward. Married Sophronia Lucia Palmer on 11 Feb 1836.
+2 SOUR @S29@
+3 _CONF Secondary
+0 @I36@ INDI
+1 NAME Sophronia Lucia /Palmer/
+2 _MARNM Hutson
+1 SEX F
+1 FAMC @F15@
+1 FAMS @F8@
+1 NOTE Great-great-great-grandmother of Miles; daughter of Rev. Edward Palmer and
+2 CONT Sarah Bunce. Recipient (with her husband) of Charles Woodward Hutson's Civil
+2 CONT War letters, addressed to "W.F. and S.L. Hutson."
+2 SOUR @S29@
+3 _CONF Secondary
+0 @I37@ INDI
+1 NAME Richard Woodward /Hutson/
+1 SEX M
+1 FAMC @F10@
+1 FAMS @F9@
+1 BIRT
+2 DATE 17 OCT 1788
+2 SOUR @S29@
+3 _CONF Secondary
+1 DEAT
+2 DATE 28 MAY 1866
+2 PLAC Orangeburg, South Carolina, USA
+2 SOUR @S29@
+3 _CONF Secondary
+1 EDUC South Carolina College, 1809
+2 SOUR @S29@
+3 _CONF Secondary
+1 OCCU Planter (Jericho plantation; summer home at McPhersonville)
+2 SOUR @S29@
+3 _CONF Secondary
+1 NOTE Great-great-great-great-grandfather of Miles. Married (1) 2 June 1814 Martha
+2 CONT O'Reilly Ferguson, who died 1 Sept 1816 (mother of William Ferguson Hutson);
+2 CONT (2) Sarah Mikell McLeod. A low-country planter; he fled to Orangeburg ahead
+2 CONT of Sherman's army in 1865, and his plantation house was burned. Buried in
+2 CONT the Presbyterian churchyard at Orangeburg. The family's wealth, like that of
+2 CONT the planter families they married into, rested on enslaved labor.
+2 SOUR @S29@
+3 _CONF Secondary
+0 @I38@ INDI
+1 NAME Martha O'Reilly /Ferguson/
+2 _MARNM Hutson
+1 SEX F
+1 FAMS @F9@
+1 DEAT
+2 DATE 1 SEP 1816
+2 SOUR @S29@
+3 _CONF Secondary
+1 NOTE Great-great-great-great-grandmother of Miles; first wife of Richard Woodward
+2 CONT Hutson (m. 2 June 1814) and mother of William Ferguson Hutson; died when her
+2 CONT son was about 18 months old.
+2 SOUR @S29@
+3 _CONF Secondary
+0 @I39@ INDI
+1 NAME Thomas /Hutson/
+1 SEX M
+1 FAMC @F11@
+1 FAMS @F10@
+1 BIRT
+2 DATE 9 JAN 1750
+2 SOUR @S29@
+3 _CONF Secondary
+1 DEAT
+2 DATE 4 MAY 1789
+2 SOUR @S29@
+3 _CONF Secondary
+1 EVEN Captain, then major, of South Carolina militia in the Revolutionary War (Bull's brigade, later under Francis Marion and John Barnwell); colonel afterward
+2 TYPE Military service
+2 SOUR @S29@
+3 _CONF Secondary
+1 EVEN Delegate to the South Carolina convention that ratified the U.S. Constitution (1788)
+2 TYPE Political office
+2 SOUR @S29@
+3 _CONF Secondary
+1 NOTE 5x-great-grandfather of Miles. Inherited Cedar Grove plantation, Beaufort
+2 CONT District. Married Esther Maine on 21 Oct 1773. Served in the Revolution as a
+2 CONT militia captain and major (his regiment serving under Francis Marion) and was
+2 CONT a member of the 1788 state convention that ratified the Constitution. His
+2 CONT brother Richard signed the Articles of Confederation.
+2 SOUR @S29@
+3 _CONF Secondary
+0 @I40@ INDI
+1 NAME Esther /Maine/
+2 _MARNM Hutson
+1 SEX F
+1 FAMC @F16@
+1 FAMS @F10@
+1 NOTE 5x-great-grandmother of Miles; daughter of William Maine and Judith
+2 CONT Gignilliat (a French Huguenot family of South Carolina). Married Thomas
+2 CONT Hutson on 21 Oct 1773.
+2 SOUR @S29@
+3 _CONF Secondary
+0 @I41@ INDI
+1 NAME William /Hutson/
+2 NPFX Rev.
+1 SEX M
+1 FAMC @F12@
+1 FAMS @F11@
+1 BIRT
+2 DATE 14 AUG 1720
+2 PLAC England
+2 SOUR @S29@
+3 PAGE "the son of Thomas and Esther Hutson and was born in England August 14, 1720"
+3 _CONF Secondary
+1 IMMI
+2 DATE 1740
+2 PLAC America (arrived as an actor)
+2 SOUR @S29@
+3 _CONF Secondary
+1 DEAT
+2 DATE 11 APR 1761
+2 PLAC Charleston, South Carolina, USA
+2 SOUR @S29@
+3 _CONF Secondary
+1 BURI
+2 PLAC Circular Congregational Church churchyard, Charleston, South Carolina, USA
+2 SOUR @S29@
+3 PAGE "his tomb-stone is in the 'Circular' Church-yard, Charleston, just in rear of the church building"
+3 _CONF Secondary
+1 OCCU Actor; tutor; minister at Stony Creek (1743) and the Circular (Independent Congregational) Church, Charleston (1757)
+2 SOUR @S29@
+3 _CONF Secondary
+1 NOTE 6x-great-grandfather of Miles and founder of the Hutson family of South
+2 CONT Carolina. Began studying law at the Inns of Court but gave it up and came to
+2 CONT America as an actor in 1740. Converted by George Whitefield's preaching in
+2 CONT New York, he tutored for Hugh Bryan in Charles Town and worked at
+2 CONT Whitefield's Bethesda Orphan House in Savannah. A church was built for him at
+2 CONT Stony Creek in the Indian Land (Beaufort County) in 1743, and he was called to
+2 CONT Charleston's Circular Church in 1757. Married (1) 1743 Mrs. Mary (Woodward)
+2 CONT Chardon, who died 1757; (2) 10 Oct 1758 Mrs. Mary (Prioleau) Bryan. The
+2 CONT family arms: "Per chevron embattled or and vert, three martlets
+2 CONT countercharged." The surname Hutson is an English patronymic from the
+2 CONT medieval given name Hudde (a pet form of Hugh).
+2 SOUR @S29@
+3 _CONF Secondary
+2 SOUR @S3@
+3 _CONF Secondary
+0 @I42@ INDI
+1 NAME Mary /Woodward/
+2 _MARNM Hutson
+1 SEX F
+1 FAMC @F13@
+1 FAMS @F11@
+1 BIRT
+2 DATE 6 DEC 1717
+2 SOUR @S35@
+3 PAGE "15 II. Mary Woodward, b. Dec. 6, 1717" (daughter of Richard Woodward and Sarah Stanyarne)
+3 _CONF Secondary
+1 DEAT
+2 DATE 1757
+2 SOUR @S29@
+3 PAGE "His first wife dying in 1757"
+3 _CONF Secondary
+1 NOTE 6x-great-grandmother of Miles. Widow of Isaac Chardon when she married Rev.
+2 CONT William Hutson in 1743; granddaughter of Dr. Henry Woodward, the first
+2 CONT English settler in South Carolina.
+2 SOUR @S29@
+3 _CONF Secondary
+0 @I43@ INDI
+1 NAME Thomas /Hutson/
+1 SEX M
+1 FAMS @F12@
+1 RESI
+2 PLAC England
+2 SOUR @S29@
+3 _CONF Secondary
+1 NOTE 7x-great-grandfather of Miles; father of Rev. William Hutson. He entered his
+2 CONT son at the Inns of Court to study law. Nothing further is recorded.
+2 SOUR @S29@
+3 _CONF Secondary
+0 @I44@ INDI
+1 NAME Esther //
+2 _MARNM Hutson
+1 SEX F
+1 FAMS @F12@
+1 NOTE 7x-great-grandmother of Miles; mother of Rev. William Hutson, of England.
+2 SOUR @S29@
+3 _CONF Secondary
+0 @I45@ INDI
+1 NAME Richard /Hutson/
+1 SEX M
+1 FAMC @F11@
+1 BIRT
+2 DATE 9 JUL 1748
+2 SOUR @S29@
+3 _CONF Secondary
+1 DEAT
+2 DATE 12 APR 1795
+2 SOUR @S29@
+3 _CONF Secondary
+1 EDUC College of New Jersey (Princeton), 1765
+2 SOUR @S29@
+3 _CONF Secondary
+1 NOTE 5x-great-granduncle of Miles (brother of his ancestor Thomas Hutson). A
+2 CONT delegate to the Continental Congress (1778-79) and a SIGNER OF THE ARTICLES
+2 CONT OF CONFEDERATION; captured at the fall of Charleston (1780) and imprisoned at
+2 CONT St. Augustine; lieutenant governor of South Carolina (1782-83); first
+2 CONT intendant (mayor) of Charleston (1783-84); one of the first three chancellors
+2 CONT of the Court of Equity. Died unmarried.
+2 SOUR @S29@
+3 _CONF Secondary
+0 @I46@ INDI
+1 NAME Richard /Woodward/
+1 SEX M
+1 FAMC @F14@
+1 FAMS @F13@
+1 BIRT
+2 DATE 9 JUN 1683
+2 SOUR @S35@
+3 _CONF Secondary
+1 DEAT
+2 DATE 1725
+2 SOUR @S35@
+3 PAGE Will dated April 10, 1725, Charleston County Probate Court
+3 _CONF Secondary
+1 NOTE 7x-great-grandfather of Miles; son of Dr. Henry Woodward. Married Sarah
+2 CONT Stanyarne, sister of his brother John's wife and daughter of Col. James
+2 CONT Stanyarne. Daughters Elizabeth (b. 1715) and Mary (b. 1717).
+2 SOUR @S35@
+3 _CONF Secondary
+0 @I47@ INDI
+1 NAME Sarah /Stanyarne/
+2 _MARNM Woodward
+1 SEX F
+1 FAMS @F13@
+1 NOTE 7x-great-grandmother of Miles; daughter of Col. James Stanyarne. Her will,
+2 CONT made 22 Oct 1748 and proved 28 Apr 1750, describes her as "widow of Richard
+2 CONT Woodward."
+2 SOUR @S35@
+3 _CONF Secondary
+0 @I48@ INDI
+1 NAME Henry /Woodward/
+2 NPFX Dr.
+1 SEX M
+1 FAMS @F14@
+1 BIRT
+2 DATE ABT 1646
+2 SOUR @S35@
+3 PAGE "He was born about 1646"
+3 _CONF Secondary
+1 DEAT
+2 DATE BET 1686 AND 1690
+2 SOUR @S35@
+3 PAGE "The date of his death is not known, but it was sometime between 1686 and 1690"
+3 _CONF Secondary
+1 NOTE 8x-great-grandfather of Miles - "the first English settler in South
+2 CONT Carolina." A surgeon who volunteered to stay among the Native people at Port
+2 CONT Royal when Robert Sanford's 1666 expedition departed, learning their languages;
+2 CONT later joined the first colonists at Nevis and came with them to Port Royal in
+2 CONT March 1670, serving the new colony at Ashley River as interpreter and Indian
+2 CONT agent. Married Mrs. Mary Browne, widow of Robert Browne and daughter of Col.
+2 CONT John Godfrey. Sons John (b. 1681) and Richard (b. 1683), daughter Elizabeth.
+2 SOUR @S35@
+3 _CONF Secondary
+0 @I49@ INDI
+1 NAME Edward /Palmer/
+2 NPFX Rev.
+1 SEX M
+1 FAMS @F15@
+1 NOTE 4x-great-grandfather of Miles; father of Sophronia Lucia Palmer Hutson.
+2 SOUR @S29@
+3 _CONF Secondary
+0 @I50@ INDI
+1 NAME Sarah /Bunce/
+2 _MARNM Palmer
+1 SEX F
+1 FAMS @F15@
+1 NOTE 4x-great-grandmother of Miles; wife of Rev. Edward Palmer.
+2 SOUR @S29@
+3 _CONF Secondary
+0 @I51@ INDI
+1 NAME William /Maine/
+1 SEX M
+1 FAMS @F16@
+1 NOTE 6x-great-grandfather of Miles; father of Esther Maine Hutson.
+2 SOUR @S29@
+3 _CONF Secondary
+0 @I52@ INDI
+1 NAME Judith /Gignilliat/
+2 _MARNM Maine
+1 SEX F
+1 FAMS @F16@
+1 NOTE 6x-great-grandmother of Miles; of the Gignilliat family, French Huguenot
+2 CONT settlers of colonial South Carolina.
+2 SOUR @S29@
+3 _CONF Secondary
+0 @I53@ INDI
+1 NAME Napoleon /Lockett/
+1 SEX M
+1 FAMC @F18@
+1 FAMS @F17@
+1 BIRT
+2 DATE 24 FEB 1813
+2 PLAC Virginia, USA
+2 SOUR @S28@
+3 PAGE Entry 2-1-2-5-3: "Napoleon Lockett, b. Feb. 24th, 1813, d. May 20th, 1867"
+3 _CONF Secondary
+1 DEAT
+2 DATE 20 MAY 1867
+2 SOUR @S28@
+3 _CONF Secondary
+1 RESI
+2 DATE 1838
+2 PLAC Marion, Perry County, Alabama, USA
+2 SOUR @S28@
+3 PAGE "moved to Alabama in 1838"; wife described as "Mrs. Napoleon Lockett of Marion, Alabama"
+3 _CONF Secondary
+1 NOTE 3x-great-grandfather of Miles. Married his first cousin Mary Lockett
+2 CONT (daughter of Samuel L. Lockett and Selina Watkins); both were grandchildren
+2 CONT of Stephen Lockett and Mary Clay. Father of Col. Samuel H. Lockett (engineer
+2 CONT of the Vicksburg defenses and the Statue of Liberty pedestal work) and Mary
+2 CONT Jane Lockett Hutson.
+2 SOUR @S28@
+3 _CONF Secondary
+0 @I54@ INDI
+1 NAME Mary /Lockett/
+1 SEX F
+1 FAMC @F25@
+1 FAMS @F17@
+1 NOTE 3x-great-grandmother of Miles; wife and first cousin of Napoleon Lockett,
+2 CONT daughter of Samuel L. Lockett and Selina Watkins. "Mrs. Napoleon Lockett of
+2 CONT Marion, Alabama" kept family records later used by Charles Woodward Hutson.
+2 SOUR @S28@
+3 _CONF Secondary
+0 @I55@ INDI
+1 NAME Henry Wilson /Lockett/
+2 NPFX Dr.
+1 SEX M
+1 FAMC @F19@
+1 FAMS @F18@
+1 BIRT
+2 DATE 19 FEB 1775
+2 SOUR @S28@
+3 PAGE Entry 2-1-2-5: "Dr. Henry Wilson Lockett, fifth child of Stephen Lockett and Mary Clay, b. Feb. 19th, 1775, d. Sept. 13th, 1846"
+3 _CONF Secondary
+1 DEAT
+2 DATE 13 SEP 1846
+2 SOUR @S28@
+3 _CONF Secondary
+1 RESI
+2 DATE 1834
+2 PLAC Powhatan County, Virginia, USA
+2 SOUR @S28@
+3 PAGE Named administrator of his late wife's estate, Powhatan County, W.B. 9:304, 4 Mar 1834
+3 _CONF Secondary
+1 NOTE 4x-great-grandfather of Miles; a physician of Powhatan County, Virginia.
+2 CONT Married (1) 10 Nov 1803 Susannah Watkins; (2) 19 Apr 1838 Jane Byrd Page.
+2 SOUR @S28@
+3 _CONF Secondary
+0 @I56@ INDI
+1 NAME Susannah /Watkins/
+2 _MARNM Lockett
+1 SEX F
+1 FAMC @F27@
+1 FAMS @F18@
+1 BIRT
+2 DATE 23 MAR 1774
+2 SOUR @S28@
+3 _CONF Secondary
+1 DEAT
+2 DATE 11 MAR 1832
+2 SOUR @S28@
+3 _CONF Secondary
+1 NOTE 4x-great-grandmother of Miles; daughter of Benjamin Watkins of Chesterfield
+2 CONT County, Virginia, and Elizabeth Cary of Warwick County.
+2 SOUR @S28@
+3 _CONF Secondary
+0 @I57@ INDI
+1 NAME Stephen /Lockett/
+1 SEX M
+1 FAMC @F20@
+1 FAMS @F19@
+1 BIRT
+2 DATE 14 NOV 1733
+2 SOUR @S28@
+3 PAGE "Stephen Lockett was born Nov. 14th, 1733, died Sept. 14th, 1794, married Nov. 2nd, 1760 to Mary Clay"
+3 _CONF Secondary
+1 DEAT
+2 DATE 14 SEP 1794
+2 SOUR @S28@
+3 _CONF Secondary
+1 NOTE 5x-great-grandfather of Miles - twice over, through both his son Dr. Henry
+2 CONT Wilson Lockett and his son Samuel L. Lockett, whose children (Napoleon and
+2 CONT Mary) married each other. Son of Thomas Lockett III and Judith Townes of
+2 CONT Cumberland County, Virginia.
+2 SOUR @S28@
+3 _CONF Secondary
+0 @I58@ INDI
+1 NAME Mary /Clay/
+2 _MARNM Lockett
+1 SEX F
+1 FAMC @F26@
+1 FAMS @F19@
+1 BIRT
+2 DATE 22 SEP 1742
+2 SOUR @S28@
+3 _CONF Secondary
+1 DEAT
+2 DATE 5 SEP 1823
+2 SOUR @S28@
+3 _CONF Secondary
+1 NOTE 5x-great-grandmother of Miles (twice over, via two of her sons); daughter of
+2 CONT Charles Clay and Mary Green of Virginia.
+2 SOUR @S28@
+3 _CONF Secondary
+0 @I59@ INDI
+1 NAME Thomas /Lockett/ III
+1 SEX M
+1 FAMC @F21@
+1 FAMS @F20@
+1 DEAT
+2 DATE ABT 1775
+2 PLAC Cumberland County, Virginia, USA
+2 SOUR @S28@
+3 PAGE "Thomas Lockett, Third, died c. 1775"; will in Cumberland W.B. 2, p. 165 names wife Judith and nine children
+3 _CONF Secondary
+1 NOTE 6x-great-grandfather of Miles. In 1773 he and his wife Judith sold 400 acres
+2 CONT on Nut Tree Branch of Swift Creek, Chesterfield County. His will names
+2 CONT children Stephen, Abner, Jacob, Martha Bass, Lucy Stone, Elizabeth, Mary
+2 CONT Gibson, James and David.
+2 SOUR @S28@
+3 _CONF Secondary
+0 @I60@ INDI
+1 NAME Judith /Townes/
+2 _MARNM Lockett
+1 SEX F
+1 FAMS @F20@
+1 NOTE 6x-great-grandmother of Miles. Some family accounts call her "Elizabeth
+2 CONT Judith"; official records (her husband's will, a 1773 deed) name her Judith.
+2 SOUR @S28@
+3 _CONF Secondary
+0 @I61@ INDI
+1 NAME Thomas /Lockett/ II
+1 SEX M
+1 FAMC @F22@
+1 FAMS @F21@
+1 DEAT
+2 DATE 1746
+2 PLAC Goochland County, Virginia, USA
+2 SOUR @S28@
+3 PAGE Will dated Nov. 13, 1745, proved March 18, 1745/6 (Goochland D.B. 5:90)
+3 _CONF Secondary
+1 NOTE 7x-great-grandfather of Miles. Patented 900 acres on the Appomattox in
+2 CONT Goochland County (1730) and 200 acres in Amelia (now Prince Edward) County
+2 CONT (1743). His estate inventory notably included books. Married (1) Martha
+2 CONT Osborne, his first cousin (b. c. 1662), and (2) Elizabeth; the genealogy does
+2 CONT not say which wife was the mother of Thomas III, so no mother is recorded.
+2 SOUR @S28@
+3 _CONF Secondary
+0 @I62@ INDI
+1 NAME Thomas /Lockett/ I
+1 SEX M
+1 FAMS @F22@
+1 DEAT
+2 DATE 1686
+2 PLAC Bristol Parish, Henrico County, Colony of Virginia
+2 SOUR @S28@
+3 PAGE Will dated March 27, 1686, proved June 1, 1686 (Henrico Records I, 1677-92, p. 367)
+3 _CONF Secondary
+1 NOTE 8x-great-grandfather of Miles and the immigrant ancestor of the Lockett
+2 CONT line ("Blood of an Englishman"). His arrival date is unknown, but he was in
+2 CONT Henrico County by 1667 and on 1 Apr 1678 "Thomas and Margaret Lockett were
+2 CONT witnesses to a bond." In 1679 he was ordered to equip a man for defense of
+2 CONT the colony; in 1683 he bought land on the Appomattox River. Family tradition
+2 CONT holds the early Locketts may have been Quakers.
+2 SOUR @S28@
+3 _CONF Secondary
+0 @I63@ INDI
+1 NAME Margaret /Osborne/
+2 _MARNM Lockett
+1 SEX F
+1 FAMC @F23@
+1 FAMS @F22@
+1 DEAT
+2 DATE 1708
+2 PLAC Henrico County, Colony of Virginia
+2 SOUR @S28@
+3 PAGE Will dated May 22, 1708 (Henrico Records 1702-09, p. 99), names all six children
+3 _CONF Secondary
+1 NOTE 8x-great-grandmother of Miles; married Thomas Lockett I c. 1667-68. Her
+2 CONT maiden name Osborne rests on family tradition: no marriage record exists, and
+2 CONT the only official hint is a 1667 assignment of a headright from Thomas Osborne
+2 CONT to Thomas Lockett, probably a wedding gift.
+2 SOUR @S28@
+3 _CONF Tentative
+0 @I64@ INDI
+1 NAME Thomas /Osborne/
+1 SEX M
+1 FAMC @F24@
+1 FAMS @F23@
+1 NOTE TENTATIVE 9x-great-grandfather of Miles. The 1951 genealogy concludes that
+2 CONT Margaret Osborne Lockett was the daughter of Thomas Osborne "2nd" (called
+2 CONT Jr., later Sr.), who in 1667 assigned Thomas Lockett the headright for
+2 CONT transporting Alexander Wood - probably at the time of the marriage. The
+2 CONT author states the number of Osborne generations "can not [be said] with any
+2 CONT certainty."
+2 SOUR @S28@
+3 _CONF Tentative
+0 @I65@ INDI
+1 NAME Thomas /Osborne/
+2 NPFX Capt.
+1 SEX M
+1 FAMS @F24@
+1 BIRT
+2 DATE ABT 1590
+2 PLAC England
+2 SOUR @S28@
+3 PAGE "born in England about the year 1590, but migrated to Virginia in 1619, sailing on the Bona Nova"
+3 _CONF Tentative
+1 IMMI
+2 DATE NOV 1619
+2 PLAC Virginia (ship Bona Nova)
+2 SOUR @S28@
+3 _CONF Tentative
+1 NOTE TENTATIVE 10x-great-grandfather of Miles. Came to Virginia in November
+2 CONT 1619 aboard the Bona Nova as one of the settlers for the College Land at
+2 CONT Henrico; listed as Lieutenant Thomas Osborne in the 1624-25 muster;
+2 CONT represented the College in the House of Burgesses (1625); commissioned
+2 CONT Captain by Gov. George Yeardley in 1627 to lead settlers against the
+2 CONT Powhatan; settled "Coxendale" on the James River. The link to Margaret
+2 CONT Osborne Lockett (as her grandfather) is the compiler's best reconstruction,
+2 CONT not a documented fact.
+2 SOUR @S28@
+3 _CONF Tentative
+0 @I66@ INDI
+1 NAME Samuel L. /Lockett/
+1 SEX M
+1 FAMC @F19@
+1 FAMS @F25@
+1 BIRT
+2 DATE 3 JUL 1782
+2 SOUR @S28@
+3 PAGE Entry 2-1-2-7: "Samuel L. Lockett, son of Stephen Lockett and Mary Clay, b. July 3rd, 1782, married Jan. 10th, 1811, Selina Watkins"
+3 _CONF Secondary
+1 NOTE 4x-great-grandfather of Miles (through his daughter Mary, wife of Napoleon
+2 CONT Lockett). Once a student at Hampden-Sydney College; served as a cornet in the
+2 CONT Prince Edward militia during the War of 1812.
+2 SOUR @S28@
+3 _CONF Secondary
+0 @I67@ INDI
+1 NAME Selina /Watkins/
+2 _MARNM Lockett
+1 SEX F
+1 FAMS @F25@
+1 NOTE 4x-great-grandmother of Miles; daughter of Francis Watkins and Agnes Woodson
+2 CONT of Prince Edward County, Virginia. Through Agnes Woodson she descended from
+2 CONT the Huguenot refugees Abraham Michaux and Susanne Richet. A cousin (not
+2 CONT sister) of Susannah Watkins Lockett.
+2 SOUR @S28@
+3 _CONF Secondary
+0 @I68@ INDI
+1 NAME Charles /Clay/
+1 SEX M
+1 FAMS @F26@
+1 NOTE 6x-great-grandfather of Miles; father of Mary Clay Lockett.
+2 SOUR @S28@
+3 _CONF Secondary
+0 @I69@ INDI
+1 NAME Mary /Green/
+2 _MARNM Clay
+1 SEX F
+1 FAMS @F26@
+1 NOTE 6x-great-grandmother of Miles; mother of Mary Clay Lockett.
+2 SOUR @S28@
+3 _CONF Secondary
+0 @I70@ INDI
+1 NAME Benjamin /Watkins/
+1 SEX M
+1 FAMS @F27@
+1 NOTE 5x-great-grandfather of Miles; of Chesterfield County, Virginia; father of
+2 CONT Susannah Watkins Lockett.
+2 SOUR @S28@
+3 _CONF Secondary
+0 @I71@ INDI
+1 NAME Elizabeth /Cary/
+2 _MARNM Watkins
+1 SEX F
+1 FAMS @F27@
+1 NOTE 5x-great-grandmother of Miles; of Warwick County, Virginia.
+2 SOUR @S28@
+3 _CONF Secondary
+0 @I72@ INDI
+1 NAME Laurence K. /Nelson/
+1 SEX M
+1 FAMC @F32@
+1 DEAT
+2 DATE 8 DEC 1957
+2 PLAC Baptist Hospital, New Orleans, Louisiana, USA
+2 SOUR @S32@
+3 PAGE "Laurence K. Nelson, 51, an engineer in New Orleans for the past thirty years, died on December 8th in Baptist Hospital"
+3 _CONF Secondary
+1 EDUC Tulane University, B.E. (mechanical and electrical engineering), 1927
+2 SOUR @S32@
+3 _CONF Secondary
+1 NOTE Great-granduncle of Miles; brother of Adela Nelson Hutson ("a sister, Mrs.
+2 CONT Miles B. Hutson, all of New Orleans"). Worked for A. M. Lockett & Co. - a firm
+2 CONT of his sister's Lockett in-laws. Obituary published in the March 1958 issue.
+2 SOUR @S32@
+3 _CONF Secondary
+0 @F7@ FAM
+1 HUSB @I32@
+1 WIFE @I33@
+1 CHIL @I34@
+1 CHIL @I9@
+1 MARR
+2 DATE 5 JUL 1871
+2 SOUR @S28@
+3 _CONF Secondary
+1 NOTE Charles Woodward Hutson and Mary Jane Lockett. Ten children per the 1951
+2 CONT Lockett genealogy: Ethel (1872), William Ferguson (1874), Henry Lockett
+2 CONT (1876-1919), Francis Marion (1878-1888), Arthur Cary (1882), twins Sophie
+2 CONT Palmer and Mary Lockett (1884; Mary m. Bernard Stanley Nelson 1913), Charles
+2 CONT Stanyarne (1887-1891), Miles Brewton (1889) and Albert Lockett (1893). Only
+2 CONT Ethel and Miles Brewton are recorded as individuals here.
+2 SOUR @S28@
+3 _CONF Secondary
+0 @F8@ FAM
+1 HUSB @I35@
+1 WIFE @I36@
+1 CHIL @I32@
+1 MARR
+2 DATE 11 FEB 1836
+2 SOUR @S29@
+3 _CONF Secondary
+1 NOTE Children: Charles Woodward (1840), Emily McLeod (1842; m. Sanders Glover),
+2 CONT Frances Sophia (1850-1878; m. Rev. John T. McBryde).
+2 SOUR @S29@
+3 _CONF Secondary
+0 @F9@ FAM
+1 HUSB @I37@
+1 WIFE @I38@
+1 CHIL @I35@
+1 MARR
+2 DATE 2 JUN 1814
+2 SOUR @S29@
+3 _CONF Secondary
+0 @F10@ FAM
+1 HUSB @I39@
+1 WIFE @I40@
+1 CHIL @I37@
+1 MARR
+2 DATE 21 OCT 1773
+2 SOUR @S29@
+3 _CONF Secondary
+1 NOTE Children: Mary Woodward (1774; m. Charles Jones Colcock), William Maine
+2 CONT (1777), Esther (1779; m. Alexander Fraser Gregorie), Thomas (1784-1807) and
+2 CONT Richard Woodward (1788).
+2 SOUR @S29@
+3 _CONF Secondary
+0 @F11@ FAM
+1 HUSB @I41@
+1 WIFE @I42@
+1 CHIL @I45@
+1 CHIL @I39@
+1 MARR
+2 DATE 1743
+2 SOUR @S29@
+3 _CONF Secondary
+1 NOTE Children: Mary (1744; m. Arthur Peronneau), Elizabeth (1746; m. Col. Isaac
+2 CONT Hayne, executed by the British in 1781), Richard (1748), Thomas (1750),
+2 CONT Esther (1753; m. William Hazzard Wigg) and Anne (1755; m. John Barnwell).
+2 SOUR @S29@
+3 _CONF Secondary
+0 @F12@ FAM
+1 HUSB @I43@
+1 WIFE @I44@
+1 CHIL @I41@
+0 @F13@ FAM
+1 HUSB @I46@
+1 WIFE @I47@
+1 CHIL @I42@
+0 @F14@ FAM
+1 HUSB @I48@
+1 CHIL @I46@
+1 NOTE Dr. Henry Woodward and Mrs. Mary (Godfrey) Browne, daughter of Col. John
+2 CONT Godfrey. Children: John (1681), Richard (1683), Elizabeth (m. William
+2 CONT Wilkins).
+2 SOUR @S35@
+3 _CONF Secondary
+0 @F15@ FAM
+1 HUSB @I49@
+1 WIFE @I50@
+1 CHIL @I36@
+0 @F16@ FAM
+1 HUSB @I51@
+1 WIFE @I52@
+1 CHIL @I40@
+0 @F17@ FAM
+1 HUSB @I53@
+1 WIFE @I54@
+1 CHIL @I33@
+1 NOTE First cousins Napoleon and Mary Lockett. Children included Powhatan, Col.
+2 CONT Samuel Henry, Dr. William Albert, Susan, Napoleon, Mary Jane (1847), Henry,
+2 CONT Frances, Charles Clay, Elizabeth Cary (drowned with her husband in the 1900
+2 CONT Galveston hurricane) and Hetty Minor.
+2 SOUR @S28@
+3 _CONF Secondary
+0 @F18@ FAM
+1 HUSB @I55@
+1 WIFE @I56@
+1 CHIL @I53@
+1 MARR
+2 DATE 10 NOV 1803
+2 SOUR @S28@
+3 _CONF Secondary
+0 @F19@ FAM
+1 HUSB @I57@
+1 WIFE @I58@
+1 CHIL @I55@
+1 CHIL @I66@
+1 MARR
+2 DATE 2 NOV 1760
+2 SOUR @S28@
+3 _CONF Secondary
+0 @F20@ FAM
+1 HUSB @I59@
+1 WIFE @I60@
+1 CHIL @I57@
+0 @F21@ FAM
+1 HUSB @I61@
+1 CHIL @I59@
+1 NOTE Mother of Thomas Lockett III not determined: Thomas II married (1) Martha
+2 CONT Osborne and (2) Elizabeth.
+2 SOUR @S28@
+3 _CONF Secondary
+0 @F22@ FAM
+1 HUSB @I62@
+1 WIFE @I63@
+1 CHIL @I61@
+1 MARR
+2 DATE ABT 1667
+2 PLAC Henrico County, Colony of Virginia
+2 SOUR @S28@
+3 _CONF Tentative
+1 NOTE Children: Benjamin (b. c. 1669; m. Winnifred Pride), Thomas (d. c. 1745),
+2 CONT James (c. 1675-1709), Susan (m. William Grigg), Elizabeth (m. Standley) and
+2 CONT Mary (m. Mitchell).
+2 SOUR @S28@
+3 _CONF Secondary
+0 @F23@ FAM
+1 HUSB @I64@
+1 CHIL @I63@
+1 NOTE TENTATIVE link - see notes on Margaret Osborne and Thomas Osborne.
+2 SOUR @S28@
+3 _CONF Tentative
+0 @F24@ FAM
+1 HUSB @I65@
+1 CHIL @I64@
+1 NOTE TENTATIVE link - the compiler's preferred reconstruction of the Henrico
+2 CONT Osborne generations.
+2 SOUR @S28@
+3 _CONF Tentative
+0 @F25@ FAM
+1 HUSB @I66@
+1 WIFE @I67@
+1 CHIL @I54@
+1 MARR
+2 DATE 10 JAN 1811
+2 SOUR @S28@
+3 _CONF Secondary
+0 @F26@ FAM
+1 HUSB @I68@
+1 WIFE @I69@
+1 CHIL @I58@
+0 @F27@ FAM
+1 HUSB @I70@
+1 WIFE @I71@
+1 CHIL @I56@
+0 @F28@ FAM
+1 HUSB @I20@
+1 WIFE @I21@
+1 CHIL @I22@
+1 CHIL @I6@
+1 MARR
+2 DATE 14 JAN 1923
+2 PLAC 1919 Octavia Street (home of Mrs. Sidney Herzog), San Francisco, California, USA
+2 SOUR @S15@
+3 PAGE Issue of 20 Jan 1923: "An interesting little home wedding solemnized Sunday was that of Miss Edith Wormser, daughter of Mrs. May Wormser, and Mr. George Julien Liebes, son of Mrs. Julien Liebes" (Sunday = 14 Jan 1923, inferred from issue date)
+3 _CONF Secondary
+0 @F29@ FAM
+1 HUSB @I23@
+1 WIFE @I24@
+1 CHIL @I20@
+1 CHIL @I25@
+0 @F30@ FAM
+1 HUSB @I26@
+1 WIFE @I27@
+1 CHIL @I28@
+1 CHIL @I29@
+1 CHIL @I23@
+1 NOTE Children of Herman and Hannah Liebes included George (d. 1900), Sidney
+2 CONT (1869-1907), Julien (c. 1871-1916), Edgar Albert, Leonie (Mrs. Armer) and
+2 CONT Elsie (Mrs. Lee). "George Liebes, Sidney Liebes and Julian Liebes, sons of
+2 CONT the late Herman Liebes" appear in 1898 estate news.
+2 SOUR @S36@
+3 _CONF Secondary
+0 @F31@ FAM
+1 HUSB @I31@
+1 WIFE @I30@
+1 CHIL @I21@
+1 NOTE Husband Julius Wormser is TENTATIVE (see I31).
+2 SOUR @S27@
+3 _CONF Tentative
+0 @F32@ FAM
+1 CHIL @I10@
+1 CHIL @I72@
+1 NOTE Siblings Adela and Laurence K. Nelson of New Orleans; parents not yet
+2 CONT identified.
+2 SOUR @S32@
+3 _CONF Secondary
+0 @S12@ SOUR
+1 TITL 1950 U.S. Census - Liebes household, Highland Park, Dallas County, Texas (ED 57-7, sheet 10)
+1 AUTH U.S. Bureau of the Census (enumerator Victor A. Bergman)
+1 PUBL National Archives, 1950 Census website (released 2022)
+1 _URL https://1950census.archives.gov/search/?county=Dallas&ed=57-7&name=Liebes&page=1&state=TX
+1 _CONF Primary
+1 _ACC 2026-09-23
+1 NOTE Original census schedule image, enumerated 27 April 1950. Lines 28-30:
+2 CONT house 4805, dwelling 146 - Liebes, George J., head, W, M, 49, married, born
+2 CONT California, worked 48 hrs, "Fur Director", "Specialty Shop", private
+2 CONT employer; Edith M., wife, W, F, 49 (or 47), married, born California;
+2 CONT Joan, daughter, W, F, 18, never married, born Oregon (sample line: parents
+2 CONT U.S.-born). Image: 1950census/43290879-Texas/43290879-Texas-081116/
+2 CONT 43290879-Texas-081116-0011.jpg.
+0 @S13@ SOUR
+1 TITL 1950 U.S. Census - Hutson household, New Orleans, Orleans Parish, Louisiana (ED 36-795, sheet 73)
+1 AUTH U.S. Bureau of the Census (enumerator James O'Quin Shier)
+1 PUBL National Archives, 1950 Census website (released 2022)
+1 _URL https://1950census.archives.gov/search/?county=New%20Orleans%2C%20Orleans%20Parish&ed=36-795&name=Hutson&page=1&state=LA
+1 _CONF Primary
+1 _ACC 2026-09-23
+1 NOTE Original census schedule image, enumerated 13 April 1950. Lines 19-21:
+2 CONT 321 Hillary Street, dwelling 65 - Hutson, Miles B., head, W, M, 60,
+2 CONT married, born South Carolina, 48 hrs, "Electrical Engineer", "Electric Motor
+2 CONT Repair Shop" (sample line: parents U.S.-born, 5 years college, 1949 wages
+2 CONT $5,300); Adela L., wife, W, F, 57, married, born La., 42 hrs, "Social
+2 CONT Worker", "Child Welfare Agency"; Richard N., son, W, M, 21, never married,
+2 CONT born La., "Electrical Eng. Instructor", "Private University". Image:
+2 CONT 1950census/43290879-Louisiana/43290879-Louisiana-216299/
+2 CONT 43290879-Louisiana-216299-0017.jpg.
+0 @S14@ SOUR
+1 TITL Obituary of Joan Liebes Hutson (1931-2026)
+1 AUTH The Dallas Morning News (via Legacy.com)
+1 PUBL obits.dallasnews.com, January 2026
+1 _URL https://obits.dallasnews.com/us/obituaries/dallasmorningnews/name/joan-hutson-obituary?id=60625475
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE Full obituary. The page itself is behind a bot check, so its content was read
+2 CONT via search-engine extracts: "Joan Liebes Hutson, 94, of Dallas, Texas, passed
+2 CONT away peacefully on January 13, 2026. Born in Portland, Oregon, Joan spent her
+2 CONT early childhood in San Francisco before moving to Dallas at age eleven. She
+2 CONT was the daughter of George and Edith Liebes and the beloved sister of George
+2 CONT 'Sonny' Liebes. She earned degrees from Southern Methodist University and
+2 CONT Stanford University, began her career as a schoolteacher, and later worked in
+2 CONT Personnel and Training at Neiman Marcus." Survivors: children John Charles
+2 CONT Hutson, Paul Neil Hutson, Mary Louise Hutson Suttles; grandchildren Miles,
+2 CONT Jenni, Zachary, Sydnie, Casey, Shelley, Carter and Cole.
+0 @S15@ SOUR
+1 TITL San Francisco News Letter, 20 January 1923 - "Wormser-Liebes" wedding notice
+1 AUTH San Francisco News Letter (society column)
+1 PUBL San Francisco News Letter, Jan.-June 1923; digitized by Internet Archive
+1 _URL https://archive.org/details/sfnewsletter102unse
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE "WORMSER-LIEBES - An interesting little home wedding solemnized Sunday was
+2 CONT that of Miss Edith Wormser, daughter of Mrs. May Wormser, and Mr. George
+2 CONT Julien Liebes, son of Mrs. Julien Liebes. The wedding took place at the home
+2 CONT of the bride's cousin, Mrs. Sidney Herzog, 1919 Octavia street, at 3
+2 CONT o'clock. The young couple have gone south for their honeymoon and will be
+2 CONT away for two weeks. On their return they will live at the Hotel Fielding."
+0 @S16@ SOUR
+1 TITL "Husband Is Drowned in Sight of Wife: Julien Liebes of San Francisco Loses Life at Long Beach"
+1 AUTH Richmond Terminal (Richmond, Calif.), 7 July 1916
+1 PUBL California Revealed / Internet Archive
+1 _URL https://archive.org/details/cric_007370
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE Contemporary news report: a rip tide at Long Beach "drew with it Julien
+2 CONT Liebes, member of the firm of H. Liebes & Co. of this city, and his
+2 CONT thirteen-year-old son, George. Liebes lost his life, even as his wife and
+2 CONT another son looked on. George Liebes was rescued ... Liebes' other son,
+2 CONT Martin, 10 years old, also was in bathing." Julien was vice-president of H.
+2 CONT Liebes & Co., "importers and dealers in Alaskan furs," a director in the
+2 CONT Northern Commercial Company, and a member of the Concordia and Argonaut clubs.
+0 @S17@ SOUR
+1 TITL Los Angeles Times, 3 July 1916 - Long Beach drowning report
+1 AUTH Los Angeles Times
+1 PUBL Internet Archive
+1 _URL https://archive.org/details/sim_los-angeles-times_the-los-angeles-times_1916-07-03
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE Reports "Julien Liebes, aged 45 ... of the Liebes & Co., Post street near
+2 CONT Kearney, San Francisco" drowned at Long Beach; notes the family had been
+2 CONT touring southern California hotels. (OCR text is fragmentary.)
+0 @S18@ SOUR
+1 TITL The Argonaut (San Francisco), July 1916 - estate of Julian Liebes
+1 AUTH The Argonaut
+1 PUBL Internet Archive
+1 _URL https://archive.org/details/argonaut791916sanf
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE "Mrs. Sophie Liebes has been appointed by Judge Flood as administratrix of
+2 CONT the estate of her late husband, Julian Liebes, furrier, who was drowned at
+2 CONT Long Beach on July 2d. The estate is valued at approximately $40,000."
+0 @S19@ SOUR
+1 TITL Oakland Tribune, 25 October 1911 - Liebes household
+1 AUTH Oakland Tribune
+1 PUBL Internet Archive
+1 _URL https://archive.org/details/oakland-tribune-1911-10-25
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE Identifies "Mrs. Sophie Liebes, wife of Julien Liebes, the furrier, in her
+2 CONT home at 1701 Broadway" (San Francisco).
+0 @S20@ SOUR
+1 TITL The Fur Trade of America and Some of the Men Who Made and Maintain It (pp. 88-89, San Francisco)
+1 AUTH Belden, A. L.
+1 PUBL New York: Peltries Publishing Co., 1917; digitized by Internet Archive
+1 _URL https://archive.org/details/furtradeofameric00belduoft
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE "Herman Liebes, born in Rawicz, Prussia, in 1842, came to New York when
+2 CONT twenty years of age ... in company with Charles J. Biehlow went to San
+2 CONT Francisco, where, in October, 1864, they began fur manufacturing in a small
+2 CONT way ... with very handsome stores at San Francisco and Portland; the business
+2 CONT was incorporated in 1890 by Herman, Isaac and George Liebes ... Herman Liebes
+2 CONT died in London, February 28, 1898."
+0 @S21@ SOUR
+1 TITL Oakland Tribune, 7 April 1900 - "George Liebes Dead"
+1 AUTH Oakland Tribune (Associated Press)
+1 PUBL Internet Archive
+1 _URL https://archive.org/details/oakland-tribune-1900-04-07
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE "SAN FRANCISCO, April 6. - George Liebes, vice president of the firm of H.
+2 CONT Liebes & Co., and a director of the Alaska Exploration Company, died today at
+2 CONT the German Hospital of peritonitis, following an operation for appendicitis.
+2 CONT He was only 32 years old and was a bachelor."
+0 @S22@ SOUR
+1 TITL Dallas (magazine), October 1955 - "Neiman-Marcus Elects Officers"
+1 AUTH Dallas Chamber of Commerce
+1 PUBL Dallas, vol. 34 no. 10; digitized by Internet Archive
+1 _URL https://archive.org/details/sim_dallas_1955-10_34_10
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE "New officers in the Texas specialty stores corporation are: Benjamin Eisner,
+2 CONT Jack Goren, George J. Liebes and Dudley Ramsden, group merchandise directors
+2 CONT ... all elected vice presidents."
+0 @S23@ SOUR
+1 TITL Sikeston Daily Standard, 1 June 1966 - "Texas - All Mink and a Yard Wide"
+1 AUTH Sikeston Daily Standard (citing N.Y. Herald Tribune, 7 May 1966)
+1 PUBL Internet Archive
+1 _URL https://archive.org/details/sikeston-daily-standard-1966-06-01
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE Neiman-Marcus bought 40 Black Willow mink skins at $1,100 each from the
+2 CONT Hudson's Bay Fur Company auction for an $80,000 coat; Stanley Marcus
+2 CONT "whistled when he heard the price, wished Mr. (George J.) Liebes (the buyer)
+2 CONT luck." Related: AP, Feb. 1968 (Appleton Post-Crescent, 1 Feb 1968): the highest
+2 CONT price for sea otter pelts since 1911 "was paid by George Liebes, vice president
+2 CONT of Neiman-Marcus of Dallas"; Stores magazine (Jul-Aug 1959): the FIFC program
+2 CONT "headed by George Liebes of Neiman Marcus, Dallas."
+0 @S24@ SOUR
+1 TITL The Stanford Alumni Directory (1984 and Centennial editions)
+1 AUTH Stanford Alumni Association
+1 PUBL Internet Archive
+1 _URL https://archive.org/details/bwb_Y0-BWG-862
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE "Hutson, Mrs. Richard Neil (Joan Liebes) Class '51, Educ.; 3605 Gillon,
+2 CONT Dallas, TX 75205." Links Joan Liebes to Richard Neil Hutson by name.
+0 @S25@ SOUR
+1 TITL San Francisco numerical directory, 1939-40
+1 AUTH Pacific Telephone and Telegraph Co.
+1 PUBL Internet Archive
+1 _URL https://archive.org/details/sanfrancisconume193940nume
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE Lists "George J Liebes" among San Francisco telephone subscribers, 1939-40;
+2 CONT also listed in the 1940 San Francisco house and street directory
+2 CONT (archive.org/details/sanfranciscohous1940hous).
+0 @S26@ SOUR
+1 TITL Texas State Journal of Medicine membership rosters (1957-60); SMU Rotunda yearbook (1944)
+1 AUTH Texas Medical Association; Southern Methodist University
+1 PUBL Internet Archive
+1 _URL https://archive.org/details/sim_texas-medicine_1958-07_54_7
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE "Liebes, George J., Jr., 8215 Westchester, Dallas" (TMA rosters 1957, 1958,
+2 CONT 1960); "Liebes, George J., II, A, Dallas" (SMU Rotunda, 1944); "George J.
+2 CONT Liebes, 3605 Stanford, Dallas 25, Texas" (Journal of Pediatrics / Am. J.
+2 CONT Dis. Child., June 1959 - pediatric board list).
+0 @S27@ SOUR
+1 TITL McCord's Edwards Abstract from Records, February 1921 - probate filings
+1 AUTH McCord's Edwards Abstract (San Francisco legal digest)
+1 PUBL Internet Archive
+1 _URL https://archive.org/details/mccords-edwards-abstract-from-records_1922-01-03_no-8933-no-9233
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE Probate entry 31119, Dept 10: "Julius Wormser, let of adm, petn of May
+2 CONT Wormser, pers prop about $9190, hearing Feb 23." Establishes that a May
+2 CONT Wormser administered Julius Wormser's estate; the family relationship to
+2 CONT Edith is inferred, not stated.
+0 @S28@ SOUR
+1 TITL Southern Kith and Kin: A Record of My Children's Ancestors, Vol. 1: The Locketts
+1 AUTH Scarborough, Jewel Davis (1887-1968)
+1 PUBL Abilene, Texas: Abilene Printing Co., 1951; digitized by Internet Archive
+1 _URL https://archive.org/details/southernkithkinr01scar
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE A compiled genealogy of the Lockett family of Virginia, citing Henrico,
+2 CONT Chesterfield, Goochland, Cumberland, Powhatan and Amelia county wills,
+2 CONT deeds and parish registers. Its Stephen Lockett chapter was checked against
+2 CONT records supplied by Miss Ethel Hutson of New Orleans, including notes by her
+2 CONT father Charles Woodward Hutson. Gives the Hutson entry: "Miles Brewton
+2 CONT Hutson, b. Dec. 13th, 1889, married July 19th, 1919, Louise Adela Nelson."
+2 CONT Compiled secondary source; the author flags the Osborne generations as
+2 CONT uncertain.
+0 @S29@ SOUR
+1 TITL "The Hutson Family of South Carolina"
+1 AUTH Hutson, William Maine
+1 PUBL South Carolina Historical and Genealogical Magazine, vol. 9, no. 3 (July 1908), pp. 127-140
+1 _URL https://archive.org/details/sim_south-carolina-historical-magazine_1908-07_9_3
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE Numbered genealogy of the descendants of Rev. William Hutson (1720-1761),
+2 CONT compiled by a family member from family records and tombstones. Covers
+2 CONT William -> Thomas -> Richard Woodward -> William Ferguson -> Charles
+2 CONT Woodward Hutson (entry 50, b. 1840). Also on JSTOR Early Journal Content
+2 CONT (stable id 27575199).
+0 @S30@ SOUR
+1 TITL Charles Woodward Hutson Papers, 1765-1949 (#00362), Southern Historical Collection
+1 AUTH Wilson Library, University of North Carolina at Chapel Hill
+1 PUBL UNC finding aid
+1 _URL https://finding-aids.lib.unc.edu/catalog/00362
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE Archival finding aid: "Charles Woodward Hutson (1840-1936) grew up on
+2 CONT plantations in Beaufort District, S.C.; attended South Carolina College;
+2 CONT served in the Confederate Army throughout the Civil War in Virginia, North
+2 CONT Carolina, and South Carolina; was a teacher and professor in several
+2 CONT southern states, including fifteen years in Texas; and settled finally in
+2 CONT New Orleans, La., as an artist and writer." Notes his father William F.
+2 CONT Hutson signed the South Carolina Ordinance of Secession. See also 64
+2 CONT Parishes (64parishes.org/entry/charles-woodward-hutson).
+0 @S31@ SOUR
+1 TITL H. Sophie Newcomb Memorial College Bulletin (1908-1913) and Jambalaya yearbooks (1911-1916)
+1 AUTH Newcomb College / Tulane University
+1 PUBL Internet Archive
+1 _URL https://archive.org/details/bulletinhsophien1913newc
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE "Louise Adela Nelson" holder of the Battle Abbey Scholarship (1908, 1910);
+2 CONT Newcomb senior, Class of 1912; "Adela Nelson, A.B., Teaching Fellow in
+2 CONT Chemistry" (1913); Smith College Catalogue (1934) lists "Hutson, Adela Nelson,
+2 CONT B.A. 1912, H. Sophie Newcomb College."
+0 @S32@ SOUR
+1 TITL Obituary of Laurence K. Nelson - Heating, Piping and Air Conditioning, March 1958
+1 AUTH American Society of Heating and Air-Conditioning Engineers
+1 PUBL Heating, Piping and Air Conditioning, vol. 30, no. 3 (March 1958); Internet Archive
+1 _URL https://archive.org/details/sim_heating-piping-air-conditioning-engineering-hp_heating-piping-and-air-conditi_1958-03_30_3
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE "Laurence K. Nelson, 51, an engineer in New Orleans for the past thirty
+2 CONT years, died on December 8th in Baptist Hospital ... Survivors include his
+2 CONT wife, Gladys; a daughter, Jean; two sons, Eric and Kent, and a sister, Mrs.
+2 CONT Miles B. Hutson, all of New Orleans."
+0 @S33@ SOUR
+1 TITL Plano Daily Star-Courier, 1976-1977 - Richard and Euvonne Thompson
+1 AUTH Plano Daily Star-Courier
+1 PUBL Internet Archive
+1 _URL https://archive.org/details/plano-daily-star-courier-1977-12-04
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE Local news items naming "Richard and Euvonne Thompson" (16 Apr 1976) and a
+2 CONT letter signed "Euvonne Thompson, 2916 Creekbend" (4 Dec 1977) - the same
+2 CONT Plano address as Richard W. Thompson, Inc.
+0 @S34@ SOUR
+1 TITL The Wasp (San Francisco), July-December 1910 - society column
+1 AUTH The Wasp
+1 PUBL Internet Archive
+1 _URL https://archive.org/details/waspjulydec1910unse
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE Of an eloping 18-year-old bride: "Her mother is Mrs. Lyon, wife of a
+2 CONT well-known architect, and sister of Mrs. Julien Liebes of the noted firm of
+2 CONT furriers. Mrs. Lyon's first husband was named Jeffreys Martin."
+0 @S35@ SOUR
+1 TITL "Dr. Henry Woodward, the First English Settler in South Carolina, and Some of His Descendants"
+1 AUTH Barnwell, Joseph W.
+1 PUBL South Carolina Historical and Genealogical Magazine, vol. 8 (1907), pp. 29-41
+1 _URL https://archive.org/details/jstor-27575150
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE Biography and numbered genealogy citing Charleston probate records. Gives
+2 CONT Dr. Woodward's birth (c. 1646), his arrival with the first colonists (1670),
+2 CONT death between 1686 and 1690, marriage to Mrs. Mary (Godfrey) Browne; son
+2 CONT Richard (b. 9 June 1683, d. 1725) m. Sarah Stanyarne; their daughter Mary
+2 CONT b. 6 Dec 1717.
+0 @S36@ SOUR
+1 TITL Liebes family references: 1898 estate news and Geni compiled profiles
+1 AUTH Los Angeles Times / St. Louis Post-Dispatch (18 Mar 1898); Geni.com
+1 PUBL Internet Archive; geni.com
+1 _URL https://www.geni.com/people/Sidney-Samuel-Liebes/6000000003403207368
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE 1898 wire story on the estate of the North American Commercial Company
+2 CONT founder: "George Liebes, Sidney Liebes and Julian Liebes, sons of the late
+2 CONT Herman Liebes" (Primary-era newspaper, Secondary). Geni profile (read via
+2 CONT search extract; site blocks automated access) gives Sidney Liebes b. 24 Oct
+2 CONT 1869, d. 10 May 1907, parents Herman and Hannah Liebes, and quotes a 1900
+2 CONT notice of George as "son of the late Herman Liebes and Mrs. Hannah Liebes."
+2 CONT Geni is a compiled tree: treated as Tentative for dates.
 0 TRLR

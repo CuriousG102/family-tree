@@ -94,3 +94,54 @@ Louisiana Statewide Death Index for Miles/Adela; Texas marriage index for
 Richard Jr. & Euvonne (Abilene/Taylor Co., early 1950s) to get Euvonne's
 maiden name; SF 1940 census for 8-year-old Joan Liebes to identify her
 parents; ask Miles for any names he knows on the Liebes side.
+
+## 2026-09-23 — Session 3: autonomous deep research (72 people, 13 generations)
+
+**New free sources that worked:**
+- **1950 U.S. Census (NARA, 1950census.archives.gov)**: name-searchable API plus
+  IIIF page images. Found both key households on the original schedules:
+  - *Hutson*, 321 Hillary St, New Orleans (ED 36-795, sheet 73): Miles B. (60,
+    b. SC, electrical engineer), Adela L. (57, b. La., social worker),
+    Richard N. (21, EE instructor at a private university).
+  - *Liebes*, Highland Park, Dallas (ED 57-7, sheet 10): George J. (49, b. CA,
+    "Fur Director", specialty shop), Edith M. (b. CA), **Joan (18, b. Oregon)**.
+- **Internet Archive full-text search** (`archive.org/services/search/beta/…`,
+  `service_backend=fts`) over digitized newspapers, directories, yearbooks
+  and journals. Every quote in the GEDCOM was read in the item's `_djvu.txt`.
+
+**Liebes line — proven:**
+- 1923 *San Francisco News Letter*: wedding of "Miss Edith Wormser, daughter of
+  Mrs. May Wormser, and Mr. George Julien Liebes, son of Mrs. Julien Liebes."
+- 1916 *Richmond Terminal*, *LA Times*, *Argonaut*: Julien Liebes (45), VP of
+  H. Liebes & Co., drowned at Long Beach on 2 July 1916 while carrying his
+  13-year-old son George; widow Sophie became administratrix.
+- Belden, *Fur Trade of America* (1917): Herman Liebes b. Rawicz, Prussia 1842;
+  SF furrier from Oct 1864; d. London 28 Feb 1898.
+- Neiman-Marcus career: *Dallas* magazine 1955 (elected VP), 1966 mink story,
+  1968 AP sea-otter story. Stanford Alumni Directory: Joan Liebes, Class of '51.
+- Joan's full *Dallas Morning News* obituary (read via search extracts, since the
+  site has a bot check): born Portland, early childhood SF, moved to Dallas at 11.
+
+**Hutson line — two published genealogies:**
+- W. M. Hutson, "The Hutson Family of South Carolina," *SC Hist. & Gen. Mag.*
+  9:3 (1908): Rev. William Hutson (b. England 1720) → Thomas (1750–89) →
+  Richard Woodward (1788–1866) → William Ferguson (1815–81) → Charles Woodward
+  (1840–1936).
+- J. D. Scarborough, *Southern Kith and Kin* v.1 (1951): Miles Brewton Hutson
+  b. 13 Dec 1889, m. 19 Jul 1919 Louise Adela Nelson; children Louise Adela
+  (1920), Mary Jane (1922), Charleen Ethel (1924). Also covers the full Lockett
+  descent from Thomas Lockett I (d. 1686, Henrico Co., VA).
+- J. W. Barnwell, "Dr. Henry Woodward…" *SC Hist. & Gen. Mag.* 8 (1907).
+- UNC finding aid for the Charles Woodward Hutson Papers.
+
+**Marked Tentative (reasoned, not proven):** Julius Wormser as Edith's father
+(only a 1921 probate petition by May Wormser); the Osborne generations above
+Margaret Osborne Lockett (the 1951 compiler says they are uncertain); Hannah as
+Herman Liebes's wife and Sidney's dates (Geni compiled profile).
+
+**Blocked or dead ends (not circumvented):** Find A Grave, Geni, Legacy/
+dallasnews (bot protection); Portal to Texas History (CAPTCHA). Euvonne
+Thompson's maiden name: not found in the Texas 1950 census (too many fuzzy
+matches without a surname) or in full-text search. Only Plano newspaper
+mentions (1976–77) were found. Richard W. Thompson Sr.: no record found.
+Adela Nelson's parents: not found (brother Laurence K. Nelson identified).

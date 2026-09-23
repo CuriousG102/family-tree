@@ -132,13 +132,32 @@ EVENT_LABELS = {
 }
 
 
+def build_name(node):
+    name = format_name(node.text())
+    prefix = node.val("NPFX")
+    if prefix:
+        name["prefix"] = prefix
+        name["full"] = prefix + " " + name["full"]
+    for tag, key in (("NICK", "nickname"), ("_MARNM", "married")):
+        if node.val(tag):
+            name[key] = node.val(tag)
+    return name
+
+
+def event_label(node):
+    if node.tag == "EVEN" and node.val("TYPE"):
+        return node.val("TYPE")
+    return EVENT_LABELS.get(node.tag, node.tag.title())
+
+
 def build_individual(rec):
     ind = {
         "id": rec.xref.strip("@"),
-        "names": [format_name(n.text()) for n in rec.find("NAME")],
+        "names": [build_name(n) for n in rec.find("NAME")],
         "sex": rec.val("SEX") or None,
         "events": [],
         "notes": [n.text() for n in rec.find("NOTE")],
+        "note_citations": [collect_citations(n) for n in rec.find("NOTE")],
         "famc": [c.value.strip("@") for c in rec.find("FAMC")],
         "fams": [c.value.strip("@") for c in rec.find("FAMS")],
     }
@@ -147,7 +166,7 @@ def build_individual(rec):
         if child.tag in EVENT_TAGS:
             ev = fact_from(child)
             ev["type"] = child.tag
-            ev["label"] = EVENT_LABELS.get(child.tag, child.tag.title())
+            ev["label"] = event_label(child)
             ind["events"].append(ev)
     return ind
 
@@ -159,11 +178,11 @@ def build_family(rec):
         "wife": (rec.val("WIFE") or "").strip("@") or None,
         "children": [c.value.strip("@") for c in rec.find("CHIL")],
         "events": [
-            {**fact_from(child), "type": child.tag,
-             "label": EVENT_LABELS.get(child.tag, child.tag.title())}
+            {**fact_from(child), "type": child.tag, "label": event_label(child)}
             for child in rec.children if child.tag in EVENT_TAGS
         ],
         "notes": [n.text() for n in rec.find("NOTE")],
+        "note_citations": [collect_citations(n) for n in rec.find("NOTE")],
     }
 
 
