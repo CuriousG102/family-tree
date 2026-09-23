@@ -225,6 +225,10 @@
 1 OCCU Oil & gas producer - Richard W. Thompson, Jr. Inc., Plano, Texas
 2 SOUR @S11@
 3 _CONF Secondary
+1 OCCU Petroleum engineer for G. W. Strake; transferred from Wichita Falls to Winters, Texas (May 1951)
+2 SOUR @S37@
+3 PAGE "Richard W. Thompson, Jr., petroleum engineer for G. W. Strake, has been transferred from Wichita Falls to Winters, Tex."
+3 _CONF Tentative
 1 NOTE Maternal grandfather of Miles. The "Jr." suffix and his son's "III" establish
 2 CONT the family naming line back to a Richard W. Thompson Sr. On 5 May 2018 he
 2 CONT deeded his Collin County homestead to himself and his daughter Hilary Thompson
@@ -865,12 +869,19 @@
 2 CONT George Julien and Martin Liebes. Maiden name not yet found. A 1910 society
 2 CONT column identifies her sister as Mrs. M. J. Lyon, wife of the San Francisco
 2 CONT architect M. J. Lyon (who designed Julien's 1902 house) and previously the
-2 CONT widow of Jeffreys Martin - a likely reason her son was named Martin.
+2 CONT widow of Jefferson Martin - a likely reason her son was named Martin. Per
+2 CONT the San Francisco Call (9 Mar 1895) the sister was Mrs. Julia Martin, whose
+2 CONT first husband Jefferson Martin (stepson of the merchant Samuel Simon) died
+2 CONT months after their marriage, leaving a posthumous daughter, Jeffreys Martin;
+2 CONT Julia later married the architect Moses J. Lyon (of 1900 Vallejo Street,
+2 CONT later also Sophie's address). The sisters' maiden name is still unknown.
 2 SOUR @S19@
 3 _CONF Secondary
 2 SOUR @S18@
 3 _CONF Secondary
 2 SOUR @S34@
+3 _CONF Secondary
+2 SOUR @S41@
 3 _CONF Secondary
 0 @I25@ INDI
 1 NAME Martin /Liebes/
@@ -939,9 +950,15 @@
 1 NOTE Great-great-great-grandmother of Miles; wife of Herman Liebes. A 1900 death
 2 CONT notice (transcribed on Geni) describes their son George as "son of the late
 2 CONT Herman Liebes and Mrs. Hannah Liebes, and brother of Sidney, Julian and
-2 CONT Edgar A. Liebes." Maiden name not yet found.
+2 CONT Edgar A. Liebes." Maiden name not yet found. In December 1891 a San
+2 CONT Francisco judge ordered $100 a week paid to "Mrs. Hannah Liebes ... in the
+2 CONT matter of the Liebes divorce suit" (Oakland Tribune, 18 Dec 1891). She
+2 CONT outlived Herman by decades: "Mrs. Hannah Liebes" is still listed in the San
+2 CONT Francisco Blue Book in 1924.
 2 SOUR @S36@
 3 _CONF Tentative
+2 SOUR @S40@
+3 _CONF Secondary
 0 @I28@ INDI
 1 NAME George /Liebes/
 1 SEX M
@@ -1031,14 +1048,23 @@
 2 SOUR @S30@
 3 PAGE "Charles Woodward Hutson (1840-1936) ... settled finally in New Orleans, La., as an artist and writer"
 3 _CONF Secondary
-1 EDUC South Carolina College (late 1850s)
+1 EDUC South Carolina College, graduated 1860 (senior class essay medal); admitted to the bar 1865
+2 SOUR @S29@
+3 PAGE Entry 50: "was graduated from the South Carolina College in 1860, taking the medal for senior class essay ... was admitted to the bar in 1865"
+3 _CONF Secondary
 2 SOUR @S30@
 3 _CONF Secondary
-1 EVEN Confederate States Army, 1861-1865 (Hampton's Legion), in Virginia, North Carolina and South Carolina
+1 EVEN Confederate service, 1861-1865: Washington Light Infantry (Hampton's Legion), wounded at First Manassas; captured at Seven Pines and held at Fort Delaware; exchanged 1862 and transferred to the Beaufort Artillery
 2 TYPE Military service
+2 SOUR @S29@
+3 PAGE Entry 50: "entered Confederate service in the Washington Light Infantry; was wounded in the first battle of Manassas; was taken prisoner in the battle of Seven Pines and imprisoned in Fort Delaware; was exchanged in 1862 and transferred to Beaufort Artillery"
+3 _CONF Secondary
 2 SOUR @S30@
 3 _CONF Secondary
-1 OCCU Teacher and professor in several Southern states, including fifteen years in Texas (Texas A&M); later artist and writer in New Orleans
+1 OCCU Professor of Greek, Louisiana State University; chair of modern languages, University of Mississippi; chair of history, Agricultural and Mechanical College of Texas (by 1908); novelist, essayist and painter
+2 SOUR @S29@
+3 PAGE Entry 50: "sometime professor of Greek in Louisiana State University; sometime in the chair of modern languages at the University of Mississippi, and now holds the chair of history at the Agricultural and Mechanical College of Texas; is the author of two novels and a number of essays"
+3 _CONF Secondary
 2 SOUR @S30@
 3 _CONF Secondary
 1 NOTE Great-great-grandfather of Miles. Grew up on plantations near McPhersonville
@@ -1380,16 +1406,51 @@
 1 NAME Edward /Palmer/
 2 NPFX Rev.
 1 SEX M
+1 FAMC @F36@
 1 FAMS @F15@
-1 NOTE 4x-great-grandfather of Miles; father of Sophronia Lucia Palmer Hutson.
+1 BIRT
+2 DATE 25 DEC 1788
+2 PLAC Charleston, South Carolina, USA
+2 SOUR @S39@
+3 PAGE "To Mr. Job Palmer was born in the city of Charleston, S. C., December 25, 1788, a son who received the name of Edward. He was the eighth of sixteen children."
+3 _CONF Secondary
+1 DEAT
+2 DATE 1882
+2 PLAC South Carolina, USA
+2 SOUR @S39@
+3 PAGE "Rev. Edward Palmer (1788-1882)"; Synod of South Carolina minutes (1882): died "near the close of his 94th year"
+3 _CONF Secondary
+1 OCCU Teacher (nine years); clerk and sexton of the Circular Church, Charleston (from 1813); Congregational/Presbyterian minister at Dorchester (1824) and Walterboro, S.C.
+2 SOUR @S39@
+3 _CONF Secondary
+1 NOTE 4x-great-grandfather of Miles; father of Sophronia Lucia Palmer Hutson and of
+2 CONT the Rev. Benjamin Morgan Palmer (1818-1902), the celebrated pastor of First
+2 CONT Presbyterian Church, New Orleans - which made Charles Woodward Hutson Dr.
+2 CONT Palmer's nephew (he is quoted as such in Palmer's 1906 biography). Married
+2 CONT Sarah Bunce on 1 Jan 1812. Converted in 1819 and ordained as an evangelist in
+2 CONT 1824; pastor at Dorchester and then Walterboro, S.C., for decades.
+2 SOUR @S39@
+3 _CONF Secondary
 2 SOUR @S29@
 3 _CONF Secondary
 0 @I50@ INDI
 1 NAME Sarah /Bunce/
 2 _MARNM Palmer
 1 SEX F
+1 FAMC @F39@
 1 FAMS @F15@
-1 NOTE 4x-great-grandmother of Miles; wife of Rev. Edward Palmer.
+1 BIRT
+2 PLAC Wethersfield, Hartford County, Connecticut, USA
+2 SOUR @S39@
+3 PAGE "Mrs. Sarah Bunce Palmer was born in her father's home, in Weathersfield, Conn."
+3 _CONF Secondary
+1 NOTE 4x-great-grandmother of Miles; first wife of Rev. Edward Palmer (m. 1 Jan
+2 CONT 1812), "a lady of extraordinary capacities and character." Daughter of Capt.
+2 CONT Jared Bunce of Connecticut; her sisters Mary Stanley Bunce and Harriet Bunce
+2 CONT married, respectively, Rev. Benjamin Morgan Palmer Sr. and Rev. Allen Wright,
+2 CONT a missionary to the Choctaws.
+2 SOUR @S39@
+3 _CONF Secondary
 2 SOUR @S29@
 3 _CONF Secondary
 0 @I51@ INDI
@@ -1403,6 +1464,7 @@
 1 NAME Judith /Gignilliat/
 2 _MARNM Maine
 1 SEX F
+1 FAMC @F33@
 1 FAMS @F16@
 1 NOTE 6x-great-grandmother of Miles; of the Gignilliat family, French Huguenot
 2 CONT settlers of colonial South Carolina.
@@ -1735,8 +1797,15 @@
 2 CONT (1876-1919), Francis Marion (1878-1888), Arthur Cary (1882), twins Sophie
 2 CONT Palmer and Mary Lockett (1884; Mary m. Bernard Stanley Nelson 1913), Charles
 2 CONT Stanyarne (1887-1891), Miles Brewton (1889) and Albert Lockett (1893). Only
-2 CONT Ethel and Miles Brewton are recorded as individuals here.
+2 CONT Ethel and Miles Brewton are recorded as individuals here. The 1908 Hutson
+2 CONT genealogy adds that the twins Sophie and Mary "both took the full course of
+2 CONT civil engineering at the A. and M. College of Texas," and that Henry Lockett
+2 CONT Hutson graduated from Texas A&M and served as a volunteer in the
+2 CONT Spanish-American War. Mary's husband Bernard Stanley Nelson (1888-1955) was
+2 CONT a New Orleans hydraulic engineer.
 2 SOUR @S28@
+3 _CONF Secondary
+2 SOUR @S29@
 3 _CONF Secondary
 0 @F8@ FAM
 1 HUSB @I35@
@@ -1805,10 +1874,20 @@
 1 HUSB @I49@
 1 WIFE @I50@
 1 CHIL @I36@
+1 MARR
+2 DATE 1 JAN 1812
+2 SOUR @S39@
+3 PAGE "On the first of January, 1812, he was united in marriage with Miss Sarah Bunce."
+3 _CONF Secondary
 0 @F16@ FAM
 1 HUSB @I51@
 1 WIFE @I52@
 1 CHIL @I40@
+1 MARR
+2 DATE 31 MAY 1752
+2 SOUR @S38@
+3 PAGE "Esther Maine, dau. of William Maine and Judith Gignilliat his wife (m. May 31, 1752)"
+3 _CONF Secondary
 0 @F17@ FAM
 1 HUSB @I53@
 1 WIFE @I54@
@@ -2234,4 +2313,335 @@
 2 CONT 1869, d. 10 May 1907, parents Herman and Hannah Liebes, and quotes a 1900
 2 CONT notice of George as "son of the late Herman Liebes and Mrs. Hannah Liebes."
 2 CONT Geni is a compiled tree: treated as Tentative for dates.
+0 @S37@ SOUR
+1 TITL The Oil & Gas Journal, 24 May 1951 - personnel notes
+1 AUTH The Oil & Gas Journal
+1 PUBL vol. 50, no. 3; Internet Archive
+1 _URL https://archive.org/details/sim_oil-gas-journal_1951-05-24_50_3
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE "Richard W. Thompson, Jr., petroleum engineer for G. W. Strake, has been
+2 CONT transferred from Wichita Falls to Winters, Tex." Winters is about 40 miles
+2 CONT from Abilene, where Richard W. Thompson III was born in 1955, and the later
+2 CONT Plano firm was an oil and gas producer. Identification with Miles's
+2 CONT grandfather is probable but TENTATIVE: the name is common and the item gives
+2 CONT no family details. A search of the 1950 census for Wichita County did not
+2 CONT find him.
+0 @I73@ INDI
+1 NAME Henry /Gignilliat/
+1 SEX M
+1 FAMC @F34@
+1 FAMS @F33@
+1 NOTE 7x-great-grandfather of Miles; son of the Huguenot refugee Jean Francois
+2 CONT Gignilliat; married Hester Marion. Father of Judith Gignilliat Maine.
+2 SOUR @S38@
+3 _CONF Secondary
+0 @I74@ INDI
+1 NAME Hester /Marion/
+2 _MARNM Gignilliat
+1 SEX F
+1 FAMS @F33@
+1 NOTE 7x-great-grandmother of Miles; of the Marion family, Huguenot settlers of
+2 CONT South Carolina (the family of Revolutionary general Francis Marion, under
+2 CONT whom her grandson-in-law Thomas Hutson later served). Her own parents are not
+2 CONT stated in the sources used here.
+2 SOUR @S38@
+3 _CONF Secondary
+0 @I75@ INDI
+1 NAME Jean Francois /Gignilliat/
+1 SEX M
+1 FAMC @F35@
+1 FAMS @F34@
+1 BIRT
+2 PLAC Vevey, Canton of Vaud, Switzerland
+2 SOUR @S38@
+3 PAGE "Jean Francois Gignilliat, ne a Venay [Vevey] en Suise, fils d'Abraham Gignilliat et de Marye de Ville"
+3 _CONF Secondary
+1 IMMI
+2 DATE AFT 1685
+2 PLAC Santee River, South Carolina
+2 SOUR @S38@
+3 PAGE "French refugees to South Carolina, settling on the Santee, after the Revocation of the Edict of Nantz in 1685"
+3 _CONF Secondary
+1 NOTE 8x-great-grandfather of Miles. A Swiss-born Huguenot (Protestant) who, with
+2 CONT his wife Suzanne Le Serrurier, came to South Carolina as a religious refugee
+2 CONT after Louis XIV revoked the Edict of Nantes (1685), settling on the Santee
+2 CONT River.
+2 SOUR @S38@
+3 _CONF Secondary
+0 @I76@ INDI
+1 NAME Suzanne /Le Serrurier/
+2 _MARNM Gignilliat
+1 SEX F
+1 FAMS @F34@
+1 NOTE 8x-great-grandmother of Miles; French Huguenot refugee to South Carolina
+2 CONT (after 1685), wife of Jean Francois Gignilliat.
+2 SOUR @S38@
+3 _CONF Secondary
+0 @I77@ INDI
+1 NAME Abraham /Gignilliat/
+1 SEX M
+1 FAMS @F35@
+1 RESI
+2 PLAC Vevey, Canton of Vaud, Switzerland
+2 SOUR @S38@
+3 _CONF Secondary
+1 NOTE 9x-great-grandfather of Miles - one of the earliest named ancestors in the
+2 CONT tree. Father of Jean Francois Gignilliat, of Vevey, Switzerland, as recorded
+2 CONT in a French-language family record quoted in the Colcock genealogy.
+2 SOUR @S38@
+3 _CONF Secondary
+0 @I78@ INDI
+1 NAME Marye /de Ville/
+2 _MARNM Gignilliat
+1 SEX F
+1 FAMS @F35@
+1 NOTE 9x-great-grandmother of Miles; mother of Jean Francois Gignilliat.
+2 SOUR @S38@
+3 _CONF Secondary
+0 @I79@ INDI
+1 NAME Job /Palmer/
+1 SEX M
+1 FAMC @F37@
+1 FAMS @F36@
+1 BIRT
+2 DATE 26 AUG 1747
+2 PLAC Falmouth, Barnstable County, Massachusetts
+2 SOUR @S39@
+3 PAGE Job Palmer's own memoir: "I was born in Falmouth in the County of Barnstable in Massachusetts, August 26 (15th new style), 1747. My father, Samuel Palmer, was pastor of the Congregational Church in that place."
+3 _CONF Secondary
+1 RESI
+2 DATE MAR 1772
+2 PLAC Charleston, South Carolina
+2 SOUR @S39@
+3 PAGE "I arrived in Charleston in March, 1772."
+3 _CONF Secondary
+1 DEAT
+2 DATE 1845
+2 PLAC Charleston, South Carolina, USA
+2 SOUR @S39@
+3 PAGE "Job Palmer (1747-1845) ... he died at the age of ninety-seven"
+3 _CONF Secondary
+1 OCCU Contractor and builder; clerk and sexton of the Circular Church, Charleston (1773-1813)
+2 SOUR @S39@
+3 _CONF Secondary
+1 NOTE 5x-great-grandfather of Miles; "for years the patriarch of the city of
+2 CONT Charleston." Left Falmouth in 1770, found religion in New York, and followed
+2 CONT Rev. William Tennent to Charleston's Circular Church in 1772 - the same
+2 CONT church Rev. William Hutson had led in 1757-61. Clerk and sexton there for
+2 CONT 39 years, succeeded by his son Edward. Married Sarah Morgan of Bermuda on
+2 CONT 23 Oct 1774; father of sixteen children, including the Rev. Benjamin Morgan
+2 CONT Palmer Sr. and Rev. Edward Palmer. Wrote a memoir for his descendants at 93.
+2 SOUR @S39@
+3 _CONF Secondary
+0 @I80@ INDI
+1 NAME Sarah /Morgan/
+2 _MARNM Palmer
+1 SEX F
+1 FAMS @F36@
+1 BIRT
+2 PLAC Bermuda
+2 SOUR @S39@
+3 PAGE "Miss Sarah Morgan, of Bermuda"
+3 _CONF Secondary
+1 DEAT
+2 DATE 21 FEB 1797
+2 PLAC Charleston, South Carolina
+2 SOUR @S39@
+3 _CONF Secondary
+1 NOTE 5x-great-grandmother of Miles; of Bermuda, married Job Palmer 23 Oct 1774;
+2 CONT "an infirm and weakly woman, much troubled with the asthmatic complaint."
+2 SOUR @S39@
+3 _CONF Secondary
+0 @I81@ INDI
+1 NAME Samuel /Palmer/
+2 NPFX Rev.
+1 SEX M
+1 FAMC @F38@
+1 FAMS @F37@
+1 BIRT
+2 DATE 8 AUG 1707
+2 PLAC Middleboro, Plymouth County, Massachusetts
+2 SOUR @S39@
+3 _CONF Secondary
+1 DEAT
+2 DATE 13 APR 1775
+2 PLAC Falmouth, Barnstable County, Massachusetts
+2 SOUR @S39@
+3 _CONF Secondary
+1 OCCU Congregational minister, Falmouth, Massachusetts (45 years)
+2 SOUR @S39@
+3 _CONF Secondary
+1 NOTE 6x-great-grandfather of Miles; the sixth of eight children of Rev. Thomas
+2 CONT Palmer. Married (1) 1 June 1736 Mercy Parker, mother of Job (b. 1747); (2)
+2 CONT 1751 Sarah Allen; eleven children in all.
+2 SOUR @S39@
+3 _CONF Secondary
+0 @I82@ INDI
+1 NAME Mercy /Parker/
+2 _MARNM Palmer
+1 SEX F
+1 FAMS @F37@
+1 NOTE 6x-great-grandmother of Miles; first wife of Rev. Samuel Palmer (m. 1 June
+2 CONT 1736). She died before 1751, when Samuel remarried, so she was the mother of
+2 CONT Job Palmer (b. 1747).
+2 SOUR @S39@
+3 _CONF Secondary
+0 @I83@ INDI
+1 NAME Thomas /Palmer/
+2 NPFX Rev.
+1 SEX M
+1 FAMS @F38@
+1 BIRT
+2 DATE 1665
+2 SOUR @S39@
+3 PAGE "According to the testimony of his tombstone, this man was born in 1665."
+3 _CONF Secondary
+1 DEAT
+2 DATE 17 JUL 1743
+2 PLAC Middleboro, Plymouth County, Massachusetts
+2 SOUR @S39@
+3 _CONF Secondary
+1 OCCU Minister at Middleboro, Massachusetts (ordained c. 1702)
+2 SOUR @S39@
+3 _CONF Secondary
+1 NOTE 7x-great-grandfather of Miles. Descended - as son or grandson - from William
+2 CONT Palmer of Nottinghamshire, who came to Plymouth Colony on the ship Fortune
+2 CONT in 1621 (the second ship after the Mayflower). His biographer says it is "not
+2 CONT deemed safe to assert" which William Palmer was his father, so the line is
+2 CONT not carried further back here.
+2 SOUR @S39@
+3 _CONF Secondary
+0 @I84@ INDI
+1 NAME Elizabeth /Sturtevant/
+2 _MARNM Palmer
+1 SEX F
+1 FAMS @F38@
+1 NOTE 7x-great-grandmother of Miles; wife of Rev. Thomas Palmer, mother of eight
+2 CONT children (spelled "Sturvenant" in the 1906 source).
+2 SOUR @S39@
+3 _CONF Secondary
+0 @I85@ INDI
+1 NAME Jared /Bunce/
+2 NPFX Capt.
+1 SEX M
+1 FAMS @F39@
+1 BIRT
+2 DATE 12 MAY 1759
+2 PLAC near Hartford, Connecticut
+2 SOUR @S39@
+3 _CONF Secondary
+1 OCCU Merchant; sea captain of the packet Georgia (Philadelphia-Charleston)
+2 SOUR @S39@
+3 _CONF Secondary
+1 NOTE 5x-great-grandfather of Miles; claimed descent from "an Alderman Bunce, who
+2 CONT lived in London in the time of Cromwell," and his mother was a Griswold.
+2 CONT Married Lydia Pettiplace on 11 Feb 1779. Three of his daughters married
+2 CONT ministers. Ancestors of Admiral Francis M. Bunce were among his posterity.
+2 SOUR @S39@
+3 _CONF Secondary
+0 @I86@ INDI
+1 NAME Lydia /Pettiplace/
+2 _MARNM Bunce
+1 SEX F
+1 FAMS @F39@
+1 NOTE 5x-great-grandmother of Miles; married Capt. Jared Bunce 11 Feb 1779
+2 CONT (surname later written Pettis in New England); died before her daughter
+2 CONT Sarah was grown.
+2 SOUR @S39@
+3 _CONF Secondary
+0 @F33@ FAM
+1 HUSB @I73@
+1 WIFE @I74@
+1 CHIL @I52@
+0 @F34@ FAM
+1 HUSB @I75@
+1 WIFE @I76@
+1 CHIL @I73@
+0 @F35@ FAM
+1 HUSB @I77@
+1 WIFE @I78@
+1 CHIL @I75@
+0 @F36@ FAM
+1 HUSB @I79@
+1 WIFE @I80@
+1 CHIL @I49@
+1 MARR
+2 DATE 23 OCT 1774
+2 SOUR @S39@
+3 PAGE "On the 23rd of October, 1774, I united in marriage with Miss Sarah Morgan, of Bermuda"
+3 _CONF Secondary
+0 @F37@ FAM
+1 HUSB @I81@
+1 WIFE @I82@
+1 CHIL @I79@
+1 MARR
+2 DATE 1 JUN 1736
+2 SOUR @S39@
+3 _CONF Secondary
+0 @F38@ FAM
+1 HUSB @I83@
+1 WIFE @I84@
+1 CHIL @I81@
+0 @F39@ FAM
+1 HUSB @I85@
+1 WIFE @I86@
+1 CHIL @I50@
+1 MARR
+2 DATE 11 FEB 1779
+2 SOUR @S39@
+3 _CONF Secondary
+0 @S38@ SOUR
+1 TITL "Capt. John Colcock and Some of His Descendants"
+1 AUTH South Carolina Historical and Genealogical Magazine
+1 PUBL South Carolina Historical and Genealogical Magazine, vol. 3, no. 4 (October 1902), pp. 216-241
+1 _URL https://archive.org/details/jstor-27575005
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE Footnote on the ancestry of Mary Woodward Hutson Colcock: "Her mother was
+2 CONT Esther Maine, dau. of William Maine and Judith Gignilliat his wife (m. May 31,
+2 CONT 1752). Judith Gignilliat was the dau. of Henry Gignilliat and Hester Marion,
+2 CONT his wife. Henry Gignilliat was the son of 'Jean Francois Gignilliat, ne a
+2 CONT Venay en Suise, fils d'Abraham Gignilliat et de Marye de Ville', and Suzanne
+2 CONT Le Surrurier, his wife, who were French refugees to South Carolina, settling
+2 CONT on the Santee, after the Revocation of the Edict of Nantz in 1685."
+0 @S39@ SOUR
+1 TITL The Life and Letters of Benjamin Morgan Palmer, ch. 1 "The Ancestors (1621-1818)"
+1 AUTH Johnson, Thomas Cary
+1 PUBL Richmond, Va.: Presbyterian Committee of Publication, 1906; Internet Archive
+1 _URL https://archive.org/details/lifeandlettersb00johngoog
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE Family history of the Palmers, drawing on tombstones, C. W. Jenkins's History
+2 CONT of Falmouth (1843), and the manuscript memoir Job Palmer wrote for his
+2 CONT descendants at 93. Covers Rev. Thomas Palmer (1665-1743) -> Rev. Samuel
+2 CONT Palmer (1707-1775) -> Job Palmer (1747-1845) -> Rev. Edward Palmer
+2 CONT (1788-1882), and Sarah Bunce, daughter of Capt. Jared Bunce. Quotes Prof.
+2 CONT Charles Woodward Hutson, "a nephew." The author explicitly declines to fix
+2 CONT the generations between Rev. Thomas and the 1621 immigrant William Palmer.
+0 @S40@ SOUR
+1 TITL Oakland Tribune, 18 December 1891 - Liebes divorce suit
+1 AUTH Oakland Tribune
+1 PUBL Internet Archive
+1 _URL https://archive.org/details/oakland-tribune-1891-12-18
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE "SAN FRANCISCO, December 18. - Judge Finn made an order today allowing Mrs.
+2 CONT Hannah Liebes $300 for past expenses and $100 a week until the further order
+2 CONT of the court in the matter of the Liebes divorce suit." (The Reno Evening
+2 CONT Gazette of the same date reports $600.) Also: San Francisco Blue Book (1924)
+2 CONT lists "LIEBES, Mrs. HANNAH; LIEBES, Mrs. JULIAN; LIEBES, Mr. MARTIN."
+0 @S41@ SOUR
+1 TITL San Francisco Call, 9 March 1895 - "A Great Estate Vanishes" (Samuel Simon estate)
+1 AUTH The San Francisco Call
+1 PUBL Internet Archive
+1 _URL https://archive.org/details/The_San_Francisco_Call_1895_03_09
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE "Some time after the death of Samuel Simon his stepson, Jefferson Martin,
+2 CONT married. Jefferson died a few months after the union and to his widow a
+2 CONT posthumous child, Jeffreys Martin, was born ... This made Mrs. Julia Martin
+2 CONT and her daughter Jeffreys the direct legatees of old Samuel Simon." Oakland
+2 CONT Tribune (10 Nov 1910) names "Miss Jeffreys Martin, daughter of Mrs. Moses J.
+2 CONT Lyon, of 1900 Vallejo."
 0 TRLR

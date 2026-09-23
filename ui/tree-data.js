@@ -8,9 +8,9 @@ window.TREE = {
       "note": "This GEDCOM is the canonical, version-controlled source of truth for the\nHutson family tree. Every genealogical fact carries a SOUR citation that\npoints to a SOUR record at the bottom of the file. Custom tags used:\n  _URL  = web address of the source\n  _CONF = confidence level (Primary / Secondary / Tentative / Provided)\n  _ACC  = date the source was accessed\nLiving individuals are recorded with minimal detail (names and\nrelationships only). Run scripts/build.py after editing this file."
     },
     "counts": {
-      "individuals": 72,
-      "families": 32,
-      "sources": 35
+      "individuals": 86,
+      "families": 39,
+      "sources": 40
     }
   },
   "individuals": {
@@ -594,6 +594,21 @@ window.TREE = {
               "source": "S11",
               "page": null,
               "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "OCCU",
+          "label": "Occupation"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "Petroleum engineer for G. W. Strake; transferred from Wichita Falls to Winters, Texas (May 1951)",
+          "citations": [
+            {
+              "source": "S37",
+              "page": "\"Richard W. Thompson, Jr., petroleum engineer for G. W. Strake, has been transferred from Wichita Falls to Winters, Tex.\"",
+              "conf": "Tentative",
               "note": null
             }
           ],
@@ -1763,7 +1778,7 @@ window.TREE = {
       "sex": "F",
       "events": [],
       "notes": [
-        "Great-great-grandmother of Miles; wife and widow of Julien Liebes, mother of\nGeorge Julien and Martin Liebes. Maiden name not yet found. A 1910 society\ncolumn identifies her sister as Mrs. M. J. Lyon, wife of the San Francisco\narchitect M. J. Lyon (who designed Julien's 1902 house) and previously the\nwidow of Jeffreys Martin - a likely reason her son was named Martin."
+        "Great-great-grandmother of Miles; wife and widow of Julien Liebes, mother of\nGeorge Julien and Martin Liebes. Maiden name not yet found. A 1910 society\ncolumn identifies her sister as Mrs. M. J. Lyon, wife of the San Francisco\narchitect M. J. Lyon (who designed Julien's 1902 house) and previously the\nwidow of Jefferson Martin - a likely reason her son was named Martin. Per\nthe San Francisco Call (9 Mar 1895) the sister was Mrs. Julia Martin, whose\nfirst husband Jefferson Martin (stepson of the merchant Samuel Simon) died\nmonths after their marriage, leaving a posthumous daughter, Jeffreys Martin;\nJulia later married the architect Moses J. Lyon (of 1900 Vallejo Street,\nlater also Sophie's address). The sisters' maiden name is still unknown."
       ],
       "note_citations": [
         [
@@ -1781,6 +1796,12 @@ window.TREE = {
           },
           {
             "source": "S34",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S41",
             "page": null,
             "conf": "Secondary",
             "note": null
@@ -1964,7 +1985,7 @@ window.TREE = {
       "sex": "F",
       "events": [],
       "notes": [
-        "Great-great-great-grandmother of Miles; wife of Herman Liebes. A 1900 death\nnotice (transcribed on Geni) describes their son George as \"son of the late\nHerman Liebes and Mrs. Hannah Liebes, and brother of Sidney, Julian and\nEdgar A. Liebes.\" Maiden name not yet found."
+        "Great-great-great-grandmother of Miles; wife of Herman Liebes. A 1900 death\nnotice (transcribed on Geni) describes their son George as \"son of the late\nHerman Liebes and Mrs. Hannah Liebes, and brother of Sidney, Julian and\nEdgar A. Liebes.\" Maiden name not yet found. In December 1891 a San\nFrancisco judge ordered $100 a week paid to \"Mrs. Hannah Liebes ... in the\nmatter of the Liebes divorce suit\" (Oakland Tribune, 18 Dec 1891). She\noutlived Herman by decades: \"Mrs. Hannah Liebes\" is still listed in the San\nFrancisco Blue Book in 1924."
       ],
       "note_citations": [
         [
@@ -1972,6 +1993,12 @@ window.TREE = {
             "source": "S36",
             "page": null,
             "conf": "Tentative",
+            "note": null
+          },
+          {
+            "source": "S40",
+            "page": null,
+            "conf": "Secondary",
             "note": null
           }
         ]
@@ -2228,8 +2255,14 @@ window.TREE = {
         {
           "date": null,
           "place": null,
-          "value": "South Carolina College (late 1850s)",
+          "value": "South Carolina College, graduated 1860 (senior class essay medal); admitted to the bar 1865",
           "citations": [
+            {
+              "source": "S29",
+              "page": "Entry 50: \"was graduated from the South Carolina College in 1860, taking the medal for senior class essay ... was admitted to the bar in 1865\"",
+              "conf": "Secondary",
+              "note": null
+            },
             {
               "source": "S30",
               "page": null,
@@ -2243,8 +2276,14 @@ window.TREE = {
         {
           "date": null,
           "place": null,
-          "value": "Confederate States Army, 1861-1865 (Hampton's Legion), in Virginia, North Carolina and South Carolina",
+          "value": "Confederate service, 1861-1865: Washington Light Infantry (Hampton's Legion), wounded at First Manassas; captured at Seven Pines and held at Fort Delaware; exchanged 1862 and transferred to the Beaufort Artillery",
           "citations": [
+            {
+              "source": "S29",
+              "page": "Entry 50: \"entered Confederate service in the Washington Light Infantry; was wounded in the first battle of Manassas; was taken prisoner in the battle of Seven Pines and imprisoned in Fort Delaware; was exchanged in 1862 and transferred to Beaufort Artillery\"",
+              "conf": "Secondary",
+              "note": null
+            },
             {
               "source": "S30",
               "page": null,
@@ -2258,8 +2297,14 @@ window.TREE = {
         {
           "date": null,
           "place": null,
-          "value": "Teacher and professor in several Southern states, including fifteen years in Texas (Texas A&M); later artist and writer in New Orleans",
+          "value": "Professor of Greek, Louisiana State University; chair of modern languages, University of Mississippi; chair of history, Agricultural and Mechanical College of Texas (by 1908); novelist, essayist and painter",
           "citations": [
+            {
+              "source": "S29",
+              "page": "Entry 50: \"sometime professor of Greek in Louisiana State University; sometime in the chair of modern languages at the University of Mississippi, and now holds the chair of history at the Agricultural and Mechanical College of Texas; is the author of two novels and a number of essays\"",
+              "conf": "Secondary",
+              "note": null
+            },
             {
               "source": "S30",
               "page": null,
@@ -3299,12 +3344,64 @@ window.TREE = {
         }
       ],
       "sex": "M",
-      "events": [],
+      "events": [
+        {
+          "date": "25 DEC 1788",
+          "place": "Charleston, South Carolina, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S39",
+              "page": "\"To Mr. Job Palmer was born in the city of Charleston, S. C., December 25, 1788, a son who received the name of Edward. He was the eighth of sixteen children.\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "1882",
+          "place": "South Carolina, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S39",
+              "page": "\"Rev. Edward Palmer (1788-1882)\"; Synod of South Carolina minutes (1882): died \"near the close of his 94th year\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "Teacher (nine years); clerk and sexton of the Circular Church, Charleston (from 1813); Congregational/Presbyterian minister at Dorchester (1824) and Walterboro, S.C.",
+          "citations": [
+            {
+              "source": "S39",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "OCCU",
+          "label": "Occupation"
+        }
+      ],
       "notes": [
-        "4x-great-grandfather of Miles; father of Sophronia Lucia Palmer Hutson."
+        "4x-great-grandfather of Miles; father of Sophronia Lucia Palmer Hutson and of\nthe Rev. Benjamin Morgan Palmer (1818-1902), the celebrated pastor of First\nPresbyterian Church, New Orleans - which made Charles Woodward Hutson Dr.\nPalmer's nephew (he is quoted as such in Palmer's 1906 biography). Married\nSarah Bunce on 1 Jan 1812. Converted in 1819 and ordained as an evangelist in\n1824; pastor at Dorchester and then Walterboro, S.C., for decades."
       ],
       "note_citations": [
         [
+          {
+            "source": "S39",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
           {
             "source": "S29",
             "page": null,
@@ -3313,7 +3410,9 @@ window.TREE = {
           }
         ]
       ],
-      "famc": [],
+      "famc": [
+        "F36"
+      ],
       "fams": [
         "F15"
       ],
@@ -3330,12 +3429,34 @@ window.TREE = {
         }
       ],
       "sex": "F",
-      "events": [],
+      "events": [
+        {
+          "date": null,
+          "place": "Wethersfield, Hartford County, Connecticut, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S39",
+              "page": "\"Mrs. Sarah Bunce Palmer was born in her father's home, in Weathersfield, Conn.\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        }
+      ],
       "notes": [
-        "4x-great-grandmother of Miles; wife of Rev. Edward Palmer."
+        "4x-great-grandmother of Miles; first wife of Rev. Edward Palmer (m. 1 Jan\n1812), \"a lady of extraordinary capacities and character.\" Daughter of Capt.\nJared Bunce of Connecticut; her sisters Mary Stanley Bunce and Harriet Bunce\nmarried, respectively, Rev. Benjamin Morgan Palmer Sr. and Rev. Allen Wright,\na missionary to the Choctaws."
       ],
       "note_citations": [
         [
+          {
+            "source": "S39",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
           {
             "source": "S29",
             "page": null,
@@ -3344,7 +3465,9 @@ window.TREE = {
           }
         ]
       ],
-      "famc": [],
+      "famc": [
+        "F39"
+      ],
       "fams": [
         "F15"
       ],
@@ -3405,7 +3528,9 @@ window.TREE = {
           }
         ]
       ],
-      "famc": [],
+      "famc": [
+        "F33"
+      ],
       "fams": [
         "F16"
       ],
@@ -4368,6 +4493,706 @@ window.TREE = {
       ],
       "fams": [],
       "name": "Laurence K. Nelson"
+    },
+    "I73": {
+      "id": "I73",
+      "names": [
+        {
+          "full": "Henry Gignilliat",
+          "given": "Henry",
+          "surname": "Gignilliat"
+        }
+      ],
+      "sex": "M",
+      "events": [],
+      "notes": [
+        "7x-great-grandfather of Miles; son of the Huguenot refugee Jean Francois\nGignilliat; married Hester Marion. Father of Judith Gignilliat Maine."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S38",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F34"
+      ],
+      "fams": [
+        "F33"
+      ],
+      "name": "Henry Gignilliat"
+    },
+    "I74": {
+      "id": "I74",
+      "names": [
+        {
+          "full": "Hester Marion",
+          "given": "Hester",
+          "surname": "Marion",
+          "married": "Gignilliat"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "7x-great-grandmother of Miles; of the Marion family, Huguenot settlers of\nSouth Carolina (the family of Revolutionary general Francis Marion, under\nwhom her grandson-in-law Thomas Hutson later served). Her own parents are not\nstated in the sources used here."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S38",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F33"
+      ],
+      "name": "Hester Marion"
+    },
+    "I75": {
+      "id": "I75",
+      "names": [
+        {
+          "full": "Jean Francois Gignilliat",
+          "given": "Jean Francois",
+          "surname": "Gignilliat"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": null,
+          "place": "Vevey, Canton of Vaud, Switzerland",
+          "value": null,
+          "citations": [
+            {
+              "source": "S38",
+              "page": "\"Jean Francois Gignilliat, ne a Venay [Vevey] en Suise, fils d'Abraham Gignilliat et de Marye de Ville\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "AFT 1685",
+          "place": "Santee River, South Carolina",
+          "value": null,
+          "citations": [
+            {
+              "source": "S38",
+              "page": "\"French refugees to South Carolina, settling on the Santee, after the Revocation of the Edict of Nantz in 1685\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "IMMI",
+          "label": "Immigration"
+        }
+      ],
+      "notes": [
+        "8x-great-grandfather of Miles. A Swiss-born Huguenot (Protestant) who, with\nhis wife Suzanne Le Serrurier, came to South Carolina as a religious refugee\nafter Louis XIV revoked the Edict of Nantes (1685), settling on the Santee\nRiver."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S38",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F35"
+      ],
+      "fams": [
+        "F34"
+      ],
+      "name": "Jean Francois Gignilliat"
+    },
+    "I76": {
+      "id": "I76",
+      "names": [
+        {
+          "full": "Suzanne Le Serrurier",
+          "given": "Suzanne",
+          "surname": "Le Serrurier",
+          "married": "Gignilliat"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "8x-great-grandmother of Miles; French Huguenot refugee to South Carolina\n(after 1685), wife of Jean Francois Gignilliat."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S38",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F34"
+      ],
+      "name": "Suzanne Le Serrurier"
+    },
+    "I77": {
+      "id": "I77",
+      "names": [
+        {
+          "full": "Abraham Gignilliat",
+          "given": "Abraham",
+          "surname": "Gignilliat"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": null,
+          "place": "Vevey, Canton of Vaud, Switzerland",
+          "value": null,
+          "citations": [
+            {
+              "source": "S38",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "RESI",
+          "label": "Residence"
+        }
+      ],
+      "notes": [
+        "9x-great-grandfather of Miles - one of the earliest named ancestors in the\ntree. Father of Jean Francois Gignilliat, of Vevey, Switzerland, as recorded\nin a French-language family record quoted in the Colcock genealogy."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S38",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F35"
+      ],
+      "name": "Abraham Gignilliat"
+    },
+    "I78": {
+      "id": "I78",
+      "names": [
+        {
+          "full": "Marye de Ville",
+          "given": "Marye",
+          "surname": "de Ville",
+          "married": "Gignilliat"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "9x-great-grandmother of Miles; mother of Jean Francois Gignilliat."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S38",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F35"
+      ],
+      "name": "Marye de Ville"
+    },
+    "I79": {
+      "id": "I79",
+      "names": [
+        {
+          "full": "Job Palmer",
+          "given": "Job",
+          "surname": "Palmer"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "26 AUG 1747",
+          "place": "Falmouth, Barnstable County, Massachusetts",
+          "value": null,
+          "citations": [
+            {
+              "source": "S39",
+              "page": "Job Palmer's own memoir: \"I was born in Falmouth in the County of Barnstable in Massachusetts, August 26 (15th new style), 1747. My father, Samuel Palmer, was pastor of the Congregational Church in that place.\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "MAR 1772",
+          "place": "Charleston, South Carolina",
+          "value": null,
+          "citations": [
+            {
+              "source": "S39",
+              "page": "\"I arrived in Charleston in March, 1772.\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "RESI",
+          "label": "Residence"
+        },
+        {
+          "date": "1845",
+          "place": "Charleston, South Carolina, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S39",
+              "page": "\"Job Palmer (1747-1845) ... he died at the age of ninety-seven\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "Contractor and builder; clerk and sexton of the Circular Church, Charleston (1773-1813)",
+          "citations": [
+            {
+              "source": "S39",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "OCCU",
+          "label": "Occupation"
+        }
+      ],
+      "notes": [
+        "5x-great-grandfather of Miles; \"for years the patriarch of the city of\nCharleston.\" Left Falmouth in 1770, found religion in New York, and followed\nRev. William Tennent to Charleston's Circular Church in 1772 - the same\nchurch Rev. William Hutson had led in 1757-61. Clerk and sexton there for\n39 years, succeeded by his son Edward. Married Sarah Morgan of Bermuda on\n23 Oct 1774; father of sixteen children, including the Rev. Benjamin Morgan\nPalmer Sr. and Rev. Edward Palmer. Wrote a memoir for his descendants at 93."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S39",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F37"
+      ],
+      "fams": [
+        "F36"
+      ],
+      "name": "Job Palmer"
+    },
+    "I80": {
+      "id": "I80",
+      "names": [
+        {
+          "full": "Sarah Morgan",
+          "given": "Sarah",
+          "surname": "Morgan",
+          "married": "Palmer"
+        }
+      ],
+      "sex": "F",
+      "events": [
+        {
+          "date": null,
+          "place": "Bermuda",
+          "value": null,
+          "citations": [
+            {
+              "source": "S39",
+              "page": "\"Miss Sarah Morgan, of Bermuda\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "21 FEB 1797",
+          "place": "Charleston, South Carolina",
+          "value": null,
+          "citations": [
+            {
+              "source": "S39",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
+      "notes": [
+        "5x-great-grandmother of Miles; of Bermuda, married Job Palmer 23 Oct 1774;\n\"an infirm and weakly woman, much troubled with the asthmatic complaint.\""
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S39",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F36"
+      ],
+      "name": "Sarah Morgan"
+    },
+    "I81": {
+      "id": "I81",
+      "names": [
+        {
+          "full": "Rev. Samuel Palmer",
+          "given": "Samuel",
+          "surname": "Palmer",
+          "prefix": "Rev."
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "8 AUG 1707",
+          "place": "Middleboro, Plymouth County, Massachusetts",
+          "value": null,
+          "citations": [
+            {
+              "source": "S39",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "13 APR 1775",
+          "place": "Falmouth, Barnstable County, Massachusetts",
+          "value": null,
+          "citations": [
+            {
+              "source": "S39",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "Congregational minister, Falmouth, Massachusetts (45 years)",
+          "citations": [
+            {
+              "source": "S39",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "OCCU",
+          "label": "Occupation"
+        }
+      ],
+      "notes": [
+        "6x-great-grandfather of Miles; the sixth of eight children of Rev. Thomas\nPalmer. Married (1) 1 June 1736 Mercy Parker, mother of Job (b. 1747); (2)\n1751 Sarah Allen; eleven children in all."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S39",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F38"
+      ],
+      "fams": [
+        "F37"
+      ],
+      "name": "Rev. Samuel Palmer"
+    },
+    "I82": {
+      "id": "I82",
+      "names": [
+        {
+          "full": "Mercy Parker",
+          "given": "Mercy",
+          "surname": "Parker",
+          "married": "Palmer"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "6x-great-grandmother of Miles; first wife of Rev. Samuel Palmer (m. 1 June\n1736). She died before 1751, when Samuel remarried, so she was the mother of\nJob Palmer (b. 1747)."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S39",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F37"
+      ],
+      "name": "Mercy Parker"
+    },
+    "I83": {
+      "id": "I83",
+      "names": [
+        {
+          "full": "Rev. Thomas Palmer",
+          "given": "Thomas",
+          "surname": "Palmer",
+          "prefix": "Rev."
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "1665",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S39",
+              "page": "\"According to the testimony of his tombstone, this man was born in 1665.\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "17 JUL 1743",
+          "place": "Middleboro, Plymouth County, Massachusetts",
+          "value": null,
+          "citations": [
+            {
+              "source": "S39",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "Minister at Middleboro, Massachusetts (ordained c. 1702)",
+          "citations": [
+            {
+              "source": "S39",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "OCCU",
+          "label": "Occupation"
+        }
+      ],
+      "notes": [
+        "7x-great-grandfather of Miles. Descended - as son or grandson - from William\nPalmer of Nottinghamshire, who came to Plymouth Colony on the ship Fortune\nin 1621 (the second ship after the Mayflower). His biographer says it is \"not\ndeemed safe to assert\" which William Palmer was his father, so the line is\nnot carried further back here."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S39",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F38"
+      ],
+      "name": "Rev. Thomas Palmer"
+    },
+    "I84": {
+      "id": "I84",
+      "names": [
+        {
+          "full": "Elizabeth Sturtevant",
+          "given": "Elizabeth",
+          "surname": "Sturtevant",
+          "married": "Palmer"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "7x-great-grandmother of Miles; wife of Rev. Thomas Palmer, mother of eight\nchildren (spelled \"Sturvenant\" in the 1906 source)."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S39",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F38"
+      ],
+      "name": "Elizabeth Sturtevant"
+    },
+    "I85": {
+      "id": "I85",
+      "names": [
+        {
+          "full": "Capt. Jared Bunce",
+          "given": "Jared",
+          "surname": "Bunce",
+          "prefix": "Capt."
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "12 MAY 1759",
+          "place": "near Hartford, Connecticut",
+          "value": null,
+          "citations": [
+            {
+              "source": "S39",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "Merchant; sea captain of the packet Georgia (Philadelphia-Charleston)",
+          "citations": [
+            {
+              "source": "S39",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "OCCU",
+          "label": "Occupation"
+        }
+      ],
+      "notes": [
+        "5x-great-grandfather of Miles; claimed descent from \"an Alderman Bunce, who\nlived in London in the time of Cromwell,\" and his mother was a Griswold.\nMarried Lydia Pettiplace on 11 Feb 1779. Three of his daughters married\nministers. Ancestors of Admiral Francis M. Bunce were among his posterity."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S39",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F39"
+      ],
+      "name": "Capt. Jared Bunce"
+    },
+    "I86": {
+      "id": "I86",
+      "names": [
+        {
+          "full": "Lydia Pettiplace",
+          "given": "Lydia",
+          "surname": "Pettiplace",
+          "married": "Bunce"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "5x-great-grandmother of Miles; married Capt. Jared Bunce 11 Feb 1779\n(surname later written Pettis in New England); died before her daughter\nSarah was grown."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S39",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F39"
+      ],
+      "name": "Lydia Pettiplace"
     }
   },
   "families": {
@@ -4617,12 +5442,18 @@ window.TREE = {
         }
       ],
       "notes": [
-        "Charles Woodward Hutson and Mary Jane Lockett. Ten children per the 1951\nLockett genealogy: Ethel (1872), William Ferguson (1874), Henry Lockett\n(1876-1919), Francis Marion (1878-1888), Arthur Cary (1882), twins Sophie\nPalmer and Mary Lockett (1884; Mary m. Bernard Stanley Nelson 1913), Charles\nStanyarne (1887-1891), Miles Brewton (1889) and Albert Lockett (1893). Only\nEthel and Miles Brewton are recorded as individuals here."
+        "Charles Woodward Hutson and Mary Jane Lockett. Ten children per the 1951\nLockett genealogy: Ethel (1872), William Ferguson (1874), Henry Lockett\n(1876-1919), Francis Marion (1878-1888), Arthur Cary (1882), twins Sophie\nPalmer and Mary Lockett (1884; Mary m. Bernard Stanley Nelson 1913), Charles\nStanyarne (1887-1891), Miles Brewton (1889) and Albert Lockett (1893). Only\nEthel and Miles Brewton are recorded as individuals here. The 1908 Hutson\ngenealogy adds that the twins Sophie and Mary \"both took the full course of\ncivil engineering at the A. and M. College of Texas,\" and that Henry Lockett\nHutson graduated from Texas A&M and served as a volunteer in the\nSpanish-American War. Mary's husband Bernard Stanley Nelson (1888-1955) was\na New Orleans hydraulic engineer."
       ],
       "note_citations": [
         [
           {
             "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S29",
             "page": null,
             "conf": "Secondary",
             "note": null
@@ -4823,7 +5654,23 @@ window.TREE = {
       "children": [
         "I36"
       ],
-      "events": [],
+      "events": [
+        {
+          "date": "1 JAN 1812",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S39",
+              "page": "\"On the first of January, 1812, he was united in marriage with Miss Sarah Bunce.\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "MARR",
+          "label": "Marriage"
+        }
+      ],
       "notes": [],
       "note_citations": []
     },
@@ -4834,7 +5681,23 @@ window.TREE = {
       "children": [
         "I40"
       ],
-      "events": [],
+      "events": [
+        {
+          "date": "31 MAY 1752",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S38",
+              "page": "\"Esther Maine, dau. of William Maine and Judith Gignilliat his wife (m. May 31, 1752)\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "MARR",
+          "label": "Marriage"
+        }
+      ],
       "notes": [],
       "note_citations": []
     },
@@ -5187,6 +6050,131 @@ window.TREE = {
           }
         ]
       ]
+    },
+    "F33": {
+      "id": "F33",
+      "husband": "I73",
+      "wife": "I74",
+      "children": [
+        "I52"
+      ],
+      "events": [],
+      "notes": [],
+      "note_citations": []
+    },
+    "F34": {
+      "id": "F34",
+      "husband": "I75",
+      "wife": "I76",
+      "children": [
+        "I73"
+      ],
+      "events": [],
+      "notes": [],
+      "note_citations": []
+    },
+    "F35": {
+      "id": "F35",
+      "husband": "I77",
+      "wife": "I78",
+      "children": [
+        "I75"
+      ],
+      "events": [],
+      "notes": [],
+      "note_citations": []
+    },
+    "F36": {
+      "id": "F36",
+      "husband": "I79",
+      "wife": "I80",
+      "children": [
+        "I49"
+      ],
+      "events": [
+        {
+          "date": "23 OCT 1774",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S39",
+              "page": "\"On the 23rd of October, 1774, I united in marriage with Miss Sarah Morgan, of Bermuda\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "MARR",
+          "label": "Marriage"
+        }
+      ],
+      "notes": [],
+      "note_citations": []
+    },
+    "F37": {
+      "id": "F37",
+      "husband": "I81",
+      "wife": "I82",
+      "children": [
+        "I79"
+      ],
+      "events": [
+        {
+          "date": "1 JUN 1736",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S39",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "MARR",
+          "label": "Marriage"
+        }
+      ],
+      "notes": [],
+      "note_citations": []
+    },
+    "F38": {
+      "id": "F38",
+      "husband": "I83",
+      "wife": "I84",
+      "children": [
+        "I81"
+      ],
+      "events": [],
+      "notes": [],
+      "note_citations": []
+    },
+    "F39": {
+      "id": "F39",
+      "husband": "I85",
+      "wife": "I86",
+      "children": [
+        "I50"
+      ],
+      "events": [
+        {
+          "date": "11 FEB 1779",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S39",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "MARR",
+          "label": "Marriage"
+        }
+      ],
+      "notes": [],
+      "note_citations": []
     }
   },
   "sources": {
@@ -5539,6 +6527,56 @@ window.TREE = {
       "confidence": "Secondary",
       "accessed": "2026-09-23",
       "note": "1898 wire story on the estate of the North American Commercial Company\nfounder: \"George Liebes, Sidney Liebes and Julian Liebes, sons of the late\nHerman Liebes\" (Primary-era newspaper, Secondary). Geni profile (read via\nsearch extract; site blocks automated access) gives Sidney Liebes b. 24 Oct\n1869, d. 10 May 1907, parents Herman and Hannah Liebes, and quotes a 1900\nnotice of George as \"son of the late Herman Liebes and Mrs. Hannah Liebes.\"\nGeni is a compiled tree: treated as Tentative for dates."
+    },
+    "S37": {
+      "id": "S37",
+      "title": "The Oil & Gas Journal, 24 May 1951 - personnel notes",
+      "author": "The Oil & Gas Journal",
+      "publication": "vol. 50, no. 3; Internet Archive",
+      "url": "https://archive.org/details/sim_oil-gas-journal_1951-05-24_50_3",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "\"Richard W. Thompson, Jr., petroleum engineer for G. W. Strake, has been\ntransferred from Wichita Falls to Winters, Tex.\" Winters is about 40 miles\nfrom Abilene, where Richard W. Thompson III was born in 1955, and the later\nPlano firm was an oil and gas producer. Identification with Miles's\ngrandfather is probable but TENTATIVE: the name is common and the item gives\nno family details. A search of the 1950 census for Wichita County did not\nfind him."
+    },
+    "S38": {
+      "id": "S38",
+      "title": "\"Capt. John Colcock and Some of His Descendants\"",
+      "author": "South Carolina Historical and Genealogical Magazine",
+      "publication": "South Carolina Historical and Genealogical Magazine, vol. 3, no. 4 (October 1902), pp. 216-241",
+      "url": "https://archive.org/details/jstor-27575005",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "Footnote on the ancestry of Mary Woodward Hutson Colcock: \"Her mother was\nEsther Maine, dau. of William Maine and Judith Gignilliat his wife (m. May 31,\n1752). Judith Gignilliat was the dau. of Henry Gignilliat and Hester Marion,\nhis wife. Henry Gignilliat was the son of 'Jean Francois Gignilliat, ne a\nVenay en Suise, fils d'Abraham Gignilliat et de Marye de Ville', and Suzanne\nLe Surrurier, his wife, who were French refugees to South Carolina, settling\non the Santee, after the Revocation of the Edict of Nantz in 1685.\""
+    },
+    "S39": {
+      "id": "S39",
+      "title": "The Life and Letters of Benjamin Morgan Palmer, ch. 1 \"The Ancestors (1621-1818)\"",
+      "author": "Johnson, Thomas Cary",
+      "publication": "Richmond, Va.: Presbyterian Committee of Publication, 1906; Internet Archive",
+      "url": "https://archive.org/details/lifeandlettersb00johngoog",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "Family history of the Palmers, drawing on tombstones, C. W. Jenkins's History\nof Falmouth (1843), and the manuscript memoir Job Palmer wrote for his\ndescendants at 93. Covers Rev. Thomas Palmer (1665-1743) -> Rev. Samuel\nPalmer (1707-1775) -> Job Palmer (1747-1845) -> Rev. Edward Palmer\n(1788-1882), and Sarah Bunce, daughter of Capt. Jared Bunce. Quotes Prof.\nCharles Woodward Hutson, \"a nephew.\" The author explicitly declines to fix\nthe generations between Rev. Thomas and the 1621 immigrant William Palmer."
+    },
+    "S40": {
+      "id": "S40",
+      "title": "Oakland Tribune, 18 December 1891 - Liebes divorce suit",
+      "author": "Oakland Tribune",
+      "publication": "Internet Archive",
+      "url": "https://archive.org/details/oakland-tribune-1891-12-18",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "\"SAN FRANCISCO, December 18. - Judge Finn made an order today allowing Mrs.\nHannah Liebes $300 for past expenses and $100 a week until the further order\nof the court in the matter of the Liebes divorce suit.\" (The Reno Evening\nGazette of the same date reports $600.) Also: San Francisco Blue Book (1924)\nlists \"LIEBES, Mrs. HANNAH; LIEBES, Mrs. JULIAN; LIEBES, Mr. MARTIN.\""
+    },
+    "S41": {
+      "id": "S41",
+      "title": "San Francisco Call, 9 March 1895 - \"A Great Estate Vanishes\" (Samuel Simon estate)",
+      "author": "The San Francisco Call",
+      "publication": "Internet Archive",
+      "url": "https://archive.org/details/The_San_Francisco_Call_1895_03_09",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "\"Some time after the death of Samuel Simon his stepson, Jefferson Martin,\nmarried. Jefferson died a few months after the union and to his widow a\nposthumous child, Jeffreys Martin, was born ... This made Mrs. Julia Martin\nand her daughter Jeffreys the direct legatees of old Samuel Simon.\" Oakland\nTribune (10 Nov 1910) names \"Miss Jeffreys Martin, daughter of Mrs. Moses J.\nLyon, of 1900 Vallejo.\""
     }
   }
 };
