@@ -145,3 +145,42 @@ Thompson's maiden name: not found in the Texas 1950 census (too many fuzzy
 matches without a surname) or in full-text search. Only Plano newspaper
 mentions (1976–77) were found. Richard W. Thompson Sr.: no record found.
 Adela Nelson's parents: not found (brother Laurence K. Nelson identified).
+
+## 2026-09-23 — Session 4: colonial and Huguenot lines (139 people)
+
+**Productive sources (all full text on Internet Archive):**
+- *The Life and Letters of Benjamin Morgan Palmer* (1906), ch. 1: Palmer line
+  to Rev. Thomas Palmer (1665–1743); Bunce line to Capt. Jared Bunce.
+- Salley, "Capt. John Colcock and Some of His Descendants," *SCHGM* 3:4 (1902):
+  Ferguson, Colcock, Maine–Gignilliat and Marion lines. **Hester Marion was an
+  aunt of Gen. Francis Marion.**
+- Salley, "Col. Miles Brewton and Some of His Descendants," *SCHGM* 2:2 (1901):
+  proves Milicent Jones's mother was Mary Brewton, granddaughter of Col. Miles
+  Brewton. This documents where the family name "Miles Brewton" came from.
+- Eggleston, "The Huguenot Abraham Michaux and Descendants," *VMHB* 44:4
+  (1936): Michaux, Rochet, Severin and de Serignon lines from the Huguenot
+  registers of Sedan, back to people born about 1580–1615.
+- Smith & Clay, *The Clay Family* (1899): Clay/Mitchell/Green/Marston lines;
+  corrects "Mary Green" to Martha Green.
+- Mary (Hutson) Nelson's memoir in the *Bulletin of the American Iris Society*:
+  the Hutsons moved from Texas to New Orleans in 1908.
+- *Oil & Gas Journal* (1951): a Richard W. Thompson Jr., petroleum engineer,
+  moved from Wichita Falls to Winters, Tex. (Tentative identification.)
+
+**Marked Tentative:** the first Mrs. Robert Brewton's surname Bulloch (family
+tradition); John Townes as Judith Townes's father (inferred from where they
+lived); Elizabeth Cary's Cary ancestry (two candidate Elizabeths, unresolved).
+
+**Successive dead ends that ended this session:** Col. Thomas Ferguson's
+parents; the Liebes family in Rawicz, Prussia (only unrelated Liebes records
+from Posen); Julius/May Wormser's origins; Adela Nelson's parents (brother
+Laurence K. Nelson known); William Maine's and Deborah Milner's parents.
+Earlier dead ends that remain open: Euvonne Thompson's maiden name, Sophie
+Liebes's maiden name (her sister was Mrs. Julia Martin, later Mrs. Moses J.
+Lyon), and Hannah Liebes's maiden name.
+
+**Best next steps (these need login-gated or offline records):** FamilySearch
+1900–1940 census and Texas marriage index for Euvonne (Abilene/Wichita Falls,
+around 1950–54); California death index and SF Jewish cemetery records (Home of
+Peace, Salem) for the Liebes and Wormser families; Orleans Parish birth
+indexes for Adela Nelson (born about 1892).

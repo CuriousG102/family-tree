@@ -42,17 +42,25 @@ author, publication/URL, a **confidence level**, and the date it was accessed.
 
 ## Viewing the tree
 
-Open `ui/index.html` in any browser — no server or build step required (the data
-is embedded). The viewer has four tabs:
+Open `ui/index.html` in any browser. It needs no server or build step because
+the data is embedded. The viewer has five tabs:
 
-- **Pedigree** — ancestor chart rooted at Miles; undocumented ancestors show as
-  dashed "not yet documented" cards.
-- **All People** — everyone in the tree.
-- **Sources** — the full bibliography with confidence levels and links.
-- **About & Method** — how to read the tree.
+- **Pedigree**: a collapsible ancestor tree that draws only documented
+  ancestors, with a generation-depth control. Any person can be made the root
+  ("View this person's ancestors").
+- **Family Lines**: each surname line (Hutson, Lockett, Liebes, Palmer,
+  Michaux, …) traced from its earliest known ancestor down to where it joins
+  the tree.
+- **All People**: search and filter everyone, sorted by birth year, with
+  computed relationship labels such as "4× great-grandmother."
+- **Sources**: the full bibliography with confidence levels, links, and the
+  people each source is cited for.
+- **About & Method**: how to read the tree, plus the *research frontier* list
+  of ancestors whose parents are not yet identified.
 
-Click any person for a detail panel where **every fact shows a clickable source
-pill** that jumps to the exact source it came from.
+Clicking any person opens a panel where **every fact shows a clickable source
+pill** and the exact quoted passage that supports it. Tentative (inferred)
+placements are drawn with dashed borders.
 
 ## Extending the tree
 

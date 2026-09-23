@@ -8,8 +8,8 @@ window.TREE = {
       "note": "This GEDCOM is the canonical, version-controlled source of truth for the\nHutson family tree. Every genealogical fact carries a SOUR citation that\npoints to a SOUR record at the bottom of the file. Custom tags used:\n  _URL  = web address of the source\n  _CONF = confidence level (Primary / Secondary / Tentative / Provided)\n  _ACC  = date the source was accessed\nLiving individuals are recorded with minimal detail (names and\nrelationships only). Run scripts/build.py after editing this file."
     },
     "counts": {
-      "individuals": 138,
-      "families": 66,
+      "individuals": 139,
+      "families": 67,
       "sources": 45
     }
   },
@@ -4029,7 +4029,9 @@ window.TREE = {
           }
         ]
       ],
-      "famc": [],
+      "famc": [
+        "F68"
+      ],
       "fams": [
         "F20"
       ],
@@ -7821,6 +7823,52 @@ window.TREE = {
         "F67"
       ],
       "name": "Elizabeth Marvell"
+    },
+    "I139": {
+      "id": "I139",
+      "names": [
+        {
+          "full": "John Townes",
+          "given": "John",
+          "surname": "Townes"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "ABT 1698",
+          "place": "Swift Creek, Henrico (now Chesterfield) County, Virginia",
+          "value": null,
+          "citations": [
+            {
+              "source": "S28",
+              "page": "Henrico Records 1697-1704, p. 132 (1698) and 1706-09, p. 98 (1708) cited",
+              "conf": "Tentative",
+              "note": null
+            }
+          ],
+          "type": "RESI",
+          "label": "Residence"
+        }
+      ],
+      "notes": [
+        "TENTATIVE 7x-great-grandfather of Miles. The Lockett genealogist concludes\nJudith Townes \"must have married a daughter of John Townes, who was the only\nTownes living in Henrico and who lived on Swift Creek, where the Locketts\nlived,\" and that he \"was probably the father of Judith\" - an inference from\nproximity, not a documented link."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Tentative",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F68"
+      ],
+      "name": "John Townes"
     }
   },
   "families": {
@@ -9298,6 +9346,28 @@ window.TREE = {
       "events": [],
       "notes": [],
       "note_citations": []
+    },
+    "F68": {
+      "id": "F68",
+      "husband": "I139",
+      "wife": null,
+      "children": [
+        "I60"
+      ],
+      "events": [],
+      "notes": [
+        "TENTATIVE link (inferred from residence)."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S28",
+            "page": null,
+            "conf": "Tentative",
+            "note": null
+          }
+        ]
+      ]
     }
   },
   "sources": {

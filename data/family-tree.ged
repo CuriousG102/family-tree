@@ -1627,6 +1627,7 @@
 1 NAME Judith /Townes/
 2 _MARNM Lockett
 1 SEX F
+1 FAMC @F68@
 1 FAMS @F20@
 1 NOTE 6x-great-grandmother of Miles. Some family accounts call her "Elizabeth
 2 CONT Judith"; official records (her husband's will, a 1773 deed) name her Judith.
@@ -3724,4 +3725,27 @@
 2 CONT descendants." Recorded only as a lead because it does not settle which
 2 CONT Elizabeth Cary was Miles's ancestor. See also Fairfax Harrison, The Virginia
 2 CONT Carys (1919).
+0 @I139@ INDI
+1 NAME John /Townes/
+1 SEX M
+1 FAMS @F68@
+1 RESI
+2 DATE ABT 1698
+2 PLAC Swift Creek, Henrico (now Chesterfield) County, Virginia
+2 SOUR @S28@
+3 PAGE Henrico Records 1697-1704, p. 132 (1698) and 1706-09, p. 98 (1708) cited
+3 _CONF Tentative
+1 NOTE TENTATIVE 7x-great-grandfather of Miles. The Lockett genealogist concludes
+2 CONT Judith Townes "must have married a daughter of John Townes, who was the only
+2 CONT Townes living in Henrico and who lived on Swift Creek, where the Locketts
+2 CONT lived," and that he "was probably the father of Judith" - an inference from
+2 CONT proximity, not a documented link.
+2 SOUR @S28@
+3 _CONF Tentative
+0 @F68@ FAM
+1 HUSB @I139@
+1 CHIL @I60@
+1 NOTE TENTATIVE link (inferred from residence).
+2 SOUR @S28@
+3 _CONF Tentative
 0 TRLR
