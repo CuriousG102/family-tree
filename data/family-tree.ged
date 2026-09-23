@@ -1755,16 +1755,48 @@
 0 @I68@ INDI
 1 NAME Charles /Clay/
 1 SEX M
+1 FAMC @F63@
 1 FAMS @F26@
-1 NOTE 6x-great-grandfather of Miles; father of Mary Clay Lockett.
+1 BIRT
+2 DATE 31 JAN 1716
+2 SOUR @S45@
+3 PAGE "9. Charles Clay, son of Henry and Mary (Mitchell) Clay, was born January 31, 1716, and died in Powhatan County, Virginia, February 25, 1789"
+3 _CONF Secondary
+1 DEAT
+2 DATE 25 FEB 1789
+2 PLAC Powhatan County, Virginia
+2 SOUR @S45@
+3 _CONF Secondary
+1 NOTE 6x-great-grandfather of Miles; father of Mary Clay Lockett and of Gen. Green
+2 CONT Clay (1757-1828) of Kentucky, the family's first historian and father of the
+2 CONT abolitionist Cassius Marcellus Clay. Other children included Rev. Eleazer
+2 CONT Clay (Baptist minister) and Henry Clay, who died a Revolutionary soldier at
+2 CONT Trenton in 1777. Married Martha Green on 11 Nov 1741.
+2 SOUR @S45@
+3 _CONF Secondary
 2 SOUR @S28@
 3 _CONF Secondary
 0 @I69@ INDI
-1 NAME Mary /Green/
+1 NAME Martha /Green/
 2 _MARNM Clay
 1 SEX F
+1 FAMC @F64@
 1 FAMS @F26@
-1 NOTE 6x-great-grandmother of Miles; mother of Mary Clay Lockett.
+1 BIRT
+2 DATE 25 NOV 1719
+2 SOUR @S45@
+3 _CONF Secondary
+1 DEAT
+2 DATE 6 SEP 1793
+2 SOUR @S45@
+3 _CONF Secondary
+1 NOTE 6x-great-grandmother of Miles; mother of Mary Clay Lockett and Gen. Green
+2 CONT Clay. The 1951 Lockett genealogy calls her "Mary Green"; the Clay family
+2 CONT history (1899), citing Amelia County deeds of 1758-60 identifying "Martha,
+2 CONT the wife of Charles Clay" as a daughter of Elizabeth Green, names her
+2 CONT Martha. Sister of Lucy Green, who married Charles's brother Henry.
+2 SOUR @S45@
+3 _CONF Secondary
 2 SOUR @S28@
 3 _CONF Secondary
 0 @I70@ INDI
@@ -1781,9 +1813,16 @@
 2 _MARNM Watkins
 1 SEX F
 1 FAMS @F27@
-1 NOTE 5x-great-grandmother of Miles; of Warwick County, Virginia.
+1 NOTE 5x-great-grandmother of Miles; of Warwick County, Virginia. UNRESOLVED LEAD:
+2 CONT "Some Prominent Virginia Families" (1907) says Elizabeth Cary, daughter of
+2 CONT Miles Cary of Pear Tree Hall (clerk of Warwick, 1701-1766), married a Benjamin
+2 CONT Watkins, and that "her aunt, by same name, is said to have married Benjamin
+2 CONT Watkins, of Chesterfield Co." - so she was a Cary of the Warwick family
+2 CONT descended from the immigrant Miles Cary, but which generation is unclear.
 2 SOUR @S28@
 3 _CONF Secondary
+2 SOUR @S46@
+3 _CONF Tentative
 0 @I72@ INDI
 1 NAME Laurence K. /Nelson/
 1 SEX M
@@ -1985,6 +2024,10 @@
 1 HUSB @I68@
 1 WIFE @I69@
 1 CHIL @I58@
+1 MARR
+2 DATE 11 NOV 1741
+2 SOUR @S45@
+3 _CONF Secondary
 0 @F27@ FAM
 1 HUSB @I70@
 1 WIFE @I71@
@@ -3491,4 +3534,194 @@
 2 CONT and mother of Agnes Woodson, wife of Francis Watkins, clerk of Prince Edward
 2 CONT County. Continuation: archive.org/details/sim_virginia-magazine-of-history-
 2 CONT and-biography_1937-01_45_1.
+0 @I129@ INDI
+1 NAME Henry /Clay/
+1 SEX M
+1 FAMC @F66@
+1 FAMS @F63@
+1 BIRT
+2 DATE ABT 1672
+2 SOUR @S45@
+3 PAGE "Henry Clay was born about 1672, and died at 'The Raells,' August 3, 1760 ... aged eighty-eight years"
+3 _CONF Secondary
+1 DEAT
+2 DATE 3 AUG 1760
+2 PLAC "The Raells," Chesterfield County, Virginia
+2 SOUR @S45@
+3 _CONF Secondary
+1 NOTE 7x-great-grandfather of Miles. Planter of Henrico (later Chesterfield)
+2 CONT County on Swift Creek and Nuttree Run; his will (signed 1749, probated 1760)
+2 CONT leaves "to my granddaughter, Mary Clay, daughter of Charles Clay (afterwards
+2 CONT Mrs. Stephen Lockett), one negro girl, named Phoebe" - the enslaved people
+2 CONT named in these wills are part of this family's history. The 1899 Clay
+2 CONT history calls him "the common ancestor of the Clays of Kentucky," grandfather
+2 CONT of Gen. Green Clay and of the statesman Henry Clay of Ashland; the latter
+2 CONT claim is the book's, not independently verified here.
+2 SOUR @S45@
+3 _CONF Secondary
+0 @I130@ INDI
+1 NAME Mary /Mitchell/
+2 _MARNM Clay
+1 SEX F
+1 FAMC @F65@
+1 FAMS @F63@
+1 BIRT
+2 DATE JAN 1693
+2 SOUR @S45@
+3 _CONF Secondary
+1 DEAT
+2 DATE 7 AUG 1777
+2 SOUR @S45@
+3 _CONF Secondary
+1 NOTE 7x-great-grandmother of Miles; married Henry Clay about 1708-09. Dates are
+2 CONT from Gen. Green Clay's manuscript family history (c. 1820), quoted in the
+2 CONT 1899 Clay genealogy.
+2 SOUR @S45@
+3 _CONF Secondary
+0 @I131@ INDI
+1 NAME William /Mitchell/
+1 SEX M
+1 FAMS @F65@
+1 NOTE 8x-great-grandfather of Miles; lived, died and was buried in Chesterfield
+2 CONT County on the west side of Swift Creek.
+2 SOUR @S45@
+3 _CONF Secondary
+0 @I132@ INDI
+1 NAME Elizabeth //
+2 _MARNM Mitchell
+1 SEX F
+1 FAMS @F65@
+1 NOTE 8x-great-grandmother of Miles; wife of William Mitchell of Chesterfield.
+2 SOUR @S45@
+3 _CONF Secondary
+0 @I133@ INDI
+1 NAME Charles /Clay/
+1 SEX M
+1 FAMS @F66@
+1 DEAT
+2 DATE BEF 1 JUN 1686
+2 PLAC Henrico County, Colony of Virginia
+2 SOUR @S45@
+3 PAGE Estate of Charles Clay appraised "by order of Court, June 1, 1686" (Henrico Bk. 1677-1692, p. 368)
+3 _CONF Secondary
+1 NOTE 8x-great-grandfather of Miles; of Henrico County, Virginia, in the 1680s.
+2 CONT Father of Mary, Elizabeth, John, Thomas, Henry (c. 1672), Charles and Judith.
+2 SOUR @S45@
+3 _CONF Secondary
+0 @I134@ INDI
+1 NAME Hannah /Wilson/
+2 _MARNM Clay
+1 SEX F
+1 FAMS @F66@
+1 NOTE 8x-great-grandmother of Miles; widow of Charles Clay; in 1687 she registered
+2 CONT a livestock mark for her son John in Henrico County.
+2 SOUR @S45@
+3 _CONF Secondary
+0 @I135@ INDI
+1 NAME Thomas /Green/
+1 SEX M
+1 FAMS @F64@
+1 BIRT
+2 DATE ABT 1665
+2 SOUR @S45@
+3 _CONF Secondary
+1 DEAT
+2 DATE 1730
+2 SOUR @S45@
+3 _CONF Secondary
+1 NOTE 7x-great-grandfather of Miles; of Amelia County, Virginia. Family tradition
+2 CONT (Gen. Green Clay's manuscript, c. 1820) makes him the son of Thomas Green
+2 CONT "the Sea Gull," so called for having been born at sea en route to America,
+2 CONT and Martha Filmer; that generation is not recorded here as fact.
+2 SOUR @S45@
+3 _CONF Secondary
+0 @I136@ INDI
+1 NAME Elizabeth /Marston/
+2 _MARNM Green
+1 SEX F
+1 FAMC @F67@
+1 FAMS @F64@
+1 BIRT
+2 DATE 25 NOV 1672
+2 SOUR @S45@
+3 _CONF Secondary
+1 DEAT
+2 DATE 11 AUG 1759
+2 SOUR @S45@
+3 PAGE Will probated January 24, 1760, Amelia County
+3 _CONF Secondary
+1 NOTE 7x-great-grandmother of Miles; mother of Martha (Green) Clay and Lucy (Green)
+2 CONT Clay.
+2 SOUR @S45@
+3 _CONF Secondary
+0 @I137@ INDI
+1 NAME Thomas /Marston/
+1 SEX M
+1 FAMS @F67@
+1 OCCU Justice of Henrico County (1682)
+2 SOUR @S45@
+3 _CONF Secondary
+1 NOTE 8x-great-grandfather of Miles; a justice of Henrico County in 1682.
+2 SOUR @S45@
+3 _CONF Secondary
+0 @I138@ INDI
+1 NAME Elizabeth /Marvell/
+2 _MARNM Marston
+1 SEX F
+1 FAMS @F67@
+1 NOTE 8x-great-grandmother of Miles; wife of Thomas Marston.
+2 SOUR @S45@
+3 _CONF Secondary
+0 @F63@ FAM
+1 HUSB @I129@
+1 WIFE @I130@
+1 CHIL @I68@
+1 MARR
+2 DATE ABT 1709
+2 SOUR @S45@
+3 _CONF Secondary
+0 @F64@ FAM
+1 HUSB @I135@
+1 WIFE @I136@
+1 CHIL @I69@
+0 @F65@ FAM
+1 HUSB @I131@
+1 WIFE @I132@
+1 CHIL @I130@
+0 @F66@ FAM
+1 HUSB @I133@
+1 WIFE @I134@
+1 CHIL @I129@
+0 @F67@ FAM
+1 HUSB @I137@
+1 WIFE @I138@
+1 CHIL @I136@
+0 @S45@ SOUR
+1 TITL The Clay Family (Filson Club Publications No. 14)
+1 AUTH Smith, Zachary F., and Mary Rogers Clay
+1 PUBL Louisville: John P. Morton & Co., 1899; Internet Archive
+1 _URL https://archive.org/details/clayfamily00smitgoog
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE Compiled genealogy quoting Henrico, Chesterfield, Cumberland and Amelia
+2 CONT county wills and deeds, plus Gen. Green Clay's manuscript family history (c.
+2 CONT 1820). Gives Charles Clay (d. by 1686) and Hannah Wilson -> Henry Clay
+2 CONT (c. 1672-1760) and Mary Mitchell -> Charles Clay (1716-1789) and Martha Green
+2 CONT (1719-1793) -> "Mary Clay, born September 22, 1742; married Stephen
+2 CONT Lockett." Green/Marston ancestry of Martha Green from the Green Clay
+2 CONT manuscript.
+0 @S46@ SOUR
+1 TITL Some Prominent Virginia Families (Cary chapter)
+1 AUTH du Bellet, Louise Pecquet
+1 PUBL Lynchburg, Va.: J. P. Bell Co., 1907; Internet Archive
+1 _URL https://archive.org/details/bub_gb_tyQSAAAAYAAJ
+1 _CONF Tentative
+1 _ACC 2026-09-23
+1 NOTE Cary lineage: Miles Cary (immigrant) -> Thomas Cary -> Miles Cary of
+2 CONT Warwick (d. 1724) -> Miles Cary of Pear Tree Hall (1701-1766), whose daughter
+2 CONT "Elizabeth Cary. Married Benjamin Watkins. Her aunt, by same name, is said to
+2 CONT have married Benjamin Watkins, of Chesterfield Co., Va., and had numerous
+2 CONT descendants." Recorded only as a lead because it does not settle which
+2 CONT Elizabeth Cary was Miles's ancestor. See also Fairfax Harrison, The Virginia
+2 CONT Carys (1919).
 0 TRLR

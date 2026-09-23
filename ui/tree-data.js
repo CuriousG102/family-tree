@@ -8,9 +8,9 @@ window.TREE = {
       "note": "This GEDCOM is the canonical, version-controlled source of truth for the\nHutson family tree. Every genealogical fact carries a SOUR citation that\npoints to a SOUR record at the bottom of the file. Custom tags used:\n  _URL  = web address of the source\n  _CONF = confidence level (Primary / Secondary / Tentative / Provided)\n  _ACC  = date the source was accessed\nLiving individuals are recorded with minimal detail (names and\nrelationships only). Run scripts/build.py after editing this file."
     },
     "counts": {
-      "individuals": 128,
-      "families": 61,
-      "sources": 43
+      "individuals": 138,
+      "families": 66,
+      "sources": 45
     }
   },
   "individuals": {
@@ -4363,12 +4363,49 @@ window.TREE = {
         }
       ],
       "sex": "M",
-      "events": [],
+      "events": [
+        {
+          "date": "31 JAN 1716",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S45",
+              "page": "\"9. Charles Clay, son of Henry and Mary (Mitchell) Clay, was born January 31, 1716, and died in Powhatan County, Virginia, February 25, 1789\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "25 FEB 1789",
+          "place": "Powhatan County, Virginia",
+          "value": null,
+          "citations": [
+            {
+              "source": "S45",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
       "notes": [
-        "6x-great-grandfather of Miles; father of Mary Clay Lockett."
+        "6x-great-grandfather of Miles; father of Mary Clay Lockett and of Gen. Green\nClay (1757-1828) of Kentucky, the family's first historian and father of the\nabolitionist Cassius Marcellus Clay. Other children included Rev. Eleazer\nClay (Baptist minister) and Henry Clay, who died a Revolutionary soldier at\nTrenton in 1777. Married Martha Green on 11 Nov 1741."
       ],
       "note_citations": [
         [
+          {
+            "source": "S45",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
           {
             "source": "S28",
             "page": null,
@@ -4377,7 +4414,9 @@ window.TREE = {
           }
         ]
       ],
-      "famc": [],
+      "famc": [
+        "F63"
+      ],
       "fams": [
         "F26"
       ],
@@ -4387,19 +4426,56 @@ window.TREE = {
       "id": "I69",
       "names": [
         {
-          "full": "Mary Green",
-          "given": "Mary",
+          "full": "Martha Green",
+          "given": "Martha",
           "surname": "Green",
           "married": "Clay"
         }
       ],
       "sex": "F",
-      "events": [],
+      "events": [
+        {
+          "date": "25 NOV 1719",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S45",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "6 SEP 1793",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S45",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
       "notes": [
-        "6x-great-grandmother of Miles; mother of Mary Clay Lockett."
+        "6x-great-grandmother of Miles; mother of Mary Clay Lockett and Gen. Green\nClay. The 1951 Lockett genealogy calls her \"Mary Green\"; the Clay family\nhistory (1899), citing Amelia County deeds of 1758-60 identifying \"Martha,\nthe wife of Charles Clay\" as a daughter of Elizabeth Green, names her\nMartha. Sister of Lucy Green, who married Charles's brother Henry."
       ],
       "note_citations": [
         [
+          {
+            "source": "S45",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
           {
             "source": "S28",
             "page": null,
@@ -4408,11 +4484,13 @@ window.TREE = {
           }
         ]
       ],
-      "famc": [],
+      "famc": [
+        "F64"
+      ],
       "fams": [
         "F26"
       ],
-      "name": "Mary Green"
+      "name": "Martha Green"
     },
     "I70": {
       "id": "I70",
@@ -4457,7 +4535,7 @@ window.TREE = {
       "sex": "F",
       "events": [],
       "notes": [
-        "5x-great-grandmother of Miles; of Warwick County, Virginia."
+        "5x-great-grandmother of Miles; of Warwick County, Virginia. UNRESOLVED LEAD:\n\"Some Prominent Virginia Families\" (1907) says Elizabeth Cary, daughter of\nMiles Cary of Pear Tree Hall (clerk of Warwick, 1701-1766), married a Benjamin\nWatkins, and that \"her aunt, by same name, is said to have married Benjamin\nWatkins, of Chesterfield Co.\" - so she was a Cary of the Warwick family\ndescended from the immigrant Miles Cary, but which generation is unclear."
       ],
       "note_citations": [
         [
@@ -4465,6 +4543,12 @@ window.TREE = {
             "source": "S28",
             "page": null,
             "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S46",
+            "page": null,
+            "conf": "Tentative",
             "note": null
           }
         ]
@@ -7270,6 +7354,473 @@ window.TREE = {
         "F62"
       ],
       "name": "Marguerite Beauciel"
+    },
+    "I129": {
+      "id": "I129",
+      "names": [
+        {
+          "full": "Henry Clay",
+          "given": "Henry",
+          "surname": "Clay"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "ABT 1672",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S45",
+              "page": "\"Henry Clay was born about 1672, and died at 'The Raells,' August 3, 1760 ... aged eighty-eight years\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "3 AUG 1760",
+          "place": "\"The Raells,\" Chesterfield County, Virginia",
+          "value": null,
+          "citations": [
+            {
+              "source": "S45",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
+      "notes": [
+        "7x-great-grandfather of Miles. Planter of Henrico (later Chesterfield)\nCounty on Swift Creek and Nuttree Run; his will (signed 1749, probated 1760)\nleaves \"to my granddaughter, Mary Clay, daughter of Charles Clay (afterwards\nMrs. Stephen Lockett), one negro girl, named Phoebe\" - the enslaved people\nnamed in these wills are part of this family's history. The 1899 Clay\nhistory calls him \"the common ancestor of the Clays of Kentucky,\" grandfather\nof Gen. Green Clay and of the statesman Henry Clay of Ashland; the latter\nclaim is the book's, not independently verified here."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S45",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F66"
+      ],
+      "fams": [
+        "F63"
+      ],
+      "name": "Henry Clay"
+    },
+    "I130": {
+      "id": "I130",
+      "names": [
+        {
+          "full": "Mary Mitchell",
+          "given": "Mary",
+          "surname": "Mitchell",
+          "married": "Clay"
+        }
+      ],
+      "sex": "F",
+      "events": [
+        {
+          "date": "JAN 1693",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S45",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "7 AUG 1777",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S45",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
+      "notes": [
+        "7x-great-grandmother of Miles; married Henry Clay about 1708-09. Dates are\nfrom Gen. Green Clay's manuscript family history (c. 1820), quoted in the\n1899 Clay genealogy."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S45",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F65"
+      ],
+      "fams": [
+        "F63"
+      ],
+      "name": "Mary Mitchell"
+    },
+    "I131": {
+      "id": "I131",
+      "names": [
+        {
+          "full": "William Mitchell",
+          "given": "William",
+          "surname": "Mitchell"
+        }
+      ],
+      "sex": "M",
+      "events": [],
+      "notes": [
+        "8x-great-grandfather of Miles; lived, died and was buried in Chesterfield\nCounty on the west side of Swift Creek."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S45",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F65"
+      ],
+      "name": "William Mitchell"
+    },
+    "I132": {
+      "id": "I132",
+      "names": [
+        {
+          "full": "Elizabeth",
+          "given": "Elizabeth",
+          "surname": "",
+          "married": "Mitchell"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "8x-great-grandmother of Miles; wife of William Mitchell of Chesterfield."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S45",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F65"
+      ],
+      "name": "Elizabeth"
+    },
+    "I133": {
+      "id": "I133",
+      "names": [
+        {
+          "full": "Charles Clay",
+          "given": "Charles",
+          "surname": "Clay"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "BEF 1 JUN 1686",
+          "place": "Henrico County, Colony of Virginia",
+          "value": null,
+          "citations": [
+            {
+              "source": "S45",
+              "page": "Estate of Charles Clay appraised \"by order of Court, June 1, 1686\" (Henrico Bk. 1677-1692, p. 368)",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
+      "notes": [
+        "8x-great-grandfather of Miles; of Henrico County, Virginia, in the 1680s.\nFather of Mary, Elizabeth, John, Thomas, Henry (c. 1672), Charles and Judith."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S45",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F66"
+      ],
+      "name": "Charles Clay"
+    },
+    "I134": {
+      "id": "I134",
+      "names": [
+        {
+          "full": "Hannah Wilson",
+          "given": "Hannah",
+          "surname": "Wilson",
+          "married": "Clay"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "8x-great-grandmother of Miles; widow of Charles Clay; in 1687 she registered\na livestock mark for her son John in Henrico County."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S45",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F66"
+      ],
+      "name": "Hannah Wilson"
+    },
+    "I135": {
+      "id": "I135",
+      "names": [
+        {
+          "full": "Thomas Green",
+          "given": "Thomas",
+          "surname": "Green"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "ABT 1665",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S45",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "1730",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S45",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
+      "notes": [
+        "7x-great-grandfather of Miles; of Amelia County, Virginia. Family tradition\n(Gen. Green Clay's manuscript, c. 1820) makes him the son of Thomas Green\n\"the Sea Gull,\" so called for having been born at sea en route to America,\nand Martha Filmer; that generation is not recorded here as fact."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S45",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F64"
+      ],
+      "name": "Thomas Green"
+    },
+    "I136": {
+      "id": "I136",
+      "names": [
+        {
+          "full": "Elizabeth Marston",
+          "given": "Elizabeth",
+          "surname": "Marston",
+          "married": "Green"
+        }
+      ],
+      "sex": "F",
+      "events": [
+        {
+          "date": "25 NOV 1672",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S45",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "11 AUG 1759",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S45",
+              "page": "Will probated January 24, 1760, Amelia County",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
+      "notes": [
+        "7x-great-grandmother of Miles; mother of Martha (Green) Clay and Lucy (Green)\nClay."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S45",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F67"
+      ],
+      "fams": [
+        "F64"
+      ],
+      "name": "Elizabeth Marston"
+    },
+    "I137": {
+      "id": "I137",
+      "names": [
+        {
+          "full": "Thomas Marston",
+          "given": "Thomas",
+          "surname": "Marston"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": null,
+          "place": null,
+          "value": "Justice of Henrico County (1682)",
+          "citations": [
+            {
+              "source": "S45",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "OCCU",
+          "label": "Occupation"
+        }
+      ],
+      "notes": [
+        "8x-great-grandfather of Miles; a justice of Henrico County in 1682."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S45",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F67"
+      ],
+      "name": "Thomas Marston"
+    },
+    "I138": {
+      "id": "I138",
+      "names": [
+        {
+          "full": "Elizabeth Marvell",
+          "given": "Elizabeth",
+          "surname": "Marvell",
+          "married": "Marston"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "8x-great-grandmother of Miles; wife of Thomas Marston."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S45",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F67"
+      ],
+      "name": "Elizabeth Marvell"
     }
   },
   "families": {
@@ -8004,7 +8555,23 @@ window.TREE = {
       "children": [
         "I58"
       ],
-      "events": [],
+      "events": [
+        {
+          "date": "11 NOV 1741",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S45",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "MARR",
+          "label": "Marriage"
+        }
+      ],
       "notes": [],
       "note_citations": []
     },
@@ -8660,6 +9227,77 @@ window.TREE = {
       "events": [],
       "notes": [],
       "note_citations": []
+    },
+    "F63": {
+      "id": "F63",
+      "husband": "I129",
+      "wife": "I130",
+      "children": [
+        "I68"
+      ],
+      "events": [
+        {
+          "date": "ABT 1709",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S45",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "MARR",
+          "label": "Marriage"
+        }
+      ],
+      "notes": [],
+      "note_citations": []
+    },
+    "F64": {
+      "id": "F64",
+      "husband": "I135",
+      "wife": "I136",
+      "children": [
+        "I69"
+      ],
+      "events": [],
+      "notes": [],
+      "note_citations": []
+    },
+    "F65": {
+      "id": "F65",
+      "husband": "I131",
+      "wife": "I132",
+      "children": [
+        "I130"
+      ],
+      "events": [],
+      "notes": [],
+      "note_citations": []
+    },
+    "F66": {
+      "id": "F66",
+      "husband": "I133",
+      "wife": "I134",
+      "children": [
+        "I129"
+      ],
+      "events": [],
+      "notes": [],
+      "note_citations": []
+    },
+    "F67": {
+      "id": "F67",
+      "husband": "I137",
+      "wife": "I138",
+      "children": [
+        "I136"
+      ],
+      "events": [],
+      "notes": [],
+      "note_citations": []
     }
   },
   "sources": {
@@ -9092,6 +9730,26 @@ window.TREE = {
       "confidence": "Secondary",
       "accessed": "2026-09-23",
       "note": "Scholarly genealogy correcting earlier Michaux traditions. Its French\npedigrees come from the Huguenot church registers of Sedan, searched by\nPasteur U. Weiss of the Societe de l'Histoire du Protestantisme Francais, and\nfrom Amsterdam Walloon-church records supplied by elder H. F. Baerselman.\nGives the Michaux (Abraham 1608 -> Jacob 1644 -> Abraham 1672-1717),\nSeverin (Nicholas -> Paul 1615 -> Anne 1649), de Serignon and Rochet (Thomas\n-> Thiery 1615 -> Jean -> Suzanne bap. 1667) lines, and identifies Ann\nMadelin Michaux (b. c. 1710/11) as wife of Richard Woodson of \"Poplar Hill\"\nand mother of Agnes Woodson, wife of Francis Watkins, clerk of Prince Edward\nCounty. Continuation: archive.org/details/sim_virginia-magazine-of-history-\nand-biography_1937-01_45_1."
+    },
+    "S45": {
+      "id": "S45",
+      "title": "The Clay Family (Filson Club Publications No. 14)",
+      "author": "Smith, Zachary F., and Mary Rogers Clay",
+      "publication": "Louisville: John P. Morton & Co., 1899; Internet Archive",
+      "url": "https://archive.org/details/clayfamily00smitgoog",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "Compiled genealogy quoting Henrico, Chesterfield, Cumberland and Amelia\ncounty wills and deeds, plus Gen. Green Clay's manuscript family history (c.\n1820). Gives Charles Clay (d. by 1686) and Hannah Wilson -> Henry Clay\n(c. 1672-1760) and Mary Mitchell -> Charles Clay (1716-1789) and Martha Green\n(1719-1793) -> \"Mary Clay, born September 22, 1742; married Stephen\nLockett.\" Green/Marston ancestry of Martha Green from the Green Clay\nmanuscript."
+    },
+    "S46": {
+      "id": "S46",
+      "title": "Some Prominent Virginia Families (Cary chapter)",
+      "author": "du Bellet, Louise Pecquet",
+      "publication": "Lynchburg, Va.: J. P. Bell Co., 1907; Internet Archive",
+      "url": "https://archive.org/details/bub_gb_tyQSAAAAYAAJ",
+      "confidence": "Tentative",
+      "accessed": "2026-09-23",
+      "note": "Cary lineage: Miles Cary (immigrant) -> Thomas Cary -> Miles Cary of\nWarwick (d. 1724) -> Miles Cary of Pear Tree Hall (1701-1766), whose daughter\n\"Elizabeth Cary. Married Benjamin Watkins. Her aunt, by same name, is said to\nhave married Benjamin Watkins, of Chesterfield Co., Va., and had numerous\ndescendants.\" Recorded only as a lead because it does not settle which\nElizabeth Cary was Miles's ancestor. See also Fairfax Harrison, The Virginia\nCarys (1919)."
     }
   }
 };
