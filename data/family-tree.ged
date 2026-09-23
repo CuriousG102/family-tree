@@ -2694,36 +2694,95 @@
 1 NAME Richard /Woodson/
 1 SEX M
 1 FAMS @F41@
-1 NOTE 6x-great-grandfather of Miles; of the Woodson family of colonial Virginia;
-2 CONT husband of Madelin Michaux.
+1 RESI
+2 PLAC "Poplar Hill", Prince Edward County, Virginia
+2 SOUR @S44@
+3 _CONF Secondary
+1 NOTE 6x-great-grandfather of Miles; Richard Woodson of Henrico and later of
+2 CONT "Poplar Hill," Prince Edward County; son of Richard Woodson of Henrico and
+2 CONT his wife Ann. Husband of Ann Madelin Michaux.
 2 SOUR @S28@
 3 _CONF Secondary
+2 SOUR @S44@
+3 _CONF Secondary
 0 @I90@ INDI
-1 NAME Madelin /Michaux/
+1 NAME Ann Madelin /Michaux/
 2 _MARNM Woodson
 1 SEX F
 1 FAMC @F42@
 1 FAMS @F41@
-1 NOTE 6x-great-grandmother of Miles; daughter of the Huguenot refugees Abraham
-2 CONT Michaux and Susanne Richet.
+1 BIRT
+2 DATE ABT 1711
+2 PLAC Virginia
+2 SOUR @S44@
+3 PAGE "his much younger sister Ann Madelin Michaux, born in Virginia probably 1710/11"
+3 _CONF Secondary
+1 DEAT
+2 DATE ABT 1796
+2 SOUR @S44@
+3 PAGE "Ann Madelin, married Richard Woodson. She lived to be 86 and died about year 1796."
+3 _CONF Secondary
+1 NOTE 6x-great-grandmother of Miles; next-to-youngest daughter of the Huguenot
+2 CONT refugees Abraham Michaux and Susanne Rochet (the 1951 Lockett genealogy
+2 CONT spells it "Richet"). Her granddaughter Martha Venable recorded the family's
+2 CONT escape story in the Michaux Bible "from her lips."
 2 SOUR @S28@
+3 _CONF Secondary
+2 SOUR @S44@
 3 _CONF Secondary
 0 @I91@ INDI
 1 NAME Abraham /Michaux/
 1 SEX M
+1 FAMC @F55@
 1 FAMS @F42@
-1 NOTE 7x-great-grandfather of Miles; a French Huguenot (Protestant) refugee to
-2 CONT colonial Virginia. Only his and his wife's names and refugee status are
-2 CONT stated in the source used here.
+1 BIRT
+2 DATE 1672
+2 PLAC Sedan, France
+2 SOUR @S44@
+3 PAGE "III. Abraham Michaux, born 1672 in Sedan; died 1717 in Virginia"
+3 _CONF Secondary
+1 DEAT
+2 DATE 1717
+2 PLAC Henrico County, Virginia
+2 SOUR @S44@
+3 _CONF Secondary
+1 NOTE 7x-great-grandfather of Miles; a French Huguenot refugee. Followed his
+2 CONT father Jacob to Amsterdam after the Revocation of the Edict of Nantes;
+2 CONT received into the Walloon-French church there 28 Jan 1691; married Susanne
+2 CONT Rochet there 13 July 1692; moved to London in 1701 (his wife joined the
+2 CONT Threadneedle Street Huguenot church in 1702), and by 1705 was at the Huguenot
+2 CONT settlement of Manakin Towne, Henrico County, Virginia. Thirteen children.
+2 SOUR @S44@
+3 _CONF Secondary
 2 SOUR @S28@
 3 _CONF Secondary
 0 @I92@ INDI
+1 NAME Susanne /Rochet/
 1 NAME Susanne /Richet/
-2 _MARNM Michaux
+2 TYPE aka
 1 SEX F
+1 FAMC @F56@
 1 FAMS @F42@
-1 NOTE 7x-great-grandmother of Miles; French Huguenot refugee, wife of Abraham
-2 CONT Michaux.
+1 BAPM
+2 DATE 13 APR 1667
+2 PLAC Sedan, France
+2 SOUR @S44@
+3 PAGE "Suzanne Rochet, baptized April 13, 1667 ('She was named after her grandmother and godmother, Suzanne Rondeau')"
+3 _CONF Secondary
+1 DEAT
+2 DATE BEF 18 DEC 1744
+2 PLAC Virginia
+2 SOUR @S44@
+3 _CONF Secondary
+1 NOTE 7x-great-grandmother of Miles (pronounced "Ro-shay"). Family tradition -
+2 CONT the "Little Nightcap" story - holds that as a young Huguenot she was
+2 CONT smuggled out of Catholic France hidden in a cask and carried to Amsterdam,
+2 CONT where her sisters received her; her younger sister Jeanne had married in
+2 CONT London in 1689. She married Abraham Michaux at Amsterdam in 1692 and died in
+2 CONT Virginia before December 1744. The 1951 Lockett genealogy misspells her
+2 CONT surname "Richet."
+2 SOUR @S44@
+3 _CONF Secondary
 2 SOUR @S28@
 3 _CONF Secondary
 0 @I93@ INDI
@@ -2771,6 +2830,12 @@
 1 HUSB @I91@
 1 WIFE @I92@
 1 CHIL @I90@
+1 MARR
+2 DATE 13 JUL 1692
+2 PLAC Walloon-French church, Amsterdam, Holland
+2 SOUR @S44@
+3 PAGE Amsterdam church elder's letter: Abraham "was, January 28, 1691, received member of the walloon-french church at Amsterdam, where, July 13, 1692, he married Suzanne Rochet"
+3 _CONF Secondary
 0 @F43@ FAM
 1 HUSB @I94@
 1 CHIL @I93@
@@ -2875,12 +2940,15 @@
 1 NOTE 6x-great-grandmother of Miles; daughter of Joseph Jones. At her daughter
 2 CONT Milicent's baptism (1769) the sponsors were "her grand-uncle Miles Brewton and
 2 CONT her grand aunts Mrs Frances (Brewton) Pinckney and Mrs. Elizabeth (Brewton)
-2 CONT Milner." INFERENCE (not stated in the source): the Brewton siblings were
-2 CONT therefore aunts and uncles of Milicent Jones or of her husband, most likely
-2 CONT through her mother - which would explain how the name "Miles Brewton" entered
-2 CONT the family and came down to Miles Brewton Hutson (1889) and Miles Hutson
-2 CONT (1993). Her will was made in 1835 and proved in 1839.
+2 CONT Milner." Those Brewtons were her mother's siblings: her mother was Mary
+2 CONT Brewton (b. 1720), daughter of Col. Robert Brewton and granddaughter of the
+2 CONT immigrant Col. Miles Brewton. This is how the name "Miles Brewton" entered
+2 CONT the family, to reappear in Miles Brewton Hutson (1889) and Miles Hutson (1993).
+2 CONT Her will was made in 1835 and proved in 1839.
 2 SOUR @S38@
+3 _CONF Secondary
+2 SOUR @S43@
+3 PAGE Entry 8: "Mary Brewton [Robert 2, Miles 1], b. Nov. 3, 1720; m., Jan 6, 1742, Joseph Jones. Issue: ... ii. Milicent Jones, m., Oct. 30, 1768, John Colcock."
 3 _CONF Secondary
 0 @I102@ INDI
 1 NAME John /Colcock/
@@ -2918,8 +2986,15 @@
 1 NAME Joseph /Jones/
 1 SEX M
 1 FAMS @F49@
-1 NOTE 7x-great-grandfather of Miles; father of Milicent Jones Colcock.
+1 NOTE 7x-great-grandfather of Miles; married Mary Brewton on 6 Jan 1742 (Christ
+2 CONT Church Parish register: "Joseph Jones to Mary Brewton, Spinster"). Father of
+2 CONT Milicent Jones Colcock and of John Jones, killed at the siege of Savannah on
+2 CONT 9 Oct 1779. DISCREPANCY: Milicent's 1768 marriage notice in the South-Carolina
+2 CONT Gazette calls her "Daughter of Mr. John Jones, deceased"; both genealogies
+2 CONT name him Joseph.
 2 SOUR @S38@
+3 _CONF Secondary
+2 SOUR @S43@
 3 _CONF Secondary
 0 @I105@ INDI
 1 NAME Benjamin /Marion/
@@ -3008,7 +3083,14 @@
 3 _CONF Secondary
 0 @F49@ FAM
 1 HUSB @I104@
+1 WIFE @I109@
 1 CHIL @I101@
+1 MARR
+2 DATE 6 JAN 1742
+2 PLAC Christ Church Parish, South Carolina
+2 SOUR @S43@
+3 PAGE "Joseph Jones to Mary Brewton, Spinster, January 6th Anno Domini 1742." - Christ Church Parish Register
+3 _CONF Secondary
 0 @F50@ FAM
 1 HUSB @I105@
 1 WIFE @I106@
@@ -3017,4 +3099,396 @@
 1 HUSB @I107@
 1 WIFE @I108@
 1 CHIL @I105@
+0 @I109@ INDI
+1 NAME Mary /Brewton/
+2 _MARNM Jones
+1 SEX F
+1 FAMC @F52@
+1 FAMS @F49@
+1 BIRT
+2 DATE 3 NOV 1720
+2 PLAC Charles Town, South Carolina
+2 SOUR @S43@
+3 _CONF Secondary
+1 NOTE 7x-great-grandmother of Miles; daughter of Col. Robert Brewton by his first
+2 CONT wife; named in her grandfather Col. Miles Brewton's 1743 will as
+2 CONT "grand-daughter Mary, wife of Joseph Jones." Half-sister of the patriot
+2 CONT merchant Miles Brewton (1731-1775) of the Miles Brewton House, Charleston,
+2 CONT and of Frances (Brewton) Pinckney.
+2 SOUR @S43@
+3 _CONF Secondary
+0 @I110@ INDI
+1 NAME Robert /Brewton/
+2 NPFX Col.
+1 SEX M
+1 FAMC @F53@
+1 FAMS @F52@
+1 BIRT
+2 DATE 1698
+2 SOUR @S43@
+3 _CONF Secondary
+1 DEAT
+2 DATE 17 AUG 1759
+2 PLAC Charles Town, South Carolina
+2 SOUR @S43@
+3 _CONF Secondary
+1 OCCU Militia captain of Charles Town; member of the Commons House of Assembly (1736); Powder Receiver of the Province; churchwarden
+2 SOUR @S43@
+3 _CONF Secondary
+1 NOTE 8x-great-grandfather of Miles. Married (1) Milicent (surname said by the
+2 CONT family to be Bulloch), who died April 1728 - mother of Robert (1719), Mary
+2 CONT (1720) and Elizabeth (1724, later Mrs. Mumford Milner); (2) 15 Apr 1729
+2 CONT Mrs. Mary Loughton, mother of Miles Brewton (1731), Frances (Mrs. Charles
+2 CONT Pinckney) and others.
+2 SOUR @S43@
+3 _CONF Secondary
+0 @I111@ INDI
+1 NAME Milicent /Bulloch/
+2 _MARNM Brewton
+1 SEX F
+1 FAMS @F52@
+1 DEAT
+2 DATE APR 1728
+2 PLAC Charles Town, South Carolina
+2 SOUR @S43@
+3 PAGE Col. Robert Brewton m. "Milicent ... who d. April (buried 14th), 1728"
+3 _CONF Secondary
+1 NOTE 8x-great-grandmother of Miles; first wife of Col. Robert Brewton. Her given
+2 CONT name Milicent is documented; the surname Bulloch is TENTATIVE - "said by
+2 CONT members of the family." Her name descended to her granddaughter Milicent
+2 CONT Jones Colcock.
+2 SOUR @S43@
+3 _CONF Tentative
+0 @I112@ INDI
+1 NAME Miles /Brewton/
+2 NPFX Col.
+1 SEX M
+1 FAMS @F53@
+1 BIRT
+2 DATE ABT 1676
+2 SOUR @S43@
+3 PAGE Died 12 July 1745 "in the 70th Year of his Age"; "in his ninth year" on arrival 12 July 1684
+3 _CONF Secondary
+1 IMMI
+2 DATE 12 JUL 1684
+2 PLAC Charles Town, Carolina
+2 SOUR @S43@
+3 PAGE "came into the Province with his parents and two surviving sisters on the 12th of July, 1684. He was then in his ninth year"
+3 _CONF Secondary
+1 DEAT
+2 DATE 12 JUL 1745
+2 PLAC Charles Town, South Carolina
+2 SOUR @S43@
+3 PAGE South-Carolina Gazette, 22 July 1745: died "just that Day 61 Years, since He and his Two surviving Sisters first accompanied their Parents into this Country"
+3 _CONF Secondary
+1 OCCU Goldsmith (banker); militia captain (1709); Powder Receiver of the Province (from 1717)
+2 SOUR @S43@
+3 _CONF Secondary
+1 NOTE 9x-great-grandfather of Miles and the origin of the family name "Miles
+2 CONT Brewton." Arrived in Carolina as a boy in 1684; became a goldsmith, which then
+2 CONT meant banker; distinguished himself in the 1709 governorship riot; was
+2 CONT foreman of the grand jury that tried the pirate STEDE BONNET and his crew in
+2 CONT October 1718; served on the committee investigating the 1740 St. Augustine
+2 CONT expedition. Married three times; his first wife (Robert's mother) is unknown.
+2 CONT Parents unknown (possibly a Robert Bruton of Andover who sailed for Barbados
+2 CONT in 1640 - speculative).
+2 SOUR @S43@
+3 _CONF Secondary
+0 @F52@ FAM
+1 HUSB @I110@
+1 WIFE @I111@
+1 CHIL @I109@
+0 @F53@ FAM
+1 HUSB @I112@
+1 CHIL @I110@
+0 @S43@ SOUR
+1 TITL "Col. Miles Brewton and Some of His Descendants"
+1 AUTH Salley, A. S., Jr.
+1 PUBL South Carolina Historical and Genealogical Magazine, vol. 2, no. 2 (April 1901), pp. 128-152
+1 _URL https://archive.org/details/jstor-27574951
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE Genealogy built from St. Philip's and Christ Church parish registers, the
+2 CONT South-Carolina Gazette and Charleston probate records. Key entries: Col.
+2 CONT Miles Brewton (arr. 1684, d. 1745), his will naming "grand-daughter Mary,
+2 CONT wife of Joseph Jones"; Col. Robert Brewton (1698-1759); "8. Mary Brewton
+2 CONT [Robert 2, Miles 1], b. Nov. 3, 1720; m., Jan 6, 1742, Joseph Jones. Issue:
+2 CONT i. John Jones, killed at Savannah Oct. 9, 1779. ii. Milicent Jones, m., Oct.
+2 CONT 30, 1768, John Colcock."
+0 @I113@ INDI
+1 NAME Jacob /Michaux/
+1 SEX M
+1 FAMC @F57@
+1 FAMS @F55@
+1 BIRT
+2 DATE 22 JAN 1644
+2 PLAC Sedan, France
+2 SOUR @S44@
+3 _CONF Secondary
+1 NOTE 8x-great-grandfather of Miles; of Sedan. Married (2) 28 July 1669 Anne
+2 CONT Severin. After the Revocation of the Edict of Nantes he fled to Holland and
+2 CONT settled in Amsterdam, where their sixth child was baptized 3 Mar 1689.
+2 SOUR @S44@
+3 _CONF Secondary
+0 @I114@ INDI
+1 NAME Anne /Severin/
+2 _MARNM Michaux
+1 SEX F
+1 FAMC @F58@
+1 FAMS @F55@
+1 BIRT
+2 DATE 26 JAN 1649
+2 SOUR @S44@
+3 _CONF Secondary
+1 NOTE 8x-great-grandmother of Miles. Two of her brothers, Jean and Jacques Severin,
+2 CONT were Protestant pastors in the Palatinate and France who went to England after
+2 CONT the Revocation.
+2 SOUR @S44@
+3 _CONF Secondary
+0 @I115@ INDI
+1 NAME Abraham /Michaux/
+1 SEX M
+1 FAMS @F57@
+1 BIRT
+2 DATE 1608
+2 SOUR @S44@
+3 PAGE "I. Abraham Michaux, born 1608, died 1666/67; of Sedan, France; married Marie Godin, born 1610, died September 24, 1672"
+3 _CONF Secondary
+1 DEAT
+2 DATE 1667
+2 PLAC Sedan, France
+2 SOUR @S44@
+3 _CONF Secondary
+1 NOTE 9x-great-grandfather of Miles; a Huguenot of Sedan, France.
+2 SOUR @S44@
+3 _CONF Secondary
+0 @I116@ INDI
+1 NAME Marie /Godin/
+2 _MARNM Michaux
+1 SEX F
+1 FAMS @F57@
+1 BIRT
+2 DATE 1610
+2 SOUR @S44@
+3 _CONF Secondary
+1 DEAT
+2 DATE 24 SEP 1672
+2 SOUR @S44@
+3 _CONF Secondary
+1 NOTE 9x-great-grandmother of Miles; of Sedan. "No data as to the ancestry of
+2 CONT Marie Godin."
+2 SOUR @S44@
+3 _CONF Secondary
+0 @I117@ INDI
+1 NAME Paul /Severin/
+1 SEX M
+1 FAMC @F59@
+1 FAMS @F58@
+1 BIRT
+2 DATE 1615
+2 PLAC Ludweiler, near Saarlouis (Palatinate)
+2 SOUR @S44@
+3 _CONF Secondary
+1 OCCU Merchant at Sedan
+2 SOUR @S44@
+3 _CONF Secondary
+1 NOTE 9x-great-grandfather of Miles; married Elisabeth de Serignon on 16 Nov 1636.
+2 SOUR @S44@
+3 _CONF Secondary
+0 @I118@ INDI
+1 NAME Elisabeth /de Serignon/
+2 _MARNM Severin
+1 SEX F
+1 FAMC @F60@
+1 FAMS @F58@
+1 NOTE 9x-great-grandmother of Miles; daughter of Jean de Serignon, "bourgeois de
+2 CONT Sedan," and Anne Martin.
+2 SOUR @S44@
+3 _CONF Secondary
+0 @I119@ INDI
+1 NAME Nicholas /Severin/
+2 NPFX Rev.
+1 SEX M
+1 FAMS @F59@
+1 OCCU Pastor of a Protestant refugee church at Ludweiler, near Saarlouis (Palatinate)
+2 SOUR @S44@
+3 _CONF Secondary
+1 NOTE 10x-great-grandfather of Miles; a Huguenot pastor. Among the earliest
+2 CONT generations recorded in this tree (his son was born in 1615).
+2 SOUR @S44@
+3 _CONF Secondary
+0 @I120@ INDI
+1 NAME Suzanne /Charlot/
+2 _MARNM Severin
+1 SEX F
+1 FAMS @F59@
+1 NOTE 10x-great-grandmother of Miles; wife of Rev. Nicholas Severin.
+2 SOUR @S44@
+3 _CONF Secondary
+0 @I121@ INDI
+1 NAME Jean /de Serignon/
+1 SEX M
+1 FAMS @F60@
+1 RESI
+2 PLAC Place de la Halle, Sedan, France
+2 SOUR @S44@
+3 _CONF Secondary
+1 NOTE 10x-great-grandfather of Miles; "bourgeois de Sedan" (a burgher of Sedan);
+2 CONT he and his wife owned a house on the Place de la Halle.
+2 SOUR @S44@
+3 _CONF Secondary
+0 @I122@ INDI
+1 NAME Anne /Martin/
+2 _MARNM de Serignon
+1 SEX F
+1 FAMS @F60@
+1 NOTE 10x-great-grandmother of Miles; wife of Jean de Serignon of Sedan.
+2 SOUR @S44@
+3 _CONF Secondary
+0 @I123@ INDI
+1 NAME Jean /Rochet/
+1 SEX M
+1 FAMC @F61@
+1 FAMS @F56@
+1 RESI
+2 PLAC Sedan, France
+2 SOUR @S44@
+3 _CONF Secondary
+1 NOTE 8x-great-grandfather of Miles; of Sedan. Married 1 Dec 1664 Marie Trufet,
+2 CONT widow of Antoine Poirie. Father of Suzanne (1667) and Jeanne, who married
+2 CONT Jacques Truffet in London in 1689.
+2 SOUR @S44@
+3 _CONF Secondary
+0 @I124@ INDI
+1 NAME Marie /Trufet/
+2 _MARNM Rochet
+1 SEX F
+1 FAMS @F56@
+1 NOTE 8x-great-grandmother of Miles; widow of Antoine Poirie when she married Jean
+2 CONT Rochet at Sedan in 1664.
+2 SOUR @S44@
+3 _CONF Secondary
+0 @I125@ INDI
+1 NAME Thiery /Rochet/
+1 SEX M
+1 FAMC @F62@
+1 FAMS @F61@
+1 BIRT
+2 DATE 1615
+2 SOUR @S44@
+3 _CONF Secondary
+1 DEAT
+2 DATE 31 DEC 1649
+2 PLAC Sedan, France
+2 SOUR @S44@
+3 _CONF Secondary
+1 NOTE 9x-great-grandfather of Miles; of Sedan. Married 7 Feb 1638 Suzanne
+2 CONT Rondeau, widow of one Cheneau; their house on the Place de la Halle is now
+2 CONT called the "Maison Perot de Mezieres."
+2 SOUR @S44@
+3 _CONF Secondary
+0 @I126@ INDI
+1 NAME Suzanne /Rondeau/
+2 _MARNM Rochet
+1 SEX F
+1 FAMS @F61@
+1 NOTE 9x-great-grandmother of Miles; godmother and namesake of her granddaughter
+2 CONT Suzanne Rochet (1667).
+2 SOUR @S44@
+3 _CONF Secondary
+0 @I127@ INDI
+1 NAME Thomas /Rochet/
+1 SEX M
+1 FAMS @F62@
+1 DEAT
+2 DATE BEF 7 FEB 1638
+2 PLAC Sedan, France
+2 SOUR @S44@
+3 _CONF Secondary
+1 OCCU Brewer
+2 SOUR @S44@
+3 _CONF Secondary
+1 NOTE 10x-great-grandfather of Miles; a brewer of Sedan. One of the earliest
+2 CONT documented ancestors in the tree, from Huguenot church registers of Sedan
+2 CONT (1573-1680s) searched by the Societe de l'Histoire du Protestantisme
+2 CONT Francais.
+2 SOUR @S44@
+3 _CONF Secondary
+0 @I128@ INDI
+1 NAME Marguerite /Beauciel/
+2 _MARNM Rochet
+1 SEX F
+1 FAMS @F62@
+1 NOTE 10x-great-grandmother of Miles; wife of Thomas Rochet of Sedan.
+2 SOUR @S44@
+3 _CONF Secondary
+0 @F55@ FAM
+1 HUSB @I113@
+1 WIFE @I114@
+1 CHIL @I91@
+1 MARR
+2 DATE 28 JUL 1669
+2 PLAC Sedan, France
+2 SOUR @S44@
+3 _CONF Secondary
+0 @F56@ FAM
+1 HUSB @I123@
+1 WIFE @I124@
+1 CHIL @I92@
+1 MARR
+2 DATE 1 DEC 1664
+2 PLAC Sedan, France
+2 SOUR @S44@
+3 _CONF Secondary
+0 @F57@ FAM
+1 HUSB @I115@
+1 WIFE @I116@
+1 CHIL @I113@
+0 @F58@ FAM
+1 HUSB @I117@
+1 WIFE @I118@
+1 CHIL @I114@
+1 MARR
+2 DATE 16 NOV 1636
+2 SOUR @S44@
+3 _CONF Secondary
+0 @F59@ FAM
+1 HUSB @I119@
+1 WIFE @I120@
+1 CHIL @I117@
+0 @F60@ FAM
+1 HUSB @I121@
+1 WIFE @I122@
+1 CHIL @I118@
+0 @F61@ FAM
+1 HUSB @I125@
+1 WIFE @I126@
+1 CHIL @I123@
+1 MARR
+2 DATE 7 FEB 1638
+2 PLAC Sedan, France
+2 SOUR @S44@
+3 _CONF Secondary
+0 @F62@ FAM
+1 HUSB @I127@
+1 WIFE @I128@
+1 CHIL @I125@
+0 @S44@ SOUR
+1 TITL "The Huguenot Abraham Michaux and Descendants"
+1 AUTH Eggleston, J. D.
+1 PUBL Virginia Magazine of History and Biography, vol. 44, no. 4 (Oct. 1936), pp. 363ff., continued vol. 45, no. 1 (Jan. 1937); Internet Archive
+1 _URL https://archive.org/details/sim_virginia-magazine-of-history-and-biography_1936-10_44_4
+1 _CONF Secondary
+1 _ACC 2026-09-23
+1 NOTE Scholarly genealogy correcting earlier Michaux traditions. Its French
+2 CONT pedigrees come from the Huguenot church registers of Sedan, searched by
+2 CONT Pasteur U. Weiss of the Societe de l'Histoire du Protestantisme Francais, and
+2 CONT from Amsterdam Walloon-church records supplied by elder H. F. Baerselman.
+2 CONT Gives the Michaux (Abraham 1608 -> Jacob 1644 -> Abraham 1672-1717),
+2 CONT Severin (Nicholas -> Paul 1615 -> Anne 1649), de Serignon and Rochet (Thomas
+2 CONT -> Thiery 1615 -> Jean -> Suzanne bap. 1667) lines, and identifies Ann
+2 CONT Madelin Michaux (b. c. 1710/11) as wife of Richard Woodson of "Poplar Hill"
+2 CONT and mother of Agnes Woodson, wife of Francis Watkins, clerk of Prince Edward
+2 CONT County. Continuation: archive.org/details/sim_virginia-magazine-of-history-
+2 CONT and-biography_1937-01_45_1.
 0 TRLR

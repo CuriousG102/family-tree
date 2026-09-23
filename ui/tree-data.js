@@ -8,9 +8,9 @@ window.TREE = {
       "note": "This GEDCOM is the canonical, version-controlled source of truth for the\nHutson family tree. Every genealogical fact carries a SOUR citation that\npoints to a SOUR record at the bottom of the file. Custom tags used:\n  _URL  = web address of the source\n  _CONF = confidence level (Primary / Secondary / Tentative / Provided)\n  _ACC  = date the source was accessed\nLiving individuals are recorded with minimal detail (names and\nrelationships only). Run scripts/build.py after editing this file."
     },
     "counts": {
-      "individuals": 108,
-      "families": 51,
-      "sources": 41
+      "individuals": 128,
+      "families": 61,
+      "sources": 43
     }
   },
   "individuals": {
@@ -5327,14 +5327,36 @@ window.TREE = {
         }
       ],
       "sex": "M",
-      "events": [],
+      "events": [
+        {
+          "date": null,
+          "place": "\"Poplar Hill\", Prince Edward County, Virginia",
+          "value": null,
+          "citations": [
+            {
+              "source": "S44",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "RESI",
+          "label": "Residence"
+        }
+      ],
       "notes": [
-        "6x-great-grandfather of Miles; of the Woodson family of colonial Virginia;\nhusband of Madelin Michaux."
+        "6x-great-grandfather of Miles; Richard Woodson of Henrico and later of\n\"Poplar Hill,\" Prince Edward County; son of Richard Woodson of Henrico and\nhis wife Ann. Husband of Ann Madelin Michaux."
       ],
       "note_citations": [
         [
           {
             "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S44",
             "page": null,
             "conf": "Secondary",
             "note": null
@@ -5351,21 +5373,58 @@ window.TREE = {
       "id": "I90",
       "names": [
         {
-          "full": "Madelin Michaux",
-          "given": "Madelin",
+          "full": "Ann Madelin Michaux",
+          "given": "Ann Madelin",
           "surname": "Michaux",
           "married": "Woodson"
         }
       ],
       "sex": "F",
-      "events": [],
+      "events": [
+        {
+          "date": "ABT 1711",
+          "place": "Virginia",
+          "value": null,
+          "citations": [
+            {
+              "source": "S44",
+              "page": "\"his much younger sister Ann Madelin Michaux, born in Virginia probably 1710/11\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "ABT 1796",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S44",
+              "page": "\"Ann Madelin, married Richard Woodson. She lived to be 86 and died about year 1796.\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
       "notes": [
-        "6x-great-grandmother of Miles; daughter of the Huguenot refugees Abraham\nMichaux and Susanne Richet."
+        "6x-great-grandmother of Miles; next-to-youngest daughter of the Huguenot\nrefugees Abraham Michaux and Susanne Rochet (the 1951 Lockett genealogy\nspells it \"Richet\"). Her granddaughter Martha Venable recorded the family's\nescape story in the Michaux Bible \"from her lips.\""
       ],
       "note_citations": [
         [
           {
             "source": "S28",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S44",
             "page": null,
             "conf": "Secondary",
             "note": null
@@ -5378,7 +5437,7 @@ window.TREE = {
       "fams": [
         "F41"
       ],
-      "name": "Madelin Michaux"
+      "name": "Ann Madelin Michaux"
     },
     "I91": {
       "id": "I91",
@@ -5390,12 +5449,49 @@ window.TREE = {
         }
       ],
       "sex": "M",
-      "events": [],
+      "events": [
+        {
+          "date": "1672",
+          "place": "Sedan, France",
+          "value": null,
+          "citations": [
+            {
+              "source": "S44",
+              "page": "\"III. Abraham Michaux, born 1672 in Sedan; died 1717 in Virginia\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "1717",
+          "place": "Henrico County, Virginia",
+          "value": null,
+          "citations": [
+            {
+              "source": "S44",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
       "notes": [
-        "7x-great-grandfather of Miles; a French Huguenot (Protestant) refugee to\ncolonial Virginia. Only his and his wife's names and refugee status are\nstated in the source used here."
+        "7x-great-grandfather of Miles; a French Huguenot refugee. Followed his\nfather Jacob to Amsterdam after the Revocation of the Edict of Nantes;\nreceived into the Walloon-French church there 28 Jan 1691; married Susanne\nRochet there 13 July 1692; moved to London in 1701 (his wife joined the\nThreadneedle Street Huguenot church in 1702), and by 1705 was at the Huguenot\nsettlement of Manakin Towne, Henrico County, Virginia. Thirteen children."
       ],
       "note_citations": [
         [
+          {
+            "source": "S44",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
           {
             "source": "S28",
             "page": null,
@@ -5404,7 +5500,9 @@ window.TREE = {
           }
         ]
       ],
-      "famc": [],
+      "famc": [
+        "F55"
+      ],
       "fams": [
         "F42"
       ],
@@ -5414,19 +5512,60 @@ window.TREE = {
       "id": "I92",
       "names": [
         {
+          "full": "Susanne Rochet",
+          "given": "Susanne",
+          "surname": "Rochet"
+        },
+        {
           "full": "Susanne Richet",
           "given": "Susanne",
-          "surname": "Richet",
-          "married": "Michaux"
+          "surname": "Richet"
         }
       ],
       "sex": "F",
-      "events": [],
+      "events": [
+        {
+          "date": "13 APR 1667",
+          "place": "Sedan, France",
+          "value": null,
+          "citations": [
+            {
+              "source": "S44",
+              "page": "\"Suzanne Rochet, baptized April 13, 1667 ('She was named after her grandmother and godmother, Suzanne Rondeau')\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BAPM",
+          "label": "Baptism"
+        },
+        {
+          "date": "BEF 18 DEC 1744",
+          "place": "Virginia",
+          "value": null,
+          "citations": [
+            {
+              "source": "S44",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
       "notes": [
-        "7x-great-grandmother of Miles; French Huguenot refugee, wife of Abraham\nMichaux."
+        "7x-great-grandmother of Miles (pronounced \"Ro-shay\"). Family tradition -\nthe \"Little Nightcap\" story - holds that as a young Huguenot she was\nsmuggled out of Catholic France hidden in a cask and carried to Amsterdam,\nwhere her sisters received her; her younger sister Jeanne had married in\nLondon in 1689. She married Abraham Michaux at Amsterdam in 1692 and died in\nVirginia before December 1744. The 1951 Lockett genealogy misspells her\nsurname \"Richet.\""
       ],
       "note_citations": [
         [
+          {
+            "source": "S44",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
           {
             "source": "S28",
             "page": null,
@@ -5435,11 +5574,13 @@ window.TREE = {
           }
         ]
       ],
-      "famc": [],
+      "famc": [
+        "F56"
+      ],
       "fams": [
         "F42"
       ],
-      "name": "Susanne Richet"
+      "name": "Susanne Rochet"
     },
     "I93": {
       "id": "I93",
@@ -5801,13 +5942,19 @@ window.TREE = {
       "sex": "F",
       "events": [],
       "notes": [
-        "6x-great-grandmother of Miles; daughter of Joseph Jones. At her daughter\nMilicent's baptism (1769) the sponsors were \"her grand-uncle Miles Brewton and\nher grand aunts Mrs Frances (Brewton) Pinckney and Mrs. Elizabeth (Brewton)\nMilner.\" INFERENCE (not stated in the source): the Brewton siblings were\ntherefore aunts and uncles of Milicent Jones or of her husband, most likely\nthrough her mother - which would explain how the name \"Miles Brewton\" entered\nthe family and came down to Miles Brewton Hutson (1889) and Miles Hutson\n(1993). Her will was made in 1835 and proved in 1839."
+        "6x-great-grandmother of Miles; daughter of Joseph Jones. At her daughter\nMilicent's baptism (1769) the sponsors were \"her grand-uncle Miles Brewton and\nher grand aunts Mrs Frances (Brewton) Pinckney and Mrs. Elizabeth (Brewton)\nMilner.\" Those Brewtons were her mother's siblings: her mother was Mary\nBrewton (b. 1720), daughter of Col. Robert Brewton and granddaughter of the\nimmigrant Col. Miles Brewton. This is how the name \"Miles Brewton\" entered\nthe family, to reappear in Miles Brewton Hutson (1889) and Miles Hutson (1993).\nHer will was made in 1835 and proved in 1839."
       ],
       "note_citations": [
         [
           {
             "source": "S38",
             "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S43",
+            "page": "Entry 8: \"Mary Brewton [Robert 2, Miles 1], b. Nov. 3, 1720; m., Jan 6, 1742, Joseph Jones. Issue: ... ii. Milicent Jones, m., Oct. 30, 1768, John Colcock.\"",
             "conf": "Secondary",
             "note": null
           }
@@ -5926,12 +6073,18 @@ window.TREE = {
       "sex": "M",
       "events": [],
       "notes": [
-        "7x-great-grandfather of Miles; father of Milicent Jones Colcock."
+        "7x-great-grandfather of Miles; married Mary Brewton on 6 Jan 1742 (Christ\nChurch Parish register: \"Joseph Jones to Mary Brewton, Spinster\"). Father of\nMilicent Jones Colcock and of John Jones, killed at the siege of Savannah on\n9 Oct 1779. DISCREPANCY: Milicent's 1768 marriage notice in the South-Carolina\nGazette calls her \"Daughter of Mr. John Jones, deceased\"; both genealogies\nname him Joseph."
       ],
       "note_citations": [
         [
           {
             "source": "S38",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S43",
             "page": null,
             "conf": "Secondary",
             "note": null
@@ -6114,6 +6267,1009 @@ window.TREE = {
         "F51"
       ],
       "name": "Perinne Boutignon"
+    },
+    "I109": {
+      "id": "I109",
+      "names": [
+        {
+          "full": "Mary Brewton",
+          "given": "Mary",
+          "surname": "Brewton",
+          "married": "Jones"
+        }
+      ],
+      "sex": "F",
+      "events": [
+        {
+          "date": "3 NOV 1720",
+          "place": "Charles Town, South Carolina",
+          "value": null,
+          "citations": [
+            {
+              "source": "S43",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        }
+      ],
+      "notes": [
+        "7x-great-grandmother of Miles; daughter of Col. Robert Brewton by his first\nwife; named in her grandfather Col. Miles Brewton's 1743 will as\n\"grand-daughter Mary, wife of Joseph Jones.\" Half-sister of the patriot\nmerchant Miles Brewton (1731-1775) of the Miles Brewton House, Charleston,\nand of Frances (Brewton) Pinckney."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S43",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F52"
+      ],
+      "fams": [
+        "F49"
+      ],
+      "name": "Mary Brewton"
+    },
+    "I110": {
+      "id": "I110",
+      "names": [
+        {
+          "full": "Col. Robert Brewton",
+          "given": "Robert",
+          "surname": "Brewton",
+          "prefix": "Col."
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "1698",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S43",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "17 AUG 1759",
+          "place": "Charles Town, South Carolina",
+          "value": null,
+          "citations": [
+            {
+              "source": "S43",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "Militia captain of Charles Town; member of the Commons House of Assembly (1736); Powder Receiver of the Province; churchwarden",
+          "citations": [
+            {
+              "source": "S43",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "OCCU",
+          "label": "Occupation"
+        }
+      ],
+      "notes": [
+        "8x-great-grandfather of Miles. Married (1) Milicent (surname said by the\nfamily to be Bulloch), who died April 1728 - mother of Robert (1719), Mary\n(1720) and Elizabeth (1724, later Mrs. Mumford Milner); (2) 15 Apr 1729\nMrs. Mary Loughton, mother of Miles Brewton (1731), Frances (Mrs. Charles\nPinckney) and others."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S43",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F53"
+      ],
+      "fams": [
+        "F52"
+      ],
+      "name": "Col. Robert Brewton"
+    },
+    "I111": {
+      "id": "I111",
+      "names": [
+        {
+          "full": "Milicent Bulloch",
+          "given": "Milicent",
+          "surname": "Bulloch",
+          "married": "Brewton"
+        }
+      ],
+      "sex": "F",
+      "events": [
+        {
+          "date": "APR 1728",
+          "place": "Charles Town, South Carolina",
+          "value": null,
+          "citations": [
+            {
+              "source": "S43",
+              "page": "Col. Robert Brewton m. \"Milicent ... who d. April (buried 14th), 1728\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
+      "notes": [
+        "8x-great-grandmother of Miles; first wife of Col. Robert Brewton. Her given\nname Milicent is documented; the surname Bulloch is TENTATIVE - \"said by\nmembers of the family.\" Her name descended to her granddaughter Milicent\nJones Colcock."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S43",
+            "page": null,
+            "conf": "Tentative",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F52"
+      ],
+      "name": "Milicent Bulloch"
+    },
+    "I112": {
+      "id": "I112",
+      "names": [
+        {
+          "full": "Col. Miles Brewton",
+          "given": "Miles",
+          "surname": "Brewton",
+          "prefix": "Col."
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "ABT 1676",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S43",
+              "page": "Died 12 July 1745 \"in the 70th Year of his Age\"; \"in his ninth year\" on arrival 12 July 1684",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "12 JUL 1684",
+          "place": "Charles Town, Carolina",
+          "value": null,
+          "citations": [
+            {
+              "source": "S43",
+              "page": "\"came into the Province with his parents and two surviving sisters on the 12th of July, 1684. He was then in his ninth year\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "IMMI",
+          "label": "Immigration"
+        },
+        {
+          "date": "12 JUL 1745",
+          "place": "Charles Town, South Carolina",
+          "value": null,
+          "citations": [
+            {
+              "source": "S43",
+              "page": "South-Carolina Gazette, 22 July 1745: died \"just that Day 61 Years, since He and his Two surviving Sisters first accompanied their Parents into this Country\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "Goldsmith (banker); militia captain (1709); Powder Receiver of the Province (from 1717)",
+          "citations": [
+            {
+              "source": "S43",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "OCCU",
+          "label": "Occupation"
+        }
+      ],
+      "notes": [
+        "9x-great-grandfather of Miles and the origin of the family name \"Miles\nBrewton.\" Arrived in Carolina as a boy in 1684; became a goldsmith, which then\nmeant banker; distinguished himself in the 1709 governorship riot; was\nforeman of the grand jury that tried the pirate STEDE BONNET and his crew in\nOctober 1718; served on the committee investigating the 1740 St. Augustine\nexpedition. Married three times; his first wife (Robert's mother) is unknown.\nParents unknown (possibly a Robert Bruton of Andover who sailed for Barbados\nin 1640 - speculative)."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S43",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F53"
+      ],
+      "name": "Col. Miles Brewton"
+    },
+    "I113": {
+      "id": "I113",
+      "names": [
+        {
+          "full": "Jacob Michaux",
+          "given": "Jacob",
+          "surname": "Michaux"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "22 JAN 1644",
+          "place": "Sedan, France",
+          "value": null,
+          "citations": [
+            {
+              "source": "S44",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        }
+      ],
+      "notes": [
+        "8x-great-grandfather of Miles; of Sedan. Married (2) 28 July 1669 Anne\nSeverin. After the Revocation of the Edict of Nantes he fled to Holland and\nsettled in Amsterdam, where their sixth child was baptized 3 Mar 1689."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S44",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F57"
+      ],
+      "fams": [
+        "F55"
+      ],
+      "name": "Jacob Michaux"
+    },
+    "I114": {
+      "id": "I114",
+      "names": [
+        {
+          "full": "Anne Severin",
+          "given": "Anne",
+          "surname": "Severin",
+          "married": "Michaux"
+        }
+      ],
+      "sex": "F",
+      "events": [
+        {
+          "date": "26 JAN 1649",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S44",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        }
+      ],
+      "notes": [
+        "8x-great-grandmother of Miles. Two of her brothers, Jean and Jacques Severin,\nwere Protestant pastors in the Palatinate and France who went to England after\nthe Revocation."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S44",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F58"
+      ],
+      "fams": [
+        "F55"
+      ],
+      "name": "Anne Severin"
+    },
+    "I115": {
+      "id": "I115",
+      "names": [
+        {
+          "full": "Abraham Michaux",
+          "given": "Abraham",
+          "surname": "Michaux"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "1608",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S44",
+              "page": "\"I. Abraham Michaux, born 1608, died 1666/67; of Sedan, France; married Marie Godin, born 1610, died September 24, 1672\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "1667",
+          "place": "Sedan, France",
+          "value": null,
+          "citations": [
+            {
+              "source": "S44",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
+      "notes": [
+        "9x-great-grandfather of Miles; a Huguenot of Sedan, France."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S44",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F57"
+      ],
+      "name": "Abraham Michaux"
+    },
+    "I116": {
+      "id": "I116",
+      "names": [
+        {
+          "full": "Marie Godin",
+          "given": "Marie",
+          "surname": "Godin",
+          "married": "Michaux"
+        }
+      ],
+      "sex": "F",
+      "events": [
+        {
+          "date": "1610",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S44",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "24 SEP 1672",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S44",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
+      "notes": [
+        "9x-great-grandmother of Miles; of Sedan. \"No data as to the ancestry of\nMarie Godin.\""
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S44",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F57"
+      ],
+      "name": "Marie Godin"
+    },
+    "I117": {
+      "id": "I117",
+      "names": [
+        {
+          "full": "Paul Severin",
+          "given": "Paul",
+          "surname": "Severin"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "1615",
+          "place": "Ludweiler, near Saarlouis (Palatinate)",
+          "value": null,
+          "citations": [
+            {
+              "source": "S44",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "Merchant at Sedan",
+          "citations": [
+            {
+              "source": "S44",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "OCCU",
+          "label": "Occupation"
+        }
+      ],
+      "notes": [
+        "9x-great-grandfather of Miles; married Elisabeth de Serignon on 16 Nov 1636."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S44",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F59"
+      ],
+      "fams": [
+        "F58"
+      ],
+      "name": "Paul Severin"
+    },
+    "I118": {
+      "id": "I118",
+      "names": [
+        {
+          "full": "Elisabeth de Serignon",
+          "given": "Elisabeth",
+          "surname": "de Serignon",
+          "married": "Severin"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "9x-great-grandmother of Miles; daughter of Jean de Serignon, \"bourgeois de\nSedan,\" and Anne Martin."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S44",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F60"
+      ],
+      "fams": [
+        "F58"
+      ],
+      "name": "Elisabeth de Serignon"
+    },
+    "I119": {
+      "id": "I119",
+      "names": [
+        {
+          "full": "Rev. Nicholas Severin",
+          "given": "Nicholas",
+          "surname": "Severin",
+          "prefix": "Rev."
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": null,
+          "place": null,
+          "value": "Pastor of a Protestant refugee church at Ludweiler, near Saarlouis (Palatinate)",
+          "citations": [
+            {
+              "source": "S44",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "OCCU",
+          "label": "Occupation"
+        }
+      ],
+      "notes": [
+        "10x-great-grandfather of Miles; a Huguenot pastor. Among the earliest\ngenerations recorded in this tree (his son was born in 1615)."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S44",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F59"
+      ],
+      "name": "Rev. Nicholas Severin"
+    },
+    "I120": {
+      "id": "I120",
+      "names": [
+        {
+          "full": "Suzanne Charlot",
+          "given": "Suzanne",
+          "surname": "Charlot",
+          "married": "Severin"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "10x-great-grandmother of Miles; wife of Rev. Nicholas Severin."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S44",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F59"
+      ],
+      "name": "Suzanne Charlot"
+    },
+    "I121": {
+      "id": "I121",
+      "names": [
+        {
+          "full": "Jean de Serignon",
+          "given": "Jean",
+          "surname": "de Serignon"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": null,
+          "place": "Place de la Halle, Sedan, France",
+          "value": null,
+          "citations": [
+            {
+              "source": "S44",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "RESI",
+          "label": "Residence"
+        }
+      ],
+      "notes": [
+        "10x-great-grandfather of Miles; \"bourgeois de Sedan\" (a burgher of Sedan);\nhe and his wife owned a house on the Place de la Halle."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S44",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F60"
+      ],
+      "name": "Jean de Serignon"
+    },
+    "I122": {
+      "id": "I122",
+      "names": [
+        {
+          "full": "Anne Martin",
+          "given": "Anne",
+          "surname": "Martin",
+          "married": "de Serignon"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "10x-great-grandmother of Miles; wife of Jean de Serignon of Sedan."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S44",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F60"
+      ],
+      "name": "Anne Martin"
+    },
+    "I123": {
+      "id": "I123",
+      "names": [
+        {
+          "full": "Jean Rochet",
+          "given": "Jean",
+          "surname": "Rochet"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": null,
+          "place": "Sedan, France",
+          "value": null,
+          "citations": [
+            {
+              "source": "S44",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "RESI",
+          "label": "Residence"
+        }
+      ],
+      "notes": [
+        "8x-great-grandfather of Miles; of Sedan. Married 1 Dec 1664 Marie Trufet,\nwidow of Antoine Poirie. Father of Suzanne (1667) and Jeanne, who married\nJacques Truffet in London in 1689."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S44",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F61"
+      ],
+      "fams": [
+        "F56"
+      ],
+      "name": "Jean Rochet"
+    },
+    "I124": {
+      "id": "I124",
+      "names": [
+        {
+          "full": "Marie Trufet",
+          "given": "Marie",
+          "surname": "Trufet",
+          "married": "Rochet"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "8x-great-grandmother of Miles; widow of Antoine Poirie when she married Jean\nRochet at Sedan in 1664."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S44",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F56"
+      ],
+      "name": "Marie Trufet"
+    },
+    "I125": {
+      "id": "I125",
+      "names": [
+        {
+          "full": "Thiery Rochet",
+          "given": "Thiery",
+          "surname": "Rochet"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "1615",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S44",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "31 DEC 1649",
+          "place": "Sedan, France",
+          "value": null,
+          "citations": [
+            {
+              "source": "S44",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        }
+      ],
+      "notes": [
+        "9x-great-grandfather of Miles; of Sedan. Married 7 Feb 1638 Suzanne\nRondeau, widow of one Cheneau; their house on the Place de la Halle is now\ncalled the \"Maison Perot de Mezieres.\""
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S44",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F62"
+      ],
+      "fams": [
+        "F61"
+      ],
+      "name": "Thiery Rochet"
+    },
+    "I126": {
+      "id": "I126",
+      "names": [
+        {
+          "full": "Suzanne Rondeau",
+          "given": "Suzanne",
+          "surname": "Rondeau",
+          "married": "Rochet"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "9x-great-grandmother of Miles; godmother and namesake of her granddaughter\nSuzanne Rochet (1667)."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S44",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F61"
+      ],
+      "name": "Suzanne Rondeau"
+    },
+    "I127": {
+      "id": "I127",
+      "names": [
+        {
+          "full": "Thomas Rochet",
+          "given": "Thomas",
+          "surname": "Rochet"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "BEF 7 FEB 1638",
+          "place": "Sedan, France",
+          "value": null,
+          "citations": [
+            {
+              "source": "S44",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "DEAT",
+          "label": "Death"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "Brewer",
+          "citations": [
+            {
+              "source": "S44",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "OCCU",
+          "label": "Occupation"
+        }
+      ],
+      "notes": [
+        "10x-great-grandfather of Miles; a brewer of Sedan. One of the earliest\ndocumented ancestors in the tree, from Huguenot church registers of Sedan\n(1573-1680s) searched by the Societe de l'Histoire du Protestantisme\nFrancais."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S44",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F62"
+      ],
+      "name": "Thomas Rochet"
+    },
+    "I128": {
+      "id": "I128",
+      "names": [
+        {
+          "full": "Marguerite Beauciel",
+          "given": "Marguerite",
+          "surname": "Beauciel",
+          "married": "Rochet"
+        }
+      ],
+      "sex": "F",
+      "events": [],
+      "notes": [
+        "10x-great-grandmother of Miles; wife of Thomas Rochet of Sedan."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S44",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F62"
+      ],
+      "name": "Marguerite Beauciel"
     }
   },
   "families": {
@@ -7126,7 +8282,23 @@ window.TREE = {
       "children": [
         "I90"
       ],
-      "events": [],
+      "events": [
+        {
+          "date": "13 JUL 1692",
+          "place": "Walloon-French church, Amsterdam, Holland",
+          "value": null,
+          "citations": [
+            {
+              "source": "S44",
+              "page": "Amsterdam church elder's letter: Abraham \"was, January 28, 1691, received member of the walloon-french church at Amsterdam, where, July 13, 1692, he married Suzanne Rochet\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "MARR",
+          "label": "Marriage"
+        }
+      ],
       "notes": [],
       "note_citations": []
     },
@@ -7269,11 +8441,27 @@ window.TREE = {
     "F49": {
       "id": "F49",
       "husband": "I104",
-      "wife": null,
+      "wife": "I109",
       "children": [
         "I101"
       ],
-      "events": [],
+      "events": [
+        {
+          "date": "6 JAN 1742",
+          "place": "Christ Church Parish, South Carolina",
+          "value": null,
+          "citations": [
+            {
+              "source": "S43",
+              "page": "\"Joseph Jones to Mary Brewton, Spinster, January 6th Anno Domini 1742.\" - Christ Church Parish Register",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "MARR",
+          "label": "Marriage"
+        }
+      ],
       "notes": [],
       "note_citations": []
     },
@@ -7294,6 +8482,180 @@ window.TREE = {
       "wife": "I108",
       "children": [
         "I105"
+      ],
+      "events": [],
+      "notes": [],
+      "note_citations": []
+    },
+    "F52": {
+      "id": "F52",
+      "husband": "I110",
+      "wife": "I111",
+      "children": [
+        "I109"
+      ],
+      "events": [],
+      "notes": [],
+      "note_citations": []
+    },
+    "F53": {
+      "id": "F53",
+      "husband": "I112",
+      "wife": null,
+      "children": [
+        "I110"
+      ],
+      "events": [],
+      "notes": [],
+      "note_citations": []
+    },
+    "F55": {
+      "id": "F55",
+      "husband": "I113",
+      "wife": "I114",
+      "children": [
+        "I91"
+      ],
+      "events": [
+        {
+          "date": "28 JUL 1669",
+          "place": "Sedan, France",
+          "value": null,
+          "citations": [
+            {
+              "source": "S44",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "MARR",
+          "label": "Marriage"
+        }
+      ],
+      "notes": [],
+      "note_citations": []
+    },
+    "F56": {
+      "id": "F56",
+      "husband": "I123",
+      "wife": "I124",
+      "children": [
+        "I92"
+      ],
+      "events": [
+        {
+          "date": "1 DEC 1664",
+          "place": "Sedan, France",
+          "value": null,
+          "citations": [
+            {
+              "source": "S44",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "MARR",
+          "label": "Marriage"
+        }
+      ],
+      "notes": [],
+      "note_citations": []
+    },
+    "F57": {
+      "id": "F57",
+      "husband": "I115",
+      "wife": "I116",
+      "children": [
+        "I113"
+      ],
+      "events": [],
+      "notes": [],
+      "note_citations": []
+    },
+    "F58": {
+      "id": "F58",
+      "husband": "I117",
+      "wife": "I118",
+      "children": [
+        "I114"
+      ],
+      "events": [
+        {
+          "date": "16 NOV 1636",
+          "place": null,
+          "value": null,
+          "citations": [
+            {
+              "source": "S44",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "MARR",
+          "label": "Marriage"
+        }
+      ],
+      "notes": [],
+      "note_citations": []
+    },
+    "F59": {
+      "id": "F59",
+      "husband": "I119",
+      "wife": "I120",
+      "children": [
+        "I117"
+      ],
+      "events": [],
+      "notes": [],
+      "note_citations": []
+    },
+    "F60": {
+      "id": "F60",
+      "husband": "I121",
+      "wife": "I122",
+      "children": [
+        "I118"
+      ],
+      "events": [],
+      "notes": [],
+      "note_citations": []
+    },
+    "F61": {
+      "id": "F61",
+      "husband": "I125",
+      "wife": "I126",
+      "children": [
+        "I123"
+      ],
+      "events": [
+        {
+          "date": "7 FEB 1638",
+          "place": "Sedan, France",
+          "value": null,
+          "citations": [
+            {
+              "source": "S44",
+              "page": null,
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "MARR",
+          "label": "Marriage"
+        }
+      ],
+      "notes": [],
+      "note_citations": []
+    },
+    "F62": {
+      "id": "F62",
+      "husband": "I127",
+      "wife": "I128",
+      "children": [
+        "I125"
       ],
       "events": [],
       "notes": [],
@@ -7710,6 +9072,26 @@ window.TREE = {
       "confidence": "Secondary",
       "accessed": "2026-09-23",
       "note": "First-person account by Miles Brewton Hutson's sister: \"As a child in\nTexas I had a bed of old blue flags ... When we moved to New Orleans in 1908,\nmy sister, Ethel Hutson, who was already here studying art under Dr.\nEllsworth Woodward at Newcomb College, told us about the wonderful field of\nirises out on Frenchman Street ... my sister-in-law, Adela Nelson, told me\nthat as a child she used to go there on her uncle's back looking for\nirises.\" She was secretary of the New Orleans Garden Society about 1920."
+    },
+    "S43": {
+      "id": "S43",
+      "title": "\"Col. Miles Brewton and Some of His Descendants\"",
+      "author": "Salley, A. S., Jr.",
+      "publication": "South Carolina Historical and Genealogical Magazine, vol. 2, no. 2 (April 1901), pp. 128-152",
+      "url": "https://archive.org/details/jstor-27574951",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "Genealogy built from St. Philip's and Christ Church parish registers, the\nSouth-Carolina Gazette and Charleston probate records. Key entries: Col.\nMiles Brewton (arr. 1684, d. 1745), his will naming \"grand-daughter Mary,\nwife of Joseph Jones\"; Col. Robert Brewton (1698-1759); \"8. Mary Brewton\n[Robert 2, Miles 1], b. Nov. 3, 1720; m., Jan 6, 1742, Joseph Jones. Issue:\ni. John Jones, killed at Savannah Oct. 9, 1779. ii. Milicent Jones, m., Oct.\n30, 1768, John Colcock.\""
+    },
+    "S44": {
+      "id": "S44",
+      "title": "\"The Huguenot Abraham Michaux and Descendants\"",
+      "author": "Eggleston, J. D.",
+      "publication": "Virginia Magazine of History and Biography, vol. 44, no. 4 (Oct. 1936), pp. 363ff., continued vol. 45, no. 1 (Jan. 1937); Internet Archive",
+      "url": "https://archive.org/details/sim_virginia-magazine-of-history-and-biography_1936-10_44_4",
+      "confidence": "Secondary",
+      "accessed": "2026-09-23",
+      "note": "Scholarly genealogy correcting earlier Michaux traditions. Its French\npedigrees come from the Huguenot church registers of Sedan, searched by\nPasteur U. Weiss of the Societe de l'Histoire du Protestantisme Francais, and\nfrom Amsterdam Walloon-church records supplied by elder H. F. Baerselman.\nGives the Michaux (Abraham 1608 -> Jacob 1644 -> Abraham 1672-1717),\nSeverin (Nicholas -> Paul 1615 -> Anne 1649), de Serignon and Rochet (Thomas\n-> Thiery 1615 -> Jean -> Suzanne bap. 1667) lines, and identifies Ann\nMadelin Michaux (b. c. 1710/11) as wife of Richard Woodson of \"Poplar Hill\"\nand mother of Agnes Woodson, wife of Francis Watkins, clerk of Prince Edward\nCounty. Continuation: archive.org/details/sim_virginia-magazine-of-history-\nand-biography_1937-01_45_1."
     }
   }
 };
