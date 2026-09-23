@@ -43,8 +43,12 @@ author, publication/URL, a **confidence level**, and the date it was accessed.
 ## Viewing the tree
 
 Open `ui/index.html` in any browser. It needs no server or build step because
-the data is embedded. The viewer has five tabs:
+the data is embedded. The viewer has six tabs:
 
+- **Highlights**: the most notable findings as short illustrated stories, each
+  linking to the people involved and its sources. The stories live in
+  `data/highlights.json`; the build fails if a story names a person or source
+  that isn't in the GEDCOM.
 - **Pedigree**: a collapsible ancestor tree that draws only documented
   ancestors, with a generation-depth control. Any person can be made the root
   ("View this person's ancestors").

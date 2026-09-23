@@ -548,6 +548,44 @@
     setTimeout(function () { node.classList.remove("flash"); }, 1800);
   }
 
+  /* ---------- highlights ---------- */
+  function renderHighlights() {
+    var host = byId("highlights");
+    host.innerHTML = "";
+    var H = T.highlights;
+    if (!H || !H.sections) { host.appendChild(el("p", "hint", "No highlights yet.")); return; }
+    if (H.intro) host.appendChild(el("p", "hint hl-intro", H.intro));
+    H.sections.forEach(function (sec) {
+      var section = el("section", "hl-section");
+      section.appendChild(el("h2", null, sec.title));
+      var grid = el("div", "hl-grid");
+      sec.items.forEach(function (item) {
+        var card = el("article", "hl-card" + (item.feature ? " feature" : ""));
+        if (item.year) card.appendChild(el("div", "hl-year", item.year));
+        card.appendChild(el("h3", null, item.title));
+        (item.body || []).forEach(function (para) { card.appendChild(el("p", null, para)); });
+        if (item.caution) card.appendChild(el("div", "callout warn", item.caution));
+        var people = (item.people || []).filter(function (id) { return IND[id]; });
+        if (people.length) {
+          card.appendChild(el("div", "hl-label", "People"));
+          var chips = el("div", "rel-links");
+          people.forEach(function (id) { chips.appendChild(relChip(IND[id], relOf(id) || "relative")); });
+          card.appendChild(chips);
+        }
+        var srcs = (item.sources || []).filter(function (id) { return SRC[id]; });
+        if (srcs.length) {
+          card.appendChild(el("div", "hl-label", "Sources"));
+          var row = el("div", "hl-sources");
+          srcs.forEach(function (id) { row.appendChild(citePill({ source: id })); });
+          card.appendChild(row);
+        }
+        grid.appendChild(card);
+      });
+      section.appendChild(grid);
+      host.appendChild(section);
+    });
+  }
+
   /* ---------- about ---------- */
   function renderAbout() {
     var host = byId("about-content");
@@ -639,6 +677,7 @@
 
   /* ---------- init ---------- */
   renderCounts();
+  renderHighlights();
   renderPedigree();
   renderLines();
   renderPeople();

@@ -24,7 +24,8 @@
   </header>
 
   <nav class="tabs" id="tabs">
-    <button data-view="pedigree" class="active">Pedigree</button>
+    <button data-view="highlights" class="active">Highlights</button>
+    <button data-view="pedigree">Pedigree</button>
     <button data-view="lines">Family Lines</button>
     <button data-view="people">All People</button>
     <button data-view="sources">Sources</button>
@@ -32,7 +33,11 @@
   </nav>
 
   <main>
-    <section class="view active" id="view-pedigree">
+    <section class="view active" id="view-highlights">
+      <div id="highlights"></div>
+    </section>
+
+    <section class="view" id="view-pedigree">
       <div class="toolbar">
         <div class="toolbar-left">
           <span class="toolbar-label">Ancestors of</span>

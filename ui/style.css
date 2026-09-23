@@ -344,3 +344,28 @@ footer { max-width: 1180px; margin: 0 auto; padding: 30px 24px 50px; color: var(
   .pparents > .pnode { padding-left: 0; }
   .ptoggle, .pnode.collapsed > .pcard-wrap .ptoggle { left: auto; right: 10px; top: 10px; transform: none; }
 }
+
+/* ---------- highlights ---------- */
+.hl-intro { max-width: 72ch; font-size: 14px; }
+.hl-section { margin-top: 26px; }
+.hl-section h2 { font-family: var(--serif); font-size: 22px; margin: 0 0 12px; text-wrap: balance; }
+.hl-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 440px), 1fr)); gap: 14px; }
+.hl-card:only-child { grid-column: 1 / -1; }
+.hl-card {
+  background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 18px 20px; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 8px;
+}
+.hl-card.feature { grid-column: 1 / -1; border-color: var(--gold); }
+.hl-card.feature h3 { font-size: 23px; }
+.hl-card h3 { margin: 0; font-family: var(--serif); font-size: 19px; line-height: 1.25; text-wrap: balance; }
+.hl-card p { margin: 0; font-size: 14.5px; max-width: 70ch; }
+.hl-year { font-size: 11.5px; letter-spacing: .08em; color: var(--accent); font-weight: 700; font-variant-numeric: tabular-nums; }
+.hl-label { font-size: 10.5px; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); font-weight: 700; margin-top: 6px; }
+.hl-sources { display: flex; flex-wrap: wrap; gap: 6px; min-width: 0; }
+.hl-sources > .cite { max-width: 100%; min-width: 0; }
+.hl-sources .cite-pill { max-width: 100%; }
+.hl-card .callout.warn { margin: 0; }
+@media (max-width: 640px) {
+  .hl-card { padding: 16px; }
+  .hl-card.feature h3 { font-size: 20px; }
+}

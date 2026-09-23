@@ -15,6 +15,7 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GED_PATH = os.path.join(ROOT, "data", "family-tree.ged")
 OUT_PATH = os.path.join(ROOT, "ui", "tree-data.js")
+HIGHLIGHTS_PATH = os.path.join(ROOT, "data", "highlights.json")
 
 LINE_RE = re.compile(r"^(\d+)\s+(?:(@[^@]+@)\s+)?(\S+)(?:\s(.*))?$")
 
@@ -218,7 +219,20 @@ def main():
         elif rec.tag == "HEAD":
             header = {"date": rec.val("DATE"), "note": rec.val("NOTE")}
 
+    highlights = None
+    if os.path.exists(HIGHLIGHTS_PATH):
+        with open(HIGHLIGHTS_PATH, encoding="utf-8") as fh:
+            highlights = json.load(fh)
+        missing = []
+        for section in highlights.get("sections", []):
+            for item in section.get("items", []):
+                missing += ["person " + p for p in item.get("people", []) if p not in individuals]
+                missing += ["source " + s for s in item.get("sources", []) if s not in sources]
+        if missing:
+            sys.exit("highlights.json refers to unknown records: " + ", ".join(missing))
+
     data = {
+        "highlights": highlights,
         "meta": {
             "generated_from": "data/family-tree.ged",
             "header": header,
