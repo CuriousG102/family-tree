@@ -326,3 +326,21 @@ footer { max-width: 1180px; margin: 0 auto; padding: 30px 24px 50px; color: var(
   .pcard { width: 190px; }
   .drawer-head, .drawer-body { padding-left: 16px; padding-right: 16px; }
 }
+
+/* ---------- phones: pedigree becomes a vertical indented outline ---------- */
+@media (max-width: 640px) {
+  .counts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px 12px; }
+  .count b { font-size: 19px; }
+  .count span { font-size: 10.5px; }
+  nav.tabs { flex-wrap: wrap; gap: 4px; padding-top: 6px; padding-bottom: 6px; }
+  nav.tabs button { padding: 6px 10px; font-size: 14px; }
+
+  .pedigree-wrap { width: auto; margin-left: 0; padding: 0 0 12px; overflow: visible; }
+  .pedigree { display: block; min-width: 0; }
+  .pnode, .pcard-wrap { display: block; }
+  .pcard { width: auto; padding-right: 58px; }
+  .pparents { margin: 8px 0 0 8px; padding-left: 12px; border-left: 1.5px solid var(--connector); gap: 8px; }
+  .pparents::before, .pparents > .pnode::before, .pparents > .pnode::after { display: none; }
+  .pparents > .pnode { padding-left: 0; }
+  .ptoggle, .pnode.collapsed > .pcard-wrap .ptoggle { left: auto; right: 10px; top: 10px; transform: none; }
+}

@@ -167,6 +167,8 @@
 
   /* ---------- pedigree (nested, collapsible) ---------- */
   var pedRoot = HOME, pedDepth = 6;
+  var NARROW = window.matchMedia && window.matchMedia("(max-width: 640px)").matches;
+  if (NARROW) pedDepth = 4;
   function card(ind, opts) {
     opts = opts || {};
     var c = el("div", "pcard" + (isTentative(ind) ? " tentative" : "") + (opts.root ? " root" : ""));
@@ -212,7 +214,7 @@
     function setOpen(open) {
       if (open) build();
       parents.hidden = !open;
-      toggle.textContent = open ? "◂" : "▸ " + countAncestors(ind.id);
+      toggle.textContent = open ? "–" : "+ " + countAncestors(ind.id);
       toggle.title = open ? "Hide ancestors" : "Show " + countAncestors(ind.id) + " more ancestors";
       node.classList.toggle("collapsed", !open);
     }
@@ -643,6 +645,7 @@
   renderSources();
   renderAbout();
   wire();
+  byId("ped-depth").value = String(pedDepth);
   try {
     var saved = localStorage.getItem("ft-view");
     if (saved && byId("view-" + saved)) showView(saved);
