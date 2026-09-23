@@ -21,7 +21,8 @@
   --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
     --bg: #17150f;
     --panel: #211e17;
     --ink: #ece7dc;
@@ -40,10 +41,30 @@
     --conf-provided: #b79cd6;
   }
 }
+:root[data-theme="dark"] {
+  color-scheme: dark;
+    --bg: #17150f;
+    --panel: #211e17;
+    --ink: #ece7dc;
+    --muted: #a49c8c;
+    --line: #3a352a;
+    --connector: #5a5242;
+    --accent: #d7b177;
+    --accent-ink: #17150f;
+    --accent-soft: #2c2619;
+    --gold: #d7b177;
+    --warn-bg: #33291a;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 26px rgba(0,0,0,.35);
+    --conf-primary: #5cc38a;
+    --conf-secondary: #7db0e6;
+    --conf-tentative: #e0ad52;
+    --conf-provided: #b79cd6;
+}
 * { box-sizing: border-box; }
-html, body { margin: 0; padding: 0; }
+body { margin: 0; }
 body {
   font-family: var(--sans);
+  font-size: 15px;
   background: var(--bg);
   color: var(--ink);
   line-height: 1.5;
@@ -71,7 +92,7 @@ header.masthead {
 
 /* ---------- tabs ---------- */
 nav.tabs {
-  position: sticky; top: 0; z-index: 20;
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20;
   background: var(--bg);
   border-bottom: 1px solid var(--line);
   display: flex; gap: 4px; padding: 8px 24px;

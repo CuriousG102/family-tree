@@ -5,3 +5,4 @@ scratchpad-*.png
 scratch-*.png
 *.log
 .DS_Store
+dist/

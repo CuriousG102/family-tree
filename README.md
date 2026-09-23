@@ -62,6 +62,12 @@ Clicking any person opens a panel where **every fact shows a clickable source
 pill** and the exact quoted passage that supports it. Tentative (inferred)
 placements are drawn with dashed borders.
 
+## Sharing
+
+`python3 scripts/build_artifact.py [OUT]` bundles the viewer (styles, data and
+code) into one self-contained HTML page, written to `dist/` by default. That
+page is published as a private Claude artifact for sharing with family.
+
 ## Extending the tree
 
 1. Edit `data/family-tree.ged` — add `INDI` (people), `FAM` (families), and
