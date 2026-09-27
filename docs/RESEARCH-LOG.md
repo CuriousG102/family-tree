@@ -184,3 +184,43 @@ Lyon), and Hannah Liebes's maiden name.
 around 1950–54); California death index and SF Jewish cemetery records (Home of
 Peace, Salem) for the Liebes and Wormser families; Orleans Parish birth
 indexes for Adela Nelson (born about 1892).
+
+## Session 5 — 2026-09-27: the Thompson side (maternal)
+
+**Prompt:** Miles mentioned that his maternal grandfather served on one of the
+"tin can" destroyers in WWII.
+
+**Breakthrough:** the grandfather's own obituary (*Dallas Morning News*,
+25 Aug 2019, via Legacy.com; read from search extracts because the site blocks
+automated access). It gives his full name **Richard Wells Thompson Jr.**, his
+birth on 10 Feb 1926 in **Wichita Falls** to **Rubye & Richard W. Thompson**,
+his WWII Navy service, a UT Austin petroleum engineering degree (1949), and his
+**1951 marriage to Euvonne Roberson**. That answers two long-open questions:
+Euvonne's maiden name, and whether Richard Sr. existed (he did, and he now has
+a wife, Rubye). The obituary also mentions work in Winters and Abilene, which
+upgrades the 1951 *Oil & Gas Journal* item (S37) from Tentative to confirmed.
+
+**Euvonne Roberson:** full-text search of Internet Archive yearbooks found her
+at **Park College**, Parkville, Mo. (sophomore, 1946–47), and at the
+**University of Dubuque**, Iowa (B.A. Speech, 1949). Both yearbooks give her
+home town as **Elk City, Oklahoma**. She was vice-president of Pi Kappa Delta,
+president of the Women's House Council, and played Mrs. Erlynne in *Lady
+Windermere's Fan*.
+
+**Destroyer:** the ship is not identified. WWII Navy muster rolls are digitized
+but are only name-searchable on subscription sites (Fold3), and the obituary
+extracts say only "served in the Navy during World War II." Recorded as family
+testimony (Provided).
+
+**Dead ends this session:** 1950 census name index for Wichita County, Tex.
+(the OCR transcription is too noisy to find Rubye or Richard Sr.); the 1950
+census for Beckham County, Okla. (several Roberson households, none clearly
+Euvonne's parents); Euvonne's own obituary (2007); the Wichita Falls High
+School 1943 yearbook (no Thompson match).
+
+**Best next steps:** the ship could come from WWII muster rolls (Fold3/NARA
+RG 24), a UT *Cactus* yearbook (1947–49, veterans often listed their service),
+or family papers such as a discharge form (DD-214 / NAVPERS 553). The Roberson
+parents could come from the 1940 census for Elk City (FamilySearch, free with
+login). Rubye's maiden name could come from the Texas birth index for 1926 or
+Wichita Falls city directories.

@@ -251,6 +251,47 @@ window.TREE = {
         ]
       },
       {
+        "title": "The Thompson side: Texas oil and a tin-can sailor",
+        "items": [
+          {
+            "year": "1926",
+            "title": "From Wichita Falls to a Navy destroyer",
+            "body": [
+              "Richard Wells Thompson Jr. was born in Wichita Falls, Texas, in 1926, the son of Rubye and Richard W. Thompson. He served in the Navy in World War II. The family remembers that he served on a destroyer, one of the small, fast escort ships sailors called \"tin cans\" because of their thin hulls.",
+              "After the war he took a petroleum engineering degree at UT Austin in 1949. In 1951 the Oil & Gas Journal reported that he was being transferred from Wichita Falls to Winters, Texas, as an engineer for G. W. Strake. He later settled in Dallas, worked for Cresslen Oil, and founded his own firm, Richard W. Thompson, Inc. He loved sailing and flew his own Bonanza airplane."
+            ],
+            "caution": "The name of his ship has not been found yet. A discharge paper or photos in family papers would identify it quickly.",
+            "people": [
+              "I7",
+              "I18",
+              "I140"
+            ],
+            "sources": [
+              "S47",
+              "S37",
+              "S1"
+            ]
+          },
+          {
+            "year": "1949",
+            "title": "Euvonne Roberson, debater from Elk City",
+            "body": [
+              "Euvonne Thompson was born Euvonne Roberson and grew up in Elk City, Oklahoma. College yearbooks show her at Park College in Missouri in 1947 and graduating from the University of Dubuque in Iowa in 1949 with a degree in Speech. She was vice-president of the forensics honorary Pi Kappa Delta, president of the Women's House Council, and played Mrs. Erlynne in Oscar Wilde's Lady Windermere's Fan.",
+              "She married Richard Thompson in 1951. Both of her colleges were Presbyterian, and she and Richard were later charter members and elders of two Presbyterian churches in Plano."
+            ],
+            "people": [
+              "I8",
+              "I7"
+            ],
+            "sources": [
+              "S48",
+              "S49",
+              "S47"
+            ]
+          }
+        ]
+      },
+      {
         "title": "Surprising connections",
         "items": [
           {
@@ -319,13 +360,13 @@ window.TREE = {
   "meta": {
     "generated_from": "data/family-tree.ged",
     "header": {
-      "date": "23 SEP 2026",
+      "date": "27 SEP 2026",
       "note": "This GEDCOM is the canonical, version-controlled source of truth for the\nHutson family tree. Every genealogical fact carries a SOUR citation that\npoints to a SOUR record at the bottom of the file. Custom tags used:\n  _URL  = web address of the source\n  _CONF = confidence level (Primary / Secondary / Tentative / Provided)\n  _ACC  = date the source was accessed\nLiving individuals are recorded with minimal detail (names and\nrelationships only). Run scripts/build.py after editing this file."
     },
     "counts": {
-      "individuals": 139,
+      "individuals": 140,
       "families": 67,
-      "sources": 45
+      "sources": 48
     }
   },
   "individuals": {
@@ -848,18 +889,75 @@ window.TREE = {
       "id": "I7",
       "names": [
         {
-          "full": "Richard W. Thompson Jr.",
-          "given": "Richard W.",
+          "full": "Richard Wells Thompson Jr.",
+          "given": "Richard Wells",
           "surname": "Thompson"
         }
       ],
       "sex": "M",
       "events": [
         {
-          "date": "2019",
+          "date": "10 FEB 1926",
+          "place": "Wichita Falls, Wichita County, Texas, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S47",
+              "page": "\"He was born Feb. 10, 1926 in Wichita Falls to Rubye & Richard W. Thompson\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "U.S. Navy, World War II; served on a destroyer (a \"tin can\"). Ship not yet identified.",
+          "citations": [
+            {
+              "source": "S47",
+              "page": "\"he served in the Navy during World War II\"",
+              "conf": "Secondary",
+              "note": null
+            },
+            {
+              "source": "S1",
+              "page": "\"my maternal grandfather served on one of the 'tin can destroyers'\" (27 Sep 2026)",
+              "conf": "Provided",
+              "note": null
+            }
+          ],
+          "type": "EVEN",
+          "label": "Military service"
+        },
+        {
+          "date": "1949",
+          "place": null,
+          "value": "B.S. Petroleum Engineering, University of Texas at Austin (1949)",
+          "citations": [
+            {
+              "source": "S47",
+              "page": "\"earned a Petroleum Engineering degree from UT Austin in 1949\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "EDUC",
+          "label": "Education"
+        },
+        {
+          "date": "14 JUL 2019",
           "place": "Collin County, Texas, USA",
           "value": null,
           "citations": [
+            {
+              "source": "S47",
+              "page": "\"Richard Wells Thompson, Jr. passed away July 14, 2019\"",
+              "conf": "Secondary",
+              "note": null
+            },
             {
               "source": "S8",
               "page": "Estate probated: In re Estate of Richard W. Thompson Jr., cause PB 1-1381-2019, Collin County",
@@ -916,14 +1014,35 @@ window.TREE = {
           "label": "Occupation"
         },
         {
-          "date": null,
+          "date": "MAY 1951",
           "place": null,
           "value": "Petroleum engineer for G. W. Strake; transferred from Wichita Falls to Winters, Texas (May 1951)",
           "citations": [
             {
               "source": "S37",
               "page": "\"Richard W. Thompson, Jr., petroleum engineer for G. W. Strake, has been transferred from Wichita Falls to Winters, Tex.\"",
-              "conf": "Tentative",
+              "conf": "Secondary",
+              "note": null
+            },
+            {
+              "source": "S47",
+              "page": "\"After working in Winters and Abilene, TX they settled in Dallas\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "OCCU",
+          "label": "Occupation"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "Petroleum engineer, Cresslen Oil Company, Dallas; then founder of Richard W. Thompson, Inc., independent petroleum engineer",
+          "citations": [
+            {
+              "source": "S47",
+              "page": "\"he worked for Cresslen Oil Company, before starting Richard W. Thompson, Inc. where he was a widely respected independent petroleum engineer\"",
+              "conf": "Secondary",
               "note": null
             }
           ],
@@ -932,14 +1051,26 @@ window.TREE = {
         }
       ],
       "notes": [
-        "Maternal grandfather of Miles. The \"Jr.\" suffix and his son's \"III\" establish\nthe family naming line back to a Richard W. Thompson Sr. On 5 May 2018 he\ndeeded his Collin County homestead to himself and his daughter Hilary Thompson\nHutson as joint tenants with right of survivorship, reserving a life estate -\nthe transaction later litigated in D'Olivio v. Hutson. Predeceased by his wife\nEuvonne (2007), his son Richard III (2013), and his daughter Elizabeth Jane."
+        "Maternal grandfather of Miles. Born in Wichita Falls, Texas, the son of Rubye\nand Richard W. Thompson. He served in the Navy in World War II; the family\nrecalls that he served on a destroyer (a \"tin can\"), but the ship is not yet\nidentified because WWII muster rolls are not freely searchable by name. He\ntook a petroleum engineering degree at UT Austin in 1949 and married Euvonne\nRoberson in 1951. The couple were charter members and elders of Churchill Way\nand West Plano Presbyterian Churches. His obituary notes that he loved\nsailing, hunting and fishing trips and woodworking, and that he earned a\npilot's license and flew his own Bonanza. On 5 May 2018 he\ndeeded his Collin County homestead to himself and his daughter Hilary Thompson\nHutson as joint tenants with right of survivorship, reserving a life estate -\nthe transaction later litigated in D'Olivio v. Hutson. Predeceased by his wife\nEuvonne (2007), his son Richard III (2013), and his daughter Elizabeth Jane."
       ],
       "note_citations": [
         [
           {
+            "source": "S47",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
             "source": "S8",
             "page": null,
             "conf": "Primary",
+            "note": null
+          },
+          {
+            "source": "S1",
+            "page": null,
+            "conf": "Provided",
             "note": null
           }
         ]
@@ -950,19 +1081,65 @@ window.TREE = {
       "fams": [
         "F3"
       ],
-      "name": "Richard W. Thompson Jr."
+      "name": "Richard Wells Thompson Jr."
     },
     "I8": {
       "id": "I8",
       "names": [
         {
-          "full": "Euvonne R. Thompson",
-          "given": "Euvonne R.",
-          "surname": "Thompson"
+          "full": "Euvonne Roberson",
+          "given": "Euvonne",
+          "surname": "Roberson",
+          "married": "Thompson"
         }
       ],
       "sex": "F",
       "events": [
+        {
+          "date": "1947",
+          "place": null,
+          "value": "Park College, Parkville, Missouri (sophomore, 1946-47)",
+          "citations": [
+            {
+              "source": "S49",
+              "page": "Class roll: \"Roberson, Euvonne . Sophomore\"; an officer of the new Elaine Club; on the debate team and Y.W.C.A. cabinet",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "EDUC",
+          "label": "Education"
+        },
+        {
+          "date": "1949",
+          "place": null,
+          "value": "B.A. in Speech, University of Dubuque, Iowa (1949)",
+          "citations": [
+            {
+              "source": "S48",
+              "page": "Seniors, p. 41: \"Euvonne Roberson, B.A., Elk City, Oklahoma. Major: Speech; Minor: English, Languages\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "EDUC",
+          "label": "Education"
+        },
+        {
+          "date": "1949",
+          "place": "Elk City, Beckham County, Oklahoma, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S48",
+              "page": "Home town given in the 1948 and 1949 yearbooks: \"Elk City, Oklahoma\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "RESI",
+          "label": "Residence"
+        },
         {
           "date": "24 DEC 2007",
           "place": "Collin County, Texas, USA",
@@ -1016,10 +1193,28 @@ window.TREE = {
         }
       ],
       "notes": [
-        "Maternal grandmother of Miles. Maiden name not yet documented - her rare\ngiven name \"Euvonne\" should make her easy to identify in Texas marriage and\ncensus indexes once those are searched. Mother of Richard W. Thompson III,\nElizabeth Jane, and Hilary Thompson Hutson."
+        "Maternal grandmother of Miles. Born Euvonne Roberson (the \"R.\" in Euvonne\nR. Thompson); her husband's obituary records that \"in 1951, he married\nEuvonne Roberson.\" College yearbooks give her home town as Elk City,\nOklahoma. She was a sophomore at Park College in Missouri in 1946-47 (which\nsuggests she was born about 1927), then graduated from the University of\nDubuque in 1949 with a B.A. in Speech. There she was vice-president of Pi\nKappa Delta (the forensics honorary), feature editor of a student paper,\npresident of the Women's House Council, and played Mrs. Erlynne in \"Lady\nWindermere's Fan.\" Both colleges were Presbyterian, which fits her later role\nas a Presbyterian elder in Plano. Mother of Richard W. Thompson III, Elizabeth\nJane, and Hilary Thompson Hutson. Her parents are not yet identified."
       ],
       "note_citations": [
         [
+          {
+            "source": "S47",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S48",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
+          {
+            "source": "S49",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          },
           {
             "source": "S7",
             "page": null,
@@ -1032,7 +1227,7 @@ window.TREE = {
       "fams": [
         "F3"
       ],
-      "name": "Euvonne R. Thompson"
+      "name": "Euvonne Roberson"
     },
     "I9": {
       "id": "I9",
@@ -1683,22 +1878,38 @@ window.TREE = {
         }
       ],
       "sex": "M",
-      "events": [],
+      "events": [
+        {
+          "date": "1926",
+          "place": "Wichita Falls, Wichita County, Texas, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S47",
+              "page": "Son \"born Feb. 10, 1926 in Wichita Falls to Rubye & Richard W. Thompson\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "RESI",
+          "label": "Residence"
+        }
+      ],
       "notes": [
-        "Great-grandfather of Miles - INFERRED. His existence and name follow from the\ngenerational suffixes: grandson \"Richard W. Thompson III\" and son \"Richard W.\nThompson, Jr.\" require a same-named father. No direct record located yet;\ntreat as Tentative until a census, vital, or obituary record is found."
+        "Great-grandfather of Miles. Named as father in his son's 2019 obituary\n(\"born ... in Wichita Falls to Rubye & Richard W. Thompson\"), which confirms\nwhat the Jr./III suffixes implied. The middle name is probably Wells, as his\nson was Richard Wells Thompson Jr. His own birth, death and parents are not\nyet documented. A 1950 census search of Wichita County did not find the\nfamily because the name index for that county is poorly transcribed."
       ],
       "note_citations": [
         [
           {
-            "source": "S7",
+            "source": "S47",
             "page": null,
-            "conf": "Tentative",
+            "conf": "Secondary",
             "note": null
           },
           {
-            "source": "S8",
+            "source": "S7",
             "page": null,
-            "conf": "Tentative",
+            "conf": "Secondary",
             "note": null
           }
         ]
@@ -8184,6 +8395,52 @@ window.TREE = {
         "F68"
       ],
       "name": "John Townes"
+    },
+    "I140": {
+      "id": "I140",
+      "names": [
+        {
+          "full": "Rubye Thompson",
+          "given": "Rubye",
+          "surname": "Thompson"
+        }
+      ],
+      "sex": "F",
+      "events": [
+        {
+          "date": "1926",
+          "place": "Wichita Falls, Wichita County, Texas, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S47",
+              "page": "Son \"born Feb. 10, 1926 in Wichita Falls to Rubye & Richard W. Thompson\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "RESI",
+          "label": "Residence"
+        }
+      ],
+      "notes": [
+        "Great-grandmother of Miles; mother of Richard Wells Thompson Jr. Recorded\nunder her married name because her maiden name is not yet known. Her\nuncommon spelling \"Rubye\" should help identify her in Wichita County records."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S47",
+            "page": null,
+            "conf": "Secondary",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F6"
+      ],
+      "name": "Rubye Thompson"
     }
   },
   "families": {
@@ -8273,13 +8530,13 @@ window.TREE = {
       ],
       "events": [
         {
-          "date": "BEF 1955",
+          "date": "1951",
           "place": null,
           "value": null,
           "citations": [
             {
-              "source": "S7",
-              "page": "Eldest documented child born 14 Nov 1955 in Abilene",
+              "source": "S47",
+              "page": "\"In 1951, he married Euvonne Roberson\"",
               "conf": "Secondary",
               "note": null
             }
@@ -8289,7 +8546,7 @@ window.TREE = {
         }
       ],
       "notes": [
-        "Richard W. Thompson Jr. and Euvonne R. Thompson, of Abilene (1950s) and later\nPlano/Collin County (from 1973). Children: Richard III (1955-2013), Elizabeth\nJane (d. before 2007), and Hilary (living)."
+        "Richard W. Thompson Jr. and Euvonne (Roberson) Thompson, married 1951; of\nWinters and Abilene (1950s), then Dallas, and later\nPlano/Collin County (from 1973). Children: Richard III (1955-2013), Elizabeth\nJane (d. before 2007), and Hilary (living)."
       ],
       "note_citations": [
         [
@@ -8388,20 +8645,20 @@ window.TREE = {
     "F6": {
       "id": "F6",
       "husband": "I18",
-      "wife": null,
+      "wife": "I140",
       "children": [
         "I7"
       ],
       "events": [],
       "notes": [
-        "Inferred link: Richard W. Thompson Sr. as father of Richard W. Thompson Jr.,\nrequired by the Jr./III generational suffixes. Tentative until documented."
+        "Rubye and Richard W. Thompson of Wichita Falls, Texas, parents of Richard\nWells Thompson Jr. (b. 1926), as named in his 2019 obituary."
       ],
       "note_citations": [
         [
           {
-            "source": "S8",
-            "page": null,
-            "conf": "Tentative",
+            "source": "S47",
+            "page": "\"born Feb. 10, 1926 in Wichita Falls to Rubye & Richard W. Thompson\"",
+            "conf": "Secondary",
             "note": null
           }
         ]
@@ -9694,7 +9951,7 @@ window.TREE = {
       "url": null,
       "confidence": "Provided",
       "accessed": "2026-07-11",
-      "note": "First-hand information supplied by the subject: full name and date of birth\n(12 Aug 1993); residence (San Francisco); parents John and Hilary Hutson;\nsister Jenni; paternal grandparents Neil and Joan Hutson (Joan of Ashkenazi\nheritage, lived in San Francisco early in life; Neil associated with\nLouisiana); maternal grandparents Richard and Euvonne Thompson."
+      "note": "First-hand information supplied by the subject: full name and date of birth\n(12 Aug 1993); residence (San Francisco); parents John and Hilary Hutson;\nsister Jenni; paternal grandparents Neil and Joan Hutson (Joan of Ashkenazi\nheritage, lived in San Francisco early in life; Neil associated with\nLouisiana); maternal grandparents Richard and Euvonne Thompson. Later\n(27 Sep 2026): his maternal grandfather \"served on one of the 'tin can\ndestroyers'\" in the Navy."
     },
     "S2": {
       "id": "S2",
@@ -10044,7 +10301,7 @@ window.TREE = {
       "url": "https://archive.org/details/sim_oil-gas-journal_1951-05-24_50_3",
       "confidence": "Secondary",
       "accessed": "2026-09-23",
-      "note": "\"Richard W. Thompson, Jr., petroleum engineer for G. W. Strake, has been\ntransferred from Wichita Falls to Winters, Tex.\" Winters is about 40 miles\nfrom Abilene, where Richard W. Thompson III was born in 1955, and the later\nPlano firm was an oil and gas producer. Identification with Miles's\ngrandfather is probable but TENTATIVE: the name is common and the item gives\nno family details. A search of the 1950 census for Wichita County did not\nfind him."
+      "note": "\"Richard W. Thompson, Jr., petroleum engineer for G. W. Strake, has been\ntransferred from Wichita Falls to Winters, Tex.\" First recorded as a\ntentative match. Confirmed by his 2019 obituary (S47), which gives his birth\nin Wichita Falls, his 1949 petroleum engineering degree, and his work \"in\nWinters and Abilene\" before the family settled in Dallas."
     },
     "S38": {
       "id": "S38",
@@ -10135,6 +10392,36 @@ window.TREE = {
       "confidence": "Tentative",
       "accessed": "2026-09-23",
       "note": "Cary lineage: Miles Cary (immigrant) -> Thomas Cary -> Miles Cary of\nWarwick (d. 1724) -> Miles Cary of Pear Tree Hall (1701-1766), whose daughter\n\"Elizabeth Cary. Married Benjamin Watkins. Her aunt, by same name, is said to\nhave married Benjamin Watkins, of Chesterfield Co., Va., and had numerous\ndescendants.\" Recorded only as a lead because it does not settle which\nElizabeth Cary was Miles's ancestor. See also Fairfax Harrison, The Virginia\nCarys (1919)."
+    },
+    "S47": {
+      "id": "S47",
+      "title": "Obituary of Richard Wells Thompson, Jr. (1926-2019)",
+      "author": "The Dallas Morning News (via Legacy.com)",
+      "publication": "Dallas Morning News, 25 Aug 2019",
+      "url": "https://www.legacy.com/us/obituaries/dallasmorningnews/name/richard-thompson-obituary?id=2077659",
+      "confidence": "Secondary",
+      "accessed": "2026-09-27",
+      "note": "Read from search-engine extracts because the page blocks automated access.\nStates: \"Richard Wells Thompson, Jr. passed away July 14, 2019. He was born\nFeb. 10, 1926 in Wichita Falls to Rubye & Richard W. Thompson\"; he \"served\nin the Navy during World War II, and earned a Petroleum Engineering degree\nfrom UT Austin in 1949. In 1951, he married Euvonne Roberson. After working\nin Winters and Abilene, TX they settled in Dallas and he worked for Cresslen\nOil Company, before starting Richard W. Thompson, Inc.\" He and Euvonne were\n\"active charter members and Elders of Churchill Way and West Plano\nPresbyterian Churches.\" It also mentions his love of sailing, hunting,\nfishing and woodworking, and that he flew his own Bonanza airplane.\nSurvived by his daughter Hilary Hutson; predeceased by his wife Euvonne."
+    },
+    "S48": {
+      "id": "S48",
+      "title": "The Key, 1948 and 1949 (University of Dubuque yearbooks)",
+      "author": "University of Dubuque, Dubuque, Iowa",
+      "publication": "Charles C. Myers Library, University of Dubuque; Internet Archive",
+      "url": "https://archive.org/details/key19491949unse",
+      "confidence": "Secondary",
+      "accessed": "2026-09-27",
+      "note": "1949, Seniors, p. 41: \"Euvonne Roberson, B.A., Elk City, Oklahoma. Major:\nSpeech; Minor: English, Languages; Extra-Curricular Activities: I.R.C. 3;\nZeta Phi 3, 4; Alpha Psi Omega 3, 4; Pi Kappa Delta 3, 4, Vice-President 4;\nCue Staff 3, 4; Women's House Council 4, President 4; Social Affairs\nCommittee 4; Student Council 4.\" Also listed as Feature Editor on a student\npublication's staff and as Mrs. Erlynne in \"Lady Windermere's Fan.\" The 1948\nvolume (archive.org/details/key19481948unse) also lists \"Euvonne Roberson,\nElk City, Oklahoma.\""
+    },
+    "S49": {
+      "id": "S49",
+      "title": "Narva, 1947 (Park College yearbook)",
+      "author": "Park College, Parkville, Missouri",
+      "publication": "Park University Library; Internet Archive",
+      "url": "https://archive.org/details/narva194727park",
+      "confidence": "Secondary",
+      "accessed": "2026-09-27",
+      "note": "Class roll: \"Roberson, Euvonne . Sophomore.\" Also names her as one of the\nfirst officers of the newly organized Elaine Club, and as a member of the\ndebate squad and the Y.W.C.A. cabinet. With her unusual given name and the\nsame speech and debate interests, this is the same woman who graduated from\nDubuque in 1949 (S48)."
     }
   }
 };

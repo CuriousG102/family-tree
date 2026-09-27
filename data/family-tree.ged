@@ -6,7 +6,7 @@
 2 VERS 5.5.1
 2 FORM LINEAGE-LINKED
 1 CHAR UTF-8
-1 DATE 23 SEP 2026
+1 DATE 27 SEP 2026
 1 LANG English
 1 SUBM @SUBM1@
 1 NOTE This GEDCOM is the canonical, version-controlled source of truth for the
@@ -200,13 +200,35 @@
 2 SOUR @S4@
 3 _CONF Secondary
 0 @I7@ INDI
-1 NAME Richard W. /Thompson/ Jr.
+1 NAME Richard Wells /Thompson/ Jr.
 1 SEX M
 1 FAMC @F6@
 1 FAMS @F3@
+1 BIRT
+2 DATE 10 FEB 1926
+2 PLAC Wichita Falls, Wichita County, Texas, USA
+2 SOUR @S47@
+3 PAGE "He was born Feb. 10, 1926 in Wichita Falls to Rubye & Richard W. Thompson"
+3 _CONF Secondary
+1 EVEN U.S. Navy, World War II; served on a destroyer (a "tin can"). Ship not yet identified.
+2 TYPE Military service
+2 SOUR @S47@
+3 PAGE "he served in the Navy during World War II"
+3 _CONF Secondary
+2 SOUR @S1@
+3 PAGE "my maternal grandfather served on one of the 'tin can destroyers'" (27 Sep 2026)
+3 _CONF Provided
+1 EDUC B.S. Petroleum Engineering, University of Texas at Austin (1949)
+2 DATE 1949
+2 SOUR @S47@
+3 PAGE "earned a Petroleum Engineering degree from UT Austin in 1949"
+3 _CONF Secondary
 1 DEAT
-2 DATE 2019
+2 DATE 14 JUL 2019
 2 PLAC Collin County, Texas, USA
+2 SOUR @S47@
+3 PAGE "Richard Wells Thompson, Jr. passed away July 14, 2019"
+3 _CONF Secondary
 2 SOUR @S8@
 3 PAGE Estate probated: In re Estate of Richard W. Thompson Jr., cause PB 1-1381-2019, Collin County
 3 _CONF Primary
@@ -226,21 +248,57 @@
 2 SOUR @S11@
 3 _CONF Secondary
 1 OCCU Petroleum engineer for G. W. Strake; transferred from Wichita Falls to Winters, Texas (May 1951)
+2 DATE MAY 1951
 2 SOUR @S37@
 3 PAGE "Richard W. Thompson, Jr., petroleum engineer for G. W. Strake, has been transferred from Wichita Falls to Winters, Tex."
-3 _CONF Tentative
-1 NOTE Maternal grandfather of Miles. The "Jr." suffix and his son's "III" establish
-2 CONT the family naming line back to a Richard W. Thompson Sr. On 5 May 2018 he
+3 _CONF Secondary
+2 SOUR @S47@
+3 PAGE "After working in Winters and Abilene, TX they settled in Dallas"
+3 _CONF Secondary
+1 OCCU Petroleum engineer, Cresslen Oil Company, Dallas; then founder of Richard W. Thompson, Inc., independent petroleum engineer
+2 SOUR @S47@
+3 PAGE "he worked for Cresslen Oil Company, before starting Richard W. Thompson, Inc. where he was a widely respected independent petroleum engineer"
+3 _CONF Secondary
+1 NOTE Maternal grandfather of Miles. Born in Wichita Falls, Texas, the son of Rubye
+2 CONT and Richard W. Thompson. He served in the Navy in World War II; the family
+2 CONT recalls that he served on a destroyer (a "tin can"), but the ship is not yet
+2 CONT identified because WWII muster rolls are not freely searchable by name. He
+2 CONT took a petroleum engineering degree at UT Austin in 1949 and married Euvonne
+2 CONT Roberson in 1951. The couple were charter members and elders of Churchill Way
+2 CONT and West Plano Presbyterian Churches. His obituary notes that he loved
+2 CONT sailing, hunting and fishing trips and woodworking, and that he earned a
+2 CONT pilot's license and flew his own Bonanza. On 5 May 2018 he
 2 CONT deeded his Collin County homestead to himself and his daughter Hilary Thompson
 2 CONT Hutson as joint tenants with right of survivorship, reserving a life estate -
 2 CONT the transaction later litigated in D'Olivio v. Hutson. Predeceased by his wife
 2 CONT Euvonne (2007), his son Richard III (2013), and his daughter Elizabeth Jane.
+2 SOUR @S47@
+3 _CONF Secondary
 2 SOUR @S8@
 3 _CONF Primary
+2 SOUR @S1@
+3 _CONF Provided
 0 @I8@ INDI
-1 NAME Euvonne R. /Thompson/
+1 NAME Euvonne /Roberson/
+2 _MARNM Thompson
 1 SEX F
 1 FAMS @F3@
+1 EDUC Park College, Parkville, Missouri (sophomore, 1946-47)
+2 DATE 1947
+2 SOUR @S49@
+3 PAGE Class roll: "Roberson, Euvonne . Sophomore"; an officer of the new Elaine Club; on the debate team and Y.W.C.A. cabinet
+3 _CONF Secondary
+1 EDUC B.A. in Speech, University of Dubuque, Iowa (1949)
+2 DATE 1949
+2 SOUR @S48@
+3 PAGE Seniors, p. 41: "Euvonne Roberson, B.A., Elk City, Oklahoma. Major: Speech; Minor: English, Languages"
+3 _CONF Secondary
+1 RESI
+2 DATE 1949
+2 PLAC Elk City, Beckham County, Oklahoma, USA
+2 SOUR @S48@
+3 PAGE Home town given in the 1948 and 1949 yearbooks: "Elk City, Oklahoma"
+3 _CONF Secondary
 1 DEAT
 2 DATE 24 DEC 2007
 2 PLAC Collin County, Texas, USA
@@ -260,10 +318,23 @@
 2 SOUR @S33@
 3 PAGE Letter signed "Euvonne Thompson, 2916 Creekbend" (4 Dec 1977); "Richard and Euvonne Thompson" (16 Apr 1976)
 3 _CONF Secondary
-1 NOTE Maternal grandmother of Miles. Maiden name not yet documented - her rare
-2 CONT given name "Euvonne" should make her easy to identify in Texas marriage and
-2 CONT census indexes once those are searched. Mother of Richard W. Thompson III,
-2 CONT Elizabeth Jane, and Hilary Thompson Hutson.
+1 NOTE Maternal grandmother of Miles. Born Euvonne Roberson (the "R." in Euvonne
+2 CONT R. Thompson); her husband's obituary records that "in 1951, he married
+2 CONT Euvonne Roberson." College yearbooks give her home town as Elk City,
+2 CONT Oklahoma. She was a sophomore at Park College in Missouri in 1946-47 (which
+2 CONT suggests she was born about 1927), then graduated from the University of
+2 CONT Dubuque in 1949 with a B.A. in Speech. There she was vice-president of Pi
+2 CONT Kappa Delta (the forensics honorary), feature editor of a student paper,
+2 CONT president of the Women's House Council, and played Mrs. Erlynne in "Lady
+2 CONT Windermere's Fan." Both colleges were Presbyterian, which fits her later role
+2 CONT as a Presbyterian elder in Plano. Mother of Richard W. Thompson III, Elizabeth
+2 CONT Jane, and Hilary Thompson Hutson. Her parents are not yet identified.
+2 SOUR @S47@
+3 _CONF Secondary
+2 SOUR @S48@
+3 _CONF Secondary
+2 SOUR @S49@
+3 _CONF Secondary
 2 SOUR @S7@
 3 _CONF Secondary
 0 @I9@ INDI
@@ -490,14 +561,22 @@
 1 NAME Richard W. /Thompson/ Sr.
 1 SEX M
 1 FAMS @F6@
-1 NOTE Great-grandfather of Miles - INFERRED. His existence and name follow from the
-2 CONT generational suffixes: grandson "Richard W. Thompson III" and son "Richard W.
-2 CONT Thompson, Jr." require a same-named father. No direct record located yet;
-2 CONT treat as Tentative until a census, vital, or obituary record is found.
+1 RESI
+2 DATE 1926
+2 PLAC Wichita Falls, Wichita County, Texas, USA
+2 SOUR @S47@
+3 PAGE Son "born Feb. 10, 1926 in Wichita Falls to Rubye & Richard W. Thompson"
+3 _CONF Secondary
+1 NOTE Great-grandfather of Miles. Named as father in his son's 2019 obituary
+2 CONT ("born ... in Wichita Falls to Rubye & Richard W. Thompson"), which confirms
+2 CONT what the Jr./III suffixes implied. The middle name is probably Wells, as his
+2 CONT son was Richard Wells Thompson Jr. His own birth, death and parents are not
+2 CONT yet documented. A 1950 census search of Wichita County did not find the
+2 CONT family because the name index for that county is poorly transcribed.
+2 SOUR @S47@
+3 _CONF Secondary
 2 SOUR @S7@
-3 _CONF Tentative
-2 SOUR @S8@
-3 _CONF Tentative
+3 _CONF Secondary
 0 @I19@ INDI
 1 NAME Ivor Ambrose /Trapolin/
 1 SEX M
@@ -546,11 +625,12 @@
 1 CHIL @I17@
 1 CHIL @I3@
 1 MARR
-2 DATE BEF 1955
-2 SOUR @S7@
-3 PAGE Eldest documented child born 14 Nov 1955 in Abilene
+2 DATE 1951
+2 SOUR @S47@
+3 PAGE "In 1951, he married Euvonne Roberson"
 3 _CONF Secondary
-1 NOTE Richard W. Thompson Jr. and Euvonne R. Thompson, of Abilene (1950s) and later
+1 NOTE Richard W. Thompson Jr. and Euvonne (Roberson) Thompson, married 1951; of
+2 CONT Winters and Abilene (1950s), then Dallas, and later
 2 CONT Plano/Collin County (from 1973). Children: Richard III (1955-2013), Elizabeth
 2 CONT Jane (d. before 2007), and Hilary (living).
 2 SOUR @S8@
@@ -591,11 +671,13 @@
 3 _CONF Secondary
 0 @F6@ FAM
 1 HUSB @I18@
+1 WIFE @I140@
 1 CHIL @I7@
-1 NOTE Inferred link: Richard W. Thompson Sr. as father of Richard W. Thompson Jr.,
-2 CONT required by the Jr./III generational suffixes. Tentative until documented.
-2 SOUR @S8@
-3 _CONF Tentative
+1 NOTE Rubye and Richard W. Thompson of Wichita Falls, Texas, parents of Richard
+2 CONT Wells Thompson Jr. (b. 1926), as named in his 2019 obituary.
+2 SOUR @S47@
+3 PAGE "born Feb. 10, 1926 in Wichita Falls to Rubye & Richard W. Thompson"
+3 _CONF Secondary
 0 @S1@ SOUR
 1 TITL Personal communication from Miles Hutson
 1 AUTH Miles Hutson
@@ -606,7 +688,9 @@
 2 CONT (12 Aug 1993); residence (San Francisco); parents John and Hilary Hutson;
 2 CONT sister Jenni; paternal grandparents Neil and Joan Hutson (Joan of Ashkenazi
 2 CONT heritage, lived in San Francisco early in life; Neil associated with
-2 CONT Louisiana); maternal grandparents Richard and Euvonne Thompson.
+2 CONT Louisiana); maternal grandparents Richard and Euvonne Thompson. Later
+2 CONT (27 Sep 2026): his maternal grandfather "served on one of the 'tin can
+2 CONT destroyers'" in the Navy.
 0 @S2@ SOUR
 1 TITL Miles Hutson - Personal Website & Professional Profiles
 1 AUTH Miles Hutson
@@ -2385,12 +2469,10 @@
 1 _CONF Secondary
 1 _ACC 2026-09-23
 1 NOTE "Richard W. Thompson, Jr., petroleum engineer for G. W. Strake, has been
-2 CONT transferred from Wichita Falls to Winters, Tex." Winters is about 40 miles
-2 CONT from Abilene, where Richard W. Thompson III was born in 1955, and the later
-2 CONT Plano firm was an oil and gas producer. Identification with Miles's
-2 CONT grandfather is probable but TENTATIVE: the name is common and the item gives
-2 CONT no family details. A search of the 1950 census for Wichita County did not
-2 CONT find him.
+2 CONT transferred from Wichita Falls to Winters, Tex." First recorded as a
+2 CONT tentative match. Confirmed by his 2019 obituary (S47), which gives his birth
+2 CONT in Wichita Falls, his 1949 petroleum engineering degree, and his work "in
+2 CONT Winters and Abilene" before the family settled in Dallas.
 0 @I73@ INDI
 1 NAME Henry /Gignilliat/
 1 SEX M
@@ -3748,4 +3830,64 @@
 1 NOTE TENTATIVE link (inferred from residence).
 2 SOUR @S28@
 3 _CONF Tentative
+0 @I140@ INDI
+1 NAME Rubye /Thompson/
+1 SEX F
+1 FAMS @F6@
+1 RESI
+2 DATE 1926
+2 PLAC Wichita Falls, Wichita County, Texas, USA
+2 SOUR @S47@
+3 PAGE Son "born Feb. 10, 1926 in Wichita Falls to Rubye & Richard W. Thompson"
+3 _CONF Secondary
+1 NOTE Great-grandmother of Miles; mother of Richard Wells Thompson Jr. Recorded
+2 CONT under her married name because her maiden name is not yet known. Her
+2 CONT uncommon spelling "Rubye" should help identify her in Wichita County records.
+2 SOUR @S47@
+3 _CONF Secondary
+0 @S47@ SOUR
+1 TITL Obituary of Richard Wells Thompson, Jr. (1926-2019)
+1 AUTH The Dallas Morning News (via Legacy.com)
+1 PUBL Dallas Morning News, 25 Aug 2019
+1 _URL https://www.legacy.com/us/obituaries/dallasmorningnews/name/richard-thompson-obituary?id=2077659
+1 _CONF Secondary
+1 _ACC 2026-09-27
+1 NOTE Read from search-engine extracts because the page blocks automated access.
+2 CONT States: "Richard Wells Thompson, Jr. passed away July 14, 2019. He was born
+2 CONT Feb. 10, 1926 in Wichita Falls to Rubye & Richard W. Thompson"; he "served
+2 CONT in the Navy during World War II, and earned a Petroleum Engineering degree
+2 CONT from UT Austin in 1949. In 1951, he married Euvonne Roberson. After working
+2 CONT in Winters and Abilene, TX they settled in Dallas and he worked for Cresslen
+2 CONT Oil Company, before starting Richard W. Thompson, Inc." He and Euvonne were
+2 CONT "active charter members and Elders of Churchill Way and West Plano
+2 CONT Presbyterian Churches." It also mentions his love of sailing, hunting,
+2 CONT fishing and woodworking, and that he flew his own Bonanza airplane.
+2 CONT Survived by his daughter Hilary Hutson; predeceased by his wife Euvonne.
+0 @S48@ SOUR
+1 TITL The Key, 1948 and 1949 (University of Dubuque yearbooks)
+1 AUTH University of Dubuque, Dubuque, Iowa
+1 PUBL Charles C. Myers Library, University of Dubuque; Internet Archive
+1 _URL https://archive.org/details/key19491949unse
+1 _CONF Secondary
+1 _ACC 2026-09-27
+1 NOTE 1949, Seniors, p. 41: "Euvonne Roberson, B.A., Elk City, Oklahoma. Major:
+2 CONT Speech; Minor: English, Languages; Extra-Curricular Activities: I.R.C. 3;
+2 CONT Zeta Phi 3, 4; Alpha Psi Omega 3, 4; Pi Kappa Delta 3, 4, Vice-President 4;
+2 CONT Cue Staff 3, 4; Women's House Council 4, President 4; Social Affairs
+2 CONT Committee 4; Student Council 4." Also listed as Feature Editor on a student
+2 CONT publication's staff and as Mrs. Erlynne in "Lady Windermere's Fan." The 1948
+2 CONT volume (archive.org/details/key19481948unse) also lists "Euvonne Roberson,
+2 CONT Elk City, Oklahoma."
+0 @S49@ SOUR
+1 TITL Narva, 1947 (Park College yearbook)
+1 AUTH Park College, Parkville, Missouri
+1 PUBL Park University Library; Internet Archive
+1 _URL https://archive.org/details/narva194727park
+1 _CONF Secondary
+1 _ACC 2026-09-27
+1 NOTE Class roll: "Roberson, Euvonne . Sophomore." Also names her as one of the
+2 CONT first officers of the newly organized Elaine Club, and as a member of the
+2 CONT debate squad and the Y.W.C.A. cabinet. With her unusual given name and the
+2 CONT same speech and debate interests, this is the same woman who graduated from
+2 CONT Dubuque in 1949 (S48).
 0 TRLR
