@@ -6,3 +6,4 @@ scratch-*.png
 *.log
 .DS_Store
 dist/
+research-inbox/
