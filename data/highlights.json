@@ -138,6 +138,17 @@
           "sources": ["S29", "S30"]
         },
         {
+          "year": "1908",
+          "title": "A professor, his son and the A&M strike",
+          "body": [
+            "In 1908 students at the Agricultural and Mechanical College of Texas walked out against President H. H. Harrington. A book published that year, The History of the A. and M. College Trouble, prints a photograph of Prof. Charles Woodward Hutson, then 67 and the oldest member of the faculty, with the caption: \"He with Dr. Gilbert lost their positions from troubles growing out of the unjust quarantine.\"",
+            "The same book lists among the students' grievances \"the charge by Miles B. Hutson, a Junior, who claimed he was suspended from school by the President without authority from the Faculty.\" That was almost certainly Charles's son Miles Brewton Hutson, Neil's father. That same year the family moved to New Orleans, where Charles retired and took up painting."
+          ],
+          "caution": "The book was written by a student partisan of the strike, so it gives one side of the dispute.",
+          "people": ["I32", "I9"],
+          "sources": ["S62", "S42", "S30"]
+        },
+        {
           "year": "1913",
           "title": "Engineers and scientists, men and women",
           "body": [

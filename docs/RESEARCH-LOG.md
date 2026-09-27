@@ -275,3 +275,44 @@ Elizabeth Jane, but the name is too common to confirm.
 - FamilySearch (free login): the 1940 census for 910 W. Avenue A, and Texas
   births for 1926 (Rubye's maiden name).
 - Fold3: WWII muster rolls for the destroyer.
+
+## Session 7 — 2026-09-27: photographs
+
+**Request:** pull photos from yearbooks and newspapers across the family and
+show them on people's cards.
+
+**Viewer:** portraits now appear on pedigree cards, All People tiles, Family
+Lines timelines, relationship chips and Highlights stories, and in a new
+**Photos** tab. Each photo carries its own source citation.
+
+**Found (11 portraits):**
+
+| Person | Source |
+|---|---|
+| Richard Wells Thompson Jr. | Wichita Falls High School yearbook, 1943 |
+| Richard Neil Hutson | Tulane *Jambalaya*, 1948 (senior portrait, engineering) |
+| Joan Liebes | Highland Park High School (Dallas) yearbook, 1948 |
+| Louise Adela Nelson | Tulane *Jambalaya*, 1912 (Newcomb senior) |
+| Mary Jane Hutson | *Jambalaya*, 1941 (Newcomb senior; student council president) |
+| Louise Adela Hutson | *Jambalaya*, 1940 (Newcomb senior) |
+| Charleen Ethel Hutson | *Jambalaya*, 1945 |
+| Euvonne Roberson | University of Dubuque *The Key*, 1949 |
+| Bob Roberson | Park College *Narva*, 1951 |
+| Charles Woodward Hutson | *The History of the A. and M. College Trouble* (1908) |
+| Richard Hutson (1747–1795) | NYPL engraving, public domain (Wikimedia Commons) |
+
+Each identification was checked against the yearbook's caption order: the
+sexes and positions of neighbouring portraits match the printed name list.
+
+**New facts:** the 1908 book says Prof. C. W. Hutson lost his A&M post in the
+quarantine dispute. It also names "Miles B. Hutson, a Junior" among the
+students' grievances; an earlier session had flagged that mention as
+unconfirmed, and it is now judged almost certainly Neil's father. The
+yearbooks add class years and activities for Joan, Louise, Charleen and
+Adela. Euvonne's yearbook page is "page forty-two" (earlier cited as 41).
+
+**Not found:** Texas A&M *Long Horn* yearbooks for 1905–1910 (would show
+Miles Brewton Hutson), George and Julien Liebes (the 1955 *Dallas* page and the
+1916 *Los Angeles Times* page have no portraits of them). Wikimedia's API
+rate-limited the connection, which limited searches for other historical
+portraits.

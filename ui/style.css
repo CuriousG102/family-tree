@@ -375,3 +375,37 @@ footer { max-width: 1180px; margin: 0 auto; padding: 30px 24px 50px; color: var(
 .photo img { width: 120px; height: auto; border-radius: 6px; border: 1px solid var(--line); background: var(--panel); flex: none; }
 .photo figcaption { font-size: 13px; color: var(--muted); line-height: 1.45; min-width: 0; }
 .photo figcaption .cite-row { margin-top: 8px; }
+
+/* ---------- photos on cards ---------- */
+.avatar { display: block; object-fit: cover; object-position: center top; background: var(--accent-soft); border: 1px solid var(--line); }
+.pcard.has-photo, .person-tile.has-photo { padding-left: 64px; min-height: 70px; }
+.person-tile { position: relative; }
+.pcard.has-photo > .avatar, .person-tile.has-photo > .avatar {
+  position: absolute; left: 9px; top: 50%; transform: translateY(-50%);
+  width: 46px; height: 58px; border-radius: 7px;
+}
+.tl-item.has-photo { position: relative; padding-left: 54px; min-height: 52px; }
+.tl-item > .tl-avatar { position: absolute; left: 8px; top: 6px; width: 36px; height: 44px; border-radius: 6px; }
+.rel-chip { display: inline-flex; align-items: center; gap: 6px; }
+.rel-chip .chip-avatar { width: 22px; height: 22px; border-radius: 50%; margin-left: -6px; border: 0; }
+
+/* photo strip on highlight cards */
+.hl-photos { display: flex; gap: 10px; flex-wrap: wrap; margin: 0 0 12px; }
+.hl-photo { border: 0; background: transparent; padding: 0; cursor: pointer; width: 84px; text-align: center; color: var(--muted); font-size: 11.5px; line-height: 1.3; }
+.hl-photo .avatar { width: 84px; height: 104px; border-radius: 8px; margin-bottom: 4px; box-shadow: var(--shadow); }
+.hl-photo:hover .avatar { border-color: var(--gold); }
+
+/* photos gallery tab */
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 18px; margin-top: 8px; }
+.gallery-item { margin: 0; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); display: flex; flex-direction: column; }
+.gallery-img { border: 0; padding: 0; background: var(--accent-soft); cursor: pointer; display: block; }
+.gallery-img img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center top; }
+.gallery-item figcaption { padding: 10px 12px 12px; display: flex; flex-direction: column; gap: 3px; font-size: 13px; }
+.gallery-item figcaption b { font-family: var(--serif); font-size: 15px; }
+.gallery-title { color: var(--muted); font-size: 12px; line-height: 1.4; }
+.gallery-item .cite-row { margin-top: 6px; }
+@media (max-width: 640px) {
+  .gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .hl-photo { width: 72px; }
+  .hl-photo .avatar { width: 72px; height: 90px; }
+}

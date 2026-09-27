@@ -26,6 +26,7 @@
   <nav class="tabs" id="tabs">
     <button data-view="highlights" class="active">Highlights</button>
     <button data-view="pedigree">Pedigree</button>
+    <button data-view="photos">Photos</button>
     <button data-view="lines">Family Lines</button>
     <button data-view="people">All People</button>
     <button data-view="sources">Sources</button>
@@ -56,6 +57,11 @@
       </div>
       <p class="hint">Only documented ancestors are shown. Select a card for details and sources; use + to open a branch and – to close it. Dashed cards are tentative links.</p>
       <div class="pedigree-wrap"><div class="pedigree" id="pedigree"></div></div>
+    </section>
+
+    <section class="view" id="view-photos">
+      <p class="hint">Photographs found in yearbooks, books and public archives, oldest first. Select a photo to open that person; the source pill shows where it came from.</p>
+      <div id="photos"></div>
     </section>
 
     <section class="view" id="view-lines">

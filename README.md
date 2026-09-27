@@ -43,12 +43,14 @@ author, publication/URL, a **confidence level**, and the date it was accessed.
 ## Viewing the tree
 
 Open `ui/index.html` in any browser. It needs no server or build step because
-the data is embedded. The viewer has six tabs:
+the data is embedded. The viewer has seven tabs:
 
 - **Highlights**: the most notable findings as short illustrated stories, each
   linking to the people involved and its sources. The stories live in
   `data/highlights.json`; the build fails if a story names a person or source
   that isn't in the GEDCOM.
+- **Photos**: every portrait found (yearbooks, books, public-domain archives),
+  oldest first, each with its source pill.
 - **Pedigree**: a collapsible ancestor tree that draws only documented
   ancestors, with a generation-depth control. Any person can be made the root
   ("View this person's ancestors").
@@ -65,8 +67,10 @@ the data is embedded. The viewer has six tabs:
 Clicking any person opens a panel where **every fact shows a clickable source
 pill** and the exact quoted passage that supports it. Where a public-domain
 photo was found (for example a yearbook portrait), it appears at the top of the
-panel with its own citation; image files live in `data/media/` and are embedded
-by the build. Tentative (inferred)
+panel, on that person's cards throughout the site and in the Photos tab, with
+its own citation. Image files live in `data/media/` and are embedded by the
+build. To add one, crop the image into `data/media/` and add an `OBJE` record
+(`2 FILE media/<name>.jpg`, `2 TITL`, `2 SOUR`) to the person. Tentative (inferred)
 placements are drawn with dashed borders.
 
 ## Sharing

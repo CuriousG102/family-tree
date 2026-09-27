@@ -45,6 +45,20 @@
     return ind.notes.some(function (n) { return /TENTATIVE|INFERRED/.test(n); });
   }
   function isLiving(ind) { return ind.notes.some(function (n) { return /^LIVING/.test(n); }); }
+  function photoOf(ind) { return ind && ind.media && ind.media.length ? ind.media[0] : null; }
+  function avatar(ind, cls) {
+    var m = photoOf(ind);
+    if (!m) return null;
+    var img = el("img", "avatar" + (cls ? " " + cls : ""));
+    img.src = m.src;
+    img.alt = "";
+    img.loading = "lazy";
+    return img;
+  }
+  function photoYear(ind, m) {
+    var y = (m.title || "").match(/\b(1[5-9]\d\d|20\d\d)\b/);
+    return y ? +y[1] : birthYear(ind);
+  }
 
   function parentsOf(ind) {
     var res = { father: null, mother: null, fam: null };
@@ -155,6 +169,7 @@
       [Object.keys(ANC).length - 1, "Direct ancestors"],
       [maxGen + 1, "Generations"],
       [earliest ? "c. " + earliest : "—", "Earliest birth"],
+      [Object.keys(IND).filter(function (k) { return photoOf(IND[k]); }).length, "Photos"],
       [Object.keys(SRC).length, "Sources"],
       [cites, "Citations"],
     ].forEach(function (d) {
@@ -174,6 +189,8 @@
     var c = el("div", "pcard" + (isTentative(ind) ? " tentative" : "") + (opts.root ? " root" : ""));
     c.setAttribute("role", "button");
     c.tabIndex = 0;
+    var av = avatar(ind);
+    if (av) { c.classList.add("has-photo"); c.appendChild(av); }
     var rel = pedRoot === HOME ? relOf(ind.id) : "";
     if (opts.root) rel = pedRoot === HOME ? "Tree subject" : "Selected person";
     if (rel) c.appendChild(el("div", "prel", rel));
@@ -301,6 +318,8 @@
       line.chain.slice().reverse().forEach(function (ind) {
         var li = el("li", isTentative(ind) ? "tentative" : "");
         var btn = el("button", "tl-item");
+        var tav = avatar(ind, "tl-avatar");
+        if (tav) { btn.classList.add("has-photo"); btn.appendChild(tav); }
         var y = lifeSpan(ind);
         btn.appendChild(el("span", "tl-years", y || "dates unknown"));
         btn.appendChild(el("span", "tl-name", primaryName(ind)));
@@ -347,6 +366,8 @@
     keys.forEach(function (k) {
       var ind = IND[k];
       var tile = el("button", "person-tile" + (isTentative(ind) ? " tentative" : ""));
+      var pav = avatar(ind);
+      if (pav) { tile.classList.add("has-photo"); tile.appendChild(pav); }
       if (relOf(k)) tile.appendChild(el("div", "prel", relOf(k)));
       var nm = primaryName(ind);
       var married = ind.names[0] && ind.names[0].married;
@@ -398,6 +419,8 @@
   }
   function relChip(ind, role) {
     var chip = el("button", "rel-chip");
+    var cav = avatar(ind, "chip-avatar");
+    if (cav) chip.appendChild(cav);
     chip.appendChild(document.createTextNode(primaryName(ind) + " "));
     chip.appendChild(el("small", null, "· " + role));
     chip.addEventListener("click", function () { openPerson(ind.id); });
@@ -575,6 +598,18 @@
       var grid = el("div", "hl-grid");
       sec.items.forEach(function (item) {
         var card = el("article", "hl-card" + (item.feature ? " feature" : ""));
+        var withPhotos = (item.people || []).filter(function (id) { return photoOf(IND[id]); }).slice(0, 4);
+        if (withPhotos.length) {
+          var strip = el("div", "hl-photos");
+          withPhotos.forEach(function (id) {
+            var fig = el("button", "hl-photo");
+            fig.appendChild(avatar(IND[id]));
+            fig.appendChild(el("span", null, primaryName(IND[id])));
+            fig.addEventListener("click", function () { openPerson(id); });
+            strip.appendChild(fig);
+          });
+          card.appendChild(strip);
+        }
         if (item.year) card.appendChild(el("div", "hl-year", item.year));
         card.appendChild(el("h3", null, item.title));
         (item.body || []).forEach(function (para) { card.appendChild(el("p", null, para)); });
@@ -598,6 +633,39 @@
       section.appendChild(grid);
       host.appendChild(section);
     });
+  }
+
+  /* ---------- photos ---------- */
+  function renderPhotos() {
+    var host = byId("photos");
+    host.innerHTML = "";
+    var items = [];
+    Object.keys(IND).forEach(function (id) {
+      (IND[id].media || []).forEach(function (m) { items.push({ ind: IND[id], m: m, year: photoYear(IND[id], m) }); });
+    });
+    if (!items.length) { host.appendChild(el("p", "hint", "No photos yet.")); return; }
+    items.sort(function (a, b) { return (a.year || 9999) - (b.year || 9999); });
+    var grid = el("div", "gallery");
+    items.forEach(function (it) {
+      var fig = el("figure", "gallery-item");
+      var btn = el("button", "gallery-img");
+      var img = el("img");
+      img.src = it.m.src;
+      img.alt = it.m.title || primaryName(it.ind);
+      img.loading = "lazy";
+      btn.appendChild(img);
+      btn.addEventListener("click", function () { openPerson(it.ind.id); });
+      fig.appendChild(btn);
+      var cap = el("figcaption");
+      cap.appendChild(el("b", null, primaryName(it.ind)));
+      if (relOf(it.ind.id)) cap.appendChild(el("span", "prel", relOf(it.ind.id)));
+      if (it.m.title) cap.appendChild(el("span", "gallery-title", it.m.title));
+      var row = citeRow(it.m.citations);
+      if (row.children.length) cap.appendChild(row);
+      fig.appendChild(cap);
+      grid.appendChild(fig);
+    });
+    host.appendChild(grid);
   }
 
   /* ---------- about ---------- */
@@ -696,6 +764,7 @@
   renderLines();
   renderPeople();
   renderSources();
+  renderPhotos();
   renderAbout();
   wire();
   byId("ped-depth").value = String(pedDepth);

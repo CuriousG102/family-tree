@@ -97,6 +97,13 @@
 0 @I5@ INDI
 1 NAME Richard Neil /Hutson/
 1 SEX M
+1 OBJE
+2 FILE media/neil-hutson-1948.jpg
+2 FORM jpg
+2 TITL Senior portrait, Tulane University Jambalaya, 1948 ("Richard Neil Hutson, Engineering, New Orleans")
+2 SOUR @S55@
+3 PAGE Seniors, pp. 172-173 (third row, seventh portrait)
+3 _CONF Secondary
 1 FAMC @F4@
 1 FAMS @F2@
 1 BIRT
@@ -139,6 +146,18 @@
 1 NAME Joan /Liebes/
 2 _MARNM Hutson
 1 SEX F
+1 OBJE
+2 FILE media/joan-liebes-1948.jpg
+2 FORM jpg
+2 TITL Senior portrait, Highland Park High School yearbook (Dallas), 1948 ("Liebes, Joan - Hi-Lites 1946-'48")
+2 SOUR @S60@
+3 PAGE Seniors, p. 41
+3 _CONF Secondary
+1 EDUC Highland Park High School, Dallas, Class of 1948
+2 DATE 1948
+2 SOUR @S60@
+3 PAGE Seniors, p. 41: "Liebes, Joan - Hi-Lites 1946-'48"
+3 _CONF Secondary
 1 FAMC @F28@
 1 FAMS @F2@
 1 BIRT
@@ -300,6 +319,13 @@
 1 NAME Euvonne /Roberson/
 2 _MARNM Thompson
 1 SEX F
+1 OBJE
+2 FILE media/euvonne-roberson-1949.jpg
+2 FORM jpg
+2 TITL Senior portrait, University of Dubuque yearbook The Key, 1949
+2 SOUR @S48@
+3 PAGE Seniors, page forty-two
+3 _CONF Secondary
 1 FAMC @F69@
 1 FAMS @F3@
 1 EDUC Park College, Parkville, Missouri (sophomore, 1946-47)
@@ -310,7 +336,7 @@
 1 EDUC B.A. in Speech, University of Dubuque, Iowa (1949)
 2 DATE 1949
 2 SOUR @S48@
-3 PAGE Seniors, p. 41: "Euvonne Roberson, B.A., Elk City, Oklahoma. Major: Speech; Minor: English, Languages"
+3 PAGE Seniors, page forty-two: "Euvonne Roberson, B.A., Elk City, Oklahoma. Major: Speech; Minor: English, Languages"
 3 _CONF Secondary
 1 RESI
 2 DATE 1949
@@ -360,6 +386,13 @@
 0 @I9@ INDI
 1 NAME Miles Brewton /Hutson/
 1 SEX M
+1 EVEN Junior at the Agricultural and Mechanical College of Texas during the 1908 student strike (identification very probable; see note); charged that the college president had suspended him without authority from the faculty
+2 TYPE College
+2 DATE 1908
+2 PLAC College Station, Brazos County, Texas, USA
+2 SOUR @S62@
+3 PAGE p. 48: "the charge by Miles B. Hutson, a Junior, who claimed he was suspended from school by the President without authority from the Faculty during the fall term examinations"
+3 _CONF Secondary
 1 FAMC @F7@
 1 FAMS @F4@
 1 BIRT
@@ -405,9 +438,12 @@
 2 CONT 321 Hillary Street, New Orleans, with Adela and son Richard Neil. His sister
 2 CONT Mary Lockett Hutson married Bernard Stanley Nelson (1913) - a second
 2 CONT Hutson-Nelson marriage in the same generation.
-2 CONT UNCONFIRMED MENTIONS (same name, plausible but not proven to be him): "Miles
-2 CONT B. Hutson, a Junior" at Texas A&M in 1908 (The History of the A.&M. College
-2 CONT Trouble, 1908) and "2d Lieut. M. B. Hutson" in 1918 War Department orders.
+2 CONT Almost certainly the "Miles B. Hutson, a Junior" at Texas A&M in 1908: the
+2 CONT same book (The History of the A. and M. College Trouble) prints a photograph
+2 CONT of his father, Prof. C. W. Hutson, of that faculty. (The college's 1907
+2 CONT catalogue lists a cadet "M. B. Hutson, Houston", a small unexplained
+2 CONT discrepancy.) Still unconfirmed: "2d Lieut. M. B. Hutson" in 1918 War
+2 CONT Department orders.
 2 SOUR @S28@
 3 _CONF Secondary
 2 SOUR @S13@
@@ -416,6 +452,13 @@
 1 NAME Louise Adela /Nelson/
 2 _MARNM Hutson
 1 SEX F
+1 OBJE
+2 FILE media/adela-nelson-1912.jpg
+2 FORM jpg
+2 TITL Senior portrait, Newcomb College (Tulane) Jambalaya, 1912 ("Louise Adela Nelson")
+2 SOUR @S56@
+3 PAGE Newcomb Senior Class - Academic
+3 _CONF Secondary
 1 FAMC @F32@
 1 FAMS @F4@
 1 BIRT
@@ -454,6 +497,13 @@
 1 NAME Mary Jane /Hutson/
 2 _MARNM Trapolin
 1 SEX F
+1 OBJE
+2 FILE media/mary-jane-hutson-1941.jpg
+2 FORM jpg
+2 TITL Senior portrait, Newcomb College (Tulane) Jambalaya, 1941
+2 SOUR @S57@
+3 PAGE Seniors, p. 210: "Mary Jane Hutson ... President Student Council"
+3 _CONF Secondary
 1 FAMC @F4@
 1 FAMS @F5@
 1 BIRT
@@ -485,6 +535,18 @@
 1 NAME Louise Adela /Hutson/
 2 _MARNM Finke
 1 SEX F
+1 OBJE
+2 FILE media/louise-hutson-1940.jpg
+2 FORM jpg
+2 TITL Senior portrait, Newcomb College (Tulane) Jambalaya, 1940
+2 SOUR @S59@
+3 PAGE Senior Class, p. 56, bottom row
+3 _CONF Secondary
+1 EDUC B.A., Newcomb College (Tulane), Class of 1940; International Relations Club; Y.W.C.A. secretary
+2 DATE 1940
+2 SOUR @S59@
+3 PAGE p. 56: "Louise Adela Hutson ... New Orleans, La. B Sigma O. International Relations Club; Y. W. C. A., Secretary"
+3 _CONF Secondary
 1 FAMC @F4@
 1 BIRT
 2 DATE 29 SEP 1920
@@ -502,6 +564,18 @@
 1 NAME Charleen Ethel /Hutson/
 2 _MARNM Wilke
 1 SEX F
+1 OBJE
+2 FILE media/charleen-hutson-1945.jpg
+2 FORM jpg
+2 TITL Senior portrait, Tulane University Jambalaya, 1945
+2 SOUR @S58@
+3 PAGE Seniors, p. 35 ("Charleen Ethel Hutson, '45")
+3 _CONF Secondary
+1 EDUC Tulane University, College of Arts and Sciences, Class of 1945
+2 DATE 1945
+2 SOUR @S58@
+3 PAGE p. 35: "Charleen Ethel Hutson, '45, New Orleans, Louisiana; Arts and Sciences; Beta Sigma Omicron"
+3 _CONF Secondary
 1 FAMC @F4@
 1 BIRT
 2 DATE 1924
@@ -1142,6 +1216,20 @@
 0 @I32@ INDI
 1 NAME Charles Woodward /Hutson/
 1 SEX M
+1 OBJE
+2 FILE media/charles-woodward-hutson-1908.jpg
+2 FORM jpg
+2 TITL "Prof. C. W. Hutson," from The History of the A. and M. College Trouble (1908)
+2 SOUR @S62@
+3 PAGE p. 47
+3 _CONF Secondary
+1 EVEN Lost his professorship at Texas A&M in the 1908 dispute over President Harrington's quarantine; the oldest member of the faculty
+2 TYPE Career
+2 DATE 1908
+2 PLAC College Station, Brazos County, Texas, USA
+2 SOUR @S62@
+3 PAGE p. 47, caption: "He with Dr. Gilbert lost their positions from troubles growing out of the unjust quarantine"; p. 44: "Prof. C. W. Hutson, the oldest member of either the Board or Faculty"
+3 _CONF Secondary
 1 FAMC @F8@
 1 FAMS @F7@
 1 BIRT
@@ -1449,6 +1537,12 @@
 0 @I45@ INDI
 1 NAME Richard /Hutson/
 1 SEX M
+1 OBJE
+2 FILE media/richard-hutson-engraving.jpg
+2 FORM jpg
+2 TITL Engraved portrait of Richard Hutson (New York Public Library, Emmet Collection; public domain)
+2 SOUR @S61@
+3 _CONF Secondary
 1 FAMC @F11@
 1 BIRT
 2 DATE 9 JUL 1748
@@ -3890,7 +3984,7 @@
 1 _URL https://archive.org/details/key19491949unse
 1 _CONF Secondary
 1 _ACC 2026-09-27
-1 NOTE 1949, Seniors, p. 41: "Euvonne Roberson, B.A., Elk City, Oklahoma. Major:
+1 NOTE 1949, Seniors, page forty-two: "Euvonne Roberson, B.A., Elk City, Oklahoma. Major:
 2 CONT Speech; Minor: English, Languages; Extra-Curricular Activities: I.R.C. 3;
 2 CONT Zeta Phi 3, 4; Alpha Psi Omega 3, 4; Pi Kappa Delta 3, 4, Vice-President 4;
 2 CONT Cue Staff 3, 4; Women's House Council 4, President 4; Social Affairs
@@ -3950,6 +4044,13 @@
 0 @I142@ INDI
 1 NAME Bob /Roberson/
 1 SEX M
+1 OBJE
+2 FILE media/bob-roberson-1951.jpg
+2 FORM jpg
+2 TITL Senior portrait, Park College yearbook Narva, 1951
+2 SOUR @S52@
+3 PAGE p. 31
+3 _CONF Secondary
 1 FAMC @F69@
 1 EDUC University of Dubuque (1948-49); Park College, Parkville, Missouri (speech major, 1951)
 2 DATE 1951
@@ -4029,4 +4130,90 @@
 1 NOTE Read from a search-engine extract because the site blocks automated
 2 CONT access: "Mrs. Mack Roberson" named among members present at a meeting of
 2 CONT Circle Two of the Women's Association of the Presbyterian church.
+0 @S55@ SOUR
+1 TITL Jambalaya, 1948 (Tulane University yearbook)
+1 AUTH Tulane University
+1 PUBL New Orleans, 1948; Tulane University Special Collections; Internet Archive
+1 _URL https://archive.org/details/jambalayayearboo53edit/page/n174
+1 _CONF Secondary
+1 _ACC 2026-09-27
+1 NOTE Seniors, pp. 172-173: third row includes "Richard Neil Hutson, Engineering,
+2 CONT New Orleans, Louisiana" (seventh portrait; the order of the other portraits
+2 CONT matches the caption list). Also lists "Neil Hutson, Treasurer" among class
+2 CONT officers.
+0 @S56@ SOUR
+1 TITL Jambalaya, 1912 (Tulane University yearbook)
+1 AUTH Tulane University
+1 PUBL New Orleans, 1912; Internet Archive
+1 _URL https://archive.org/details/jambalayayearboo17edit/page/n89
+1 _CONF Secondary
+1 _ACC 2026-09-27
+1 NOTE Newcomb Senior Class - Academic: portrait captioned "Louise Adela Nelson";
+2 CONT activities: "N. A. A. (2, 3, 4); Literary and Debating Club (3); Sub Editor
+2 CONT of 'Jambalaya' (3); Business Manager of 'Arcade' (4); Sub Editor of 'Tulane
+2 CONT Weekly' (4)."
+0 @S57@ SOUR
+1 TITL Jambalaya, 1941 (Tulane University yearbook)
+1 AUTH Tulane University
+1 PUBL New Orleans, 1941; Internet Archive
+1 _URL https://archive.org/details/jambalayayearboo46edit/page/n214
+1 _CONF Secondary
+1 _ACC 2026-09-27
+1 NOTE Newcomb seniors, p. 210: "Mary Jane Hutson, B Sigma O, A Sigma Sigma ...
+2 CONT New Orleans, La. President Student Council; Student Government; T. U. R. K."
+2 CONT (portrait second row, center).
+0 @S58@ SOUR
+1 TITL Jambalaya, 1945 (Tulane University yearbook)
+1 AUTH Tulane University
+1 PUBL New Orleans, 1945; Internet Archive
+1 _URL https://archive.org/details/jambalayayearboo50edit/page/n39
+1 _CONF Secondary
+1 _ACC 2026-09-27
+1 NOTE Seniors, p. 35: portrait captioned "Charleen Hutson" (bottom row, fifth);
+2 CONT "Charleen Ethel Hutson, '45, New Orleans, Louisiana; Arts and Sciences; Beta
+2 CONT Sigma Omicron."
+0 @S59@ SOUR
+1 TITL Jambalaya, 1940 (Tulane University yearbook)
+1 AUTH Tulane University
+1 PUBL New Orleans, 1940; Internet Archive
+1 _URL https://archive.org/details/jambalayayearboo45edit/page/n60
+1 _CONF Secondary
+1 _ACC 2026-09-27
+1 NOTE Senior Class, Newcomb College, p. 56, bottom row (third): "Louise Adela
+2 CONT Hutson ... New Orleans, La. B Sigma O. International Relations Club; Y. W.
+2 CONT C. A., Secretary."
+0 @S60@ SOUR
+1 TITL Highland Park High School yearbook (Dallas), 1948
+1 AUTH Highland Park High School, University Park, Texas
+1 PUBL 1948; Internet Archive (Classmates.com yearbook collection)
+1 _URL https://archive.org/details/classmates-yearbook-10673-1948-highland-park-high-school/page/n44
+1 _CONF Secondary
+1 _ACC 2026-09-27
+1 NOTE Seniors, p. 41: "Liebes, Joan - Hi-Lites 1946-'48." Portrait in the lower
+2 CONT block, second row, center (between Ralph Lewis and B. J. Lilly; the other
+2 CONT portraits match the caption order). The 1950 census places the Liebes family
+2 CONT in Highland Park.
+0 @S61@ SOUR
+1 TITL Richard Hutson, member of the Continental Congress (engraved portrait)
+1 AUTH Printmakers incl. Henry Bryan Hall and Albert Rosenthal; New York Public Library, Emmet Collection
+1 PUBL NYPL Digital Collections, image 420264; Wikimedia Commons (public domain)
+1 _URL https://commons.wikimedia.org/wiki/File:Richard_Hutson,_member_of_the_Continental_Congress_(NYPL_b12392788-420264)_(cropped).jpg
+1 _CONF Secondary
+1 _ACC 2026-09-27
+1 NOTE Public-domain engraving used on Richard Hutson's Wikipedia article. A
+2 CONT posthumous likeness, so treat it as illustrative.
+0 @S62@ SOUR
+1 TITL The History of the A. and M. College Trouble, 1908
+1 AUTH Casey, Paul D. (b. 1887)
+1 PUBL Waco, Tex.: J. S. Hill & Co., 1908; Internet Archive
+1 _URL https://archive.org/details/historyofamcolle00case/page/n53
+1 _CONF Secondary
+1 _ACC 2026-09-27
+1 NOTE Partisan account of the 1908 Texas A&M student strike against President H.
+2 CONT H. Harrington. p. 47 prints a photograph "PROF. C. W. HUTSON. He with Dr.
+2 CONT Gilbert lost their positions from troubles growing out of the unjust
+2 CONT quarantine." p. 48 notes "the charge by Miles B. Hutson, a Junior, who
+2 CONT claimed he was suspended from school by the President without authority from
+2 CONT the Faculty." Prof. Hutson is also called "the oldest member of either the
+2 CONT Board or Faculty."
 0 TRLR
