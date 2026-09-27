@@ -7,6 +7,7 @@ ui/index.html directly, no web server / no CORS issues).
 
 Usage:  python3 scripts/build.py
 """
+import base64
 import json
 import os
 import re
@@ -16,6 +17,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GED_PATH = os.path.join(ROOT, "data", "family-tree.ged")
 OUT_PATH = os.path.join(ROOT, "ui", "tree-data.js")
 HIGHLIGHTS_PATH = os.path.join(ROOT, "data", "highlights.json")
+MEDIA_ROOT = os.path.join(ROOT, "data")
+MIME = {".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png"}
 
 LINE_RE = re.compile(r"^(\d+)\s+(?:(@[^@]+@)\s+)?(\S+)(?:\s(.*))?$")
 
@@ -151,6 +154,24 @@ def event_label(node):
     return EVENT_LABELS.get(node.tag, node.tag.title())
 
 
+def build_media(node):
+    """An OBJE (photo) node -> dict with the image embedded as a data URI,
+    so the viewer needs no separate files."""
+    rel = node.val("FILE")
+    path = os.path.join(MEDIA_ROOT, rel)
+    if not os.path.exists(path):
+        sys.exit("Media file not found: " + path)
+    with open(path, "rb") as fh:
+        data = base64.b64encode(fh.read()).decode("ascii")
+    mime = MIME.get(os.path.splitext(rel)[1].lower(), "application/octet-stream")
+    return {
+        "file": rel,
+        "title": node.val("TITL") or None,
+        "src": "data:%s;base64,%s" % (mime, data),
+        "citations": collect_citations(node),
+    }
+
+
 def build_individual(rec):
     ind = {
         "id": rec.xref.strip("@"),
@@ -161,6 +182,7 @@ def build_individual(rec):
         "note_citations": [collect_citations(n) for n in rec.find("NOTE")],
         "famc": [c.value.strip("@") for c in rec.find("FAMC")],
         "fams": [c.value.strip("@") for c in rec.find("FAMS")],
+        "media": [build_media(o) for o in rec.find("OBJE")],
     }
     ind["name"] = ind["names"][0]["full"] if ind["names"] else "(unknown)"
     for child in rec.children:

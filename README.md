@@ -63,7 +63,10 @@ the data is embedded. The viewer has six tabs:
   of ancestors whose parents are not yet identified.
 
 Clicking any person opens a panel where **every fact shows a clickable source
-pill** and the exact quoted passage that supports it. Tentative (inferred)
+pill** and the exact quoted passage that supports it. Where a public-domain
+photo was found (for example a yearbook portrait), it appears at the top of the
+panel with its own citation; image files live in `data/media/` and are embedded
+by the build. Tentative (inferred)
 placements are drawn with dashed borders.
 
 ## Sharing

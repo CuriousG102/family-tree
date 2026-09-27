@@ -257,7 +257,7 @@ window.TREE = {
             "year": "1926",
             "title": "From Wichita Falls to a Navy destroyer",
             "body": [
-              "Richard Wells Thompson Jr. was born in Wichita Falls, Texas, in 1926, the son of Rubye and Richard W. Thompson. He served in the Navy in World War II. The family remembers that he served on a destroyer, one of the small, fast escort ships sailors called \"tin cans\" because of their thin hulls.",
+              "Richard Wells Thompson Jr. was born in Wichita Falls, Texas, in 1926, the son of Rubye and Richard W. Thompson. He graduated from Wichita Falls Senior High School in May 1943, when he was 17, and then served in the Navy in World War II. The family remembers that he served on a destroyer, one of the small, fast escort ships sailors called \"tin cans\" because of their thin hulls.",
               "After the war he took a petroleum engineering degree at UT Austin in 1949. In 1951 the Oil & Gas Journal reported that he was being transferred from Wichita Falls to Winters, Texas, as an engineer for G. W. Strake. He later settled in Dallas, worked for Cresslen Oil, and founded his own firm, Richard W. Thompson, Inc. He loved sailing and flew his own Bonanza airplane."
             ],
             "caution": "The name of his ship has not been found yet. A discharge paper or photos in family papers would identify it quickly.",
@@ -268,6 +268,8 @@ window.TREE = {
             ],
             "sources": [
               "S47",
+              "S50",
+              "S51",
               "S37",
               "S1"
             ]
@@ -277,17 +279,23 @@ window.TREE = {
             "title": "Euvonne Roberson, debater from Elk City",
             "body": [
               "Euvonne Thompson was born Euvonne Roberson and grew up in Elk City, Oklahoma. College yearbooks show her at Park College in Missouri in 1947 and graduating from the University of Dubuque in Iowa in 1949 with a degree in Speech. She was vice-president of the forensics honorary Pi Kappa Delta, president of the Women's House Council, and played Mrs. Erlynne in Oscar Wilde's Lady Windermere's Fan.",
-              "She married Richard Thompson in 1951. Both of her colleges were Presbyterian, and she and Richard were later charter members and elders of two Presbyterian churches in Plano."
+              "She married Richard Thompson in 1951. Both of her colleges were Presbyterian, and she and Richard were later charter members and elders of two Presbyterian churches in Plano.",
+              "Her family is only partly traced. A Bob Roberson followed the same path through Dubuque and Park College, and his home address in Elk City was the house where the 1950 census found Mack Roberson, a widowed hotel night clerk born in Arkansas. Mack was probably Euvonne's father, but no record yet says so directly."
             ],
             "people": [
               "I8",
-              "I7"
+              "I7",
+              "I141",
+              "I142"
             ],
             "sources": [
               "S48",
               "S49",
-              "S47"
-            ]
+              "S47",
+              "S52",
+              "S53"
+            ],
+            "caution": "Mack Roberson's link to Euvonne rests on a shared home address and is still tentative."
           }
         ]
       },
@@ -364,9 +372,9 @@ window.TREE = {
       "note": "This GEDCOM is the canonical, version-controlled source of truth for the\nHutson family tree. Every genealogical fact carries a SOUR citation that\npoints to a SOUR record at the bottom of the file. Custom tags used:\n  _URL  = web address of the source\n  _CONF = confidence level (Primary / Secondary / Tentative / Provided)\n  _ACC  = date the source was accessed\nLiving individuals are recorded with minimal detail (names and\nrelationships only). Run scripts/build.py after editing this file."
     },
     "counts": {
-      "individuals": 140,
-      "families": 67,
-      "sources": 48
+      "individuals": 142,
+      "families": 68,
+      "sources": 53
     }
   },
   "individuals": {
@@ -474,6 +482,7 @@ window.TREE = {
         "F1"
       ],
       "fams": [],
+      "media": [],
       "name": "Miles Hutson"
     },
     "I2": {
@@ -512,6 +521,7 @@ window.TREE = {
       "fams": [
         "F1"
       ],
+      "media": [],
       "name": "John Charles Hutson"
     },
     "I3": {
@@ -557,6 +567,7 @@ window.TREE = {
       "fams": [
         "F1"
       ],
+      "media": [],
       "name": "Hilary Thompson"
     },
     "I4": {
@@ -594,6 +605,7 @@ window.TREE = {
         "F1"
       ],
       "fams": [],
+      "media": [],
       "name": "Jennifer Hutson"
     },
     "I5": {
@@ -717,6 +729,7 @@ window.TREE = {
       "fams": [
         "F2"
       ],
+      "media": [],
       "name": "Richard Neil Hutson"
     },
     "I6": {
@@ -883,6 +896,7 @@ window.TREE = {
       "fams": [
         "F2"
       ],
+      "media": [],
       "name": "Joan Liebes"
     },
     "I7": {
@@ -931,6 +945,27 @@ window.TREE = {
           ],
           "type": "EVEN",
           "label": "Military service"
+        },
+        {
+          "date": "1943",
+          "place": "Wichita Falls, Wichita County, Texas, USA",
+          "value": "Wichita Falls Senior High School, Class of May 1943",
+          "citations": [
+            {
+              "source": "S50",
+              "page": "Seniors: \"Thompson, Richard\"; Office Assistants: \"Richard Thompson\"",
+              "conf": "Secondary",
+              "note": null
+            },
+            {
+              "source": "S51",
+              "page": "Alumni roll, \"The Class of 1943 (May)\": \"Richard W. Thompson Jr.\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "EDUC",
+          "label": "Education"
         },
         {
           "date": "1949",
@@ -1051,7 +1086,7 @@ window.TREE = {
         }
       ],
       "notes": [
-        "Maternal grandfather of Miles. Born in Wichita Falls, Texas, the son of Rubye\nand Richard W. Thompson. He served in the Navy in World War II; the family\nrecalls that he served on a destroyer (a \"tin can\"), but the ship is not yet\nidentified because WWII muster rolls are not freely searchable by name. He\ntook a petroleum engineering degree at UT Austin in 1949 and married Euvonne\nRoberson in 1951. The couple were charter members and elders of Churchill Way\nand West Plano Presbyterian Churches. His obituary notes that he loved\nsailing, hunting and fishing trips and woodworking, and that he earned a\npilot's license and flew his own Bonanza. On 5 May 2018 he\ndeeded his Collin County homestead to himself and his daughter Hilary Thompson\nHutson as joint tenants with right of survivorship, reserving a life estate -\nthe transaction later litigated in D'Olivio v. Hutson. Predeceased by his wife\nEuvonne (2007), his son Richard III (2013), and his daughter Elizabeth Jane."
+        "Maternal grandfather of Miles. Born in Wichita Falls, Texas, the son of Rubye\nand Richard W. Thompson. He served in the Navy in World War II; the family\nrecalls that he served on a destroyer (a \"tin can\"), but the ship is not yet\nidentified because WWII muster rolls are not freely searchable by name. He\ngraduated from Wichita Falls Senior High School in May 1943, aged 17, where\nhe was an office assistant; the Navy service followed. He\ntook a petroleum engineering degree at UT Austin in 1949 and married Euvonne\nRoberson in 1951. The couple were charter members and elders of Churchill Way\nand West Plano Presbyterian Churches. His obituary notes that he loved\nsailing, hunting and fishing trips and woodworking, and that he earned a\npilot's license and flew his own Bonanza. On 5 May 2018 he\ndeeded his Collin County homestead to himself and his daughter Hilary Thompson\nHutson as joint tenants with right of survivorship, reserving a life estate -\nthe transaction later litigated in D'Olivio v. Hutson. Predeceased by his wife\nEuvonne (2007), his son Richard III (2013), and his daughter Elizabeth Jane."
       ],
       "note_citations": [
         [
@@ -1080,6 +1115,21 @@ window.TREE = {
       ],
       "fams": [
         "F3"
+      ],
+      "media": [
+        {
+          "file": "media/richard-thompson-1943.jpg",
+          "title": "Senior portrait, Wichita Falls Senior High School yearbook, 1943 (\"Thompson, Richard\")",
+          "src": "data:image/jpeg;base64,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",
+          "citations": [
+            {
+              "source": "S50",
+              "page": "Seniors, image 64",
+              "conf": "Secondary",
+              "note": null
+            }
+          ]
+        }
       ],
       "name": "Richard Wells Thompson Jr."
     },
@@ -1193,7 +1243,7 @@ window.TREE = {
         }
       ],
       "notes": [
-        "Maternal grandmother of Miles. Born Euvonne Roberson (the \"R.\" in Euvonne\nR. Thompson); her husband's obituary records that \"in 1951, he married\nEuvonne Roberson.\" College yearbooks give her home town as Elk City,\nOklahoma. She was a sophomore at Park College in Missouri in 1946-47 (which\nsuggests she was born about 1927), then graduated from the University of\nDubuque in 1949 with a B.A. in Speech. There she was vice-president of Pi\nKappa Delta (the forensics honorary), feature editor of a student paper,\npresident of the Women's House Council, and played Mrs. Erlynne in \"Lady\nWindermere's Fan.\" Both colleges were Presbyterian, which fits her later role\nas a Presbyterian elder in Plano. Mother of Richard W. Thompson III, Elizabeth\nJane, and Hilary Thompson Hutson. Her parents are not yet identified."
+        "Maternal grandmother of Miles. Born Euvonne Roberson (the \"R.\" in Euvonne\nR. Thompson); her husband's obituary records that \"in 1951, he married\nEuvonne Roberson.\" College yearbooks give her home town as Elk City,\nOklahoma. She was a sophomore at Park College in Missouri in 1946-47 (which\nsuggests she was born about 1927), then graduated from the University of\nDubuque in 1949 with a B.A. in Speech. There she was vice-president of Pi\nKappa Delta (the forensics honorary), feature editor of a student paper,\npresident of the Women's House Council, and played Mrs. Erlynne in \"Lady\nWindermere's Fan.\" Both colleges were Presbyterian, which fits her later role\nas a Presbyterian elder in Plano. Mother of Richard W. Thompson III, Elizabeth\nJane, and Hilary Thompson Hutson. Her father was probably Mack Roberson\nof Elk City, though that link is not yet proven (see his record)."
       ],
       "note_citations": [
         [
@@ -1223,10 +1273,13 @@ window.TREE = {
           }
         ]
       ],
-      "famc": [],
+      "famc": [
+        "F69"
+      ],
       "fams": [
         "F3"
       ],
+      "media": [],
       "name": "Euvonne Roberson"
     },
     "I9": {
@@ -1362,6 +1415,7 @@ window.TREE = {
       "fams": [
         "F4"
       ],
+      "media": [],
       "name": "Miles Brewton Hutson"
     },
     "I10": {
@@ -1468,6 +1522,7 @@ window.TREE = {
       "fams": [
         "F4"
       ],
+      "media": [],
       "name": "Louise Adela Nelson"
     },
     "I11": {
@@ -1562,6 +1617,7 @@ window.TREE = {
       "fams": [
         "F5"
       ],
+      "media": [],
       "name": "Mary Jane Hutson"
     },
     "I12": {
@@ -1615,6 +1671,7 @@ window.TREE = {
         "F4"
       ],
       "fams": [],
+      "media": [],
       "name": "Louise Adela Hutson"
     },
     "I13": {
@@ -1668,6 +1725,7 @@ window.TREE = {
         "F4"
       ],
       "fams": [],
+      "media": [],
       "name": "Charleen Ethel Hutson"
     },
     "I14": {
@@ -1698,6 +1756,7 @@ window.TREE = {
         "F2"
       ],
       "fams": [],
+      "media": [],
       "name": "Paul Neil Hutson"
     },
     "I15": {
@@ -1729,6 +1788,7 @@ window.TREE = {
         "F2"
       ],
       "fams": [],
+      "media": [],
       "name": "Mary Louise Hutson"
     },
     "I16": {
@@ -1820,6 +1880,7 @@ window.TREE = {
         "F3"
       ],
       "fams": [],
+      "media": [],
       "name": "Richard W. Thompson III"
     },
     "I17": {
@@ -1866,6 +1927,7 @@ window.TREE = {
         "F3"
       ],
       "fams": [],
+      "media": [],
       "name": "Elizabeth Jane Thompson"
     },
     "I18": {
@@ -1918,6 +1980,7 @@ window.TREE = {
       "fams": [
         "F6"
       ],
+      "media": [],
       "name": "Richard W. Thompson Sr."
     },
     "I19": {
@@ -1948,6 +2011,7 @@ window.TREE = {
       "fams": [
         "F5"
       ],
+      "media": [],
       "name": "Ivor Ambrose Trapolin"
     },
     "I20": {
@@ -2092,6 +2156,7 @@ window.TREE = {
       "fams": [
         "F28"
       ],
+      "media": [],
       "name": "George Julien Liebes"
     },
     "I21": {
@@ -2156,6 +2221,7 @@ window.TREE = {
       "fams": [
         "F28"
       ],
+      "media": [],
       "name": "Edith M. Wormser"
     },
     "I22": {
@@ -2193,6 +2259,7 @@ window.TREE = {
         "F28"
       ],
       "fams": [],
+      "media": [],
       "name": "George Julien Liebes Jr."
     },
     "I23": {
@@ -2304,6 +2371,7 @@ window.TREE = {
       "fams": [
         "F29"
       ],
+      "media": [],
       "name": "Julien Liebes"
     },
     "I24": {
@@ -2353,6 +2421,7 @@ window.TREE = {
       "fams": [
         "F29"
       ],
+      "media": [],
       "name": "Sophie"
     },
     "I25": {
@@ -2399,6 +2468,7 @@ window.TREE = {
         "F29"
       ],
       "fams": [],
+      "media": [],
       "name": "Martin Liebes"
     },
     "I26": {
@@ -2511,6 +2581,7 @@ window.TREE = {
       "fams": [
         "F30"
       ],
+      "media": [],
       "name": "Herman Liebes"
     },
     "I27": {
@@ -2548,6 +2619,7 @@ window.TREE = {
       "fams": [
         "F30"
       ],
+      "media": [],
       "name": "Hannah"
     },
     "I28": {
@@ -2600,6 +2672,7 @@ window.TREE = {
         "F30"
       ],
       "fams": [],
+      "media": [],
       "name": "George Liebes"
     },
     "I29": {
@@ -2661,6 +2734,7 @@ window.TREE = {
         "F30"
       ],
       "fams": [],
+      "media": [],
       "name": "Sidney Liebes"
     },
     "I30": {
@@ -2698,6 +2772,7 @@ window.TREE = {
       "fams": [
         "F31"
       ],
+      "media": [],
       "name": "May"
     },
     "I31": {
@@ -2744,6 +2819,7 @@ window.TREE = {
       "fams": [
         "F31"
       ],
+      "media": [],
       "name": "Julius Wormser"
     },
     "I32": {
@@ -2882,6 +2958,7 @@ window.TREE = {
       "fams": [
         "F7"
       ],
+      "media": [],
       "name": "Charles Woodward Hutson"
     },
     "I33": {
@@ -2946,6 +3023,7 @@ window.TREE = {
       "fams": [
         "F7"
       ],
+      "media": [],
       "name": "Mary Jane Lockett"
     },
     "I34": {
@@ -2998,6 +3076,7 @@ window.TREE = {
         "F7"
       ],
       "fams": [],
+      "media": [],
       "name": "Ethel Hutson"
     },
     "I35": {
@@ -3091,6 +3170,7 @@ window.TREE = {
       "fams": [
         "F8"
       ],
+      "media": [],
       "name": "William Ferguson Hutson"
     },
     "I36": {
@@ -3124,6 +3204,7 @@ window.TREE = {
       "fams": [
         "F8"
       ],
+      "media": [],
       "name": "Sophronia Lucia Palmer"
     },
     "I37": {
@@ -3217,6 +3298,7 @@ window.TREE = {
       "fams": [
         "F9"
       ],
+      "media": [],
       "name": "Richard Woodward Hutson"
     },
     "I38": {
@@ -3281,6 +3363,7 @@ window.TREE = {
       "fams": [
         "F9"
       ],
+      "media": [],
       "name": "Martha O'Reily Ferguson"
     },
     "I39": {
@@ -3374,6 +3457,7 @@ window.TREE = {
       "fams": [
         "F10"
       ],
+      "media": [],
       "name": "Thomas Hutson"
     },
     "I40": {
@@ -3407,6 +3491,7 @@ window.TREE = {
       "fams": [
         "F10"
       ],
+      "media": [],
       "name": "Esther Maine"
     },
     "I41": {
@@ -3522,6 +3607,7 @@ window.TREE = {
       "fams": [
         "F11"
       ],
+      "media": [],
       "name": "Rev. William Hutson"
     },
     "I42": {
@@ -3586,6 +3672,7 @@ window.TREE = {
       "fams": [
         "F11"
       ],
+      "media": [],
       "name": "Mary Woodward"
     },
     "I43": {
@@ -3632,6 +3719,7 @@ window.TREE = {
       "fams": [
         "F12"
       ],
+      "media": [],
       "name": "Thomas Hutson"
     },
     "I44": {
@@ -3663,6 +3751,7 @@ window.TREE = {
       "fams": [
         "F12"
       ],
+      "media": [],
       "name": "Esther"
     },
     "I45": {
@@ -3739,6 +3828,7 @@ window.TREE = {
         "F11"
       ],
       "fams": [],
+      "media": [],
       "name": "Richard Hutson"
     },
     "I46": {
@@ -3802,6 +3892,7 @@ window.TREE = {
       "fams": [
         "F13"
       ],
+      "media": [],
       "name": "Richard Woodward"
     },
     "I47": {
@@ -3835,6 +3926,7 @@ window.TREE = {
       "fams": [
         "F13"
       ],
+      "media": [],
       "name": "Sarah Stanyarne"
     },
     "I48": {
@@ -3897,6 +3989,7 @@ window.TREE = {
       "fams": [
         "F14"
       ],
+      "media": [],
       "name": "Dr. Henry Woodward"
     },
     "I49": {
@@ -3982,6 +4075,7 @@ window.TREE = {
       "fams": [
         "F15"
       ],
+      "media": [],
       "name": "Rev. Edward Palmer"
     },
     "I50": {
@@ -4037,6 +4131,7 @@ window.TREE = {
       "fams": [
         "F15"
       ],
+      "media": [],
       "name": "Sarah Bunce"
     },
     "I51": {
@@ -4067,6 +4162,7 @@ window.TREE = {
       "fams": [
         "F16"
       ],
+      "media": [],
       "name": "William Maine"
     },
     "I52": {
@@ -4100,6 +4196,7 @@ window.TREE = {
       "fams": [
         "F16"
       ],
+      "media": [],
       "name": "Judith Gignilliat"
     },
     "I53": {
@@ -4178,6 +4275,7 @@ window.TREE = {
       "fams": [
         "F17"
       ],
+      "media": [],
       "name": "Napoleon Lockett"
     },
     "I54": {
@@ -4210,6 +4308,7 @@ window.TREE = {
       "fams": [
         "F17"
       ],
+      "media": [],
       "name": "Mary Lockett"
     },
     "I55": {
@@ -4289,6 +4388,7 @@ window.TREE = {
       "fams": [
         "F18"
       ],
+      "media": [],
       "name": "Dr. Henry Wilson Lockett"
     },
     "I56": {
@@ -4353,6 +4453,7 @@ window.TREE = {
       "fams": [
         "F18"
       ],
+      "media": [],
       "name": "Susannah Watkins"
     },
     "I57": {
@@ -4416,6 +4517,7 @@ window.TREE = {
       "fams": [
         "F19"
       ],
+      "media": [],
       "name": "Stephen Lockett"
     },
     "I58": {
@@ -4480,6 +4582,7 @@ window.TREE = {
       "fams": [
         "F19"
       ],
+      "media": [],
       "name": "Mary Clay"
     },
     "I59": {
@@ -4528,6 +4631,7 @@ window.TREE = {
       "fams": [
         "F20"
       ],
+      "media": [],
       "name": "Thomas Lockett III"
     },
     "I60": {
@@ -4561,6 +4665,7 @@ window.TREE = {
       "fams": [
         "F20"
       ],
+      "media": [],
       "name": "Judith Townes"
     },
     "I61": {
@@ -4609,6 +4714,7 @@ window.TREE = {
       "fams": [
         "F21"
       ],
+      "media": [],
       "name": "Thomas Lockett II"
     },
     "I62": {
@@ -4655,6 +4761,7 @@ window.TREE = {
       "fams": [
         "F22"
       ],
+      "media": [],
       "name": "Thomas Lockett I"
     },
     "I63": {
@@ -4704,6 +4811,7 @@ window.TREE = {
       "fams": [
         "F22"
       ],
+      "media": [],
       "name": "Margaret Osborne"
     },
     "I64": {
@@ -4736,6 +4844,7 @@ window.TREE = {
       "fams": [
         "F23"
       ],
+      "media": [],
       "name": "Thomas Osborne"
     },
     "I65": {
@@ -4798,6 +4907,7 @@ window.TREE = {
       "fams": [
         "F24"
       ],
+      "media": [],
       "name": "Capt. Thomas Osborne"
     },
     "I66": {
@@ -4846,6 +4956,7 @@ window.TREE = {
       "fams": [
         "F25"
       ],
+      "media": [],
       "name": "Samuel L. Lockett"
     },
     "I67": {
@@ -4879,6 +4990,7 @@ window.TREE = {
       "fams": [
         "F25"
       ],
+      "media": [],
       "name": "Selina Watkins"
     },
     "I68": {
@@ -4948,6 +5060,7 @@ window.TREE = {
       "fams": [
         "F26"
       ],
+      "media": [],
       "name": "Charles Clay"
     },
     "I69": {
@@ -5018,6 +5131,7 @@ window.TREE = {
       "fams": [
         "F26"
       ],
+      "media": [],
       "name": "Martha Green"
     },
     "I70": {
@@ -5048,6 +5162,7 @@ window.TREE = {
       "fams": [
         "F27"
       ],
+      "media": [],
       "name": "Benjamin Watkins"
     },
     "I71": {
@@ -5085,6 +5200,7 @@ window.TREE = {
       "fams": [
         "F27"
       ],
+      "media": [],
       "name": "Elizabeth Cary"
     },
     "I72": {
@@ -5146,6 +5262,7 @@ window.TREE = {
         "F32"
       ],
       "fams": [],
+      "media": [],
       "name": "Laurence K. Nelson"
     },
     "I73": {
@@ -5178,6 +5295,7 @@ window.TREE = {
       "fams": [
         "F33"
       ],
+      "media": [],
       "name": "Henry Gignilliat"
     },
     "I74": {
@@ -5211,6 +5329,7 @@ window.TREE = {
       "fams": [
         "F33"
       ],
+      "media": [],
       "name": "Hester Marion"
     },
     "I75": {
@@ -5274,6 +5393,7 @@ window.TREE = {
       "fams": [
         "F34"
       ],
+      "media": [],
       "name": "Jean Francois Gignilliat"
     },
     "I76": {
@@ -5305,6 +5425,7 @@ window.TREE = {
       "fams": [
         "F34"
       ],
+      "media": [],
       "name": "Suzanne Le Serrurier"
     },
     "I77": {
@@ -5351,6 +5472,7 @@ window.TREE = {
       "fams": [
         "F35"
       ],
+      "media": [],
       "name": "Abraham Gignilliat"
     },
     "I78": {
@@ -5382,6 +5504,7 @@ window.TREE = {
       "fams": [
         "F35"
       ],
+      "media": [],
       "name": "Marye de Ville"
     },
     "I79": {
@@ -5475,6 +5598,7 @@ window.TREE = {
       "fams": [
         "F36"
       ],
+      "media": [],
       "name": "Job Palmer"
     },
     "I80": {
@@ -5537,6 +5661,7 @@ window.TREE = {
       "fams": [
         "F36"
       ],
+      "media": [],
       "name": "Sarah Morgan"
     },
     "I81": {
@@ -5616,6 +5741,7 @@ window.TREE = {
       "fams": [
         "F37"
       ],
+      "media": [],
       "name": "Rev. Samuel Palmer"
     },
     "I82": {
@@ -5647,6 +5773,7 @@ window.TREE = {
       "fams": [
         "F37"
       ],
+      "media": [],
       "name": "Mercy Parker"
     },
     "I83": {
@@ -5724,6 +5851,7 @@ window.TREE = {
       "fams": [
         "F38"
       ],
+      "media": [],
       "name": "Rev. Thomas Palmer"
     },
     "I84": {
@@ -5755,6 +5883,7 @@ window.TREE = {
       "fams": [
         "F38"
       ],
+      "media": [],
       "name": "Elizabeth Sturtevant"
     },
     "I85": {
@@ -5817,6 +5946,7 @@ window.TREE = {
       "fams": [
         "F39"
       ],
+      "media": [],
       "name": "Capt. Jared Bunce"
     },
     "I86": {
@@ -5848,6 +5978,7 @@ window.TREE = {
       "fams": [
         "F39"
       ],
+      "media": [],
       "name": "Lydia Pettiplace"
     },
     "I87": {
@@ -5894,6 +6025,7 @@ window.TREE = {
       "fams": [
         "F40"
       ],
+      "media": [],
       "name": "Francis Watkins"
     },
     "I88": {
@@ -5927,6 +6059,7 @@ window.TREE = {
       "fams": [
         "F40"
       ],
+      "media": [],
       "name": "Agnes Woodson"
     },
     "I89": {
@@ -5979,6 +6112,7 @@ window.TREE = {
       "fams": [
         "F41"
       ],
+      "media": [],
       "name": "Richard Woodson"
     },
     "I90": {
@@ -6049,6 +6183,7 @@ window.TREE = {
       "fams": [
         "F41"
       ],
+      "media": [],
       "name": "Ann Madelin Michaux"
     },
     "I91": {
@@ -6118,6 +6253,7 @@ window.TREE = {
       "fams": [
         "F42"
       ],
+      "media": [],
       "name": "Abraham Michaux"
     },
     "I92": {
@@ -6192,6 +6328,7 @@ window.TREE = {
       "fams": [
         "F42"
       ],
+      "media": [],
       "name": "Susanne Rochet"
     },
     "I93": {
@@ -6225,6 +6362,7 @@ window.TREE = {
       "fams": [
         "F14"
       ],
+      "media": [],
       "name": "Mary Godfrey"
     },
     "I94": {
@@ -6256,6 +6394,7 @@ window.TREE = {
       "fams": [
         "F43"
       ],
+      "media": [],
       "name": "Col. John Godfrey"
     },
     "I95": {
@@ -6287,6 +6426,7 @@ window.TREE = {
       "fams": [
         "F44"
       ],
+      "media": [],
       "name": "Col. James Stanyarne"
     },
     "I96": {
@@ -6350,6 +6490,7 @@ window.TREE = {
       "fams": [
         "F45"
       ],
+      "media": [],
       "name": "William Cattell Ferguson"
     },
     "I97": {
@@ -6414,6 +6555,7 @@ window.TREE = {
       "fams": [
         "F45"
       ],
+      "media": [],
       "name": "Elizabeth Milner Colcock"
     },
     "I98": {
@@ -6445,6 +6587,7 @@ window.TREE = {
       "fams": [
         "F46"
       ],
+      "media": [],
       "name": "Col. Thomas Ferguson"
     },
     "I99": {
@@ -6476,6 +6619,7 @@ window.TREE = {
       "fams": [
         "F46"
       ],
+      "media": [],
       "name": "Martha O'Reily"
     },
     "I100": {
@@ -6539,6 +6683,7 @@ window.TREE = {
       "fams": [
         "F47"
       ],
+      "media": [],
       "name": "John Colcock"
     },
     "I101": {
@@ -6578,6 +6723,7 @@ window.TREE = {
       "fams": [
         "F47"
       ],
+      "media": [],
       "name": "Milicent Jones"
     },
     "I102": {
@@ -6640,6 +6786,7 @@ window.TREE = {
       "fams": [
         "F48"
       ],
+      "media": [],
       "name": "Capt. John Colcock"
     },
     "I103": {
@@ -6671,6 +6818,7 @@ window.TREE = {
       "fams": [
         "F48"
       ],
+      "media": [],
       "name": "Deborah Milner"
     },
     "I104": {
@@ -6707,6 +6855,7 @@ window.TREE = {
       "fams": [
         "F49"
       ],
+      "media": [],
       "name": "Joseph Jones"
     },
     "I105": {
@@ -6770,6 +6919,7 @@ window.TREE = {
       "fams": [
         "F50"
       ],
+      "media": [],
       "name": "Benjamin Marion"
     },
     "I106": {
@@ -6801,6 +6951,7 @@ window.TREE = {
       "fams": [
         "F50"
       ],
+      "media": [],
       "name": "Judith Baluet"
     },
     "I107": {
@@ -6847,6 +6998,7 @@ window.TREE = {
       "fams": [
         "F51"
       ],
+      "media": [],
       "name": "Jean Marion"
     },
     "I108": {
@@ -6878,6 +7030,7 @@ window.TREE = {
       "fams": [
         "F51"
       ],
+      "media": [],
       "name": "Perinne Boutignon"
     },
     "I109": {
@@ -6927,6 +7080,7 @@ window.TREE = {
       "fams": [
         "F49"
       ],
+      "media": [],
       "name": "Mary Brewton"
     },
     "I110": {
@@ -7006,6 +7160,7 @@ window.TREE = {
       "fams": [
         "F52"
       ],
+      "media": [],
       "name": "Col. Robert Brewton"
     },
     "I111": {
@@ -7053,6 +7208,7 @@ window.TREE = {
       "fams": [
         "F52"
       ],
+      "media": [],
       "name": "Milicent Bulloch"
     },
     "I112": {
@@ -7145,6 +7301,7 @@ window.TREE = {
       "fams": [
         "F53"
       ],
+      "media": [],
       "name": "Col. Miles Brewton"
     },
     "I113": {
@@ -7193,6 +7350,7 @@ window.TREE = {
       "fams": [
         "F55"
       ],
+      "media": [],
       "name": "Jacob Michaux"
     },
     "I114": {
@@ -7242,6 +7400,7 @@ window.TREE = {
       "fams": [
         "F55"
       ],
+      "media": [],
       "name": "Anne Severin"
     },
     "I115": {
@@ -7303,6 +7462,7 @@ window.TREE = {
       "fams": [
         "F57"
       ],
+      "media": [],
       "name": "Abraham Michaux"
     },
     "I116": {
@@ -7365,6 +7525,7 @@ window.TREE = {
       "fams": [
         "F57"
       ],
+      "media": [],
       "name": "Marie Godin"
     },
     "I117": {
@@ -7428,6 +7589,7 @@ window.TREE = {
       "fams": [
         "F58"
       ],
+      "media": [],
       "name": "Paul Severin"
     },
     "I118": {
@@ -7461,6 +7623,7 @@ window.TREE = {
       "fams": [
         "F58"
       ],
+      "media": [],
       "name": "Elisabeth de Serignon"
     },
     "I119": {
@@ -7508,6 +7671,7 @@ window.TREE = {
       "fams": [
         "F59"
       ],
+      "media": [],
       "name": "Rev. Nicholas Severin"
     },
     "I120": {
@@ -7539,6 +7703,7 @@ window.TREE = {
       "fams": [
         "F59"
       ],
+      "media": [],
       "name": "Suzanne Charlot"
     },
     "I121": {
@@ -7585,6 +7750,7 @@ window.TREE = {
       "fams": [
         "F60"
       ],
+      "media": [],
       "name": "Jean de Serignon"
     },
     "I122": {
@@ -7616,6 +7782,7 @@ window.TREE = {
       "fams": [
         "F60"
       ],
+      "media": [],
       "name": "Anne Martin"
     },
     "I123": {
@@ -7664,6 +7831,7 @@ window.TREE = {
       "fams": [
         "F56"
       ],
+      "media": [],
       "name": "Jean Rochet"
     },
     "I124": {
@@ -7695,6 +7863,7 @@ window.TREE = {
       "fams": [
         "F56"
       ],
+      "media": [],
       "name": "Marie Trufet"
     },
     "I125": {
@@ -7758,6 +7927,7 @@ window.TREE = {
       "fams": [
         "F61"
       ],
+      "media": [],
       "name": "Thiery Rochet"
     },
     "I126": {
@@ -7789,6 +7959,7 @@ window.TREE = {
       "fams": [
         "F61"
       ],
+      "media": [],
       "name": "Suzanne Rondeau"
     },
     "I127": {
@@ -7850,6 +8021,7 @@ window.TREE = {
       "fams": [
         "F62"
       ],
+      "media": [],
       "name": "Thomas Rochet"
     },
     "I128": {
@@ -7881,6 +8053,7 @@ window.TREE = {
       "fams": [
         "F62"
       ],
+      "media": [],
       "name": "Marguerite Beauciel"
     },
     "I129": {
@@ -7944,6 +8117,7 @@ window.TREE = {
       "fams": [
         "F63"
       ],
+      "media": [],
       "name": "Henry Clay"
     },
     "I130": {
@@ -8008,6 +8182,7 @@ window.TREE = {
       "fams": [
         "F63"
       ],
+      "media": [],
       "name": "Mary Mitchell"
     },
     "I131": {
@@ -8038,6 +8213,7 @@ window.TREE = {
       "fams": [
         "F65"
       ],
+      "media": [],
       "name": "William Mitchell"
     },
     "I132": {
@@ -8069,6 +8245,7 @@ window.TREE = {
       "fams": [
         "F65"
       ],
+      "media": [],
       "name": "Elizabeth"
     },
     "I133": {
@@ -8115,6 +8292,7 @@ window.TREE = {
       "fams": [
         "F66"
       ],
+      "media": [],
       "name": "Charles Clay"
     },
     "I134": {
@@ -8146,6 +8324,7 @@ window.TREE = {
       "fams": [
         "F66"
       ],
+      "media": [],
       "name": "Hannah Wilson"
     },
     "I135": {
@@ -8207,6 +8386,7 @@ window.TREE = {
       "fams": [
         "F64"
       ],
+      "media": [],
       "name": "Thomas Green"
     },
     "I136": {
@@ -8271,6 +8451,7 @@ window.TREE = {
       "fams": [
         "F64"
       ],
+      "media": [],
       "name": "Elizabeth Marston"
     },
     "I137": {
@@ -8317,6 +8498,7 @@ window.TREE = {
       "fams": [
         "F67"
       ],
+      "media": [],
       "name": "Thomas Marston"
     },
     "I138": {
@@ -8348,6 +8530,7 @@ window.TREE = {
       "fams": [
         "F67"
       ],
+      "media": [],
       "name": "Elizabeth Marvell"
     },
     "I139": {
@@ -8394,6 +8577,7 @@ window.TREE = {
       "fams": [
         "F68"
       ],
+      "media": [],
       "name": "John Townes"
     },
     "I140": {
@@ -8440,7 +8624,165 @@ window.TREE = {
       "fams": [
         "F6"
       ],
+      "media": [],
       "name": "Rubye Thompson"
+    },
+    "I141": {
+      "id": "I141",
+      "names": [
+        {
+          "full": "Mack Roberson",
+          "given": "Mack",
+          "surname": "Roberson"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "ABT 1890",
+          "place": "Arkansas, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S53",
+              "page": "ED 5-10, image 21, line 15: Roberson, Mack, head, W, M, 60, widowed, born Arkansas",
+              "conf": "Primary",
+              "note": null
+            }
+          ],
+          "type": "BIRT",
+          "label": "Birth"
+        },
+        {
+          "date": "1950",
+          "place": "910 West Avenue A, Elk City, Beckham County, Oklahoma, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S53",
+              "page": "ED 5-10, image 21, line 15 (house 910, dwelling 205)",
+              "conf": "Primary",
+              "note": null
+            }
+          ],
+          "type": "RESI",
+          "label": "Residence"
+        },
+        {
+          "date": null,
+          "place": null,
+          "value": "Night clerk, hotel (1950)",
+          "citations": [
+            {
+              "source": "S53",
+              "page": null,
+              "conf": "Primary",
+              "note": null
+            }
+          ],
+          "type": "OCCU",
+          "label": "Occupation"
+        }
+      ],
+      "notes": [
+        "TENTATIVE great-grandfather of Miles: probably the father of Euvonne\nRoberson. The chain of evidence: Euvonne's college yearbooks give her home as\nElk City, Oklahoma; a Bob Roberson studied speech with her at Dubuque (both\non the same student-paper staff in 1949) and later at Park College, and the\n1951 Park yearbook gives his home as \"910 W. Ave. A, Elk City\"; in the 1950\ncensus that house was the home of Mack Roberson, 60, a widowed hotel night\nclerk born in Arkansas, with Billy J. Roberson, 25, his wife Phyllis and son\nGeorge A. in the same dwelling. A \"Mrs. Mack Roberson\" belonged to the\nPresbyterian women's association in Elk City in 1957 (presumably a second\nwife, since he was a widower in 1950), which fits the family's Presbyterian\nties. No record yet names Euvonne as his daughter, and his late\nwife (Euvonne's probable mother) is unidentified."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S53",
+            "page": null,
+            "conf": "Tentative",
+            "note": null
+          },
+          {
+            "source": "S52",
+            "page": null,
+            "conf": "Tentative",
+            "note": null
+          },
+          {
+            "source": "S54",
+            "page": null,
+            "conf": "Tentative",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [],
+      "fams": [
+        "F69"
+      ],
+      "media": [],
+      "name": "Mack Roberson"
+    },
+    "I142": {
+      "id": "I142",
+      "names": [
+        {
+          "full": "Bob Roberson",
+          "given": "Bob",
+          "surname": "Roberson"
+        }
+      ],
+      "sex": "M",
+      "events": [
+        {
+          "date": "1951",
+          "place": null,
+          "value": "University of Dubuque (1948-49); Park College, Parkville, Missouri (speech major, 1951)",
+          "citations": [
+            {
+              "source": "S48",
+              "page": "1949: \"Bob Roberson\" listed on the student-paper staff with Euvonne Roberson (\"E. Roberson ... B. Roberson\")",
+              "conf": "Secondary",
+              "note": null
+            },
+            {
+              "source": "S52",
+              "page": "\"BOB ROBERSON - Major: speech, Orion; soccer; Committee on Academic Problems\"; student director of \"Beauty and the Beast\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "EDUC",
+          "label": "Education"
+        },
+        {
+          "date": "1951",
+          "place": "910 West Avenue A, Elk City, Beckham County, Oklahoma, USA",
+          "value": null,
+          "citations": [
+            {
+              "source": "S52",
+              "page": "Student directory: \"ROBERSON, B. R. 910 W. Ave. A Elk City, Oklahoma\"",
+              "conf": "Secondary",
+              "note": null
+            }
+          ],
+          "type": "RESI",
+          "label": "Residence"
+        }
+      ],
+      "notes": [
+        "TENTATIVE brother of Euvonne Roberson: same unusual path (speech at the\nUniversity of Dubuque, then Park College) and the same home town. His home\naddress links the family to Mack Roberson in the 1950 census."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S52",
+            "page": null,
+            "conf": "Tentative",
+            "note": null
+          }
+        ]
+      ],
+      "famc": [
+        "F69"
+      ],
+      "fams": [],
+      "media": [],
+      "name": "Bob Roberson"
     }
   },
   "families": {
@@ -9940,6 +10282,29 @@ window.TREE = {
           }
         ]
       ]
+    },
+    "F69": {
+      "id": "F69",
+      "husband": "I141",
+      "wife": null,
+      "children": [
+        "I8",
+        "I142"
+      ],
+      "events": [],
+      "notes": [
+        "TENTATIVE family of Mack Roberson of 910 West Avenue A, Elk City, Oklahoma.\nInferred from shared home town and address; see Mack Roberson's notes."
+      ],
+      "note_citations": [
+        [
+          {
+            "source": "S53",
+            "page": null,
+            "conf": "Tentative",
+            "note": null
+          }
+        ]
+      ]
     }
   },
   "sources": {
@@ -10422,6 +10787,56 @@ window.TREE = {
       "confidence": "Secondary",
       "accessed": "2026-09-27",
       "note": "Class roll: \"Roberson, Euvonne . Sophomore.\" Also names her as one of the\nfirst officers of the newly organized Elaine Club, and as a member of the\ndebate squad and the Y.W.C.A. cabinet. With her unusual given name and the\nsame speech and debate interests, this is the same woman who graduated from\nDubuque in 1949 (S48)."
+    },
+    "S50": {
+      "id": "S50",
+      "title": "Wichita Falls Senior High School yearbook, 1943",
+      "author": "Senior Class of Wichita Falls Senior High School",
+      "publication": "Wichita Falls, Texas, 1943; Internet Archive (Classmates.com yearbook collection)",
+      "url": "https://archive.org/details/classmates-yearbook-60120-1943-wichita-falls-high-school/page/n64",
+      "confidence": "Secondary",
+      "accessed": "2026-09-27",
+      "note": "Senior portrait captioned \"Thompson, Richard\" (image 64); \"Office\nAssistants ... Richard Thompson\" (image 122). Identified as Richard Wells\nThompson Jr. because the school's alumni roll lists \"Richard W. Thompson Jr.\"\nin the Class of 1943 (S51), and he was born in Wichita Falls in 1926."
+    },
+    "S51": {
+      "id": "S51",
+      "title": "Wichita Falls Senior High School yearbook, 1961 - alumni roll by class",
+      "author": "Senior Class of Wichita Falls Senior High School",
+      "publication": "Wichita Falls, Texas, 1961; Internet Archive (Classmates.com yearbook collection)",
+      "url": "https://archive.org/details/classmates-yearbook-11340-1961-wichita-falls-high-school",
+      "confidence": "Secondary",
+      "accessed": "2026-09-27",
+      "note": "Lists graduates class by class. Under \"The Class of 1943 (May)\":\n\"... Jack Lee Thompson, Richard W. Thompson Jr., Gaynell Thomson ...\""
+    },
+    "S52": {
+      "id": "S52",
+      "title": "Narva, 1951 (Park College yearbook)",
+      "author": "Park College, Parkville, Missouri",
+      "publication": "Park University Library; Internet Archive",
+      "url": "https://archive.org/details/narva195131park",
+      "confidence": "Secondary",
+      "accessed": "2026-09-27",
+      "note": "\"BOB ROBERSON - Major: speech, Orion; soccer; Committee on Academic\nProblems; 'Beauty and the Beast,' stage manager.\" Student directory:\n\"ROBERSON, B. R. 910 W. Ave. A Elk City, Oklahoma.\""
+    },
+    "S53": {
+      "id": "S53",
+      "title": "1950 U.S. Census, Elk City, Beckham County, Oklahoma, ED 5-10",
+      "author": "U.S. Bureau of the Census; National Archives and Records Administration",
+      "publication": "1950 Census website (NARA)",
+      "url": "https://1950census.archives.gov/search/?county=Beckham&ed=5-10&name=Roberson&state=OK",
+      "confidence": "Primary",
+      "accessed": "2026-09-27",
+      "note": "Image 21, line 15: house 910 on Avenue A, dwelling 205, \"Roberson, Mack,\"\nhead, white, male, 60, widowed, born Arkansas; worked as night clerk at a\nhotel. Image 33, lines 1-3 (same house 910, dwelling 205): Roberson, Billy\nJ., head, 25, married, born Oklahoma; Phyllis, wife, 20; George A., son, 3."
+    },
+    "S54": {
+      "id": "S54",
+      "title": "The Elk City Daily News, 12 Jan 1957, p. 3 - Presbyterian Women's Association",
+      "author": "The Elk City Daily News",
+      "publication": "Gateway to Oklahoma History (Oklahoma Historical Society)",
+      "url": "https://gateway.okhistory.org/ark:/67531/metadc2085755/m1/3/",
+      "confidence": "Secondary",
+      "accessed": "2026-09-27",
+      "note": "Read from a search-engine extract because the site blocks automated\naccess: \"Mrs. Mack Roberson\" named among members present at a meeting of\nCircle Two of the Women's Association of the Presbyterian church."
     }
   }
 };

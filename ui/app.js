@@ -423,6 +423,20 @@
       body.appendChild(el("div", "callout warn", "Tentative: this person's place in the tree is a reasoned inference, not yet proven by a direct record. See the notes and sources below."));
     }
 
+    (ind.media || []).forEach(function (m) {
+      var fig = el("figure", "photo");
+      var img = el("img");
+      img.src = m.src;
+      img.alt = m.title || primaryName(ind);
+      fig.appendChild(img);
+      var cap = el("figcaption");
+      if (m.title) cap.appendChild(el("div", null, m.title));
+      var row = citeRow(m.citations);
+      if (row.children.length) cap.appendChild(row);
+      fig.appendChild(cap);
+      body.appendChild(fig);
+    });
+
     var p = parentsOf(ind);
     var fam = el("div", "rel-links");
     if (p.father) fam.appendChild(relChip(p.father, "Father"));

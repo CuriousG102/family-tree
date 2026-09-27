@@ -369,3 +369,9 @@ footer { max-width: 1180px; margin: 0 auto; padding: 30px 24px 50px; color: var(
   .hl-card { padding: 16px; }
   .hl-card.feature h3 { font-size: 20px; }
 }
+
+/* Photos in the person panel */
+.photo { margin: 0 0 18px; display: flex; gap: 14px; align-items: flex-start; }
+.photo img { width: 120px; height: auto; border-radius: 6px; border: 1px solid var(--line); background: var(--panel); flex: none; }
+.photo figcaption { font-size: 13px; color: var(--muted); line-height: 1.45; min-width: 0; }
+.photo figcaption .cite-row { margin-top: 8px; }

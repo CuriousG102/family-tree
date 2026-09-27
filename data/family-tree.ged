@@ -218,6 +218,22 @@
 2 SOUR @S1@
 3 PAGE "my maternal grandfather served on one of the 'tin can destroyers'" (27 Sep 2026)
 3 _CONF Provided
+1 OBJE
+2 FILE media/richard-thompson-1943.jpg
+2 FORM jpg
+2 TITL Senior portrait, Wichita Falls Senior High School yearbook, 1943 ("Thompson, Richard")
+2 SOUR @S50@
+3 PAGE Seniors, image 64
+3 _CONF Secondary
+1 EDUC Wichita Falls Senior High School, Class of May 1943
+2 DATE 1943
+2 PLAC Wichita Falls, Wichita County, Texas, USA
+2 SOUR @S50@
+3 PAGE Seniors: "Thompson, Richard"; Office Assistants: "Richard Thompson"
+3 _CONF Secondary
+2 SOUR @S51@
+3 PAGE Alumni roll, "The Class of 1943 (May)": "Richard W. Thompson Jr."
+3 _CONF Secondary
 1 EDUC B.S. Petroleum Engineering, University of Texas at Austin (1949)
 2 DATE 1949
 2 SOUR @S47@
@@ -263,6 +279,8 @@
 2 CONT and Richard W. Thompson. He served in the Navy in World War II; the family
 2 CONT recalls that he served on a destroyer (a "tin can"), but the ship is not yet
 2 CONT identified because WWII muster rolls are not freely searchable by name. He
+2 CONT graduated from Wichita Falls Senior High School in May 1943, aged 17, where
+2 CONT he was an office assistant; the Navy service followed. He
 2 CONT took a petroleum engineering degree at UT Austin in 1949 and married Euvonne
 2 CONT Roberson in 1951. The couple were charter members and elders of Churchill Way
 2 CONT and West Plano Presbyterian Churches. His obituary notes that he loved
@@ -282,6 +300,7 @@
 1 NAME Euvonne /Roberson/
 2 _MARNM Thompson
 1 SEX F
+1 FAMC @F69@
 1 FAMS @F3@
 1 EDUC Park College, Parkville, Missouri (sophomore, 1946-47)
 2 DATE 1947
@@ -328,7 +347,8 @@
 2 CONT president of the Women's House Council, and played Mrs. Erlynne in "Lady
 2 CONT Windermere's Fan." Both colleges were Presbyterian, which fits her later role
 2 CONT as a Presbyterian elder in Plano. Mother of Richard W. Thompson III, Elizabeth
-2 CONT Jane, and Hilary Thompson Hutson. Her parents are not yet identified.
+2 CONT Jane, and Hilary Thompson Hutson. Her father was probably Mack Roberson
+2 CONT of Elk City, though that link is not yet proven (see his record).
 2 SOUR @S47@
 3 _CONF Secondary
 2 SOUR @S48@
@@ -3890,4 +3910,123 @@
 2 CONT debate squad and the Y.W.C.A. cabinet. With her unusual given name and the
 2 CONT same speech and debate interests, this is the same woman who graduated from
 2 CONT Dubuque in 1949 (S48).
+0 @I141@ INDI
+1 NAME Mack /Roberson/
+1 SEX M
+1 FAMS @F69@
+1 BIRT
+2 DATE ABT 1890
+2 PLAC Arkansas, USA
+2 SOUR @S53@
+3 PAGE ED 5-10, image 21, line 15: Roberson, Mack, head, W, M, 60, widowed, born Arkansas
+3 _CONF Primary
+1 RESI
+2 DATE 1950
+2 PLAC 910 West Avenue A, Elk City, Beckham County, Oklahoma, USA
+2 SOUR @S53@
+3 PAGE ED 5-10, image 21, line 15 (house 910, dwelling 205)
+3 _CONF Primary
+1 OCCU Night clerk, hotel (1950)
+2 SOUR @S53@
+3 _CONF Primary
+1 NOTE TENTATIVE great-grandfather of Miles: probably the father of Euvonne
+2 CONT Roberson. The chain of evidence: Euvonne's college yearbooks give her home as
+2 CONT Elk City, Oklahoma; a Bob Roberson studied speech with her at Dubuque (both
+2 CONT on the same student-paper staff in 1949) and later at Park College, and the
+2 CONT 1951 Park yearbook gives his home as "910 W. Ave. A, Elk City"; in the 1950
+2 CONT census that house was the home of Mack Roberson, 60, a widowed hotel night
+2 CONT clerk born in Arkansas, with Billy J. Roberson, 25, his wife Phyllis and son
+2 CONT George A. in the same dwelling. A "Mrs. Mack Roberson" belonged to the
+2 CONT Presbyterian women's association in Elk City in 1957 (presumably a second
+2 CONT wife, since he was a widower in 1950), which fits the family's Presbyterian
+2 CONT ties. No record yet names Euvonne as his daughter, and his late
+2 CONT wife (Euvonne's probable mother) is unidentified.
+2 SOUR @S53@
+3 _CONF Tentative
+2 SOUR @S52@
+3 _CONF Tentative
+2 SOUR @S54@
+3 _CONF Tentative
+0 @I142@ INDI
+1 NAME Bob /Roberson/
+1 SEX M
+1 FAMC @F69@
+1 EDUC University of Dubuque (1948-49); Park College, Parkville, Missouri (speech major, 1951)
+2 DATE 1951
+2 SOUR @S48@
+3 PAGE 1949: "Bob Roberson" listed on the student-paper staff with Euvonne Roberson ("E. Roberson ... B. Roberson")
+3 _CONF Secondary
+2 SOUR @S52@
+3 PAGE "BOB ROBERSON - Major: speech, Orion; soccer; Committee on Academic Problems"; student director of "Beauty and the Beast"
+3 _CONF Secondary
+1 RESI
+2 DATE 1951
+2 PLAC 910 West Avenue A, Elk City, Beckham County, Oklahoma, USA
+2 SOUR @S52@
+3 PAGE Student directory: "ROBERSON, B. R. 910 W. Ave. A Elk City, Oklahoma"
+3 _CONF Secondary
+1 NOTE TENTATIVE brother of Euvonne Roberson: same unusual path (speech at the
+2 CONT University of Dubuque, then Park College) and the same home town. His home
+2 CONT address links the family to Mack Roberson in the 1950 census.
+2 SOUR @S52@
+3 _CONF Tentative
+0 @F69@ FAM
+1 HUSB @I141@
+1 CHIL @I8@
+1 CHIL @I142@
+1 NOTE TENTATIVE family of Mack Roberson of 910 West Avenue A, Elk City, Oklahoma.
+2 CONT Inferred from shared home town and address; see Mack Roberson's notes.
+2 SOUR @S53@
+3 _CONF Tentative
+0 @S50@ SOUR
+1 TITL Wichita Falls Senior High School yearbook, 1943
+1 AUTH Senior Class of Wichita Falls Senior High School
+1 PUBL Wichita Falls, Texas, 1943; Internet Archive (Classmates.com yearbook collection)
+1 _URL https://archive.org/details/classmates-yearbook-60120-1943-wichita-falls-high-school/page/n64
+1 _CONF Secondary
+1 _ACC 2026-09-27
+1 NOTE Senior portrait captioned "Thompson, Richard" (image 64); "Office
+2 CONT Assistants ... Richard Thompson" (image 122). Identified as Richard Wells
+2 CONT Thompson Jr. because the school's alumni roll lists "Richard W. Thompson Jr."
+2 CONT in the Class of 1943 (S51), and he was born in Wichita Falls in 1926.
+0 @S51@ SOUR
+1 TITL Wichita Falls Senior High School yearbook, 1961 - alumni roll by class
+1 AUTH Senior Class of Wichita Falls Senior High School
+1 PUBL Wichita Falls, Texas, 1961; Internet Archive (Classmates.com yearbook collection)
+1 _URL https://archive.org/details/classmates-yearbook-11340-1961-wichita-falls-high-school
+1 _CONF Secondary
+1 _ACC 2026-09-27
+1 NOTE Lists graduates class by class. Under "The Class of 1943 (May)":
+2 CONT "... Jack Lee Thompson, Richard W. Thompson Jr., Gaynell Thomson ..."
+0 @S52@ SOUR
+1 TITL Narva, 1951 (Park College yearbook)
+1 AUTH Park College, Parkville, Missouri
+1 PUBL Park University Library; Internet Archive
+1 _URL https://archive.org/details/narva195131park
+1 _CONF Secondary
+1 _ACC 2026-09-27
+1 NOTE "BOB ROBERSON - Major: speech, Orion; soccer; Committee on Academic
+2 CONT Problems; 'Beauty and the Beast,' stage manager." Student directory:
+2 CONT "ROBERSON, B. R. 910 W. Ave. A Elk City, Oklahoma."
+0 @S53@ SOUR
+1 TITL 1950 U.S. Census, Elk City, Beckham County, Oklahoma, ED 5-10
+1 AUTH U.S. Bureau of the Census; National Archives and Records Administration
+1 PUBL 1950 Census website (NARA)
+1 _URL https://1950census.archives.gov/search/?county=Beckham&ed=5-10&name=Roberson&state=OK
+1 _CONF Primary
+1 _ACC 2026-09-27
+1 NOTE Image 21, line 15: house 910 on Avenue A, dwelling 205, "Roberson, Mack,"
+2 CONT head, white, male, 60, widowed, born Arkansas; worked as night clerk at a
+2 CONT hotel. Image 33, lines 1-3 (same house 910, dwelling 205): Roberson, Billy
+2 CONT J., head, 25, married, born Oklahoma; Phyllis, wife, 20; George A., son, 3.
+0 @S54@ SOUR
+1 TITL The Elk City Daily News, 12 Jan 1957, p. 3 - Presbyterian Women's Association
+1 AUTH The Elk City Daily News
+1 PUBL Gateway to Oklahoma History (Oklahoma Historical Society)
+1 _URL https://gateway.okhistory.org/ark:/67531/metadc2085755/m1/3/
+1 _CONF Secondary
+1 _ACC 2026-09-27
+1 NOTE Read from a search-engine extract because the site blocks automated
+2 CONT access: "Mrs. Mack Roberson" named among members present at a meeting of
+2 CONT Circle Two of the Women's Association of the Presbyterian church.
 0 TRLR

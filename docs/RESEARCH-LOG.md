@@ -224,3 +224,54 @@ or family papers such as a discharge form (DD-214 / NAVPERS 553). The Roberson
 parents could come from the 1940 census for Elk City (FamilySearch, free with
 login). Rubye's maiden name could come from the Texas birth index for 1926 or
 Wichita Falls city directories.
+
+## Session 6 — 2026-09-27: pushing the maternal side further
+
+**Goal:** keep extending the Thompson and Roberson lines until several attempts
+in a row made no progress.
+
+**Found:**
+- **Wichita Falls Senior High School, Class of May 1943.** The school's 1961
+  yearbook lists "Richard W. Thompson Jr." in its alumni roll for that class,
+  and the 1943 yearbook has his senior portrait ("Thompson, Richard") and shows
+  him as an office assistant. He graduated at 17, just before his Navy service.
+  The portrait now appears in his panel in the viewer, which gained support for
+  photos: a GEDCOM `OBJE`/`FILE` record under `data/media/`, embedded by
+  `scripts/build.py` as a data URI with its own source citation.
+- **A probable Roberson family (Tentative).** A Bob Roberson studied speech at
+  Dubuque alongside Euvonne (both on the same student-paper staff in 1949), then
+  at Park College. The 1951 Park yearbook gives his home as **910 W. Ave. A,
+  Elk City**. The 1950 census at that house found **Mack Roberson**, 60, a
+  widowed hotel night clerk born in Arkansas, with Billy J. Roberson (25), his
+  wife Phyllis and son George A. A "Mrs. Mack Roberson" belonged to Elk City's
+  Presbyterian women's association in 1957 (a search-engine extract of the
+  *Elk City Daily News*). Mack and Bob are recorded as Euvonne's tentative father
+  and brother; no record yet names her as Mack's daughter.
+
+**Rejected leads:** "Miss Rubye Thompson," a Dallas aviator profiled in 1949
+(unmarried, so not Richard's mother); Wright C. Roberson's 1976 obituary, which
+lists a brother Mack "of Oklahoma" (a different family).
+
+**Lead not recorded as fact:** an Elizabeth Thompson in Plano Senior High
+School's Class of 1978. The family lived in Plano from 1973, so she could be
+Elizabeth Jane, but the name is too common to confirm.
+
+**Successive dead ends that ended this session:**
+- Rubye's maiden name: no Wichita Falls city directories on Internet Archive,
+  and the *Wichita Daily Times* there stops in 1923.
+- Tributes.com copy of the obituary: returns 410 Gone.
+- Mack–Euvonne link: several searches found nothing.
+- Fairlawn Cemetery (Elk City) transcription: no Roberson entries.
+- UT *Cactus* yearbooks: not online.
+- AAPG and Texas Exes directories: lending-only.
+- Gateway to Oklahoma History (the Elk City papers): behind a bot check, which
+  was not bypassed.
+- 1950 census name index for Euvonne: nothing usable.
+
+**Best next steps:**
+- Gateway to Oklahoma History searched by hand in a browser: "Roberson" in the
+  *Elk City Daily News*, 1935–1955, for Euvonne's mother's death, Euvonne's
+  1951 wedding and Mack's obituary.
+- FamilySearch (free login): the 1940 census for 910 W. Avenue A, and Texas
+  births for 1926 (Rubye's maiden name).
+- Fold3: WWII muster rolls for the destroyer.
